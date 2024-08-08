@@ -23,12 +23,13 @@
 * Run `node App/` to start the bot
 
 ### Directories
-* api/ - Contains API for FlipMMO Database
-* App/ - Contains the main bot files
-* commands/ - Contains slash commands
-* Events/ - Contains event listeners
-* Events/MessageCommands/ - Contains all FlipMMO Commands
-* leaderboards/ - Contains leaderboard website
-* models/ - Contains all database models
-* scripts/ - Contains random scripts
-* topgg/ - Contains top.gg rewards
+* `api/` - Contains API for FlipMMO Database
+* `App/` - Contains the main bot files
+* `config/` - Contains Configuration files for skills, monsters...etc
+* `commands/` - Contains slash commands
+* `Events/` - Contains event listeners
+* `Events/MessageCommands/` - Contains all FlipMMO Commands
+* `leaderboards/` - Contains leaderboard website
+* `models/` - Contains all database models
+* `scripts/` - Contains random scripts
+* `topgg/` - Contains top.gg rewards
