@@ -1,0 +1,44 @@
+[
+    {
+    "name": "Evil Eye of the Abyss",
+    "level": 67,
+    "attack": 13000,
+    "defense": 10500,
+    "health": 12000,
+    "xpReward": 2000,
+    "drops": [
+
+        {"itemId": "80", "dropRate": 0.1, "name": "Corrupt Sword"}
+
+    ]
+
+},
+{
+    "name": "Githyanki Mindraider",
+    "level": 67,
+    "attack": 12000,
+    "defense": 10500,
+    "health": 12000,
+    "xpReward": 2000,
+    "drops": [
+
+        {"itemId": "81", "dropRate": 0.1, "name": "Corrupt Shield"}
+
+    ]
+
+},
+{
+    "name": "Knight of Sorrows",
+    "level": 67,
+    "attack": 12000,
+    "defense": 10500,
+    "health": 12000,
+    "xpReward": 2000,
+    "drops": [
+
+        {"itemId": "78", "dropRate": 0.1, "name": "Corrupt Platelegs"}
+
+    ]
+
+}
+]

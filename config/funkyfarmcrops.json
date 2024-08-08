@@ -1,0 +1,62 @@
+[
+{
+    "id": 8,
+    "name": "Poly",
+    "xp": 50,
+    "cost": 5,
+    "ge": "POLY",
+    "categorie": "crop",
+    "alias": ["polyherb","poly"],
+    "plantalias": "poly",
+    "level": 50,
+    "type": "herb"
+},
+{
+    "id": 9,
+    "name": "Goen",
+    "xp": 60,
+    "cost": 5,
+    "ge": "GOEN",
+    "categorie": "crop",
+    "alias": ["goenherb","goen"],
+    "plantalias": "goen",
+    "level": 60,
+    "type": "herb"
+},
+{
+    "id": 10,
+    "name": "Sticky",
+    "xp": 20,
+    "cost": 5,
+    "ge": "STICKY",
+    "categorie": "crop",
+    "alias": ["stickyherb","sticky"],
+    "plantalias": "sticky",
+    "level": 15,
+    "type": "herb"
+},
+{
+    "id": 11,
+    "name": "Grass",
+    "xp": 6,
+    "cost": 5,
+    "ge": "GRASS",
+    "categorie": "crop",
+    "alias": ["grassherb","grass"],
+    "plantalias": "grass",
+    "level": 1,
+    "type": "herb"
+},
+{
+    "id": 12,
+    "name": "Funky",
+    "xp": 15,
+    "cost": 5,
+    "ge": "FUNKY",
+    "categorie": "crop",
+    "alias": ["funkyherb","funky"],
+    "plantalias": "funky",
+    "level": 10,
+    "type": "herb"
+}
+]

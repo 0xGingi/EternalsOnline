@@ -1,0 +1,44 @@
+[
+    {
+    "name": "Ancient Imp Champion",
+    "level": 95,
+    "attack": 27800,
+    "defense": 29000,
+    "health": 29000,
+    "xpReward": 2910,
+    "drops": [
+
+        {"itemId": "67", "dropRate": 0.05, "name": "Ancient Sigil Helmet"}
+
+    ]
+
+},
+{
+    "name": "Ancient Tortured Soul",
+    "level": 95,
+    "attack": 26600,
+    "defense": 29000,
+    "health": 29000,
+    "xpReward": 2910,
+    "drops": [
+
+        {"itemId": "67", "dropRate": 0.05, "name": "Cosmic Helmet"}
+
+    ]
+
+},
+{
+    "name": "Ancient Tomb Guardian",
+    "level": 95,
+    "attack": 27200,
+    "defense": 25000,
+    "health": 26000,
+    "xpReward": 2910,
+    "drops": [
+
+        {"itemId": "67", "dropRate": 0.05, "name": "Cosmic Helmet"}
+
+    ]
+
+}
+]

@@ -1,0 +1,47 @@
+[
+    {
+    "name": "Hydra",
+    "level": 80,
+    "attack": 15500,
+    "defense": 15000,
+    "health": 15500,
+    "xpReward": 250,
+    "slayerxp": 250,
+    "drops": [
+
+        {"itemId": "110", "dropRate": 0.1, "name": "Slayer Chestplate"}
+
+    ]
+
+},
+{
+    "name": "Kraken",
+    "level": 80,
+    "attack": 16000,
+    "defense": 15500,
+    "health": 16000,
+    "xpReward": 250,
+    "slayerxp": 250,
+    "drops": [
+
+        {"itemId": "110", "dropRate": 0.1, "name": "Slayer Chestplate"}
+
+    ]
+
+},
+{
+    "name": "Abyssal Sire",
+    "level": 80,
+    "attack": 15000,
+    "defense": 16000,
+    "health": 15000,
+    "xpReward": 250,
+    "slayerxp": 250,
+    "drops": [
+
+        {"itemId": "110", "dropRate": 0.1, "name": "Slayer Chestplate"}
+
+    ]
+
+}
+]

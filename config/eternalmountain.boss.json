@@ -1,0 +1,18 @@
+[
+    {
+    "name": "Ender Pixel",
+    "level": 30,
+    "attack": 7800,
+    "defense": 7000,
+    "health": 15000,
+    "xpReward": 1100,
+    "drops": [
+
+        {"itemId": "54", "dropRate": 0.05, "name": "Holy Drill Club"},
+
+        {"itemId": "47", "dropRate": 0.05, "name": "Riteknife Of Isara"}
+
+    ]
+
+}
+]

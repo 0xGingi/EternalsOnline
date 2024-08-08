@@ -1,0 +1,318 @@
+[
+    {
+        "id": 1,
+        "name": "Potato Seed",
+        "xp": 6,
+        "cost": 5,
+        "ge": "POTATOSEED",
+        "categorie": "seed",
+        "alias": ["potatoseed","ps"],
+        "plantalias": "potato",
+        "amount": 5,
+        "duration": 1200000,
+        "level": 1,
+        "crop": [
+            {
+                "id": 1,
+                "amount": 1,
+                "name": "Potato",
+                "type": "food"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Wheat Seed",
+        "xp": 10,
+        "cost": 5,
+        "ge": "WHEATSEED",
+        "categorie": "seed",
+        "alias": ["wheatseed","ws"],
+        "plantalias": "wheat",
+        "amount": 5,
+        "duration": 1800000,
+        "level": 5,
+        "crop": [
+            {
+                "id": 2,
+                "amount": 1,
+                "name": "Wheat",
+                "type": "food"
+            }
+        ]
+    },
+    {
+        "id": 3,
+        "name": "Pumpkin Seed",
+        "xp": 15,
+        "cost": 5,
+        "ge": "PUMPKINSEED",
+        "categorie": "seed",
+        "alias": ["pumpkinseed","pks"],
+        "plantalias": "pumpkin",
+        "amount": 5,
+        "duration": 2400000,
+        "level": 10,
+        "crop": [
+            {
+                "id": 3,
+                "amount": 1,
+                "name": "Pumpkin",
+                "type": "food"
+            }
+        ]
+    },
+    {
+        "id": 4,
+        "name": "Barley Seed",
+        "xp": 24,
+        "cost": 5,
+        "ge": "BARLEYSEED",
+        "categorie": "seed",
+        "alias": ["barleyseed","bs"],
+        "plantalias": "barley",
+        "amount": 5,
+        "duration": 4800000,
+        "level": 20,
+        "crop": [
+            {
+                "id": 4,
+                "amount": 1,
+                "name": "Barley",
+                "type": "food"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Sage Herb Seed",
+        "xp": 26,
+        "cost": 5,
+        "ge": "SAGEHERBSEED",
+        "categorie": "seed",
+        "alias": ["sageherbseed","sageseed"],
+        "plantalias": "sage",
+        "amount": 5,
+        "duration": 5400000,
+        "level": 25,
+        "crop": [
+            {
+                "id": 5,
+                "amount": 1,
+                "name": "Sage",
+                "type": "herb"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Lilly Herb Seed",
+        "xp": 30,
+        "cost": 5,
+        "ge": "LILLYHERBSEED",
+        "categorie": "seed",
+        "alias": ["lillyherbseed","lillyseed"],
+        "plantalias": "lilly",
+        "amount": 5,
+        "duration": 7200000,
+        "level": 30,
+        "crop": [
+            {
+                "id": 6,
+                "amount": 1,
+                "name": "Lilly",
+                "type": "herb"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Opeth Herb Seed",
+        "xp": 40,
+        "cost": 5,
+        "ge": "OPETHHERBSEED",
+        "categorie": "seed",
+        "alias": ["opethherbseed","opethseed"],
+        "plantalias": "opeth",
+        "amount": 5,
+        "duration": 9000000,
+        "level": 40,
+        "crop": [
+            {
+                "id": 7,
+                "amount": 1,
+                "name": "Opeth",
+                "type": "herb"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Poly Herb Seed",
+        "xp": 50,
+        "cost": 5,
+        "ge": "POLYHERBSEED",
+        "categorie": "seed",
+        "alias": ["polyherbseed","polyseed"],
+        "plantalias": "poly",
+        "amount": 5,
+        "duration": 10800000,
+        "level": 50,
+        "crop": [
+            {
+                "id": 8,
+                "amount": 1,
+                "name": "Poly",
+                "type": "herb"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Goen Herb Seed",
+        "xp": 60,
+        "cost": 5,
+        "ge": "GOENHERBSEED",
+        "categorie": "seed",
+        "alias": ["goenherbseed","goenseed"],
+        "plantalias": "goen",
+        "amount": 5,
+        "duration": 14400000,
+        "level": 60,
+        "crop": [
+            {
+                "id": 9,
+                "amount": 1,
+                "name": "Goen",
+                "type": "herb"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Sticky Herb Seed",
+        "xp": 20,
+        "cost": 5,
+        "ge": "STICKYHERBSEED",
+        "categorie": "seed",
+        "alias": ["stickyherbseed","stickyseed"],
+        "plantalias": "sticky",
+        "amount": 5,
+        "duration": 2700000,
+        "level": 15,
+        "crop": [
+            {
+                "id": 10,
+                "amount": 1,
+                "name": "Sticky",
+                "type": "herb"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Grass Herb Seed",
+        "xp": 6,
+        "cost": 5,
+        "ge": "GRASSSEED",
+        "categorie": "seed",
+        "alias": ["grassseed","grassseed"],
+        "plantalias": "grass",
+        "amount": 5,
+        "duration": 1200000,
+        "level": 1,
+        "crop": [
+            {
+                "id": 11,
+                "amount": 1,
+                "name": "Grass",
+                "type": "herb"
+            }
+        ]   
+    },
+    {
+        "id": 12,
+        "name": "Funky Herb Seed",
+        "xp": 15,
+        "cost": 5,
+        "ge": "FUNKYSEED",
+        "categorie": "seed",
+        "alias": ["funkyherbseed","funkyseed"],
+        "plantalias": "funky",
+        "amount": 5,
+        "duration": 2400000,
+        "level": 10,
+        "crop": [
+            {
+                "id": 12,
+                "amount": 1,
+                "name": "Funky",
+                "type": "herb"
+            }
+        ]   
+    },
+    {
+        "id": 13,
+        "name": "Mystic Herb Seed",
+        "xp": 350,
+        "cost": 5,
+        "ge": "MYSTICSEED",
+        "categorie": "seed",
+        "alias": ["mysticherbseed","mysticseed"],
+        "plantalias": "mystic",
+        "amount": 5,
+        "duration": 14400000,
+        "level": 110,
+        "crop": [
+            {
+                "id": 13,
+                "amount": 1,
+                "name": "Mystic",
+                "type": "herb"
+            }
+        ]   
+    },
+    {
+        "id": 14,
+        "name": "Blood Herb Seed",
+        "xp": 400,
+        "cost": 5,
+        "ge": "BLOODSEED",
+        "categorie": "seed",
+        "alias": ["bloodherbseed","bloodseed"],
+        "plantalias": "blood",
+        "amount": 5,
+        "duration": 14400000,
+        "level": 120,
+        "crop": [
+            {
+                "id": 14,
+                "amount": 1,
+                "name": "Blood",
+                "type": "herb"
+            }
+        ]   
+    },
+    {
+        "id": 15,
+        "name": "Barren Herb Seed",
+        "xp": 300,
+        "cost": 5,
+        "ge": "BARRENSEED",
+        "categorie": "seed",
+        "alias": ["barrenherbseed","barenseed"],
+        "plantalias": "barren",
+        "amount": 5,
+        "duration": 14400000,
+        "level": 100,
+        "crop": [
+            {
+                "id": 15,
+                "amount": 1,
+                "name": "Barren",
+                "type": "herb"
+            }
+        ]   
+    }
+
+]

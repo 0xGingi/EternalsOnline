@@ -1,0 +1,44 @@
+[
+    {
+    "name": "Cosmic Dread",
+    "level": 85,
+    "attack": 17800,
+    "defense": 19000,
+    "health": 19000,
+    "xpReward": 1910,
+    "drops": [
+
+        {"itemId": "63", "dropRate": 0.05, "name": "Cosmic Helmet"}
+
+    ]
+
+},
+{
+    "name": "Cosmic Chicken",
+    "level": 85,
+    "attack": 16600,
+    "defense": 19000,
+    "health": 19000,
+    "xpReward": 1910,
+    "drops": [
+
+        {"itemId": "63", "dropRate": 0.05, "name": "Cosmic Helmet"}
+
+    ]
+
+},
+{
+    "name": "Cosmic Zombie",
+    "level": 85,
+    "attack": 17200,
+    "defense": 15000,
+    "health": 16000,
+    "xpReward": 1910,
+    "drops": [
+
+        {"itemId": "63", "dropRate": 0.05, "name": "Cosmic Helmet"}
+
+    ]
+
+}
+]

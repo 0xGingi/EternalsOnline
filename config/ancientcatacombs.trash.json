@@ -1,0 +1,44 @@
+[
+    {
+    "name": "Ancient Skeleton",
+    "level": 90,
+    "attack": 22100,
+    "defense": 21600,
+    "health": 25500,
+    "xpReward": 2700,
+    "drops": [
+
+        {"itemId": "65", "dropRate": 0.05, "name": "Ancient Sigil Cape"}
+
+    ]
+
+},
+{
+    "name": "Ancient Paladin",
+    "level": 90,
+    "attack": 22200,
+    "defense": 22350,
+    "health": 25500,
+    "xpReward": 2700,
+    "drops": [
+
+        {"itemId": "65", "dropRate": 0.05, "name": "Ancient Sigil Cape"}
+
+    ]
+
+},
+{
+    "name": "Ancient Vampire",
+    "level": 90,
+    "attack": 21150,
+    "defense": 21200,
+    "health": 21000,
+    "xpReward": 2700,
+    "drops": [
+
+        {"itemId": "65", "dropRate": 0.05, "name": "Ancient Sigil Cape"}
+
+    ]
+
+}
+]

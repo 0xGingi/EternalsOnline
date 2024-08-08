@@ -1,0 +1,16 @@
+[
+    {
+    "name": "Dretchlau, Lady of the Wasting Disease",
+    "level": 99,
+    "attack": 45600,
+    "defense": 42000,
+    "health": 60000,
+    "xpReward": 10000,
+    "drops": [
+
+        {"itemId": "88", "dropRate": 0.1, "name": "Ancient Corrupt Dagger"}
+
+    ]
+
+}
+]

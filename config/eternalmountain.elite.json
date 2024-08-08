@@ -1,0 +1,50 @@
+[
+    {
+    "name": "Skeleton King",
+    "level": 25,
+    "attack": 3900,
+    "defense": 3000,
+    "health": 6000,
+    "xpReward": 240,
+    "drops": [
+
+        {"itemId": "27", "dropRate": 0.1, "name": "Etherment Helmet"},
+
+        {"itemId": "29", "dropRate": 0.1, "name": "Etherment Platelegs"}
+
+    ]
+
+},
+{
+    "name": "Black Dragon",
+    "level": 25,
+    "attack": 5000,
+    "defense": 2000,
+    "health": 6000,
+    "xpReward": 240,
+    "drops": [
+
+        {"itemId": "27", "dropRate": 0.1, "name": "Etherment Helmet"},
+
+        {"itemId": "29", "dropRate": 0.1, "name": "Etherment Platelegs"}
+
+    ]
+
+},
+{
+    "name": "Fire Giant",
+    "level": 25,
+    "attack": 4000,
+    "defense": 2000,
+    "health": 5000,
+    "xpReward": 240,
+    "drops": [
+
+        {"itemId": "27", "dropRate": 0.1, "name": "Etherment Helmet"},
+
+        {"itemId": "29", "dropRate": 0.1, "name": "Etherment Platelegs"}
+
+    ]
+
+}
+]

@@ -1,0 +1,16 @@
+[
+    {
+        "id": 1,
+        "name": "Zombie",
+        "xp": 100,
+        "level": 20,
+        "chance": 0.75
+    },
+    {
+        "id": 2,
+        "name": "Bloater",
+        "xp": 200,
+        "level": 40,
+        "chance": 0.25
+    }
+]

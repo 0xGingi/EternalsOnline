@@ -1,0 +1,18 @@
+[
+    {
+    "name": "Lilith, The Blessed Mother",
+    "level": 99,
+    "attack": 82450,
+    "defense": 82000,
+    "health": 82500,
+    "xpReward": 25000,
+    "drops": [
+
+        {"itemId": "86", "dropRate": 0.1, "name": "Ancient Corrupt Sword"}
+
+        
+
+    ]
+
+}
+]

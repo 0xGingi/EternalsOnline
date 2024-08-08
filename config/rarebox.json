@@ -1,0 +1,257 @@
+[
+{
+    "id": 43,
+    "name": "Rocky Smash Maul",
+    "alias": ["RockySmashMaul", "RSM", "rsm"],
+    "equipalias" : "RSM",
+    "categorie": "weapon",
+    "cost": 50000,
+    "rarety": "Rare",
+    "costperenhancement": 50000,
+    "levelAttack": {
+        "level1": 3000
+    },
+    "levelDefense": {
+        "level1": 0
+    },
+    "levelDodge": {
+        "level1": 0
+    },
+    "levelCrit": {
+        "level1": 15
+    },
+    "levelPenetration": {
+        "level1": 0
+    },
+    "levelLifeSteal": {
+        "level1": 0
+    },
+    "levelHealth": {
+        "level1": 0
+    }
+},
+
+{
+    "id": 44,
+    "name": "Null Blade",
+    "alias": ["NullBlade", "NB", "nb"],
+    "equipalias" : "NB",
+    "categorie": "weapon",
+    "cost": 50000,
+    "rarety": "Rare",
+    "costperenhancement": 50000,
+    "levelAttack": {
+        "level1": 3100
+    },
+    "levelDefense": {
+        "level1": 0
+    },
+    "levelDodge": {
+        "level1": 15
+    },
+    "levelCrit": {
+        "level1": 5
+    },
+    "levelPenetration": {
+        "level1": 0
+    },
+    "levelLifeSteal": {
+        "level1": 0
+    },
+    "levelHealth": {
+        "level1": 0
+    }
+},
+
+{
+    "id": 45,
+    "name": "Death Scythe",
+    "alias": ["Death Scythe", "DS", "ds"],
+    "equipalias" : "DS",
+    "categorie": "weapon",
+    "cost": 50000,
+    "rarety": "Rare",
+    "costperenhancement": 50000,
+    "levelAttack": {
+        "level1": 3200
+    },
+    "levelDefense": {
+        "level1": 0
+    },
+    "levelDodge": {
+        "level1": 5
+    },
+    "levelCrit": {
+        "level1": 5
+    },
+    "levelPenetration": {
+        "level1": 15
+    },
+    "levelLifeSteal": {
+        "level1": 0
+    },
+    "levelHealth": {
+        "level1": 0
+    }
+},
+
+{
+    "id": 46,
+    "name": "Ancient Savage Spear",
+    "alias": ["AncientSavageSpear", "ASS", "ass"],
+    "equipalias" : "ASS",
+    "categorie": "weapon",
+    "cost": 50000,
+    "rarety": "Rare",
+    "costperenhancement": 50000,
+    "levelAttack": {
+        "level1": 3300
+    },
+    "levelDefense": {
+        "level1": 0
+    },
+    "levelDodge": {
+        "level1": 5
+    },
+    "levelCrit": {
+        "level1": 5
+    },
+    "levelPenetration": {
+        "level1": 15
+    },
+    "levelLifeSteal": {
+        "level1": 0
+    },
+    "levelHealth": {
+        "level1": 0
+    }
+},
+
+{
+    "id": 47,
+    "name": "Riteknife Of Isara",
+    "alias": ["RiteknifeOfIsara", "ROI", "roi"],
+    "equipalias" : "ROI",
+    "categorie": "weapon",
+    "cost": 50000,
+    "rarety": "Rare",
+    "costperenhancement": 50000,
+    "levelAttack": {
+        "level1": 2700
+    },
+    "levelDefense": {
+        "level1": 800
+    },
+    "levelDodge": {
+        "level1": 15
+    },
+    "levelCrit": {
+        "level1": 5
+    },
+    "levelPenetration": {
+        "level1": 0
+    },
+    "levelLifeSteal": {
+        "level1": 0
+    },
+    "levelHealth": {
+        "level1": 0
+    }
+},
+
+{
+    "id": 48,
+    "name": "Snitch Blade",
+    "alias": ["SnitchBlade", "SB", "sb"],
+    "equipalias" : "SB",
+    "categorie": "weapon",
+    "cost": 50000,
+    "rarety": "Rare",
+    "costperenhancement": 50000,
+    "levelAttack": {
+        "level1": 3666
+    },
+    "levelDefense": {
+        "level1": 0
+    },
+    "levelDodge": {
+        "level1": 10
+    },
+    "levelCrit": {
+        "level1": 10
+    },
+    "levelPenetration": {
+        "level1": 10
+    },
+    "levelLifeSteal": {
+        "level1": 0
+    },
+    "levelHealth": {
+        "level1": 0
+    }
+},
+
+{
+    "id": 49,
+    "name": "Fail Flail",
+    "alias": ["FailFlail", "FF", "ff"],
+    "equipalias" : "FF",
+    "categorie": "weapon",
+    "cost": 50000,
+    "rarety": "Rare",
+    "costperenhancement": 50000,
+    "levelAttack": {
+        "level1": 2000
+    },
+    "levelDefense": {
+        "level1": 0
+    },
+    "levelDodge": {
+        "level1": 30
+    },
+    "levelCrit": {
+        "level1": 0
+    },
+    "levelPenetration": {
+        "level1": 0
+    },
+    "levelLifeSteal": {
+        "level1": 0
+    },
+    "levelHealth": {
+        "level1": 0
+    }
+},
+{
+    "id": 54,
+    "name": "Holy Drill Club",
+    "alias": ["holydrillclub", "HDC", "hdc"],
+    "equipalias" : "HDC",
+    "categorie": "weapon",
+    "description": "A club that seems to be made of a holy drill",
+    "cost": 100000,
+    "rarety": "Rare",
+    "itemlevel": 40,
+    "levelAttack": {
+        "level1": 3700
+    },
+    "levelDefense": {
+        "level1": 900
+    },
+    "levelDodge": {
+        "level1": 0
+    },
+    "levelCrit": {
+        "level1": 15
+    },
+    "levelPenetration": {
+        "level1": 0
+    },
+    "levelLifeSteal": {
+        "level1": 0
+    },
+    "levelHealth": {
+        "level1": 0
+    }
+}
+]

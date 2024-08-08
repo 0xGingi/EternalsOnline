@@ -1,0 +1,22 @@
+[
+    {
+    "name": "Not Harry the Wizard",
+    "level": 100,
+    "attack": 35000,
+    "defense": 35000,
+    "health": 40000,
+    "xpReward": 4200,
+    "drops": [
+        {"itemId": "128", "dropRate": 0.1, "name": "Scary Broom"}]
+    },
+    {
+        "name": "Centaur",
+        "level": 100,
+        "attack": 35000,
+        "defense": 35000,
+        "health": 40000,
+        "xpReward": 4200,
+        "drops": [
+            {"itemId": "128", "dropRate": 0.1, "name": "Scary Broom"}]
+    }
+]

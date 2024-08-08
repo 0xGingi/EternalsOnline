@@ -1,0 +1,18 @@
+[
+    {
+    "name": "Chossach - Protector of the Forest",
+    "level": 40,
+    "attack": 8400,
+    "defense": 8000,
+    "health": 12000,
+    "xpReward": 1600,
+    "drops": [
+
+        {"itemId": "48", "dropRate": 0.05, "name": "Snitch Blade"},
+
+        {"itemId": "44", "dropRate": 0.05, "name": "Null Blade"}
+
+    ]
+
+}
+]

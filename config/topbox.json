@@ -1,0 +1,1709 @@
+[
+    {
+        "id": 0,
+        "name": "Bronze Dagger",
+        "alias": ["BronzeDagger", "BD", "bd"],
+        "equipalias" : "BD",
+        "categorie": "weapon",
+        "cost": 500,
+        "description": "A dagger made of bronze",
+        "rarety": "Tier 1",
+        "itemlevel": 1,
+        "levelAttack": {
+            "level1": 25
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 1,
+        "name": "Bronze Sword",
+        "alias": ["BronzeSword", "BS", "bs"],
+        "equipalias" : "BS",
+        "categorie": "weapon",
+        "description": "A sword made of bronze",
+        "cost": 500,
+        "rarety": "Tier 1",
+        "itemlevel": 1,
+        "levelAttack": {
+            "level1": 50
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 2,
+        "name": "Bronze Battleaxe",
+        "alias": ["BronzeBattleaxe", "BBA", "bba"],
+        "equipalias" : "BBA",
+        "categorie": "weapon",
+        "description": "A battleaxe made of bronze",
+        "cost": 500,
+        "rarety": "Tier 1",
+        "itemlevel": 1,
+        "levelAttack": {
+            "level1": 75
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 3,
+        "name": "Bronze Greatsword",
+        "alias": ["BronzeGreatsword", "BGS", "bgs"],
+        "equipalias" : "BGS",
+        "categorie": "weapon",
+        "description": "A greatsword made of bronze",
+        "cost": 500,
+        "rarety": "Tier 1",
+        "itemlevel": 1,
+        "levelAttack": {
+            "level1": 80
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 4,
+        "name": "Bronze Helmet",
+        "alias": ["BronzeHelmet", "BH", "bh"],
+        "equipalias" : "BH",
+        "categorie": "armor",
+        "description": "A helmet made of bronze",
+        "cost": 500,
+        "rarety": "Tier 1",
+        "itemlevel": 1,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 60
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 5,
+        "name": "Bronze Platebody",
+        "alias": ["BronzePlatebody", "BPB", "bpb"],
+        "equipalias" : "BPB",
+        "categorie": "armor",
+        "description": "A platebody made of bronze",
+        "cost": 500,
+        "rarety": "Tier 1",
+        "itemlevel": 1,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 75
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 6,
+        "name": "Bronze Shield",
+        "alias": ["BronzeShield", "BSH", "bsh"],
+        "equipalias" : "BSH",
+        "categorie": "armor",
+        "description": "A shield made of bronze",
+        "cost": 500,
+        "rarety": "Tier 1",
+        "itemlevel": 1,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 50
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 7,
+        "name": "Iron Claws",
+        "alias": ["IronClaws", "IC", "ic"],
+        "equipalias" : "IC",
+        "categorie": "weapon",
+        "description": "Claws made of iron",
+        "cost": 750,
+        "rarety": "Tier 2",
+        "itemlevel": 5,
+        "levelAttack": {
+            "level1": 80
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 8,
+        "name": "Iron Sword",
+        "alias": ["IronSword", "IS", "is"],
+        "equipalias" : "IS",
+        "categorie": "weapon",
+        "description": "A sword made of iron",
+        "cost": 750,
+        "rarety": "Tier 2",
+        "itemlevel": 5,
+        "levelAttack": {
+            "level1": 100
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 9,
+        "name": "Iron Battleaxe",
+        "alias": ["IronBattleaxe", "IBA", "iba"],
+        "equipalias" : "IBA",
+        "categorie": "weapon",
+        "description": "A battleaxe made of iron",
+        "cost": 750,
+        "rarety": "Tier 2",
+        "itemlevel": 5,
+        "levelAttack": {
+            "level1": 120
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 10,
+        "name": "Iron Greatsword",
+        "alias": ["IronGreatsword", "IGS", "igs"],
+        "equipalias" : "IGS",
+        "categorie": "weapon",
+        "description": "A greatsword made of iron",
+        "cost": 750,
+        "rarety": "Tier 2",
+        "itemlevel": 5,
+        "levelAttack": {
+            "level1": 155
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 11,
+        "name": "Iron Helmet",
+        "alias": ["IronHelmet", "IH", "ih"],
+        "equipalias" : "IH",
+        "categorie": "armor",
+        "description": "A helmet made of iron",
+        "cost": 750,
+        "rarety": "Tier 2",
+        "itemlevel": 5,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 100
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 12,
+        "name": "Iron Platebody",
+        "alias": ["IronPlatebody", "IPB", "ipb"],
+        "equipalias" : "IPB",
+        "categorie": "armor",
+        "description": "A platebody made of iron",
+        "cost": 750,
+        "rarety": "Tier 2",
+        "itemlevel": 5,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 290
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 13,
+        "name": "Iron Platelegs",
+        "alias": ["IronPlatelegs", "IPL", "ipl"],
+        "equipalias" : "IPL",
+        "categorie": "armor",
+        "description": "Platelegs made of iron",
+        "cost": 750,
+        "rarety": "Tier 2",
+        "itemlevel": 5,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 250
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 14,
+        "name": "Iron Shield",
+        "alias": ["IronShield", "ISH", "ish"],
+        "equipalias" : "ISH",
+        "categorie": "armor",
+        "description": "A shield made of iron",
+        "cost": 750,
+        "rarety": "Tier 2",
+        "itemlevel": 5,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 190
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 15,
+        "name": "Steel Dagger",
+        "alias": ["SteelDagger", "SD", "sd"],
+        "equipalias" : "SD",
+        "categorie": "weapon",
+        "description": "A dagger made of steel",
+        "cost": 1000,
+        "rarety": "Tier 3",
+        "itemlevel": 10,
+        "levelAttack": {
+            "level1": 200
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 16,
+        "name": "Steel Sword",
+        "alias": ["SteelSword", "SS", "ss"],
+        "equipalias" : "SS",
+        "categorie": "weapon",
+        "description": "A sword made of steel",
+        "cost": 1000,
+        "rarety": "Tier 3",
+        "itemlevel": 10,
+        "levelAttack": {
+            "level1": 220
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 17,
+        "name": "Steel Battleaxe",
+        "alias": ["SteelBattleaxe", "SBA", "sba"],
+        "equipalias" : "SBA",
+        "categorie": "weapon",
+        "description": "A battleaxe made of steel",
+        "cost": 1000,
+        "rarety": "Tier 3",
+        "itemlevel": 10,
+        "levelAttack": {
+            "level1": 250
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 18,
+        "name": "Steel Greatsword",
+        "alias": ["SteelGreatsword", "SGS", "sgs"],
+        "equipalias" : "SGS",
+        "categorie": "weapon",
+        "description": "A greatsword made of steel",
+        "cost": 1000,
+        "rarety": "Tier 3",
+        "itemlevel": 10,
+        "levelAttack": {
+            "level1": 300
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 19,
+        "name": "Steel Helmet",
+        "alias": ["SteelHelmet", "SH", "sh"],
+        "equipalias" : "SH",
+        "categorie": "armor",
+        "description": "A helmet made of steel",
+        "cost": 1000,
+        "rarety": "Tier 3",
+        "itemlevel": 10,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 300
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 20,
+        "name": "Steel Platebody",
+        "alias": ["SteelPlatebody", "SPB", "spb"],
+        "equipalias" : "SPB",
+        "categorie": "armor",
+        "description": "A platebody made of steel",
+        "cost": 1000,
+        "rarety": "Tier 3",
+        "itemlevel": 10,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 600
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 21,
+        "name": "Steel Platelegs",
+        "alias": ["SteelPlatelegs", "SPL", "spl"],
+        "equipalias" : "SPL",
+        "categorie": "armor",
+        "description": "Platelegs made of steel",
+        "cost": 1000,
+        "rarety": "Tier 3",
+        "itemlevel": 10,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 500
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 22,
+        "name": "Steel Shield",
+        "alias": ["SteelShield", "SSH", "ssh"],
+        "equipalias" : "SSH",
+        "categorie": "armor",
+        "description": "A shield made of steel",
+        "cost": 1000,
+        "rarety": "Tier 3",
+        "itemlevel": 10,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 400
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 23,
+        "name": "Etherment Dagger",
+        "alias": ["EthermentDagger", "ED", "ed"],
+        "equipalias" : "ED",
+        "categorie": "weapon",
+        "description": "A dagger made of etherment",
+        "cost": 2500,
+        "rarety": "Tier 4",
+        "itemlevel": 20,
+        "levelAttack": {
+            "level1": 700
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 1
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 24,
+        "name": "Etherment Sword",
+        "alias": ["EthermentSword", "ES", "es"],
+        "equipalias" : "ES",
+        "categorie": "weapon",
+        "description": "A sword made of etherment",
+        "cost": 2500,
+        "rarety": "Tier 4",
+        "itemlevel": 20,
+        "levelAttack": {
+            "level1": 900
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    
+    {
+        "id": 25,
+        "name": "Etherment Battleaxe",
+        "alias": ["EthermentBattleaxe", "EBA", "eba"],
+        "equipalias" : "EBA",
+        "categorie": "weapon",
+        "description": "A battleaxe made of etherment",
+        "cost": 2500,
+        "rarety": "Tier 4",
+        "itemlevel": 20,
+        "levelAttack": {
+            "level1": 1050
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 26,
+        "name": "Etherment Greatsword",
+        "alias": ["EthermentGreatsword", "EGS", "egs"],
+        "equipalias" : "EGS",
+        "categorie": "weapon",
+        "description": "A greatsword made of etherment",
+        "cost": 2500,
+        "rarety": "Tier 4",
+        "itemlevel": 20,
+        "levelAttack": {
+            "level1": 1150
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 27,
+        "name": "Etherment Helmet",
+        "alias": ["EthermentHelmet", "EH", "eh"],
+        "equipalias" : "EH",
+        "categorie": "armor",
+        "description": "A helmet made of etherment",
+        "cost": 2500,
+        "rarety": "Tier 4",
+        "itemlevel": 20,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 1200
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 28,
+        "name": "Etherment Platebody",
+        "alias": ["EthermentPlatebody", "EPB", "epb"],
+        "equipalias" : "EPB",
+        "categorie": "armor",
+        "description": "A platebody made of etherment",
+        "cost": 2500,
+        "rarety": "Tier 4",
+        "itemlevel": 20,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 1500
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 29,
+        "name": "Etherment Platelegs",
+        "alias": ["EthermentPlatelegs", "EPL", "epl"],
+        "equipalias" : "EPL",
+        "categorie": "armor",
+        "description": "Platelegs made of etherment",
+        "cost": 2500,
+        "rarety": "Tier 4",
+        "itemlevel": 20,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 1300
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 30,
+        "name": "Etherment Shield",
+        "alias": ["EthermentShield", "ESH", "esh"],
+        "equipalias" : "ESH",
+        "categorie": "armor",
+        "description": "A shield made of etherment",
+        "cost": 2500,
+        "rarety": "Tier 4",
+        "itemlevel": 20,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 1200
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 31,
+        "name": "Polyment Dagger",
+        "alias": ["PolymentDagger", "PD", "pd"],
+        "equipalias" : "PD",
+        "categorie": "weapon",
+        "description": "A dagger made of polyment",
+        "cost": 5000,
+        "rarety": "Tier 5",
+        "itemlevel": 30,
+        "levelAttack": {
+            "level1": 1300
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 32,
+        "name": "Polyment Sword",
+        "alias": ["PolymentSword", "PS", "ps"],
+        "equipalias" : "PS",
+        "categorie": "weapon",
+        "description": "A sword made of polyment",
+        "cost": 5000,
+        "rarety": "Tier 5",
+        "itemlevel": 30,
+        "levelAttack": {
+            "level1": 1600
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 33,
+        "name": "Polyment Battleaxe",
+        "alias": ["PolymentBattleaxe", "PBA", "pba"],
+        "equipalias" : "PBA",
+        "categorie": "weapon",
+        "description": "A battleaxe made of polyment",
+        "cost": 5000,
+        "rarety": "Tier 5",
+        "itemlevel": 30,
+        "levelAttack": {
+            "level1": 1800
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 34,
+        "name": "Polyment Greatsword",
+        "alias": ["PolymentGreatsword", "PGS", "pgs"],
+        "equipalias" : "PGS",
+        "categorie": "weapon",
+        "description": "A greatsword made of polyment",
+        "cost": 5000,
+        "rarety": "Tier 5",
+        "itemlevel": 30,
+        "levelAttack": {
+            "level1": 2000
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 35,
+        "name": "Polyment Helmet",
+        "alias": ["PolymentHelmet", "PH", "ph"],
+        "equipalias" : "PH",
+        "categorie": "armor",
+        "description": "A helmet made of polyment",
+        "cost": 5000,
+        "rarety": "Tier 5",
+        "itemlevel": 30,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 2000
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 36,
+        "name": "Polyment Platebody",
+        "alias": ["PolymentPlatebody", "PPB", "ppb"],
+        "equipalias" : "PPB",
+        "categorie": "armor",
+        "description": "A platebody made of polyment",
+        "cost": 5000,
+        "rarety": "Tier 5",
+        "itemlevel": 30,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 2800
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 37,
+        "name": "Polyment Platelegs",
+        "alias": ["PolymentPlatelegs", "PPL", "ppl"],
+        "equipalias" : "PPL",
+        "categorie": "armor",
+        "description": "Platelegs made of polyment",
+        "cost": 5000,
+        "rarety": "Tier 5",
+        "itemlevel": 30,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 2200
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 38,
+        "name": "Polyment Shield",
+        "alias": ["PolymentShield", "PSH", "psh"],
+        "equipalias" : "PSH",
+        "categorie": "armor",
+        "description": "A shield made of polyment",
+        "cost": 5000,
+        "rarety": "Tier 5",
+        "itemlevel": 30,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 2100
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 39,
+        "name": "Polyment Claws",
+        "alias": ["PolymentClaws", "PC", "pc"],
+        "equipalias" : "PC",
+        "categorie": "weapon",
+        "description": "Claws made of polyment",
+        "cost": 5000,
+        "rarety": "Tier 5",
+        "itemlevel": 30,
+        "levelAttack": {
+            "level1": 2250
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 5
+        },
+        "levelPenetration": {
+            "level1": 5
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 40,
+        "name": "Polyment Flail",
+        "alias": ["PolymentFlail", "PF", "pf"],
+        "equipalias" : "PF",
+        "categorie": "weapon",
+        "description": "A flail made of polyment",
+        "cost": 5000,
+        "rarety": "Tier 5",
+        "itemlevel": 30,
+        "levelAttack": {
+            "level1": 2850
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 5
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 75,
+        "name": "Corrupt Cape",
+        "alias": ["corruptcape", "CRCA", "crca"],
+        "equipalias" : "CRCA",
+        "categorie": "armor",
+        "cost": 20000,
+        "rarety": "Tier 6",
+        "description":"A tattered cape that seems to be corrupting the world around it",
+        "itemlevel": 65,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 4000
+        },
+        "levelDodge": {
+            "level1": 1
+        },
+        "levelCrit": {
+            "level1": 1
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 76,
+        "name": "Corrupt Platebody",
+        "alias": ["corruptplatebody", "CRPB", "crpb"],
+        "equipalias" : "CRPB",
+        "categorie": "armor",
+        "description":"A platebody that seems to be corrupting the world around it",
+        "cost": 25000,
+        "rarety": "Tier 6",
+        "itemlevel": 65,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 3600
+        },
+        "levelDodge": {
+            "level1": 1
+        },
+        "levelCrit": {
+            "level1": 1
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 77,
+        "name": "Corrupt Helmet",
+        "alias": ["corrupthelmet", "CRH", "crh"],
+        "equipalias" : "CRH",
+        "categorie": "armor",
+        "description":"A helmet that seems to be corrupting the world around it",
+        "cost": 20000,
+        "rarety": "Tier 6",
+        "itemlevel": 65,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 3600
+        },
+        "levelDodge": {
+            "level1": 1
+        },
+        "levelCrit": {
+            "level1": 1
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 78,
+        "name": "Corrupt Platelegs",
+        "alias": ["corruptplatelegs", "CRPL", "crpl"],
+        "equipalias" : "CRPL",
+        "categorie": "armor",
+        "description":"Platelegs that seem to be corrupting the world around it",
+        "cost": 20000,
+        "rarety": "Tier 6",
+        "itemlevel": 65,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 3600
+        },
+        "levelDodge": {
+            "level1": 1
+        },
+        "levelCrit": {
+            "level1": 1
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    
+    {
+        "id": 79,
+        "name": "Corrupt Dagger",
+        "alias": ["CorruptDagger", "CRD", "crd"],
+        "equipalias" : "CRD",
+        "categorie": "weapon",
+        "description": "A dagger infused with corruption",
+        "cost": 15000,
+        "rarety": "Tier 6",
+        "itemlevel": 65,
+        "levelAttack": {
+            "level1": 3000
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 80,
+        "name": "Corrupt Sword",
+        "alias": ["CorruptSword", "CRS", "crs"],
+        "equipalias" : "CRS",
+        "categorie": "weapon",
+        "description": "A sword infused with corruption",
+        "cost": 20000,
+        "rarety": "Tier 6",
+        "itemlevel": 65,
+        "levelAttack": {
+            "level1": 3600
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 1
+        },
+        "levelCrit": {
+            "level1": 1
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 81,
+        "name": "Corrupt Shield",
+        "alias": ["CorruptShield", "CRSH", "crsh"],
+        "equipalias" : "CRSH",
+        "categorie": "armor",
+        "description": "A shield infused with corruption",
+        "cost": 25000,
+        "rarety": "Tier 6",
+        "itemlevel": 65,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 3600
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 82,
+        "name": "Corrupt Battleaxe",
+        "alias": ["CorruptBattleaxe", "CRBA", "crba"],
+        "equipalias" : "CRBA",
+        "categorie": "weapon",
+        "description": "A battleaxe infused with corruption",
+        "cost": 20000,
+        "rarety": "Tier 6",
+        "itemlevel": 65,
+        "levelAttack": {
+            "level1": 3600
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 1
+        },
+        "levelCrit": {
+            "level1": 1
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 83,
+        "name": "Corrupt Greatsword",
+        "alias": ["CorruptGreatsword", "CRGS", "crgs"],
+        "equipalias" : "CRGS",
+        "categorie": "weapon",
+        "description": "A greatsword infused with corruption",
+        "cost": 20000,
+        "rarety": "Tier 6",
+        "itemlevel": 65,
+        "levelAttack": {
+            "level1": 3600
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 2
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 84,
+        "name": "Corrupt Claws",
+        "alias": ["CorruptClaws", "CRC", "crc"],
+        "equipalias" : "CRC",
+        "categorie": "weapon",
+        "description": "Claws infused with corruption",
+        "cost": 20000,
+        "rarety": "Tier 6",
+        "itemlevel": 65,
+        "levelAttack": {
+            "level1": 3400
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 2
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 85,
+        "name": "Corrupt Flail",
+        "alias": ["CorruptFlail", "CRF", "crf"],
+        "equipalias" : "CRF",
+        "categorie": "weapon",
+        "description": "A flail infused with corruption",
+        "cost": 20000,
+        "rarety": "Tier 6",
+        "itemlevel": 65,
+        "levelAttack": {
+            "level1": 3600
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 1
+        },
+        "levelCrit": {
+            "level1": 1
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    }
+]

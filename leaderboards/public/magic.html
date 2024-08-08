@@ -1,0 +1,70 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Leaderboards</title>
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+
+</head>
+<body>
+    <div id="navbar"></div>
+    <div class="container mt-5">
+        <h1 class="text-center"><img src="assets/orb.png" width="32" height="32"/>Leaderboard</h1>
+        <table class="table table-striped" id="leaderboard">
+            <thead>
+                <tr>
+                    <th scope="col">#</th>
+                    <th scope="col">Player</th>
+                    <th scope="col">XP</th>
+                    <th scope="col">Level</th>
+                </tr>
+            </thead>
+            <tbody>
+                <!-- Rows will be added here by the script -->
+            </tbody>
+        </table>
+    </div>
+    <script>
+        // Fetch leaderboard data from server
+        async function fetchLeaderboard(endpoint) {
+            const response = await fetch(`https://stats.flipmmo.com/leaderboard/${endpoint}`);
+            const data = await response.json();
+            return data;
+        }
+
+    async function displayLeaderboard(endpoint) {
+        const leaderboard = await fetchLeaderboard(endpoint);
+        const leaderboardTable = document.getElementById('leaderboard').getElementsByTagName('tbody')[0];
+        leaderboardTable.innerHTML += `<tr><th colspan="3" class="text-center">${endpoint}</th></tr>`;
+        leaderboard.forEach((player, index) => {
+            let xpValue;
+            let levelValue;
+            switch(endpoint) {
+                case 'magic':
+                    xpValue = player.player.magic.totalxp;
+                    levelValue = player.player.magic.level;
+                    break;
+            }
+            leaderboardTable.innerHTML += `<tr><th scope="row">${index + 1}</th><td>${player.pseudo}</td><td>${xpValue}</td><td>${levelValue}</td></tr>`;
+        });
+    }
+        // Display all leaderboards
+        const leaderboards = ['magic'];
+        leaderboards.forEach(leaderboard => {
+            displayLeaderboard(leaderboard);
+        });
+    </script>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+        <script>
+            $(function(){
+              $("#navbar").load("navbar.html"); 
+            });
+        </script>
+    
+</body>
+</html>

@@ -1,0 +1,44 @@
+[
+    {
+    "name": "Atropal",
+    "level": 70,
+    "attack": 10000,
+    "defense": 9000,
+    "health": 10000,
+    "xpReward": 1750,
+    "drops": [
+
+        {"itemId": "98", "dropRate": 0.25, "name": "Dagger of the Dead"}
+
+    ]
+
+},
+{
+    "name": "Deep scion",
+    "level": 70,
+    "attack": 10000,
+    "defense": 9000,
+    "health": 10000,
+    "xpReward": 1750,
+    "drops": [
+
+        {"itemId": "97", "dropRate": 0.25, "name": "Gloves of the Dead"}
+
+    ]
+
+},
+{
+    "name": "Skeletal swarm",
+    "level": 70,
+    "attack": 10000,
+    "defense": 9000,
+    "health": 10000,
+    "xpReward": 1750,
+    "drops": [
+
+        {"itemId": "96", "dropRate": 0.25, "name": "Boots of the Dead"}
+
+    ]
+
+}
+]

@@ -1,0 +1,24 @@
+[
+    {
+        "id": 5,
+        "name": "Ember Log",
+        "xp": 24,
+        "level": 35,
+        "cost": 5,
+        "ge": "EMBER",
+        "chance": 0.75,
+        "categorie": "log",
+        "alias": "ember"
+    },
+    {
+        "id": 6,
+        "name": "Poly Log",
+        "xp": 42,
+        "level": 50,
+        "cost": 5,
+        "ge": "POLYLOG",
+        "chance": 0.25,
+        "categorie": "log",
+        "alias": "polylog"
+    }
+]

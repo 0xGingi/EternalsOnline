@@ -1,0 +1,108 @@
+[
+    {
+        "id": 8,
+        "name": "Poly Herb Seed",
+        "xp": 50,
+        "cost": 5,
+        "ge": "POLYHERBSEED",
+        "categorie": "seed",
+        "alias": ["polyherbseed","polyseed"],
+        "plantalias": "poly",
+        "amount": 5,
+        "duration": 10800000,
+        "level": 50,
+        "crop": [
+            {
+                "id": 8,
+                "amount": 1,
+                "name": "Poly",
+                "type": "herb"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Goen Herb Seed",
+        "xp": 60,
+        "cost": 5,
+        "ge": "GOENHERBSEED",
+        "categorie": "seed",
+        "alias": ["goenherbseed","goenseed"],
+        "plantalias": "goen",
+        "amount": 5,
+        "duration": 14400000,
+        "level": 60,
+        "crop": [
+            {
+                "id": 9,
+                "amount": 1,
+                "name": "Goen",
+                "type": "herb"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Sticky Herb Seed",
+        "xp": 20,
+        "cost": 5,
+        "ge": "STICKYHERBSEED",
+        "categorie": "seed",
+        "alias": ["stickyherbseed","stickyseed"],
+        "plantalias": "sticky",
+        "amount": 5,
+        "duration": 2700000,
+        "level": 15,
+        "crop": [
+            {
+                "id": 10,
+                "amount": 1,
+                "name": "Sticky",
+                "type": "herb"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Grass Herb Seed",
+        "xp": 6,
+        "cost": 5,
+        "ge": "GRASSSEED",
+        "categorie": "seed",
+        "alias": ["grassseed","grassseed"],
+        "plantalias": "grass",
+        "amount": 5,
+        "duration": 1200000,
+        "level": 1,
+        "crop": [
+            {
+                "id": 11,
+                "amount": 1,
+                "name": "Grass",
+                "type": "herb"
+            }
+        ]   
+    },
+    {
+        "id": 12,
+        "name": "Funky Herb Seed",
+        "xp": 15,
+        "cost": 5,
+        "ge": "FUNKYSEED",
+        "categorie": "seed",
+        "alias": ["funkyherbseed","funkyseed"],
+        "plantalias": "funky",
+        "amount": 5,
+        "duration": 2400000,
+        "level": 10,
+        "crop": [
+            {
+                "id": 12,
+                "amount": 1,
+                "name": "Funky",
+                "type": "herb"
+            }
+        ]   
+    }
+
+]

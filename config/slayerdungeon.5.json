@@ -1,0 +1,47 @@
+[
+    {
+    "name": "Mutated Rat",
+    "level": 50,
+    "attack": 8700,
+    "defense": 8500,
+    "health": 8600,
+    "xpReward": 140,
+    "slayerxp": 140,
+    "drops": [
+
+        {"itemId": "107", "dropRate": 0.1, "name": "Slayer Axe"}
+
+    ]
+
+},
+{
+    "name": "Mutated Spider",
+    "level": 50,
+    "attack": 8100,
+    "defense": 8300,
+    "health": 8500,
+    "xpReward": 140,
+    "slayerxp": 140,
+    "drops": [
+
+        {"itemId": "107", "dropRate": 0.1, "name": "Slayer Axe"}
+
+    ]
+
+},
+{
+    "name": "Mutated Bat",
+    "level": 50,
+    "attack": 8100,
+    "defense": 8500,
+    "health": 8700,
+    "xpReward": 140,
+    "slayerxp": 140,
+    "drops": [
+
+        {"itemId": "107", "dropRate": 0.1, "name": "Slayer Axe"}
+
+    ]
+
+}
+]

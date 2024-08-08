@@ -1,0 +1,47 @@
+[
+    {
+    "name": "Corrupted Wyvern",
+    "level": 70,
+    "attack": 11500,
+    "defense": 12000,
+    "health": 12500,
+    "xpReward": 200,
+    "slayerxp": 200,
+    "drops": [
+
+        {"itemId": "109", "dropRate": 0.1, "name": "Slayer Sword"}
+
+    ]
+
+},
+{
+    "name": "Corrupted Dragon",
+    "level": 70,
+    "attack": 12000,
+    "defense": 11500,
+    "health": 12000,
+    "xpReward": 200,
+    "slayerxp": 200,
+    "drops": [
+
+        {"itemId": "109", "dropRate": 0.1, "name": "Slayer Sword"}
+
+    ]
+
+},
+{
+    "name": "Corrupted Wyrm",
+    "level": 70,
+    "attack": 12000,
+    "defense": 12000,
+    "health": 12000,
+    "xpReward": 200,
+    "slayerxp": 200,
+    "drops": [
+
+        {"itemId": "109", "dropRate": 0.1, "name": "Slayer Sword"}
+
+    ]
+
+}
+]

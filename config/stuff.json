@@ -1,0 +1,4218 @@
+[
+    {
+        "id": 0,
+        "name": "Bronze Dagger",
+        "alias": ["BronzeDagger", "BD", "bd"],
+        "equipalias" : "BD",
+        "categorie": "weapon",
+        "cost": 500,
+        "description": "A dagger made of bronze",
+        "rarety": "Tier 1",
+        "itemlevel": 1,
+        "levelAttack": {
+            "level1": 25
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 1,
+        "name": "Bronze Sword",
+        "alias": ["BronzeSword", "BS", "bs"],
+        "equipalias" : "BS",
+        "categorie": "weapon",
+        "description": "A sword made of bronze",
+        "cost": 500,
+        "rarety": "Tier 1",
+        "itemlevel": 1,
+        "levelAttack": {
+            "level1": 50
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 2,
+        "name": "Bronze Battleaxe",
+        "alias": ["BronzeBattleaxe", "BBA", "bba"],
+        "equipalias" : "BBA",
+        "categorie": "weapon",
+        "description": "A battleaxe made of bronze",
+        "cost": 500,
+        "rarety": "Tier 1",
+        "itemlevel": 1,
+        "levelAttack": {
+            "level1": 75
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 3,
+        "name": "Bronze Greatsword",
+        "alias": ["BronzeGreatsword", "BGS", "bgs"],
+        "equipalias" : "BGS",
+        "categorie": "weapon",
+        "description": "A greatsword made of bronze",
+        "cost": 500,
+        "rarety": "Tier 1",
+        "itemlevel": 1,
+        "levelAttack": {
+            "level1": 80
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 4,
+        "name": "Bronze Helmet",
+        "alias": ["BronzeHelmet", "BH", "bh"],
+        "equipalias" : "BH",
+        "categorie": "armor",
+        "description": "A helmet made of bronze",
+        "cost": 500,
+        "rarety": "Tier 1",
+        "itemlevel": 1,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 60
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 5,
+        "name": "Bronze Platebody",
+        "alias": ["BronzePlatebody", "BPB", "bpb"],
+        "equipalias" : "BPB",
+        "categorie": "armor",
+        "description": "A platebody made of bronze",
+        "cost": 500,
+        "rarety": "Tier 1",
+        "itemlevel": 1,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 75
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 6,
+        "name": "Bronze Shield",
+        "alias": ["BronzeShield", "BSH", "bsh"],
+        "equipalias" : "BSH",
+        "categorie": "armor",
+        "description": "A shield made of bronze",
+        "cost": 500,
+        "rarety": "Tier 1",
+        "itemlevel": 1,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 50
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 7,
+        "name": "Iron Claws",
+        "alias": ["IronClaws", "IC", "ic"],
+        "equipalias" : "IC",
+        "categorie": "weapon",
+        "description": "Claws made of iron",
+        "cost": 750,
+        "rarety": "Tier 2",
+        "itemlevel": 5,
+        "levelAttack": {
+            "level1": 80
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 8,
+        "name": "Iron Sword",
+        "alias": ["IronSword", "IS", "is"],
+        "equipalias" : "IS",
+        "categorie": "weapon",
+        "description": "A sword made of iron",
+        "cost": 750,
+        "rarety": "Tier 2",
+        "itemlevel": 5,
+        "levelAttack": {
+            "level1": 100
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 9,
+        "name": "Iron Battleaxe",
+        "alias": ["IronBattleaxe", "IBA", "iba"],
+        "equipalias" : "IBA",
+        "categorie": "weapon",
+        "description": "A battleaxe made of iron",
+        "cost": 750,
+        "rarety": "Tier 2",
+        "itemlevel": 5,
+        "levelAttack": {
+            "level1": 120
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 10,
+        "name": "Iron Greatsword",
+        "alias": ["IronGreatsword", "IGS", "igs"],
+        "equipalias" : "IGS",
+        "categorie": "weapon",
+        "description": "A greatsword made of iron",
+        "cost": 750,
+        "rarety": "Tier 2",
+        "itemlevel": 5,
+        "levelAttack": {
+            "level1": 155
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 11,
+        "name": "Iron Helmet",
+        "alias": ["IronHelmet", "IH", "ih"],
+        "equipalias" : "IH",
+        "categorie": "armor",
+        "description": "A helmet made of iron",
+        "cost": 750,
+        "rarety": "Tier 2",
+        "itemlevel": 5,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 100
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 12,
+        "name": "Iron Platebody",
+        "alias": ["IronPlatebody", "IPB", "ipb"],
+        "equipalias" : "IPB",
+        "categorie": "armor",
+        "description": "A platebody made of iron",
+        "cost": 750,
+        "rarety": "Tier 2",
+        "itemlevel": 5,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 290
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 13,
+        "name": "Iron Platelegs",
+        "alias": ["IronPlatelegs", "IPL", "ipl"],
+        "equipalias" : "IPL",
+        "categorie": "armor",
+        "description": "Platelegs made of iron",
+        "cost": 750,
+        "rarety": "Tier 2",
+        "itemlevel": 5,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 250
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 14,
+        "name": "Iron Shield",
+        "alias": ["IronShield", "ISH", "ish"],
+        "equipalias" : "ISH",
+        "categorie": "armor",
+        "description": "A shield made of iron",
+        "cost": 750,
+        "rarety": "Tier 2",
+        "itemlevel": 5,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 190
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 15,
+        "name": "Steel Dagger",
+        "alias": ["SteelDagger", "SD", "sd"],
+        "equipalias" : "SD",
+        "categorie": "weapon",
+        "description": "A dagger made of steel",
+        "cost": 1000,
+        "rarety": "Tier 3",
+        "itemlevel": 10,
+        "levelAttack": {
+            "level1": 200
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 16,
+        "name": "Steel Sword",
+        "alias": ["SteelSword", "SS", "ss"],
+        "equipalias" : "SS",
+        "categorie": "weapon",
+        "description": "A sword made of steel",
+        "cost": 1000,
+        "rarety": "Tier 3",
+        "itemlevel": 10,
+        "levelAttack": {
+            "level1": 220
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 17,
+        "name": "Steel Battleaxe",
+        "alias": ["SteelBattleaxe", "SBA", "sba"],
+        "equipalias" : "SBA",
+        "categorie": "weapon",
+        "description": "A battleaxe made of steel",
+        "cost": 1000,
+        "rarety": "Tier 3",
+        "itemlevel": 10,
+        "levelAttack": {
+            "level1": 250
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 18,
+        "name": "Steel Greatsword",
+        "alias": ["SteelGreatsword", "SGS", "sgs"],
+        "equipalias" : "SGS",
+        "categorie": "weapon",
+        "description": "A greatsword made of steel",
+        "cost": 1000,
+        "rarety": "Tier 3",
+        "itemlevel": 10,
+        "levelAttack": {
+            "level1": 300
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 19,
+        "name": "Steel Helmet",
+        "alias": ["SteelHelmet", "SH", "sh"],
+        "equipalias" : "SH",
+        "categorie": "armor",
+        "description": "A helmet made of steel",
+        "cost": 1000,
+        "rarety": "Tier 3",
+        "itemlevel": 10,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 300
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 20,
+        "name": "Steel Platebody",
+        "alias": ["SteelPlatebody", "SPB", "spb"],
+        "equipalias" : "SPB",
+        "categorie": "armor",
+        "description": "A platebody made of steel",
+        "cost": 1000,
+        "rarety": "Tier 3",
+        "itemlevel": 10,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 600
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 21,
+        "name": "Steel Platelegs",
+        "alias": ["SteelPlatelegs", "SPL", "spl"],
+        "equipalias" : "SPL",
+        "categorie": "armor",
+        "description": "Platelegs made of steel",
+        "cost": 1000,
+        "rarety": "Tier 3",
+        "itemlevel": 10,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 500
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 22,
+        "name": "Steel Shield",
+        "alias": ["SteelShield", "SSH", "ssh"],
+        "equipalias" : "SSH",
+        "categorie": "armor",
+        "description": "A shield made of steel",
+        "cost": 1000,
+        "rarety": "Tier 3",
+        "itemlevel": 10,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 400
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 23,
+        "name": "Etherment Dagger",
+        "alias": ["EthermentDagger", "ED", "ed"],
+        "equipalias" : "ED",
+        "categorie": "weapon",
+        "description": "A dagger made of etherment",
+        "cost": 2500,
+        "rarety": "Tier 4",
+        "itemlevel": 20,
+        "levelAttack": {
+            "level1": 700
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 1
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 24,
+        "name": "Etherment Sword",
+        "alias": ["EthermentSword", "ES", "es"],
+        "equipalias" : "ES",
+        "categorie": "weapon",
+        "description": "A sword made of etherment",
+        "cost": 2500,
+        "rarety": "Tier 4",
+        "itemlevel": 20,
+        "levelAttack": {
+            "level1": 900
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    
+    {
+        "id": 25,
+        "name": "Etherment Battleaxe",
+        "alias": ["EthermentBattleaxe", "EBA", "eba"],
+        "equipalias" : "EBA",
+        "categorie": "weapon",
+        "description": "A battleaxe made of etherment",
+        "cost": 2500,
+        "rarety": "Tier 4",
+        "itemlevel": 20,
+        "levelAttack": {
+            "level1": 1050
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 26,
+        "name": "Etherment Greatsword",
+        "alias": ["EthermentGreatsword", "EGS", "egs"],
+        "equipalias" : "EGS",
+        "categorie": "weapon",
+        "description": "A greatsword made of etherment",
+        "cost": 2500,
+        "rarety": "Tier 4",
+        "itemlevel": 20,
+        "levelAttack": {
+            "level1": 1150
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 27,
+        "name": "Etherment Helmet",
+        "alias": ["EthermentHelmet", "EH", "eh"],
+        "equipalias" : "EH",
+        "categorie": "armor",
+        "description": "A helmet made of etherment",
+        "cost": 2500,
+        "rarety": "Tier 4",
+        "itemlevel": 20,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 1200
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 28,
+        "name": "Etherment Platebody",
+        "alias": ["EthermentPlatebody", "EPB", "epb"],
+        "equipalias" : "EPB",
+        "categorie": "armor",
+        "description": "A platebody made of etherment",
+        "cost": 2500,
+        "rarety": "Tier 4",
+        "itemlevel": 20,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 1500
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 29,
+        "name": "Etherment Platelegs",
+        "alias": ["EthermentPlatelegs", "EPL", "epl"],
+        "equipalias" : "EPL",
+        "categorie": "armor",
+        "description": "Platelegs made of etherment",
+        "cost": 2500,
+        "rarety": "Tier 4",
+        "itemlevel": 20,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 1300
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 30,
+        "name": "Etherment Shield",
+        "alias": ["EthermentShield", "ESH", "esh"],
+        "equipalias" : "ESH",
+        "categorie": "armor",
+        "description": "A shield made of etherment",
+        "cost": 2500,
+        "rarety": "Tier 4",
+        "itemlevel": 20,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 1200
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 31,
+        "name": "Polyment Dagger",
+        "alias": ["PolymentDagger", "PD", "pd"],
+        "equipalias" : "PD",
+        "categorie": "weapon",
+        "description": "A dagger made of polyment",
+        "cost": 5000,
+        "rarety": "Tier 5",
+        "itemlevel": 30,
+        "levelAttack": {
+            "level1": 1300
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 32,
+        "name": "Polyment Sword",
+        "alias": ["PolymentSword", "PS", "ps"],
+        "equipalias" : "PS",
+        "categorie": "weapon",
+        "description": "A sword made of polyment",
+        "cost": 5000,
+        "rarety": "Tier 5",
+        "itemlevel": 30,
+        "levelAttack": {
+            "level1": 1600
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 33,
+        "name": "Polyment Battleaxe",
+        "alias": ["PolymentBattleaxe", "PBA", "pba"],
+        "equipalias" : "PBA",
+        "categorie": "weapon",
+        "description": "A battleaxe made of polyment",
+        "cost": 5000,
+        "rarety": "Tier 5",
+        "itemlevel": 30,
+        "levelAttack": {
+            "level1": 1800
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 34,
+        "name": "Polyment Greatsword",
+        "alias": ["PolymentGreatsword", "PGS", "pgs"],
+        "equipalias" : "PGS",
+        "categorie": "weapon",
+        "description": "A greatsword made of polyment",
+        "cost": 5000,
+        "rarety": "Tier 5",
+        "itemlevel": 30,
+        "levelAttack": {
+            "level1": 2000
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 35,
+        "name": "Polyment Helmet",
+        "alias": ["PolymentHelmet", "PH", "ph"],
+        "equipalias" : "PH",
+        "categorie": "armor",
+        "description": "A helmet made of polyment",
+        "cost": 5000,
+        "rarety": "Tier 5",
+        "itemlevel": 30,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 2000
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 36,
+        "name": "Polyment Platebody",
+        "alias": ["PolymentPlatebody", "PPB", "ppb"],
+        "equipalias" : "PPB",
+        "categorie": "armor",
+        "description": "A platebody made of polyment",
+        "cost": 5000,
+        "rarety": "Tier 5",
+        "itemlevel": 30,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 2800
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 37,
+        "name": "Polyment Platelegs",
+        "alias": ["PolymentPlatelegs", "PPL", "ppl"],
+        "equipalias" : "PPL",
+        "categorie": "armor",
+        "description": "Platelegs made of polyment",
+        "cost": 5000,
+        "rarety": "Tier 5",
+        "itemlevel": 30,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 2200
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 38,
+        "name": "Polyment Shield",
+        "alias": ["PolymentShield", "PSH", "psh"],
+        "equipalias" : "PSH",
+        "categorie": "armor",
+        "description": "A shield made of polyment",
+        "cost": 5000,
+        "rarety": "Tier 5",
+        "itemlevel": 30,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 2100
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 39,
+        "name": "Polyment Claws",
+        "alias": ["PolymentClaws", "PC", "pc"],
+        "equipalias" : "PC",
+        "categorie": "weapon",
+        "description": "Claws made of polyment",
+        "cost": 5000,
+        "rarety": "Tier 5",
+        "itemlevel": 30,
+        "levelAttack": {
+            "level1": 2250
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 5
+        },
+        "levelPenetration": {
+            "level1": 5
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 40,
+        "name": "Polyment Flail",
+        "alias": ["PolymentFlail", "PF", "pf"],
+        "equipalias" : "PF",
+        "categorie": "weapon",
+        "description": "A flail made of polyment",
+        "cost": 5000,
+        "rarety": "Tier 5",
+        "itemlevel": 30,
+        "levelAttack": {
+            "level1": 2850
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 5
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 41,
+        "name": "Blue Partyhat",
+        "alias": ["BluePartyhat", "BPH", "bph"],
+        "equipalias" : "BPH",
+        "categorie": "magic-item",
+        "description":"A partyhat that is blue, nothing else...",
+        "cost": 50000,
+        "rarety": "Unique",
+        "itemlevel": 1,
+        "levelAttack": {
+            "level1": 2500
+        },
+        "levelDefense": {
+            "level1": 2500
+        },
+        "levelDodge": {
+            "level1": 15
+        },
+        "levelCrit": {
+            "level1": 15
+        },
+        "levelPenetration": {
+            "level1": 15
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0        
+        }
+    },
+
+    {
+        "id": 42,
+        "name": "Yellow Partyhat",
+        "alias": ["YellowPartyhat", "YPH", "yph"],
+        "equipalias" : "YPH",
+        "categorie": "magic-item",
+        "description":"A partyhat that is yellow, nothing else...",
+        "cost": 50000,
+        "rarety": "Unique",
+        "itemlevel": 1,
+        "levelAttack": {
+            "level1": 2500
+        },
+        "levelDefense": {
+            "level1": 2500
+        },
+        "levelDodge": {
+            "level1": 15
+        },
+        "levelCrit": {
+            "level1": 15
+        },
+        "levelPenetration": {
+            "level1": 15
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 43,
+        "name": "Rocky Smash Maul",
+        "alias": ["RockySmashMaul", "RSM", "rsm"],
+        "equipalias" : "RSM",
+        "categorie": "weapon",
+        "description":"If I wanted to smash things, I would probably use this",
+        "cost": 50000,
+        "rarety": "Rare",
+        "itemlevel": 40,
+        "levelAttack": {
+            "level1": 3000
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 10
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 44,
+        "name": "Null Blade",
+        "alias": ["NullBlade", "NB", "nb"],
+        "equipalias" : "NB",
+        "categorie": "weapon",
+        "description":"When you look into this blade, it's like staring into the abyss, but the abyss is staring back",
+        "cost": 50000,
+        "rarety": "Rare",
+        "itemlevel": 40,
+        "levelAttack": {
+            "level1": 3100
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 10
+        },
+        "levelCrit": {
+            "level1": 5
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 45,
+        "name": "Death Scythe",
+        "alias": ["DeathScythe", "DS", "ds"],
+        "equipalias" : "DS",
+        "categorie": "weapon",
+        "description":"A scythe that is used to reap souls",
+        "cost": 50000,
+        "rarety": "Rare",
+        "itemlevel": 40,
+        "levelAttack": {
+            "level1": 3200
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 5
+        },
+        "levelPenetration": {
+            "level1": 5
+        },
+        "levelLifeSteal": {
+            "level1": 10
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 46,
+        "name": "Ancient Savage Spear",
+        "alias": ["AncientSavageSpear", "ASS", "ass"],
+        "equipalias" : "ASS",
+        "categorie": "weapon",
+        "description": "A ancient looking spear that seems to have seen many battles",
+        "cost": 50000,
+        "rarety": "Rare",
+        "itemlevel": 40,
+        "levelAttack": {
+            "level1": 3300
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 5
+        },
+        "levelCrit": {
+            "level1": 5
+        },
+        "levelPenetration": {
+            "level1": 10
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 47,
+        "name": "Riteknife Of Isara",
+        "alias": ["RiteknifeOfIsara", "ROI", "roi"],
+        "equipalias" : "ROI",
+        "categorie": "weapon",
+        "description": "a beautifully orniate knife that is more dangerous than it seems",
+        "cost": 50000,
+        "rarety": "Rare",
+        "itemlevel": 40,
+        "levelAttack": {
+            "level1": 2700
+        },
+        "levelDefense": {
+            "level1": 800
+        },
+        "levelDodge": {
+            "level1": 10
+        },
+        "levelCrit": {
+            "level1": 5
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 48,
+        "name": "Snitch Blade",
+        "alias": ["SnitchBlade", "SB", "sb"],
+        "equipalias" : "SB",
+        "categorie": "weapon",
+        "description": "well, you know the saying",
+        "cost": 50000,
+        "rarety": "Rare",
+        "itemlevel": 40,
+        "levelAttack": {
+            "level1": 3666
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 5
+        },
+        "levelCrit": {
+            "level1": 5
+        },
+        "levelPenetration": {
+            "level1": 5
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 49,
+        "name": "Fail Flail",
+        "alias": ["FailFlail", "FF", "ff"],
+        "equipalias" : "FF",
+        "categorie": "weapon",
+        "description": "This flail is a failure, it's not even a flail, it's a mace",
+        "cost": 50000,
+        "rarety": "Rare",
+        "itemlevel": 40,
+        "levelAttack": {
+            "level1": 2000
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 15
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 50,
+        "name": "Skill Cape",
+        "alias": ["SkillCape", "SC", "sc"],
+        "equipalias" : "SC",
+        "categorie": "armor",
+        "description": "A cape that only a few can obtain",
+        "cost": 50000,
+        "rarety": "Unique",
+        "itemlevel": 40,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 2500
+        },
+        "levelDodge": {
+            "level1": 10
+        },
+        "levelCrit": {
+            "level1": 10
+        },
+        "levelPenetration": {
+            "level1": 10
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 51,
+        "name": "Rocky Bobby Bow",
+        "alias": ["rockybobbybow", "RBB", "rbb"],
+        "equipalias" : "RBB",
+        "categorie": "weapon",
+        "description": "A bow that is the embodiment of the saying, if you're not first, you're last",
+        "cost": 100000,
+        "rarety": "Unique",
+        "itemlevel": 50,
+        "levelAttack": {
+            "level1": 5000
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 20
+        },
+        "levelPenetration": {
+            "level1": 20
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 52,
+        "name": "Axe of Turkey Slaying",
+        "alias": ["axeofturkeyslaying", "ATS", "ats"],
+        "equipalias" : "ATS",
+        "categorie": "weapon",
+        "cost": 100000,
+        "rarety": "Unique",
+        "description": "with this axe, you could probably slay a lot of turkeys",
+        "itemlevel": 50,
+        "levelAttack": {
+            "level1": 4500
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 15
+        },
+        "levelCrit": {
+            "level1": 20
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 53,
+        "name": "Donny Scale Shield",
+        "alias": ["donnyscaleshield", "DSS", "dss"],
+        "equipalias" : "DSS",
+        "categorie": "weapon",
+        "description": "A shield that is made of the scales of a powerful dragon",
+        "cost": 100000,
+        "rarety": "Rare",
+        "itemlevel": 40,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 4500
+        },
+        "levelDodge": {
+            "level1": 10
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 54,
+        "name": "Holy Drill Club",
+        "alias": ["holydrillclub", "HDC", "hdc"],
+        "equipalias" : "HDC",
+        "categorie": "weapon",
+        "description": "A club that seems to be made of a holy drill",
+        "cost": 100000,
+        "rarety": "Rare",
+        "itemlevel": 40,
+        "levelAttack": {
+            "level1": 3700
+        },
+        "levelDefense": {
+            "level1": 900
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 15
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 55,
+        "name": "Stone Combat Cape",
+        "alias": ["stonecape", "SCC", "scc"],
+        "equipalias" : "SCC",
+        "categorie": "armor",
+        "cost": 100000,
+        "rarety": "Rare",
+        "description":"A cape made of stone, it looks rather unpracticle",
+        "itemlevel": 40,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 8000
+        },
+        "levelDodge": {
+            "level1": 10
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 56,
+        "name": "Royal Cape",
+        "alias": ["royalcape", "RC", "rc"],
+        "equipalias" : "RC",
+        "categorie": "armor",
+        "cost": 100000,
+        "rarety": "Epic",
+        "description":"A cape worn by the most prestigious of knights",
+        "itemlevel": 50,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 10000
+        },
+        "levelDodge": {
+            "level1": 5
+        },
+        "levelCrit": {
+            "level1": 5
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 57,
+        "name": "Royal Platebody",
+        "alias": ["royalplatebody", "RPB", "rpb"],
+        "equipalias" : "RPB",
+        "categorie": "armor",
+        "description":"A platebody worn by the most prestigious of knights",
+        "cost": 100000,
+        "rarety": "Epic",
+        "itemlevel": 50,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 10000
+        },
+        "levelDodge": {
+            "level1": 5
+        },
+        "levelCrit": {
+            "level1": 5
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 58,
+        "name": "Royal Helmet",
+        "alias": ["royalhelmet", "RH", "rh"],
+        "equipalias" : "RH",
+        "categorie": "armor",
+        "description":"A helmet worn by the most prestigious of knights",
+        "cost": 100000,
+        "rarety": "Epic",
+        "itemlevel": 50,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 10000
+        },
+        "levelDodge": {
+            "level1": 5
+        },
+        "levelCrit": {
+            "level1": 5
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 59,
+        "name": "Royal Platelegs",
+        "alias": ["royalplatelegs", "RPL", "rpl"],
+        "equipalias" : "RPL",
+        "categorie": "armor",
+        "description":"Platelegs worn by the most prestigious of knights",
+        "cost": 100000,
+        "rarety": "Epic",
+        "itemlevel": 50,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 10000
+        },
+        "levelDodge": {
+            "level1": 5
+        },
+        "levelCrit": {
+            "level1": 5
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 60,
+        "name": "Sword of Ginger Slaying",
+        "alias": ["swordofginigerslaying", "sogs", "SOGS"],
+        "equipalias" : "SOGS",
+        "categorie": "weapon",
+        "description":"This sword looks well suited to slay gingers",
+        "cost": 100000,
+        "rarety": "Unique",
+        "itemlevel": 60,
+        "levelAttack": {
+            "level1": 10000
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 5
+        },
+        "levelCrit": {
+            "level1": 5
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 100
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 61,
+        "name": "Cosmic Cape",
+        "alias": ["cosmiccape", "CC", "cc"],
+        "equipalias" : "CC",
+        "categorie": "armor",
+        "cost": 100000,
+        "rarety": "Epic",
+        "description":"A cape forged from the stars",
+        "itemlevel": 80,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 15000
+        },
+        "levelDodge": {
+            "level1": 10
+        },
+        "levelCrit": {
+            "level1": 10
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 62,
+        "name": "Cosmic Platebody",
+        "alias": ["cosmicplatebody", "CPB", "cpb"],
+        "equipalias" : "CPB",
+        "categorie": "armor",
+        "description":"A platebody forged from the stars",
+        "cost": 100000,
+        "rarety": "Epic",
+        "itemlevel": 80,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 15000
+        },
+        "levelDodge": {
+            "level1": 10
+        },
+        "levelCrit": {
+            "level1": 10
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 63,
+        "name": "Cosmic Helmet",
+        "alias": ["cosmichelmet", "CH", "ch"],
+        "equipalias" : "CH",
+        "categorie": "armor",
+        "description":"A helmet forged from the stars",
+        "cost": 100000,
+        "rarety": "Epic",
+        "itemlevel": 80,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 15000
+        },
+        "levelDodge": {
+            "level1": 10
+        },
+        "levelCrit": {
+            "level1": 10
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 64,
+        "name": "Cosmic Platelegs",
+        "alias": ["cosmicplatelegs", "CPL", "cpl"],
+        "equipalias" : "CPL",
+        "categorie": "armor",
+        "description":"Platelegs forged from the stars",
+        "cost": 100000,
+        "rarety": "Epic",
+        "itemlevel": 80,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 15000
+        },
+        "levelDodge": {
+            "level1": 10
+        },
+        "levelCrit": {
+            "level1": 10
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 65,
+        "name": "Ancient Sigil Cape",
+        "alias": ["ancientsigilcape", "ASC", "asc"],
+        "equipalias" : "ASC",
+        "categorie": "armor",
+        "cost": 100000,
+        "rarety": "Epic",
+        "description":"A cape dating back to the ancient times",
+        "itemlevel": 90,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 20000
+        },
+        "levelDodge": {
+            "level1": 15
+        },
+        "levelCrit": {
+            "level1": 15
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 66,
+        "name": "Ancient Sigil Platebody",
+        "alias": ["ancientsigilplatebody", "ASPB", "aspb"],
+        "equipalias" : "ASPB",
+        "categorie": "armor",
+        "description":"A platebody dating back to the ancient times",
+        "cost": 100000,
+        "rarety": "Epic",
+        "itemlevel": 90,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 20000
+        },
+        "levelDodge": {
+            "level1": 15
+        },
+        "levelCrit": {
+            "level1": 15
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 67,
+        "name": "Ancient Sigil Helmet",
+        "alias": ["ancientsigilhelmet", "ASH", "ash"],
+        "equipalias" : "ASH",
+        "categorie": "armor",
+        "description":"A helmet dating back to the ancient times",
+        "cost": 100000,
+        "rarety": "Epic",
+        "itemlevel": 90,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 20000
+        },
+        "levelDodge": {
+            "level1": 15
+        },
+        "levelCrit": {
+            "level1": 15
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 68,
+        "name": "Ancient Sigil Platelegs",
+        "alias": ["ancientsigilplatelegs", "ASPL", "aspl"],
+        "equipalias" : "ASPL",
+        "categorie": "armor",
+        "description":"Platelegs dating back to the ancient times",
+        "cost": 100000,
+        "rarety": "Epic",
+        "itemlevel": 90,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 20000
+        },
+        "levelDodge": {
+            "level1": 15
+        },
+        "levelCrit": {
+            "level1": 15
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 69,
+        "name": "Stolen Dev Cape",
+        "alias": ["stolendevcape", "SDC", "sdc"],
+        "equipalias" : "SDC",
+        "categorie": "armor",
+        "description":"A cape stolen from a dev, it's probably not a good idea to wear this",
+        "cost": 100000,
+        "rarety": "Unique",
+        "itemlevel": 1,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 5000
+        },
+        "levelDodge": {
+            "level1": 20
+        },
+        "levelCrit": {
+            "level1": 20
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 70,
+        "name": "Stolen Dev Shield",
+        "alias": ["stolendevshield", "SDSH", "sdsh"],
+        "equipalias" : "SDSH",
+        "categorie": "armor",
+        "description":"A shield stolen from a dev, it's probably not a good idea to wear this",
+        "cost": 100000,
+        "rarety": "Unique",
+        "itemlevel": 1,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 5000
+        },
+        "levelDodge": {
+            "level1": 20
+        },
+        "levelCrit": {
+            "level1": 20
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 71,
+        "name": "Stolen Dev Sword",
+        "alias": ["stolendevsword", "SDS", "sds"],
+        "equipalias" : "SDS",
+        "categorie": "weapon",
+        "description":"A sword stolen from a dev, it's probably not a good idea to wear this",
+        "cost": 100000,
+        "rarety": "Unique",
+        "itemlevel": 1,
+        "levelAttack": {
+            "level1": 5000
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 20
+        },
+        "levelCrit": {
+            "level1": 20
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 72,
+        "name": "Hiabst's Pole",
+        "alias": ["hiabstpole", "hbp", "HBP"],
+        "equipalias" : "HBP",
+        "categorie": "weapon",
+        "description":"Hiabst's 'Pole' hehehe...",
+        "cost": 100000,
+        "rarety": "Unique",
+        "itemlevel": 30,
+        "levelAttack": {
+            "level1": 1750
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 5
+        },
+        "levelCrit": {
+            "level1": 5
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 73,
+        "name": "Doomtime's Watch",
+        "alias": ["doomtime", "dtw", "DTW"],
+        "equipalias" : "DTW",
+        "categorie": "magic-item",
+        "description":"A watch that seems to be counting down to something... but what?",
+        "cost": 100000,
+        "rarety": "Unique",
+        "itemlevel": 1,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 10
+        },
+        "levelCrit": {
+            "level1": 10
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 74,
+        "name": "BenJahMon's Staff",
+        "alias": ["benjahmon", "bjm", "BJM"],
+        "equipalias" : "BJM",
+        "categorie": "magic-item",
+        "description":"A old staff that has a named carved into it, there's a feeling that the power is GONE",
+        "cost": 100000,
+        "rarety": "Unique",
+        "itemlevel": 1,
+        "levelAttack": {
+            "level1": 3000
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 5
+        },
+        "levelCrit": {
+            "level1": 5
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 75,
+        "name": "Corrupt Cape",
+        "alias": ["corruptcape", "CRCA", "crca"],
+        "equipalias" : "CRCA",
+        "categorie": "armor",
+        "cost": 20000,
+        "rarety": "Tier 6",
+        "description":"A tattered cape that seems to be corrupting the world around it",
+        "itemlevel": 65,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 4000
+        },
+        "levelDodge": {
+            "level1": 1
+        },
+        "levelCrit": {
+            "level1": 1
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 76,
+        "name": "Corrupt Platebody",
+        "alias": ["corruptplatebody", "CRPB", "crpb"],
+        "equipalias" : "CRPB",
+        "categorie": "armor",
+        "description":"A platebody that seems to be corrupting the world around it",
+        "cost": 25000,
+        "rarety": "Tier 6",
+        "itemlevel": 65,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 3600
+        },
+        "levelDodge": {
+            "level1": 1
+        },
+        "levelCrit": {
+            "level1": 1
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 77,
+        "name": "Corrupt Helmet",
+        "alias": ["corrupthelmet", "CRH", "crh"],
+        "equipalias" : "CRH",
+        "categorie": "armor",
+        "description":"A helmet that seems to be corrupting the world around it",
+        "cost": 20000,
+        "rarety": "Tier 6",
+        "itemlevel": 65,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 3600
+        },
+        "levelDodge": {
+            "level1": 1
+        },
+        "levelCrit": {
+            "level1": 1
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 78,
+        "name": "Corrupt Platelegs",
+        "alias": ["corruptplatelegs", "CRPL", "crpl"],
+        "equipalias" : "CRPL",
+        "categorie": "armor",
+        "description":"Platelegs that seem to be corrupting the world around it",
+        "cost": 20000,
+        "rarety": "Tier 6",
+        "itemlevel": 65,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 3600
+        },
+        "levelDodge": {
+            "level1": 1
+        },
+        "levelCrit": {
+            "level1": 1
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    
+    {
+        "id": 79,
+        "name": "Corrupt Dagger",
+        "alias": ["CorruptDagger", "CRD", "crd"],
+        "equipalias" : "CRD",
+        "categorie": "weapon",
+        "description": "A dagger infused with corruption",
+        "cost": 15000,
+        "rarety": "Tier 6",
+        "itemlevel": 65,
+        "levelAttack": {
+            "level1": 3000
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 80,
+        "name": "Corrupt Sword",
+        "alias": ["CorruptSword", "CRS", "crs"],
+        "equipalias" : "CRS",
+        "categorie": "weapon",
+        "description": "A sword infused with corruption",
+        "cost": 20000,
+        "rarety": "Tier 6",
+        "itemlevel": 65,
+        "levelAttack": {
+            "level1": 3600
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 1
+        },
+        "levelCrit": {
+            "level1": 1
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 81,
+        "name": "Corrupt Shield",
+        "alias": ["CorruptShield", "CRSH", "crsh"],
+        "equipalias" : "CRSH",
+        "categorie": "armor",
+        "description": "A shield infused with corruption",
+        "cost": 25000,
+        "rarety": "Tier 6",
+        "itemlevel": 65,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 3600
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 82,
+        "name": "Corrupt Battleaxe",
+        "alias": ["CorruptBattleaxe", "CRBA", "crba"],
+        "equipalias" : "CRBA",
+        "categorie": "weapon",
+        "description": "A battleaxe infused with corruption",
+        "cost": 20000,
+        "rarety": "Tier 6",
+        "itemlevel": 65,
+        "levelAttack": {
+            "level1": 3600
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 1
+        },
+        "levelCrit": {
+            "level1": 1
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 83,
+        "name": "Corrupt Greatsword",
+        "alias": ["CorruptGreatsword", "CRGS", "crgs"],
+        "equipalias" : "CRGS",
+        "categorie": "weapon",
+        "description": "A greatsword infused with corruption",
+        "cost": 20000,
+        "rarety": "Tier 6",
+        "itemlevel": 65,
+        "levelAttack": {
+            "level1": 3600
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 2
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 84,
+        "name": "Corrupt Claws",
+        "alias": ["CorruptClaws", "CRC", "crc"],
+        "equipalias" : "CRC",
+        "categorie": "weapon",
+        "description": "Claws infused with corruption",
+        "cost": 20000,
+        "rarety": "Tier 6",
+        "itemlevel": 65,
+        "levelAttack": {
+            "level1": 3400
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 2
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 85,
+        "name": "Corrupt Flail",
+        "alias": ["CorruptFlail", "CRF", "crf"],
+        "equipalias" : "CRF",
+        "categorie": "weapon",
+        "description": "A flail infused with corruption",
+        "cost": 20000,
+        "rarety": "Tier 6",
+        "itemlevel": 65,
+        "levelAttack": {
+            "level1": 3600
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 1
+        },
+        "levelCrit": {
+            "level1": 1
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 86,
+        "name": "Ancient Corrupt Sword",
+        "alias": ["AncientCorruptSword", "ACRS", "acrs"],
+        "equipalias" : "ACRS",
+        "categorie": "weapon",
+        "description": "A ancient sword with a overwhelming aura of corruption",
+        "cost": 200000,
+        "rarety": "Tier 6",
+        "itemlevel": 70,
+        "levelAttack": {
+            "level1": 5500
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 5
+        },
+        "levelCrit": {
+            "level1": 5
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 87,
+        "name": "Ancient Corrupt Cape",
+        "alias": ["ancientcorruptcape", "ACRC", "acrc"],
+        "equipalias" : "ACRC",
+        "categorie": "armor",
+        "description":"A ancient cape with a overwhelming aura of corruption",
+        "cost": 200000,
+        "rarety": "Tier 6",
+        "itemlevel": 65,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 5500
+        },
+        "levelDodge": {
+            "level1": 5
+        },
+        "levelCrit": {
+            "level1": 5
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 88,
+        "name": "Ancient Corrupt Dagger",
+        "alias": ["AncientCorruptDagger", "ACRD", "acrd"],
+        "equipalias" : "ACRD",
+        "categorie": "weapon",
+        "description": "A ancient dagger with a overwhelming aura of corruption",
+        "cost": 150000,
+        "rarety": "Tier 6",
+        "itemlevel": 65,
+        "levelAttack": {
+            "level1": 5000
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 1
+        },
+        "levelCrit": {
+            "level1": 1
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+        {
+        "id": 89,
+        "name": "Red Partyhat",
+        "alias": ["RedPartyhat", "RPH", "rph"],
+        "equipalias" : "RPH",
+        "categorie": "magic-item",
+        "description":"A partyhat that is red, nothing else...",
+        "cost": 50000,
+        "rarety": "Unique",
+        "itemlevel": 1,
+        "levelAttack": {
+            "level1": 2500
+        },
+        "levelDefense": {
+            "level1": 2500
+        },
+        "levelDodge": {
+            "level1": 15
+        },
+        "levelCrit": {
+            "level1": 15
+        },
+        "levelPenetration": {
+            "level1": 15
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0        
+        }
+    },
+    {
+        "id": 90,
+        "name": "Green Partyhat",
+        "alias": ["GreenPartyhat", "GPH", "gph"],
+        "equipalias" : "GPH",
+        "categorie": "magic-item",
+        "description":"A partyhat that is green, nothing else...",
+        "cost": 50000,
+        "rarety": "Unique",
+        "itemlevel": 1,
+        "levelAttack": {
+            "level1": 2500
+        },
+        "levelDefense": {
+            "level1": 2500
+        },
+        "levelDodge": {
+            "level1": 15
+        },
+        "levelCrit": {
+            "level1": 15
+        },
+        "levelPenetration": {
+            "level1": 15
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 91,
+        "name": "Pink Partyhat",
+        "alias": ["PinkPartyhat", "PPH", "pph"],
+        "equipalias" : "PPH",
+        "categorie": "magic-item",
+        "description":"A partyhat that is pink, nothing else...",
+        "cost": 50000,
+        "rarety": "Unique",
+        "itemlevel": 1,
+        "levelAttack": {
+            "level1": 2500
+        },
+        "levelDefense": {
+            "level1": 2500
+        },
+        "levelDodge": {
+            "level1": 15
+        },
+        "levelCrit": {
+            "level1": 15
+        },
+        "levelPenetration": {
+            "level1": 15
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 92,
+        "name": "Ascended Cape",
+        "alias": ["ascendedcape", "AC", "ac"],
+        "equipalias" : "AC",
+        "categorie": "armor",
+        "cost": 100000,
+        "rarety": "Epic",
+        "description":"A cape fit for a god",
+        "itemlevel": 90,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 12000
+        },
+        "levelDodge": {
+            "level1": 12
+        },
+        "levelCrit": {
+            "level1": 12
+        },
+        "levelPenetration": {
+            "level1": 12
+        },
+        "levelLifeSteal": {
+            "level1": 12
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 93,
+        "name": "Borgz's Hat",
+        "alias": ["Borgz", "BORH", "borh"],
+        "equipalias" : "BORH",
+        "categorie": "magic-item",
+        "cost": 500,
+        "description": "A torn and worn out hat, probably was partied in",
+        "rarety": "Unique",
+        "itemlevel": 1,
+        "levelAttack": {
+            "level1": 7500
+        },
+        "levelDefense": {
+            "level1": 17500
+        },
+        "levelDodge": {
+            "level1": 5
+        },
+        "levelCrit": {
+            "level1": 5
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 94,
+        "name": "Cupid's Bow",
+        "alias": ["cupid", "CUPID", "Cupid"],
+        "equipalias" : "CUPID",
+        "categorie": "magic-item",
+        "cost": 5000,
+        "description": "A bow that seems to be made of love and nightmares",
+        "rarety": "Unique",
+        "itemlevel": 1,
+        "levelAttack": {
+            "level1": 10000
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 10
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 95,
+        "name": "Platebody of the Dead",
+        "alias": ["platebodyofthedead", "PBTD", "pbtd"],
+        "equipalias" : "PBTD",
+        "categorie": "armor",
+        "description": "A platebody found deep in the tombs of the dead",
+        "cost": 200000,
+        "rarety": "Tier 6",
+        "itemlevel": 70,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 10000
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 96,
+        "name": "Boots of the Dead",
+        "alias": ["bootsofthedead", "BTD", "btd"],
+        "equipalias" : "BTD",
+        "categorie": "armor",
+        "description": "Boots found deep in the tombs of the dead",
+        "cost": 200000,
+        "rarety": "Tier 6",
+        "itemlevel": 70,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 9000
+        },
+        "levelDodge": {
+            "level1": 2
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 97,
+        "name": "Gloves of the Dead",
+        "alias": ["glovesofthedead", "GTD", "gtd"],
+        "equipalias" : "GTD",
+        "categorie": "armor",
+        "description": "Gloves found deep in the tombs of the dead",
+        "cost": 200000,
+        "rarety": "Tier 6",
+        "itemlevel": 70,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 9000
+        },
+        "levelDodge": {
+            "level1": 1
+        },
+        "levelCrit": {
+            "level1": 1
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 98,
+        "name": "Dagger of the Dead",
+        "alias": ["daggerofthedead", "DTD", "dtd"],
+        "equipalias" : "DTD",
+        "categorie": "weapon",
+        "description": "A dagger found deep in the tombs of the dead",
+        "cost": 200000,
+        "rarety": "Tier 6",
+        "itemlevel": 70,
+        "levelAttack": {
+            "level1": 9000
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 2
+        },
+        "levelCrit": {
+            "level1": 2
+        },
+        "levelPenetration": {
+            "level1": 2
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 99,
+        "name": "Sword of the Dead",
+        "alias": ["swordofthedead", "STD", "std"],
+        "equipalias" : "STD",
+        "categorie": "weapon",
+        "description": "A sword found deep in the tombs of the dead",
+        "cost": 200000,
+        "rarety": "Tier 6",
+        "itemlevel": 70,
+        "levelAttack": {
+            "level1": 10000
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 5
+        },
+        "levelPenetration": {
+            "level1": 5
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 100,
+        "name": "Hammer of the Dead",
+        "alias": ["hammerofthedead", "HTD", "htd"],
+        "equipalias" : "HTD",
+        "categorie": "weapon",
+        "description": "A large hammer found deep in the tombs of the dead",
+        "cost": 200000,
+        "rarety": "Tier 6",
+        "itemlevel": 70,
+        "levelAttack": {
+            "level1": 11000
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 101,
+        "name": "Bow of the Dead",
+        "alias": ["bowofthedead", "BOTD", "botd"],
+        "equipalias" : "BOTD",
+        "categorie": "weapon",
+        "description": "A bow found deep in the tombs of the dead",
+        "cost": 200000,
+        "rarety": "Tier 6",
+        "itemlevel": 70,
+        "levelAttack": {
+            "level1": 9500
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 5
+        },
+        "levelCrit": {
+            "level1": 5
+        },
+        "levelPenetration": {
+            "level1": 5
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 102,
+        "name": "Xandala's Shadow",
+        "alias": ["Xandalasshadow", "XSH", "xsh"],
+        "equipalias" : "XSH",
+        "categorie": "magic-item",
+        "description": "A staff with a translucent shadow emanating emence power",
+        "cost": 200000,
+        "rarety": "Unique",
+        "itemlevel": 99,
+        "levelAttack": {
+            "level1": 30000
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 10
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 10
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 103,
+        "name": "Slayer Dagger",
+        "alias": ["slayerdagger", "SYD", "syd"],
+        "equipalias" : "SYD",
+        "categorie": "weapon",
+        "description": "A dagger used for slaying",
+        "cost": 1000,
+        "rarety": "Unique",
+        "itemlevel": 10,
+        "levelAttack": {
+            "level1": 300
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 1
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 1
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 104,
+        "name": "Slayer Gloves",
+        "alias": ["slayergloves", "SYG", "syg"],
+        "equipalias" : "SYG",
+        "categorie": "armor",
+        "description": "A pair of gloves worn when slaying",
+        "cost": 2500,
+        "rarety": "Unique",
+        "itemlevel": 20,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 2000
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 1
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 105,
+        "name": "Slayer Shortsword",
+        "alias": ["slayershortsword", "SYSS", "syss"],
+        "equipalias" : "SYSS",
+        "categorie": "weapon",
+        "description": "A shortsword used for slaying",
+        "cost": 5000,
+        "rarety": "Unique",
+        "itemlevel": 30,
+        "levelAttack": {
+            "level1": 3000
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 1
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 1
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 106,
+        "name": "Slayer Boots",
+        "alias": ["slayerboots", "SYB", "syb"],
+        "equipalias" : "SYB",
+        "categorie": "armor",
+        "description": "A pair of boots worn when slaying",
+        "cost": 10000,
+        "rarety": "Unique",
+        "itemlevel": 40,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 4000
+        },
+        "levelDodge": {
+            "level1": 2
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 1
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 107,
+        "name": "Slayer Axe",
+        "alias": ["slayeraxe", "SYA", "sya"],
+        "equipalias" : "SYA",
+        "categorie": "weapon",
+        "description": "A axe used for slaying",
+        "cost": 15000,
+        "rarety": "Unique",
+        "itemlevel": 50,
+        "levelAttack": {
+            "level1": 5500
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 2
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 1
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 108,
+        "name": "Slayer Pants",
+        "alias": ["slayerpants", "SYP", "syp"],
+        "equipalias" : "SYP",
+        "categorie": "armor",
+        "description": "A pair of pants worn when slaying",
+        "cost": 20000,
+        "rarety": "Unique",
+        "itemlevel": 60,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 6500
+        },
+        "levelDodge": {
+            "level1": 2
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 1
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 109,
+        "name": "Slayer Sword",
+        "alias": ["slayersword", "SYS", "sys"],
+        "equipalias" : "SYS",
+        "categorie": "weapon",
+        "description": "A sword used for slaying",
+        "cost": 30000,
+        "rarety": "Unique",
+        "itemlevel": 70,
+        "levelAttack": {
+            "level1": 10000
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 5
+        },
+        "levelPenetration": {
+            "level1": 3
+        },
+        "levelLifeSteal": {
+            "level1": 1
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 110,
+        "name": "Slayer Chestplate",
+        "alias": ["slayerchestplate", "SYCP", "sycp"],
+        "equipalias" : "SYCP",
+        "categorie": "armor",
+        "description": "A chestplate worn when slaying",
+        "cost": 35000,
+        "rarety": "Unique",
+        "itemlevel": 80,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 16500
+        },
+        "levelDodge": {
+            "level1": 5
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 3
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 111,
+        "name": "Slayer Warhammer",
+        "alias": ["slayerwarhammer", "SYWH", "sywh"],
+        "equipalias" : "SYWH",
+        "categorie": "weapon",
+        "description": "A Warhammer that crushes anything, I'd say it's very useful for slaying",
+        "cost": 100000,
+        "rarety": "Unique",
+        "itemlevel": 90,
+        "levelAttack": {
+            "level1": 27500
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 10
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 112,
+        "name": "Molecular Cotylorhynchus Spine",
+        "alias": ["MSC", "msc"],
+        "equipalias" : "MSC",
+        "categorie": "weapon",
+        "description": "A Spine from an extinct creature, you could probably bonk monsters on the head with this",
+        "cost": 100000,
+        "rarety": "Unique",
+        "itemlevel": 90,
+        "levelAttack": {
+            "level1": 27500
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 10
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 113,
+        "name": "Mace of the Multiverse",
+        "alias": ["MOTM", "motm"],
+        "equipalias" : "MOTM",
+        "categorie": "weapon",
+        "description": "A Mace that holds power from the multiverse, personally, I'd stay FAR away from it...",
+        "cost": 100000,
+        "rarety": "Unique",
+        "itemlevel": 90,
+        "levelAttack": {
+            "level1": 27500
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 10
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 114,
+        "name": "RIPPW's Ribs",
+        "alias": ["RIPR", "ripr"],
+        "equipalias" : "RIPR",
+        "categorie": "weapon",
+        "description": "RIPPW's Ribs... mmm... Ribs...",
+        "cost": 100000,
+        "rarety": "Unique",
+        "itemlevel": 90,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 20000
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 115,
+        "name": "Barren Hammer",
+        "alias": ["BARH", "barh"],
+        "equipalias" : "BARH",
+        "categorie": "weapon",
+        "description": "A hammer that was lost in the barren lands",
+        "cost": 100000,
+        "rarety": "Tier 7",
+        "itemlevel": 100,
+        "levelAttack": {
+            "level1": 30000
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 5
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 116,
+        "name": "Barren Chestplate",
+        "alias": ["BARCP", "barcp"],
+        "equipalias" : "BARCP",
+        "categorie": "armor",
+        "description": "A chestplate that was lost in the barren lands",
+        "cost": 100000,
+        "rarety": "Tier 7",
+        "itemlevel": 100,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 30000
+        },
+        "levelDodge": {
+            "level1": 5
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 117,
+        "name": "Barren Scroll",
+        "alias": ["BARS", "bars"],
+        "equipalias" : "BARS",
+        "categorie": "magic-item",
+        "description": "A magical scroll that was lost in the barren lands",
+        "cost": 100000,
+        "rarety": "Tier 7",
+        "itemlevel": 100,
+        "levelAttack": {
+            "level1": 30000
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 5
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 118,
+        "name": "Mystic Staff",
+        "alias": ["MYSS", "myss"],
+        "equipalias" : "MYSS",
+        "categorie": "magic-item",
+        "description": "A Staff that emits powerful mystic and holy energy",
+        "cost": 100000,
+        "rarety": "Tier 8",
+        "itemlevel": 110,
+        "levelAttack": {
+            "level1": 32500
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 5
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 3
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 119,
+        "name": "Mystic Robe",
+        "alias": ["MYSR", "mysr"],
+        "equipalias" : "MYSR",
+        "categorie": "armor",
+        "description": "A robeskirt that emits powerful mystic and holy energy",
+        "cost": 100000,
+        "rarety": "Tier 8",
+        "itemlevel": 100,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 32000
+        },
+        "levelDodge": {
+            "level1": 5
+        },
+        "levelCrit": {
+            "level1": 2
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 120,
+        "name": "Mystic Dagger",
+        "alias": ["MYSD", "mysd"],
+        "equipalias" : "MYSD",
+        "categorie": "weapon",
+        "description": "A dagger that emits powerful mystic and holy energy",
+        "cost": 100000,
+        "rarety": "Tier 8",
+        "itemlevel": 110,
+        "levelAttack": {
+            "level1": 32500
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 7
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 121,
+        "name": "Blood Dagger",
+        "alias": ["BLOD", "blod"],
+        "equipalias" : "BLOD",
+        "categorie": "weapon",
+        "description": "A dagger covered in blood from a holy sacrifice",
+        "cost": 100000,
+        "rarety": "Tier 9",
+        "itemlevel": 120,
+        "levelAttack": {
+            "level1": 35000
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 10
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 122,
+        "name": "Blood Scroll",
+        "alias": ["BLOS", "blos"],
+        "equipalias" : "BLOS",
+        "categorie": "magic-item",
+        "description": "A scroll covered in blood from a holy sacrifice",
+        "cost": 100000,
+        "rarety": "Tier 9",
+        "itemlevel": 110,
+        "levelAttack": {
+            "level1": 32000
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 7
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 10
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 123,
+        "name": "Blood Robe",
+        "alias": ["BLOR", "blor"],
+        "equipalias" : "BLOR",
+        "categorie": "armor",
+        "description": "A robeskirt covered in blood from a holy sacrifice",
+        "cost": 100000,
+        "rarety": "Tier 9",
+        "itemlevel": 120,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 35000
+        },
+        "levelDodge": {
+            "level1": 5
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 10
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+        {
+        "id": 124,
+        "name": "Burger skull of the Borgzanieze",
+        "alias": ["BSTBZ", "bstbz"],
+        "equipalias" : "BSTBZ ",
+        "categorie": "armor",
+        "description": "Passed down from an ancient clan that should never be trifled with",
+        "cost": 100000,
+        "rarety": "Unique",
+        "itemlevel": 100,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 35000
+        },
+        "levelDodge": {
+            "level1": 10
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 125,
+        "name": "Femurs of the Phantommania Isles",
+        "alias": ["FPHMI", "fphmi"],
+        "equipalias" : "FPHMI ",
+        "categorie": "weapon",
+        "description": "Femurs of those most cursed, hated by god Gingi. bonk people like bongos!",
+        "cost": 100000,
+        "rarety": "Unique",
+        "itemlevel": 100,
+        "levelAttack": {
+            "level1": 35000
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 10
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 126,
+        "name": "Barren Staff of Death",
+        "alias": ["BSOF", "bsof"],
+        "equipalias" : "BSOF",
+        "categorie": "magic-item",
+        "description": "The Witches trusty staff, made from elder-wood, also used to stir ingredients in a cauldron",
+        "cost": 100000,
+        "rarety": "Tier 9",
+        "itemlevel": 110,
+        "levelAttack": {
+            "level1": 33000
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 5
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 3
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 127,
+        "name": "Deadly wand",
+        "alias": ["DW", "dw"],
+        "equipalias" : "DW",
+        "categorie": "magic-item",
+        "description": "Probably used as a fake wand when she was a child, a dark energy emits from it",
+        "cost": 100000,
+        "rarety": "Tier 9",
+        "itemlevel": 110,
+        "levelAttack": {
+            "level1": 35000
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 5
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 3
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 128,
+        "name": "Scary Broom",
+        "alias": ["SB", "sb"],
+        "equipalias" : "SB",
+        "categorie": "magic-item",
+        "description": "It’s just a broom, sweepy sweep. Or maybe there’s more to it…",
+        "cost": 100000,
+        "rarety": "Tier 9",
+        "itemlevel": 110,
+        "levelAttack": {
+            "level1": 34000
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 20
+        },
+        "levelCrit": {
+            "level1": 5
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 10
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+    {
+        "id": 129,
+        "name": "Rainbow Partyhat",
+        "alias": ["RainbowPartyhat", "RBPH", "rbph"],
+        "equipalias" : "RBPH",
+        "categorie": "magic-item",
+        "description":"A partyhat that emits a rainbow aura, it's said to bring good luck",
+        "cost": 100000,
+        "rarety": "Unique",
+        "itemlevel": 1,
+        "levelAttack": {
+            "level1": 40000
+        },
+        "levelDefense": {
+            "level1": 20000
+        },
+        "levelDodge": {
+            "level1": 15
+        },
+        "levelCrit": {
+            "level1": 15
+        },
+        "levelPenetration": {
+            "level1": 15
+        },
+        "levelLifeSteal": {
+            "level1": 15
+        },
+        "levelHealth": {
+            "level1": 0        
+        }
+    }
+
+
+
+]

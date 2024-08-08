@@ -1,0 +1,145 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>FlipMMO</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.0/css/bootstrap.min.css">
+    <link rel="stylesheet" href="style.css">
+    <link rel="apple-touch-icon" sizes="180x180" href="/apple-touch-icon.png">
+    <link rel="icon" type="image/png" sizes="32x32" href="/favicon-32x32.png">
+    <link rel="icon" type="image/png" sizes="16x16" href="/favicon-16x16.png">
+    <link rel="manifest" href="/site.webmanifest">
+    <style>
+        .table-container {
+            display: inline-block;
+        }
+        @media (max-width: 768px) {
+            .table-container {
+                display: block;
+                width: 100%;
+            }
+        }
+
+    </style>
+
+</head>
+<body>
+    <div id="navbar"></div>
+    <center>
+        <br />
+        <h1>FlipMMO Leaderboards</h1>
+        <br />
+        <div class="table-container">
+        <table class="table table-striped">
+            <thead>
+                <tr>
+                    <th scope="col"></th>
+                    <th scope="col">Skill</th>
+                    <th scope="col">Link</th>
+                </tr>
+            </thead>
+            <tbody>
+                <tr>
+                    <th scope="row"><img src="assets/helmet.png" width="32" height="32"></img></th>
+                    <td>XP</td>
+                    <td><a href="/xp">View Leaderboard</a></td>
+                </tr>
+                <tr>
+                    <th scope="row"><img src="assets/coinchest.png" width="32" height="32"></img></th>
+                    <td>Coins</td>
+                    <td><a href="/coins">View Leaderboard</a></td>
+                </tr>
+                <tr>
+                    <th scope="row"><img src="assets/skull.png" width="32" height="32"></img></th>
+                    <td>Kills</td>
+                    <td><a href="/kills">View Leaderboard</a></td>
+                </tr>
+                <tr>
+                    <th scope="row"><img src="assets/skull.png" width="32" height="32"></img></th>
+                    <td>Tower</td>
+                    <td><a href="/tower">View Leaderboard</a></td>
+                </tr>
+                <tr>
+                    <th scope="row"><img src="assets/sword3.png" width="32" height="32"></img></th>
+                    <td>ELO</td>
+                    <td><a href="/elo">View Leaderboard</a></td>
+                </tr>
+                <tr>
+                    <th scope="row"><img src="assets/hellspawn.png" width="32" height="32"></img></th>
+                    <td>Pet ELO</td>
+                    <td><a href="/petelo">View Leaderboard</a></td>
+                </tr>
+                <tr>
+                    <th scope="row"><img src="assets/arrowblue.png" width="32" height="32"></img></th>
+                    <td>Guilds</td>
+                    <td><a href="/guilds">View Leaderboard</a></td>
+                </tr>
+                <tr>
+                    <th scope="row"><img src="assets/fishpole2.png" width="32" height="32"></img></th>
+                    <td>Fishing</td>
+                    <td><a href="/fishing">View Leaderboard</a></td>
+                </tr>
+                <tr>
+                    <th scope="row"><img src="assets/cookedmeat.png" width="32" height="32"></img></th>
+                    <td>Cooking</td>
+                    <td><a href="/cooking">View Leaderboard</a></td>
+                </tr>
+                <tr>
+                    <th scope="row"><img src="assets/pickaxe2.png" width="32" height="32"></img></th>
+                    <td>Mining</td>
+                    <td><a href="/mining">View Leaderboard</a></td>
+                </tr>
+                <tr>
+                    <th scope="row"><img src="assets/hammer2.png" width="32" height="32"></img></th>
+                    <td>Smithing</td>
+                    <td><a href="/smithing">View Leaderboard</a></td>
+                </tr>
+                <tr>
+                    <th scope="row"><img src="assets/axe2.png" width="32" height="32"></img></th>
+                    <td>Woodcutting</td>
+                    <td><a href="/woodcutting">View Leaderboard</a></td>
+                </tr>
+                <tr>
+                    <th scope="row"><img src="assets/magicattack.png" width="32" height="32"></img></th>
+                    <td>Crafting</td>
+                    <td><a href="/crafting">View Leaderboard</a></td>
+                </tr>
+                <tr>
+                    <th scope="row"><img src="assets/boots2.png" width="32" height="32"></img></th>
+                    <td>Agility</td>
+                    <td><a href="/agility">View Leaderboard</a></td>
+                </tr>
+                <tr>
+                    <th scope="row"><img src="assets/hellspawn.png" width="32" height="32"></img></th>
+                    <td>Taming</td>
+                    <td><a href="/taming">View Leaderboard</a></td>
+                </tr>
+                <tr>
+                    <th scope="row"><img src="assets/orb.png" width="32" height="32"></img></th>
+                    <td>Magic</td>
+                    <td><a href="/magic">View Leaderboard</a></td>
+                </tr>
+                <tr>
+                    <th scope="row"><img src="assets/necromancy.png" width="32" height="32"></img></th>
+                    <td>Slayer</td>
+                    <td><a href="/slayer">View Leaderboard</a></td>
+                </tr>
+                <tr>
+                    <th scope="row"><img src="assets/hoe2.png" width="32" height="32"></img></th>
+                    <td>Farming</td>
+                    <td><a href="/farming">View Leaderboard</a></td>
+                </tr>
+            </tbody>
+        </table>
+    </div>
+    </center>
+    <script src="https://code.jquery.com/jquery-3.7.1.js" integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.0/dist/js/bootstrap.bundle.min.js"></script>
+    <script>
+        $(function(){
+          $("#navbar").load("navbar.html"); 
+        });
+    </script>
+
+</body>
+</html>

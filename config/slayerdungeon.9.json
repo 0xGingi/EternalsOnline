@@ -1,0 +1,47 @@
+[
+    {
+    "name": "Vampire",
+    "level": 90,
+    "attack": 25000,
+    "defense": 20000,
+    "health": 30000,
+    "xpReward": 300,
+    "slayerxp": 300,
+    "drops": [
+
+        {"itemId": "111", "dropRate": 0.1, "name": "Slayer Warhammer"}
+
+    ]
+
+},
+{
+    "name": "Succubus",
+    "level": 90,
+    "attack": 23500,
+    "defense": 21000,
+    "health": 25000,
+    "xpReward": 300,
+    "slayerxp": 300,
+    "drops": [
+
+        {"itemId": "111", "dropRate": 0.1, "name": "Slayer Warhammer"}
+
+    ]
+
+},
+{
+    "name": "Lich King",
+    "level": 90,
+    "attack": 30000,
+    "defense": 25000,
+    "health": 20000,
+    "xpReward": 300,
+    "slayerxp": 300,
+    "drops": [
+
+        {"itemId": "111", "dropRate": 0.1, "name": "Slayer Warhammer"}
+
+    ]
+
+}
+]

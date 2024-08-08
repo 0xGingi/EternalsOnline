@@ -1,0 +1,44 @@
+[
+    {
+    "name": "Cosmic Shadow",
+    "level": 80,
+    "attack": 14100,
+    "defense": 13600,
+    "health": 15500,
+    "xpReward": 1700,
+    "drops": [
+
+        {"itemId": "61", "dropRate": 0.05, "name": "Cosmic Cape"}
+
+    ]
+
+},
+{
+    "name": "Cosmic Phantom",
+    "level": 80,
+    "attack": 14200,
+    "defense": 14350,
+    "health": 15500,
+    "xpReward": 1700,
+    "drops": [
+
+        {"itemId": "61", "dropRate": 0.05, "name": "Cosmic Cape"}
+
+    ]
+
+},
+{
+    "name": "Cosmic Reaper",
+    "level": 80,
+    "attack": 14150,
+    "defense": 13200,
+    "health": 15000,
+    "xpReward": 1700,
+    "drops": [
+
+        {"itemId": "61", "dropRate": 0.05, "name": "Cosmic Cape"}
+
+    ]
+
+}
+]

@@ -1,0 +1,47 @@
+[
+    {
+    "name": "Mystic Botfly",
+    "level": 110,
+    "attack": 40000,
+    "defense": 40000,
+    "health": 50000,
+    "xpReward": 450,
+    "slayerxp": 450,
+    "drops": [
+
+        {"itemId": "111", "dropRate": 0.1, "name": "Slayer Warhammer"}
+
+    ]
+
+},
+{
+    "name": "Angry Mage",
+    "level": 110,
+    "attack": 50000,
+    "defense": 30000,
+    "health": 40000,
+    "xpReward": 450,
+    "slayerxp": 450,
+    "drops": [
+
+        {"itemId": "111", "dropRate": 0.1, "name": "Slayer Warhammer"}
+
+    ]
+
+},
+{
+    "name": "Desolate Warrior",
+    "level": 110,
+    "attack": 40000,
+    "defense": 45000,
+    "health": 40000,
+    "xpReward": 450,
+    "slayerxp": 450,
+    "drops": [
+
+        {"itemId": "111", "dropRate": 0.1, "name": "Slayer Warhammer"}
+
+    ]
+
+}
+]

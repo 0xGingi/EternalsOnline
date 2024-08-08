@@ -1,0 +1,372 @@
+[
+    {
+        "id": 0,
+        "name": "Maple Totem",
+        "alias": ["MapleTotem", "mt", "MT"],
+        "equipalias" : "MT",
+        "xp": 60,
+        "level": 30,
+        "dungeon": "drudicforest",
+        "dungeonname": "Drudic Forest",
+        "smithalias": "mt",
+        "ge": "MT",
+        "cost": 500,
+        "categorie": "craft",
+        "combination": [
+            {
+                "id": 2,
+                "amount": 5,
+                "name": "Maple Log",
+                "type": "log"
+            }
+        ]
+
+    },
+    {
+        "id": 1,
+        "name": "Crude Gold Totem",
+        "alias": ["CrudeGoldTotem", "cgt", "CGT"],
+        "equipalias" : "CGT",
+        "ge": "CGT",
+        "xp": 80,
+        "level": 40,
+        "smithalias": "cgt",
+        "cost": 500,
+        "categorie": "craft",
+        "dungeon": "thievescove",
+        "dungeonname": "Thieves Cove",
+        "combination": [
+            {
+                "id": 5,
+                "amount": 5,
+                "name": "Ember Log",
+                "type": "log"
+            },
+            {
+                "id": 5,
+                "amount": 5,
+                "name": "Gold Bar",
+                "type": "bar"
+            }
+        ]
+
+    },  
+    {
+        "id": 2,
+        "name": "Broken Log Totem",
+        "alias": ["BrokenLogTotem", "blt", "BLT"],
+        "equipalias" : "BLT",
+        "ge": "BLT",
+        "xp": 30,
+        "level": 10,
+        "smithalias": "blt",
+        "cost": 500,
+        "categorie": "craft",
+        "dungeon": "goblincave",
+        "dungeonname": "Goblin Cave",
+        "combination": [
+            {
+                "id": 0,
+                "amount": 10,
+                "name": "Log",
+                "type": "log"
+            },
+            {
+                "id": 9,
+                "amount": 5,
+                "name": "Hard Clay",
+                "type": "bar"
+            }
+        ]
+
+    },
+    {
+        "id": 3,
+        "name": "Crude Iron Totem",
+        "alias": ["CrudeIronTotem", "cit", "CIT"],
+        "equipalias" : "CIT",
+        "ge": "CIT",
+        "xp": 50,
+        "level": 20,
+        "smithalias": "cit",
+        "cost": 500,
+        "categorie": "craft",
+        "dungeon": "eternalmountain",
+        "dungeonname": "Eternal Mountain",
+        "combination": [
+            {
+                "id": 1,
+                "amount": 10,
+                "name": "Iron Bar",
+                "type": "bar"
+            },
+            {
+                "id": 4,
+                "amount": 5,
+                "name": "Artic Log",
+                "type": "log"
+            }
+        ]
+
+    },  
+    {
+        "id": 4,
+        "name": "Dummy Totem",
+        "alias": ["DummyTotem", "dt", "DT"],
+        "equipalias" : "DT",
+        "ge": "DT",
+        "xp": 20,
+        "level": 1,
+        "smithalias": "dt",
+        "cost": 500,
+        "categorie": "craft",
+        "dungeon": "none",
+        "dungeonname": "None",
+        "combination": [
+            {
+                "id": 0,
+                "amount": 3,
+                "name": "Log",
+                "type": "log"
+            },
+            {
+                "id": 0,
+                "amount": 3,
+                "name": "Bronze Bar",
+                "type": "bar"
+            }
+        ]
+
+    },
+    {
+        "id": 5,
+        "name": "Sacred Mithril Totem",
+        "alias": ["SacredMithrilTotem", "smt", "SMT"],
+        "equipalias" : "SMT",
+        "ge": "SMT",
+        "xp": 1500,
+        "level": 80,
+        "smithalias": "smt",
+        "cost": 50000,
+        "categorie": "craft",
+        "dungeon": "cosmicshard",
+        "dungeonname": "Cosmic Shard",
+        "combination": [
+            {
+                "id": 2,
+                "amount": 3,
+                "name": "Mithril Bar",
+                "type": "bar"
+            },
+            {
+                "id": 8,
+                "amount": 10,
+                "name": "Magic Log",
+                "type": "log"
+            }
+        ]
+
+    },  
+    {
+        "id": 6,
+        "name": "Phoneix Totem",
+        "alias": ["PhoneixTotem", "pt", "PT"],
+        "equipalias" : "PT",
+        "ge": "PT",
+        "xp": 2000,
+        "level": 90,
+        "smithalias": "pt",
+        "cost": 50000,
+        "categorie": "craft",
+        "dungeon": "ancientcatacombs",
+        "dungeonname": "Ancient Catacombs",
+        "combination": [
+            {
+                "id": 11,
+                "amount": 10,
+                "name": "Obsidian Log",
+                "type": "log"
+            },
+            {
+                "id": 8,
+                "amount": 3,
+                "name": "Phoneix Bar",
+                "type": "bar"
+            }
+        ]
+
+    },
+
+    {
+        "id": 7,
+        "name": "Corrupted Totem",
+        "alias": ["corruptedtotem", "crt", "CRT"],
+        "equipalias" : "CRT",
+        "ge": "CRT",
+        "xp": 500,
+        "level": 65,
+        "smithalias": "crt",
+        "cost": 500,
+        "categorie": "craft",
+        "dungeon": "underworldcity",
+        "dungeonname": "Underworld City",
+        "combination": [
+            {
+                "id": 3,
+                "amount": 20,
+                "name": "Cedar Log",
+                "type": "log"
+            },
+            {
+                "id": 6,
+                "amount": 5,
+                "name": "Corrupt Bar",
+                "type": "bar"
+            }
+        ]
+
+    },
+    {
+        "id": 8,
+        "name": "Screaming Totem",
+        "alias": ["screamingtotem", "scrt", "SCRT"],
+        "equipalias" : "SCRT",
+        "ge": "SCRT",
+        "xp": 250,
+        "level": 50,
+        "smithalias": "scrt",
+        "cost": 500,
+        "categorie": "craft",
+        "dungeon": "horrificcaverns",
+        "dungeonname": "Horrific Caverns",
+        "combination": [
+            {
+                "id": 6,
+                "amount": 20,
+                "name": "Poly Log",
+                "type": "log"
+            },
+            {
+                "id": 4,
+                "amount": 5,
+                "name": "Polyment Bar",
+                "type": "bar"
+            }
+        ]
+
+    },
+    {
+        "id": 9,
+        "name": "Brim Totem",
+        "alias": ["brimtotem", "bt", "BT"],
+        "equipalias" : "BT",
+        "ge": "BT",
+        "xp": 550,
+        "level": 70,
+        "smithalias": "bt",
+        "cost": 500,
+        "categorie": "craft",
+        "dungeon": "tombsofthedead",
+        "dungeonname": "Tombs of the Dead",
+        "combination": [
+            {
+                "id": 9,
+                "amount": 10,
+                "name": "Rekt Log",
+                "type": "log"
+            },
+            {
+                "id": 10,
+                "amount": 10,
+                "name": "Brimstone Bar",
+                "type": "bar"
+            }
+        ]
+
+    },
+    {
+        "id": 10,
+        "name": "Witches Totem",
+        "alias": ["WitchesTotem", "witt", "WITT"],
+        "equipalias" : "WITT",
+        "ge": "WITT",
+        "xp": 2500,
+        "level": 100,
+        "smithalias": "witt",
+        "cost": 50000,
+        "categorie": "craft",
+        "dungeon": "witchestower",
+        "dungeonname": "Witches Tower",
+        "combination": [
+            {
+                "id": 11,
+                "amount": 15,
+                "name": "Barren Log",
+                "type": "log"
+            },
+            {
+                "id": 11,
+                "amount": 5,
+                "name": "Barren Bar",
+                "type": "bar"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Mystic Totem",
+        "alias": ["MysticTotem", "myst", "MYST"],
+        "equipalias" : "MYST",
+        "ge": "MYST",
+        "xp": 3000,
+        "level": 110,
+        "smithalias": "myst",
+        "cost": 50000,
+        "categorie": "craft",
+        "dungeon": "mysticforest",
+        "dungeonname": "Mystic Forest",
+        "combination": [
+            {
+                "id": 11,
+                "amount": 16,
+                "name": "Mystic Log",
+                "type": "log"
+            },
+            {
+                "id": 12,
+                "amount": 5,
+                "name": "Mystic Bar",
+                "type": "bar"
+            }
+        ]
+    },
+    {
+        "id": 12,
+        "name": "Blood Totem",
+        "alias": ["BloodTotem", "BLOT", "blot"],
+        "equipalias" : "BLOT",
+        "ge": "BLOT",
+        "xp": 3500,
+        "level": 120,
+        "smithalias": "blot",
+        "cost": 50000,
+        "categorie": "craft",
+        "dungeon": "sacraficalaltar",
+        "dungeonname": "Sacrafical Altar",
+        "combination": [
+            {
+                "id": 12,
+                "amount": 15,
+                "name": "Blood Log",
+                "type": "log"
+            },
+            {
+                "id": 13,
+                "amount": 5,
+                "name": "Blood Bar",
+                "type": "bar"
+            }
+        ]
+    }
+    
+]

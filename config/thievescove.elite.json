@@ -1,0 +1,44 @@
+[
+    {
+    "name": "Thief Assassin",
+    "level": 45,
+    "attack": 7800,
+    "defense": 9000,
+    "health": 12000,
+    "xpReward": 410,
+    "drops": [
+
+        {"itemId": "32", "dropRate": 0.05, "name": "Polyment Sword"}
+
+    ]
+
+},
+{
+    "name": "Gang Enforcer",
+    "level": 45,
+    "attack": 6600,
+    "defense": 9000,
+    "health": 9000,
+    "xpReward": 410,
+    "drops": [
+
+        {"itemId": "32", "dropRate": 0.05, "name": "Polyment Sword"}
+
+    ]
+
+},
+{
+    "name": "Strong Henchman",
+    "level": 45,
+    "attack": 7200,
+    "defense": 5000,
+    "health": 6000,
+    "xpReward": 410,
+    "drops": [
+
+        {"itemId": "32", "dropRate": 0.05, "name": "Polyment Sword"}
+
+    ]
+
+}
+]

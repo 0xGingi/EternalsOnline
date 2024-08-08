@@ -1,0 +1,44 @@
+[
+    {
+    "name": "Highway Scarlet",
+    "level": 40,
+    "attack": 4100,
+    "defense": 3600,
+    "health": 5500,
+    "xpReward": 180,
+    "drops": [
+
+        {"itemId": "31", "dropRate": 0.1, "name": "Polyment Dagger"}
+
+    ]
+
+},
+{
+    "name": "Highway Man",
+    "level": 40,
+    "attack": 4200,
+    "defense": 4350,
+    "health": 5500,
+    "xpReward": 180,
+    "drops": [
+
+        {"itemId": "31", "dropRate": 0.1, "name": "Polyment Dagger"}
+
+    ]
+
+},
+{
+    "name": "Street Thug",
+    "level": 40,
+    "attack": 4150,
+    "defense": 3200,
+    "health": 5000,
+    "xpReward": 180,
+    "drops": [
+
+        {"itemId": "31", "dropRate": 0.1, "name": "Polyment Dagger"}
+
+    ]
+
+}
+]

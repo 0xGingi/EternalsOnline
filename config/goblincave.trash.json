@@ -1,0 +1,50 @@
+[
+    {
+    "name": "Goblin",
+    "level": 10,
+    "attack": 1580,
+    "defense": 1276,
+    "health": 3000,
+    "xpReward": 80,
+    "drops": [
+
+        {"itemId": "27", "dropRate": 0.05, "name": "Etherment Helmet"},
+
+        {"itemId": "29", "dropRate": 0.05, "name": "Etherment Platelegs"}
+
+    ]
+
+},
+{
+    "name": "Hob Goblin",
+    "level": 10,
+    "attack": 1600,
+    "defense": 2350,
+    "health": 3000,
+    "xpReward": 80,
+    "drops": [
+
+        {"itemId": "27", "dropRate": 0.05, "name": "Etherment Helmet"},
+
+        {"itemId": "29", "dropRate": 0.05, "name": "Etherment Platelegs"}
+
+    ]
+
+},
+{
+    "name": "Slinger Goblin",
+    "level": 10,
+    "attack": 1750,
+    "defense": 2200,
+    "health": 2500,
+    "xpReward": 80,
+    "drops": [
+
+        {"itemId": "27", "dropRate": 0.05, "name": "Etherment Helmet"},
+
+        {"itemId": "29", "dropRate": 0.05, "name": "Etherment Platelegs"}
+
+    ]
+
+}
+]

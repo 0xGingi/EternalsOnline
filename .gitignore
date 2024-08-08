@@ -1,0 +1,3 @@
+node_modules
+commands/*.bak
+App/config.json

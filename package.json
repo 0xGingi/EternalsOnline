@@ -1,0 +1,13 @@
+{
+  "dependencies": {
+    "canvas": "^2.11.2",
+    "colors": "^1.4.0",
+    "discord.js": "^14.15.3",
+    "discord.js-captcha": "^3.0.8",
+    "fs": "^0.0.1-security",
+    "lodash": "^4.17.21",
+    "mongoose": "^8.4.1",
+    "npm-check-updates": "^16.14.20",
+    "path": "^0.12.7"
+  }
+}

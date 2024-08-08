@@ -1,0 +1,222 @@
+[
+    {
+        "id": 1,
+        "name": "Grass Potion",
+        "xp": 20,
+        "cost": 5,
+        "ge": "GRASSPOTION",
+        "categorie": "potion",
+        "alias": ["grasspotion"],
+        "level": 1,
+        "type": "potion",
+        "eatalias": "grass",
+        "description": "A foul potion made from grass",
+        "eatdescription": "You hastily chug the potion, it tastes like dirt and grass",
+        "stats": {
+            "attack": 250,
+            "defense": 0,
+            "crit": 0,
+            "dodge": 0
+        }
+    },
+    {
+        "id": 2,
+        "name": "Funky Potion",
+        "xp": 50,
+        "cost": 5,
+        "ge": "FUNKYPOTION",
+        "categorie": "potion",
+        "alias": ["funkypotion"],
+        "level": 10,
+        "type": "potion",
+        "eatalias": "funky",
+        "description": "A potion that smells like a gym locker",
+        "eatdescription": "You drink the potion, leaving you feeling... a little... funky?",
+        "stats": {
+            "attack": 0,
+            "defense": 250,
+            "crit": 0,
+            "dodge": 0
+        }
+    },
+    {
+        "id": 3,
+        "name": "Sticky Potion",
+        "xp": 75,
+        "cost": 5,
+        "ge": "STICKYPOTION",
+        "categorie": "potion",
+        "alias": ["stickypotion"],
+        "level": 15,
+        "type": "potion",
+        "eatalias": "sticky",
+        "description": "A potion made from a sticky herb",
+        "eatdescription": "You decide to take a wiff of the potion's fumes... leaving you feeling... nice...",
+        "stats": {
+            "attack": 0,
+            "defense": 0,
+            "crit": 1,
+            "dodge": 1
+        }
+    },
+    {
+        "id": 4,
+        "name": "Sage Potion",
+        "xp": 90,
+        "cost": 5,
+        "ge": "SAGEPOTION",
+        "categorie": "potion",
+        "alias": ["sagepotion"],
+        "eatalias": "sage",
+        "level": 25,
+        "type": "potion",
+        "description": "A potion made from the sage herb",
+        "eatdescription": "You sip at the potion, feeling a tad bit stronger",
+        "stats": {
+            "attack": 1000,
+            "defense": 0,
+            "crit": 0,
+            "dodge": 0
+        }
+    },
+    {
+        "id": 4,
+        "name": "Lilly Potion",
+        "xp": 100,
+        "cost": 5,
+        "ge": "LILLYPOTION",
+        "categorie": "potion",
+        "alias": ["lillypotion"],
+        "eatalias": "lilly",
+        "level": 30,
+        "type": "potion",
+        "description": "A potion made from the lilly herb",
+        "eatdescription": "You sip at the potion, thinking to yourself, you could probably take a arrow to the knee and live",
+        "stats": {
+            "attack": 0,
+            "defense": 1000,
+            "crit": 0,
+            "dodge": 0
+        }
+    },
+    {
+        "id": 5,
+        "name": "Opeth Potion",
+        "xp": 120,
+        "cost": 5,
+        "ge": "OPETHPOTION",
+        "categorie": "potion",
+        "alias": ["opethpotion"],
+        "eatalias": "opeth",
+        "level": 40,
+        "type": "potion",
+        "description": "A potion made from the opeth herb",
+        "eatdescription": "As you drink the potion, you feel a sense of one with the world",
+        "stats": {
+            "attack": 0,
+            "defense": 0,
+            "crit": 5,
+            "dodge": 0
+        }
+    },
+    {
+        "id": 6,
+        "name": "Poly Potion",
+        "xp": 140,
+        "cost": 5,
+        "ge": "POLYPOTION",
+        "categorie": "potion",
+        "alias": ["polypotion"],
+        "eatalias": "poly",
+        "level": 50,
+        "type": "potion",
+        "description": "A potion made from the poly herb",
+        "eatdescription": "You sip at the potion, feeling a tad smug about yourself",
+        "stats": {
+            "attack": 0,
+            "defense": 0,
+            "crit": 0,
+            "dodge": 5
+        }
+    },
+    {
+        "id": 7,
+        "name": "Goen Potion",
+        "xp": 200,
+        "cost": 5,
+        "ge": "GOENPOTION",
+        "categorie": "potion",
+        "alias": ["goenpotion"],
+        "eatalias": "goen",
+        "level": 60,
+        "type": "potion",
+        "description": "A potion made from the goen herb",
+        "eatdescription": "You drink the potion, feeling gone",
+        "stats": {
+            "attack": 2500,
+            "defense": 2500,
+            "crit": 0,
+            "dodge": 0
+        }
+    },
+    {
+        "id": 8,
+        "name": "Barren Potion",
+        "xp": 500,
+        "cost": 5,
+        "ge": "BARRENPOTION",
+        "categorie": "potion",
+        "alias": ["barrenpotion"],
+        "eatalias": "barren",
+        "level": 100,
+        "type": "potion",
+        "description": "A potion made from the barren herb",
+        "eatdescription": "The potion leaves you feeling... barren...",
+        "stats": {
+            "attack": 5000,
+            "defense": 5000,
+            "crit": 0,
+            "dodge": 0
+        }
+    },
+    {
+        "id": 8,
+        "name": "Mystic Potion",
+        "xp": 700,
+        "cost": 5,
+        "ge": "MYSTICPOTION",
+        "categorie": "potion",
+        "alias": ["mysticpotion"],
+        "eatalias": "mystic",
+        "level": 110,
+        "type": "potion",
+        "description": "A potion made from the mystic herb",
+        "eatdescription": "The potion leaves you with a strong feeling of mystical power running through your body",
+        "stats": {
+            "attack": 5000,
+            "defense": 0,
+            "crit": 50,
+            "dodge": 0
+        }
+    },
+    {
+        "id": 8,
+        "name": "Blood Potion",
+        "xp": 1000,
+        "cost": 5,
+        "ge": "BLOODPOTION",
+        "categorie": "potion",
+        "alias": ["bloodpotion"],
+        "eatalias": "blood",
+        "level": 120,
+        "type": "potion",
+        "description": "A potion made from the blood herb",
+        "eatdescription": "You can feel the blood rushing through your veins... you need more...",
+        "stats": {
+            "attack": 10000,
+            "defense": 0,
+            "crit": 100,
+            "dodge": 0
+        }
+    }
+]

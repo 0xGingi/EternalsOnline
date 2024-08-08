@@ -1,0 +1,2177 @@
+{
+    "level0":{
+        "XPcost": 1,
+        "XPmax": 3,
+        "nextLevel": 1,
+        "stats": {
+            "attack": 100,
+            "defense": 20,
+            "health": 2500
+        }
+    },
+    "level1":{
+        "XPcost": 0,
+        "XPmax": 2,   
+        "nextLevel": 2,
+        "stats": {
+            "attack": 110,
+            "defense": 30,
+            "health": 2600,
+            "dodge": 1,
+            "crit": 1,
+            "critMultplicator" : 1,
+            "attackSpeed": 12,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level2":{
+        "XPcost": 83,
+        "XPmax": 3,   
+        "nextLevel": 3,
+        "stats": {
+            "attack": 120,
+            "defense": 40,
+            "health": 2700,
+            "dodge": 1,
+            "crit": 1,
+            "critMultplicator" : 1,
+            "attackSpeed": 14,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level3":{
+        "XPcost": 174,
+        "XPmax": 5,       
+        "nextLevel": 4,
+        "stats": {
+            "attack": 130,
+            "defense": 50,
+            "health": 2800,
+            "dodge": 1,
+            "crit": 1,
+            "critMultplicator" : 1,
+            "attackSpeed": 16,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level4":{
+        "XPcost": 276,
+        "XPmax": 9,        
+        "nextLevel": 5,
+        "stats": {
+            "attack": 140,
+            "defense": 60,
+            "health": 2900,
+            "dodge": 1,
+            "crit": 1,
+            "critMultplicator" : 1,
+            "attackSpeed": 18,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level5":{
+        "XPcost": 388,
+        "XPmax": 17,       
+        "nextLevel": 6,
+        "stats": {
+            "attack": 150,
+            "defense": 70,
+            "health": 3000,
+            "dodge": 2,
+            "crit": 2,
+            "critMultplicator" : 1,
+            "attackSpeed": 20,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level6":{
+        "XPcost": 512,
+        "XPmax": 33,         
+        "nextLevel": 7,
+        "stats": {
+            "attack": 160,
+            "defense": 80,
+            "health": 3100,
+            "dodge": 2,
+            "crit": 2,
+            "critMultplicator" : 1,
+            "attackSpeed": 22,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level7":{
+        "XPcost": 650,
+        "XPmax": 65,    
+        "nextLevel": 8,
+        "stats": {
+            "attack": 170,
+            "defense": 90,
+            "health": 3200,
+            "dodge": 2,
+            "crit": 2,
+            "critMultplicator" : 1,
+            "attackSpeed": 24,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level8":{
+        "XPcost": 801,
+        "XPmax": 129,       
+        "nextLevel": 9,
+        "stats": {
+            "attack": 180,
+            "defense": 100,
+            "health": 3300,
+            "dodge": 2,
+            "crit": 2,
+            "critMultplicator" : 1,
+            "attackSpeed": 28,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level9":{
+        "XPcost": 969,
+        "XPmax": 257,      
+        "nextLevel": 10,
+        "stats": {
+            "attack": 190,
+            "defense": 110,
+            "health": 3400,
+            "dodge": 2,
+            "crit": 2,
+            "critMultplicator" : 1,
+            "attackSpeed": 30,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level10":{
+        "XPcost": 1154 ,
+        "XPmax": 513,      
+        "nextLevel": 11,
+        "stats": {
+            "attack": 200,
+            "defense": 120,
+            "health": 3500,
+            "dodge": 3,
+            "crit": 3,
+            "critMultplicator" : 2,
+            "attackSpeed": 30,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level11":{
+        "XPcost": 1358,
+        "XPmax": 1025,      
+        "nextLevel": 12,
+        "stats": {
+            "attack": 210,
+            "defense": 130,
+            "health": 3600,
+            "dodge": 3,
+            "crit": 3,
+            "critMultplicator" : 2,
+            "attackSpeed": 30,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level12":{
+        "XPcost": 1584,
+        "XPmax": 2049,        
+        "nextLevel": 13,
+        "stats": {
+            "attack": 220,
+            "defense": 140,
+            "health": 3700,
+            "dodge": 3,
+            "crit": 3,
+            "critMultplicator" : 2,
+            "attackSpeed": 30,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level13":{
+        "XPcost": 1833,
+        "XPmax": 4097,       
+        "nextLevel": 14,
+        "stats": {
+            "attack": 230,
+            "defense": 150,
+            "health": 3800,
+            "dodge": 3,
+            "crit": 3,
+            "critMultplicator" : 2,
+            "attackSpeed": 30,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level14":{
+        "XPcost": 2107,
+        "XPmax": 8193,      
+        "nextLevel": 15,
+        "stats": {
+            "attack": 240,
+            "defense": 160,
+            "health": 3900,
+            "dodge": 3,
+            "crit": 3,
+            "critMultplicator" : 2,
+            "attackSpeed": 30,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level15":{
+        "XPcost": 2411,
+        "XPmax": 16385,        
+        "nextLevel": 16,
+        "stats": {
+            "attack": 250,
+            "defense": 170,
+            "health": 4000,
+            "dodge": 4,
+            "crit": 4,
+            "critMultplicator" : 3,
+            "attackSpeed": 30,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level16":{
+        "XPcost": 2746,
+        "XPmax": 16385,        
+        "nextLevel": 17,
+        "stats": {
+            "attack": 260,
+            "defense": 180,
+            "health": 4100,
+            "dodge": 4,
+            "crit": 4,
+            "critMultplicator" : 3,
+            "attackSpeed": 30,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level17":{
+        "XPcost": 3115,
+        "XPmax": 2,   
+        "nextLevel": 18,
+        "stats": {
+            "attack": 270,
+            "defense": 190,
+            "health": 4200,
+            "dodge": 4,
+            "crit": 4,
+            "critMultplicator" : 3,
+            "attackSpeed": 30,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level18":{
+        "XPcost": 3523,
+        "XPmax": 3,   
+        "nextLevel": 19,
+        "stats": {
+            "attack": 280,
+            "defense": 200,
+            "health": 4300,
+            "dodge": 4,
+            "crit": 4,
+            "critMultplicator" : 3,
+            "attackSpeed": 30,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level19":{
+        "XPcost": 4470,
+        "XPmax": 5,       
+        "nextLevel": 20,
+        "stats": {
+            "attack": 290,
+            "defense": 210,
+            "health": 4400,
+            "dodge": 4,
+            "crit": 4,
+            "critMultplicator" : 3,
+            "attackSpeed": 30,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level20":{
+        "XPcost": 4470,
+        "XPmax": 9,        
+        "nextLevel": 21,
+        "stats": {
+            "attack": 300,
+            "defense": 220,
+            "health": 4500,
+            "dodge": 5,
+            "crit": 5,
+            "critMultplicator" : 4,
+            "attackSpeed": 35,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level21":{
+        "XPcost": 5018,
+        "XPmax": 17,       
+        "nextLevel": 22,
+        "stats": {
+            "attack": 310,
+            "defense": 230,
+            "health": 4600,
+            "dodge": 5,
+            "crit": 5,
+            "critMultplicator" : 4,
+            "attackSpeed": 35,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level22":{
+        "XPcost": 5624,
+        "XPmax": 33,         
+        "nextLevel": 23,
+        "stats": {
+            "attack": 320,
+            "defense": 240,
+            "health": 4700,
+            "dodge": 5,
+            "crit": 5,
+            "critMultplicator" : 4,
+            "attackSpeed": 35,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level23":{
+        "XPcost": 6291,
+        "XPmax": 65,    
+        "nextLevel": 24,
+        "stats": {
+            "attack": 330,
+            "defense": 250,
+            "health": 4800,
+            "dodge": 5,
+            "crit": 5,
+            "critMultplicator" : 4,
+            "attackSpeed": 35,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level24":{
+        "XPcost": 7028,
+        "XPmax": 129,       
+        "nextLevel": 25,
+        "stats": {
+            "attack": 340,
+            "defense": 260,
+            "health": 4900,
+            "dodge": 5,
+            "crit": 5,
+            "critMultplicator" : 4,
+            "attackSpeed": 35,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level25":{
+        "XPcost": 7842,
+        "XPmax": 257,      
+        "nextLevel": 26,
+        "stats": {
+            "attack": 350,
+            "defense": 270,
+            "health": 5000,
+            "dodge": 5,
+            "crit": 5,
+            "critMultplicator" : 5,
+            "attackSpeed": 35,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level26":{
+        "XPcost": 8740,
+        "XPmax": 513,      
+        "nextLevel": 27,
+        "stats": {
+            "attack": 360,
+            "defense": 280,
+            "health": 5100,
+            "dodge": 6,
+            "crit": 6,
+            "critMultplicator" : 5,
+            "attackSpeed": 35,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level27":{
+        "XPcost": 9730,
+        "XPmax": 1025,      
+        "nextLevel": 28,
+        "stats": {
+            "attack": 370,
+            "defense": 290,
+            "health": 5200,
+            "dodge": 6,
+            "crit": 6,
+            "critMultplicator" : 5,
+            "attackSpeed": 35,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level28":{
+        "XPcost": 10824,
+        "XPmax": 2049,        
+        "nextLevel": 29,
+        "stats": {
+            "attack": 380,
+            "defense": 300,
+            "health": 5300,
+            "dodge": 6,
+            "crit": 6,
+            "critMultplicator" : 5,
+            "attackSpeed": 35,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level29":{
+        "XPcost": 12031,
+        "XPmax": 4097,       
+        "nextLevel": 30,
+        "stats": {
+            "attack": 390,
+            "defense": 310,
+            "health": 5400,
+            "dodge": 6,
+            "crit": 6,
+            "critMultplicator" : 5,
+            "attackSpeed": 35,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level30":{
+        "XPcost": 13363,
+        "XPmax": 8193,      
+        "nextLevel": 31,
+        "stats": {
+            "attack": 400,
+            "defense": 320,
+            "health": 5500,
+            "dodge": 7,
+            "crit": 7,
+            "critMultplicator" : 6,
+            "attackSpeed": 40,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level31":{
+        "XPcost": 14833,
+        "XPmax": 16385,        
+        "nextLevel": 32,
+        "stats": {
+            "attack": 410,
+            "defense": 330,
+            "health": 5600,
+            "dodge": 7,
+            "crit": 7,
+            "critMultplicator" : 6,
+            "attackSpeed": 40,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level32":{
+        "XPcost": 16456,
+        "XPmax": 16385,        
+        "nextLevel": 33,
+        "stats": {
+            "attack": 420,
+            "defense": 340,
+            "health": 5700,
+            "dodge": 7,
+            "crit": 7,
+            "critMultplicator" : 6,
+            "attackSpeed": 40,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level33":{
+        "XPcost": 18247,
+        "XPmax": 2,   
+        "nextLevel": 34,
+        "stats": {
+            "attack": 430,
+            "defense": 350,
+            "health": 5800,
+            "dodge": 7,
+            "crit": 7,
+            "critMultplicator" : 6,
+            "attackSpeed": 40,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level34":{
+        "XPcost": 20224,
+        "XPmax": 3,   
+        "nextLevel": 35,
+        "stats": {
+            "attack": 440,
+            "defense": 360,
+            "health": 5900,
+            "dodge": 7,
+            "crit": 7,
+            "critMultplicator" : 6,
+            "attackSpeed": 40,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level35":{
+        "XPcost": 22406,
+        "XPmax": 5,       
+        "nextLevel": 36,
+        "stats": {
+            "attack": 450,
+            "defense": 370,
+            "health": 6000,
+            "dodge": 8,
+            "crit": 8,
+            "critMultplicator" : 7,
+            "attackSpeed": 40,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level36":{
+        "XPcost": 95620,
+        "XPmax": 9,        
+        "nextLevel": 37,
+        "stats": {
+            "attack": 460,
+            "defense": 380,
+            "health": 6100,
+            "dodge": 8,
+            "crit": 8,
+            "critMultplicator" : 7,
+            "attackSpeed": 40,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level37":{
+        "XPcost": 115220,
+        "XPmax": 17,       
+        "nextLevel": 38,
+        "stats": {
+            "attack": 470,
+            "defense": 390,
+            "health": 6200,
+            "dodge": 8,
+            "crit": 8,
+            "critMultplicator" : 7,
+            "attackSpeed": 40,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level38":{
+        "XPcost": 125852,
+        "XPmax": 33,         
+        "nextLevel": 39,
+        "stats": {
+            "attack": 480,
+            "defense": 400,
+            "health": 6300,
+            "dodge": 8,
+            "crit": 8,
+            "critMultplicator" : 7,
+            "attackSpeed": 40,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level39":{
+        "XPcost": 148258,
+        "XPmax": 65,    
+        "nextLevel": 40,
+        "stats": {
+            "attack": 490,
+            "defense": 410,
+            "health": 6400,
+            "dodge": 8,
+            "crit": 8,
+            "critMultplicator" : 7,
+            "attackSpeed": 40,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level40":{
+        "XPcost": 175845,
+        "XPmax": 129,       
+        "nextLevel": 41,
+        "stats": {
+            "attack": 500,
+            "defense": 420,
+            "health": 6500,
+            "dodge": 9,
+            "crit": 9,
+            "critMultplicator" : 8,
+            "attackSpeed": 45,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level41":{
+        "XPcost": 198522,
+        "XPmax": 257,      
+        "nextLevel": 42,
+        "stats": {
+            "attack": 510,
+            "defense": 430,
+            "health": 6600,
+            "dodge": 9,
+            "crit": 9,
+            "critMultplicator" : 8,
+            "attackSpeed": 45,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level42":{
+        "XPcost": 215856,
+        "XPmax": 513,      
+        "nextLevel": 43,
+        "stats": {
+            "attack": 520,
+            "defense": 440,
+            "health": 6700,
+            "dodge": 9,
+            "crit": 9,
+            "critMultplicator" : 8,
+            "attackSpeed": 45,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level43":{
+        "XPcost": 245298,
+        "XPmax": 1025,      
+        "nextLevel": 44,
+        "stats": {
+            "attack": 530,
+            "defense": 450,
+            "health": 6800,
+            "dodge": 9,
+            "crit": 9,
+            "critMultplicator" : 8,
+            "attackSpeed": 45,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level44":{
+        "XPcost": 288596,
+        "XPmax": 2049,        
+        "nextLevel": 45,
+        "stats": {
+            "attack": 540,
+            "defense": 460,
+            "health": 6900,
+            "dodge": 9,
+            "crit": 9,
+            "critMultplicator" : 8,
+            "attackSpeed": 45,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level45":{
+        "XPcost": 325458,
+        "XPmax": 4097,       
+        "nextLevel": 46,
+        "stats": {
+            "attack": 550,
+            "defense": 470,
+            "health": 7000,
+            "dodge": 10,
+            "crit": 10,
+            "critMultplicator" : 9,
+            "attackSpeed": 45,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level46":{
+        "XPcost": 378596,
+        "XPmax": 8193,      
+        "nextLevel": 47,
+        "stats": {
+            "attack": 560,
+            "defense": 480,
+            "health": 7100,
+            "dodge": 10,
+            "crit": 10,
+            "critMultplicator" : 9,
+            "attackSpeed": 45,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level47":{
+        "XPcost": 412589,
+        "XPmax": 16385,        
+        "nextLevel": 48,
+        "stats": {
+            "attack": 570,
+            "defense": 490,
+            "health": 7200,
+            "dodge": 10,
+            "crit": 10,
+            "critMultplicator" : 9,
+            "attackSpeed": 45,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level48":{
+        "XPcost": 468598,
+        "XPmax": 16385,        
+        "nextLevel": 49,
+        "stats": {
+            "attack": 580,
+            "defense": 500,
+            "health": 7300,
+            "dodge": 10,
+            "crit": 10,
+            "critMultplicator" : 9,
+            "attackSpeed": 45,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level49":{
+        "XPcost": 532523,
+        "XPmax": 2,   
+        "nextLevel": 50,
+        "stats": {
+            "attack": 590,
+            "defense": 510,
+            "health": 7400,
+            "dodge": 10,
+            "crit": 10,
+            "critMultplicator" : 9,
+            "attackSpeed": 45,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level50":{
+        "XPcost": 587896,
+        "XPmax": 3,   
+        "nextLevel": 51,
+        "stats": {
+            "attack": 600,
+            "defense": 520,
+            "health": 7500,
+            "dodge": 11,
+            "crit": 11,
+            "critMultplicator" : 10,
+            "attackSpeed": 50,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level51":{
+        "XPcost": 645258,
+        "XPmax": 5,       
+        "nextLevel": 52,
+        "stats": {
+            "attack": 610,
+            "defense": 530,
+            "health": 7600,
+            "dodge": 11,
+            "crit": 11,
+            "critMultplicator" : 10,
+            "attackSpeed": 50,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level52":{
+        "XPcost": 725485,
+        "XPmax": 9,        
+        "nextLevel": 53,
+        "stats": {
+            "attack": 620,
+            "defense": 540,
+            "health": 7700,
+            "dodge": 11,
+            "crit": 11,
+            "critMultplicator" : 10,
+            "attackSpeed": 50,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level53":{
+        "XPcost": 795865,
+        "XPmax": 17,       
+        "nextLevel": 54,
+        "stats": {
+            "attack": 630,
+            "defense": 550,
+            "health": 7800,
+            "dodge": 11,
+            "crit": 11,
+            "critMultplicator" : 10,
+            "attackSpeed": 50,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level54":{
+        "XPcost": 865875,
+        "XPmax": 33,         
+        "nextLevel": 55,
+        "stats": {
+            "attack": 640,
+            "defense": 560,
+            "health": 7900,
+            "dodge": 11,
+            "crit": 11,
+            "critMultplicator" : 10,
+            "attackSpeed": 50,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level55":{
+        "XPcost": 912586,
+        "XPmax": 65,    
+        "nextLevel": 56,
+        "stats": {
+            "attack": 650,
+            "defense": 570,
+            "health": 8000,
+            "dodge": 12,
+            "crit": 12,
+            "critMultplicator" : 11,
+            "attackSpeed": 50,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level56":{
+        "XPcost": 1000000,
+        "XPmax": 129,       
+        "nextLevel": 57,
+        "stats": {
+            "attack": 660,
+            "defense": 580,
+            "health": 8100,
+            "dodge": 12,
+            "crit": 12,
+            "critMultplicator" : 11,
+            "attackSpeed": 50,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level57":{
+        "XPcost": 1200000,
+        "XPmax": 257,      
+        "nextLevel": 58,
+        "stats": {
+            "attack": 670,
+            "defense": 590,
+            "health": 8200,
+            "dodge": 12,
+            "crit": 12,
+            "critMultplicator" : 11,
+            "attackSpeed": 50,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level58":{
+        "XPcost": 1350000,
+        "XPmax": 513,      
+        "nextLevel": 59,
+        "stats": {
+            "attack": 680,
+            "defense": 600,
+            "health": 8300,
+            "dodge": 12,
+            "crit": 12,
+            "critMultplicator" : 11,
+            "attackSpeed": 50,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level59":{
+        "XPcost": 1520000,
+        "XPmax": 1025,      
+        "nextLevel": 60,
+        "stats": {
+            "attack": 690,
+            "defense": 610,
+            "health": 8400,
+            "dodge": 12,
+            "crit": 12,
+            "critMultplicator" : 11,
+            "attackSpeed": 50,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level60":{
+        "XPcost": 1860000,
+        "XPmax": 2049,        
+        "nextLevel": 61,
+        "stats": {
+            "attack": 700,
+            "defense": 620,
+            "health": 8500,
+            "dodge": 13,
+            "crit": 13,
+            "critMultplicator" : 12,
+            "attackSpeed": 55,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level61":{
+        "XPcost": 1990000,
+        "XPmax": 4097,       
+        "nextLevel": 62,
+        "stats": {
+            "attack": 710,
+            "defense": 630,
+            "health": 8600,
+            "dodge": 13,
+            "crit": 13,
+            "critMultplicator" : 12,
+            "attackSpeed": 55,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level62":{
+        "XPcost": 2450000,
+        "XPmax": 8193,      
+        "nextLevel": 63,
+        "stats": {
+            "attack": 720,
+            "defense": 640,
+            "health": 8700,
+            "dodge": 13,
+            "crit": 13,
+            "critMultplicator" : 12,
+            "attackSpeed": 55,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level63":{
+        "XPcost": 2850000,
+        "XPmax": 16385,        
+        "nextLevel": 64,
+        "stats": {
+            "attack": 730,
+            "defense": 650,
+            "health": 8800,
+            "dodge": 13,
+            "crit": 13,
+            "critMultplicator" : 12,
+            "attackSpeed": 55,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level64":{
+        "XPcost": 3450000,
+        "XPmax": 16385,        
+        "nextLevel": 65,
+        "stats": {
+            "attack": 740,
+            "defense": 660,
+            "health": 8900,
+            "dodge": 13,
+            "crit": 13,
+            "critMultplicator" : 12,
+            "attackSpeed": 55,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level65":{
+        "XPcost": 4450000,
+        "XPmax": 16385,        
+        "nextLevel": "66",
+        "stats": {
+            "attack": 750,
+            "defense": 670,
+            "health": 9000,
+            "dodge": 14,
+            "crit": 14,
+            "critMultplicator" : 13,
+            "attackSpeed": 55,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }      
+    },
+    "level66":{
+        "XPcost": 1860000,
+        "XPmax": 2049,        
+        "nextLevel": 67,
+        "stats": {
+            "attack": 760,
+            "defense": 680,
+            "health": 9100,
+            "dodge": 14,
+            "crit": 14,
+            "critMultplicator" : 14,
+            "attackSpeed": 55,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level67":{
+        "XPcost": 1990000,
+        "XPmax": 4097,       
+        "nextLevel": 68,
+        "stats": {
+            "attack": 770,
+            "defense": 690,
+            "health": 9200,
+            "dodge": 14,
+            "crit": 14,
+            "critMultplicator" : 14,
+            "attackSpeed": 55,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level68":{
+        "XPcost": 2450000,
+        "XPmax": 8193,      
+        "nextLevel": 69,
+        "stats": {
+            "attack": 780,
+            "defense": 700,
+            "health": 9300,
+            "dodge": 14,
+            "crit": 14,
+            "critMultplicator" : 14,
+            "attackSpeed": 55,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level69":{
+        "XPcost": 2850000,
+        "XPmax": 16385,        
+        "nextLevel": 70,
+        "stats": {
+            "attack": 790,
+            "defense": 710,
+            "health": 9400,
+            "dodge": 14,
+            "crit": 14,
+            "critMultplicator" : 14,
+            "attackSpeed": 55,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level70":{
+        "XPcost": 3450000,
+        "XPmax": 16385,        
+        "nextLevel": 71,
+        "stats": {
+            "attack": 800,
+            "defense": 720,
+            "health": 9500,
+            "dodge": 14,
+            "crit": 14,
+            "critMultplicator" : 14,
+            "attackSpeed": 60,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level71":{
+        "XPcost": 4450000,
+        "XPmax": 16385,        
+        "nextLevel": 72,
+        "stats": {
+            "attack": 810,
+            "defense": 730,
+            "health": 9600,
+            "dodge": 15,
+            "crit": 15,
+            "critMultplicator" : 15,
+            "attackSpeed": 60,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+        },       
+    "level72":{
+        "XPcost": 1860000,
+        "XPmax": 2049,        
+        "nextLevel": 73,
+        "stats": {
+            "attack": 820,
+            "defense": 740,
+            "health": 9700,
+            "dodge": 15,
+            "crit": 15,
+            "critMultplicator" : 15,
+            "attackSpeed": 60,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+        },
+    "level73":{
+        "XPcost": 1990000,
+        "XPmax": 4097,       
+        "nextLevel": 74,
+        "stats": {
+            "attack": 830,
+            "defense": 750,
+            "health": 9800,
+            "dodge": 15,
+            "crit": 15,
+            "critMultplicator" : 15,
+            "attackSpeed": 60,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+        },
+    "level74":{
+        "XPcost": 2450000,
+        "XPmax": 8193,      
+        "nextLevel": 75,
+        "stats": {
+            "attack": 840,
+            "defense": 760,
+            "health": 9900,
+            "dodge": 15,
+            "crit": 15,
+            "critMultplicator" : 15,
+            "attackSpeed": 60,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+        },
+    "level75":{
+        "XPcost": 2850000,
+        "XPmax": 16385,        
+        "nextLevel": 76,
+        "stats": {
+            "attack": 850,
+            "defense": 770,
+            "health": 10000,
+            "dodge": 15,
+            "crit": 15,
+            "critMultplicator" : 15,
+            "attackSpeed": 60,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+        },
+    "level76":{
+        "XPcost": 3450000,
+        "XPmax": 16385,        
+        "nextLevel": 77,
+        "stats": {
+            "attack": 860,
+            "defense": 780,
+            "health": 10100,
+            "dodge": 16,
+            "crit": 16,
+            "critMultplicator" : 16,
+            "attackSpeed": 60,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+        },
+    "level77":{
+        "XPcost": 4450000,
+        "XPmax": 16385,        
+        "nextLevel": 78,
+        "stats": {
+            "attack": 870,
+            "defense": 790,
+            "health": 10200,
+            "dodge": 16,
+            "crit": 16,
+            "critMultplicator" : 16,
+            "attackSpeed": 60,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+
+        },
+    "level78":{
+        "XPcost": 1860000,
+        "XPmax": 2049,        
+        "nextLevel": 79,
+        "stats": {
+            "attack": 880,
+            "defense": 800,
+            "health": 10300,
+            "dodge": 16,
+            "crit": 16,
+            "critMultplicator" : 16,
+            "attackSpeed": 60,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+
+        },
+    "level79":{
+        "XPcost": 1990000,
+        "XPmax": 4097,       
+        "nextLevel": 80,
+        "stats": {
+            "attack": 890,
+            "defense": 810,
+            "health": 10400,
+            "dodge": 16,
+            "crit": 16,
+            "critMultplicator" : 16,
+            "attackSpeed": 60,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+
+        },
+    "level80":{
+        "XPcost": 2450000,
+        "XPmax": 8193,      
+        "nextLevel": 81,
+        "stats": {
+            "attack": 900,
+            "defense": 820,
+            "health": 10500,
+            "dodge": 16,
+            "crit": 16,
+            "critMultplicator" : 16,
+            "attackSpeed": 65,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+        },
+    "level81":{
+        "XPcost": 2850000,
+        "XPmax": 16385,        
+        "nextLevel": 82,
+        "stats": {
+            "attack": 910,
+            "defense": 830,
+            "health": 10600,
+            "dodge": 16,
+            "crit": 16,
+            "critMultplicator" : 16,
+            "attackSpeed": 65,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+        },
+    "level82":{
+        "XPcost": 3450000,
+        "XPmax": 16385,        
+        "nextLevel": 83,
+        "stats": {
+            "attack": 920,
+            "defense": 840,
+            "health": 10700,
+            "dodge": 17,
+            "crit": 17,
+            "critMultplicator" : 17,
+            "attackSpeed": 65,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+        },
+    "level83":{
+        "XPcost": 4450000,
+        "XPmax": 16385,        
+        "nextLevel": 84,
+        "stats": {
+            "attack": 930,
+            "defense": 850,
+            "health": 10800,
+            "dodge": 17,
+            "crit": 17,
+            "critMultplicator" : 17,
+            "attackSpeed": 65,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+        },
+    "level84":{
+        "XPcost": 1860000,
+        "XPmax": 2049,        
+        "nextLevel": 85,
+        "stats": {
+            "attack": 940,
+            "defense": 860,
+            "health": 10900,
+            "dodge": 17,
+            "crit": 17,
+            "critMultplicator" : 17,
+            "attackSpeed": 65,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+        },
+    "level85":{
+        "XPcost": 1990000,
+        "XPmax": 4097,       
+        "nextLevel": 86,
+        "stats": {
+            "attack": 950,
+            "defense": 870,
+            "health": 11000,
+            "dodge": 17,
+            "crit": 17,
+            "critMultplicator" : 17,
+            "attackSpeed": 65,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+        },
+    "level86":{
+        "XPcost": 2450000,
+        "XPmax": 8193,      
+        "nextLevel": 87,
+        "stats": {
+            "attack": 960,
+            "defense": 880,
+            "health": 11100,
+            "dodge": 17,
+            "crit": 17,
+            "critMultplicator" : 17,
+            "attackSpeed": 65,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+        },
+    "level87":{
+        "XPcost": 2850000,
+        "XPmax": 16385,        
+        "nextLevel": 88,
+        "stats": {
+            "attack": 970,
+            "defense": 890,
+            "health": 11200,
+            "dodge": 17,
+            "crit": 17,
+            "critMultplicator" : 17,
+            "attackSpeed": 65,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+        },
+    "level88":{
+        "XPcost": 3450000,
+        "XPmax": 16385,        
+        "nextLevel": 89,
+        "stats": {
+            "attack": 980,
+            "defense": 900,
+            "health": 11300,
+            "dodge": 18,
+            "crit": 18,
+            "critMultplicator" : 18,
+            "attackSpeed": 65,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+        },
+    "level89":{
+        "XPcost": 4450000,
+        "XPmax": 16385,        
+        "nextLevel": 90,
+        "stats": {
+            "attack": 990,
+            "defense": 910,
+            "health": 11400,
+            "dodge": 18,
+            "crit": 18,
+            "critMultplicator" : 18,
+            "attackSpeed": 65,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+        },
+    "level90":{
+        "XPcost": 1860000,
+        "XPmax": 2049,        
+        "nextLevel": 91,
+        "stats": {
+            "attack": 1000,
+            "defense": 920,
+            "health": 11500,
+            "dodge": 18,
+            "crit": 18,
+            "critMultplicator" : 18,
+            "attackSpeed": 70,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+        },
+    "level91":{
+        "XPcost": 1990000,
+        "XPmax": 4097,       
+        "nextLevel": 92,
+        "stats": {
+            "attack": 1010,
+            "defense": 930,
+            "health": 11600,
+            "dodge": 18,
+            "crit": 18,
+            "critMultplicator" : 18,
+            "attackSpeed": 70,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+        },
+    "level92":{
+        "XPcost": 2450000,
+        "XPmax": 8193,      
+        "nextLevel": 93,
+        "stats": {
+            "attack": 1020,
+            "defense": 940,
+            "health": 11700,
+            "dodge": 18,
+            "crit": 18,
+            "critMultplicator" : 18,
+            "attackSpeed": 70,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+        },
+    "level93":{
+        "XPcost": 2850000,
+        "XPmax": 16385,        
+        "nextLevel": 94,
+        "stats": {
+            "attack": 1030,
+            "defense": 950,
+            "health": 11800,
+            "dodge": 18,
+            "crit": 18,
+            "critMultplicator" : 18,
+            "attackSpeed": 70,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+        },
+    "level94":{
+        "XPcost": 3450000,
+        "XPmax": 16385,        
+        "nextLevel": 95,
+        "stats": {
+            "attack": 1040,
+            "defense": 960,
+            "health": 11900,
+            "dodge": 19,
+            "crit": 19,
+            "critMultplicator" : 19,
+            "attackSpeed": 70,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+
+        },
+    "level95":{
+        "XPcost": 4450000,
+        "XPmax": 16385,        
+        "nextLevel": 96,
+        "stats": {
+            "attack": 1050,
+            "defense": 970,
+            "health": 12000,
+            "dodge": 19,
+            "crit": 19,
+            "critMultplicator" : 19,
+            "attackSpeed": 70,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+        },
+    "level96":{
+        "XPcost": 1860000,
+        "XPmax": 2049,        
+        "nextLevel": 97,
+        "stats": {
+            "attack": 1060,
+            "defense": 980,
+            "health": 12100,
+            "dodge": 19,
+            "crit": 19,
+            "critMultplicator" : 19,
+            "attackSpeed": 70,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+        },
+    "level97":{
+        "XPcost": 1990000,
+        "XPmax": 4097,       
+        "nextLevel": 98,
+        "stats": {
+            "attack": 1070,
+            "defense": 990,
+            "health": 12200,
+            "dodge": 19,
+            "crit": 19,
+            "critMultplicator" : 19,
+            "attackSpeed": 70,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+        },
+    "level98":{
+        "XPcost": 2450000,
+        "XPmax": 8193,      
+        "nextLevel": 99,
+        "stats": {
+            "attack": 1080,
+            "defense": 1000,
+            "health": 12300,
+            "dodge": 19,
+            "crit": 19,
+            "critMultplicator" : 19,
+            "attackSpeed": 70,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+        },
+    "level99":{
+        "XPcost": 2850000,
+        "XPmax": 16385,        
+        "nextLevel": 100,
+        "stats": {
+            "attack": 1090,
+            "defense": 1010,
+            "health": 12400,
+            "dodge": 19,
+            "crit": 19,
+            "critMultplicator" : 19,
+            "attackSpeed": 70,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level100":{
+        "XPcost": 3450000,
+        "XPmax": 16385,        
+        "nextLevel": 101,
+        "stats": {
+            "attack": 1100,
+            "defense": 1020,
+            "health": 12500,
+            "dodge": 20,
+            "crit": 20,
+            "critMultplicator" : 20,
+            "attackSpeed": 75,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+
+        }
+    },
+    "level101":{
+        "XPcost": 3950000,
+        "XPmax": 16385,
+        "nextLevel": 102,
+        "stats": {
+            "attack": 1110,
+            "defense": 1030,
+            "health": 12600,
+            "dodge": 20,
+            "crit": 20,
+            "critMultplicator" : 20,
+            "attackSpeed": 75,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level102":{
+        "XPcost": 4450000,
+        "XPmax": 16385,
+        "nextLevel": 103,
+        "stats": {
+            "attack": 1120,
+            "defense": 1040,
+            "health": 12700,
+            "dodge": 20,
+            "crit": 20,
+            "critMultplicator" : 20,
+            "attackSpeed": 75,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level103":{
+        "XPcost": 4950000,
+        "XPmax": 16385,
+        "nextLevel": 104,
+        "stats": {
+            "attack": 1130,
+            "defense": 1050,
+            "health": 12800,
+            "dodge": 20,
+            "crit": 20,
+            "critMultplicator" : 20,
+            "attackSpeed": 75,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level104":{
+        "XPcost": 5450000,
+        "XPmax": 16385,
+        "nextLevel": 105,
+        "stats": {
+            "attack": 1140,
+            "defense": 1060,
+            "health": 12900,
+            "dodge": 20,
+            "crit": 20,
+            "critMultplicator" : 20,
+            "attackSpeed": 75,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level105":{
+        "XPcost": 5950000,
+        "XPmax": 16385,
+        "nextLevel": 106,
+        "stats": {
+            "attack": 1150,
+            "defense": 1070,
+            "health": 13000,
+            "dodge": 21,
+            "crit": 21,
+            "critMultplicator" : 21,
+            "attackSpeed": 75,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level106":{
+        "XPcost": 6450000,
+        "XPmax": 16385,
+        "nextLevel": 107,
+        "stats": {
+            "attack": 1160,
+            "defense": 1080,
+            "health": 13100,
+            "dodge": 21,
+            "crit": 21,
+            "critMultplicator" : 21,
+            "attackSpeed": 75,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level107":{
+        "XPcost": 6950000,
+        "XPmax": 16385,
+        "nextLevel": 108,
+        "stats": {
+            "attack": 1170,
+            "defense": 1090,
+            "health": 13200,
+            "dodge": 21,
+            "crit": 21,
+            "critMultplicator" : 21,
+            "attackSpeed": 75,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level108":{
+        "XPcost": 7450000,
+        "XPmax": 16385,
+        "nextLevel": 109,
+        "stats": {
+            "attack": 1180,
+            "defense": 1100,
+            "health": 13300,
+            "dodge": 21,
+            "crit": 21,
+            "critMultplicator" : 21,
+            "attackSpeed": 75,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level109":{
+        "XPcost": 7950000,
+        "XPmax": 16385,
+        "nextLevel": 110,
+        "stats": {
+            "attack": 1190,
+            "defense": 1110,
+            "health": 13400,
+            "dodge": 21,
+            "crit": 21,
+            "critMultplicator" : 21,
+            "attackSpeed": 75,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level110":{
+        "XPcost": 8450000,
+        "XPmax": 16385,
+        "nextLevel": 111,
+        "stats": {
+            "attack": 1200,
+            "defense": 1120,
+            "health": 13500,
+            "dodge": 22,
+            "crit": 22,
+            "critMultplicator" : 22,
+            "attackSpeed": 80,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level111":{
+        "XPcost": 8950000,
+        "XPmax": 16385,
+        "nextLevel": 112,
+        "stats": {
+            "attack": 1210,
+            "defense": 1130,
+            "health": 13600,
+            "dodge": 22,
+            "crit": 22,
+            "critMultplicator" : 22,
+            "attackSpeed": 80,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level112":{
+        "XPcost": 9450000,
+        "XPmax": 16385,
+        "nextLevel": 113,
+        "stats": {
+            "attack": 1220,
+            "defense": 1140,
+            "health": 13700,
+            "dodge": 22,
+            "crit": 22,
+            "critMultplicator" : 22,
+            "attackSpeed": 80,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level113":{
+        "XPcost": 9950000,
+        "XPmax": 16385,
+        "nextLevel": 114,
+        "stats": {
+            "attack": 1230,
+            "defense": 1150,
+            "health": 13800,
+            "dodge": 22,
+            "crit": 22,
+            "critMultplicator" : 22,
+            "attackSpeed": 80,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level114":{
+        "XPcost": 10450000,
+        "XPmax": 16385,
+        "nextLevel": 115,
+        "stats": {
+            "attack": 1240,
+            "defense": 1160,
+            "health": 13900,
+            "dodge": 22,
+            "crit": 22,
+            "critMultplicator" : 22,
+            "attackSpeed": 80,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level115":{
+        "XPcost": 10950000,
+        "XPmax": 16385,
+        "nextLevel": 116,
+        "stats": {
+            "attack": 1250,
+            "defense": 1170,
+            "health": 14000,
+            "dodge": 23,
+            "crit": 23,
+            "critMultplicator" : 23,
+            "attackSpeed": 80,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level116":{
+        "XPcost": 11450000,
+        "XPmax": 16385,
+        "nextLevel": 117,
+        "stats": {
+            "attack": 1260,
+            "defense": 1180,
+            "health": 14100,
+            "dodge": 23,
+            "crit": 23,
+            "critMultplicator" : 23,
+            "attackSpeed": 80,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level117":{
+        "XPcost": 11950000,
+        "XPmax": 16385,
+        "nextLevel": 118,
+        "stats": {
+            "attack": 1270,
+            "defense": 1190,
+            "health": 14200,
+            "dodge": 23,
+            "crit": 23,
+            "critMultplicator" : 23,
+            "attackSpeed": 80,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level118":{
+        "XPcost": 12450000,
+        "XPmax": 16385,
+        "nextLevel": 119,
+        "stats": {
+            "attack": 1280,
+            "defense": 1200,
+            "health": 14300,
+            "dodge": 23,
+            "crit": 23,
+            "critMultplicator" : 23,
+            "attackSpeed": 80,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level119":{
+        "XPcost": 12950000,
+        "XPmax": 16385,
+        "nextLevel": 120,
+        "stats": {
+            "attack": 1290,
+            "defense": 1210,
+            "health": 14400,
+            "dodge": 23,
+            "crit": 23,
+            "critMultplicator" : 23,
+            "attackSpeed": 80,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    },
+    "level120":{
+        "XPcost": 13450000,
+        "XPmax": 16385,
+        "nextLevel": 121,
+        "stats": {
+            "attack": 1300,
+            "defense": 1220,
+            "health": 14500,
+            "dodge": 24,
+            "crit": 24,
+            "critMultplicator" : 24,
+            "attackSpeed": 85,
+            "lifeSteal": 0,
+            "execute": 0,
+            "aegis": 0,
+            "vengeance": 0
+        }
+    }      
+}

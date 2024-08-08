@@ -1,0 +1,35 @@
+[
+    {
+    "name": "Drugged Apprentice",
+    "level": 100,
+    "attack": 33000,
+    "defense": 33000,
+    "health": 37000,
+    "xpReward": 4000,
+    "drops": [
+        {"itemId": "126", "dropRate": 0.1, "name": "Barren Staff of Death"}
+    ]
+},
+{
+    "name": "Hufflepuffed Apprentice",
+    "level": 100,
+    "attack": 33000,
+    "defense": 33000,
+    "health": 37000,
+    "xpReward": 4000,
+    "drops": [
+        {"itemId": "126", "dropRate": 0.1, "name": "Barren Staff of Death"}
+    ]
+},
+{
+    "name": "Fred the Troll",
+    "level": 100,
+    "attack": 33000,
+    "defense": 33000,
+    "health": 37000,
+    "xpReward": 4000,
+    "drops": [
+        {"itemId": "126", "dropRate": 0.1, "name": "Barren Staff of Death"}
+    ]
+}
+]

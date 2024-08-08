@@ -1,0 +1,10 @@
+{
+    "areas": [
+        {
+            "lat": 51.505,
+            "lng": -0.09,
+            "resources": ["Wood", "Stone"],
+            "monsters": ["Goblin", "Troll"]
+        }
+    ]
+}

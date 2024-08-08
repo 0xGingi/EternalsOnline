@@ -1,0 +1,115 @@
+[
+    {
+        "id": 0,
+        "name": "Lumby Course",
+        "xp": 7,
+        "level": 1,
+        "area": ["lumby"]
+    },
+    {
+        "id": 1,
+        "name": "Emberfall Course",
+        "xp": 15,
+        "level": 5,
+        "area": ["emberfall"]
+    },
+    {
+        "id": 2,
+        "name": "Highlands Course",
+        "xp": 20,
+        "level": 10,
+        "area": ["highlands"]
+    },
+    {
+        "id": 3,
+        "name": "Astrals Course",
+        "xp": 25,
+        "level": 20,
+        "area": ["astrals"]
+    },
+    {
+        "id": 4,
+        "name": "Ethereal Course",
+        "xp": 30,
+        "level": 30,
+        "area": ["ethereal"]
+    },
+    {
+        "id": 5,
+        "name": "Polyzeal Course",
+        "xp": 35,
+        "level": 50,
+        "area": ["polyzeal"]
+    },
+    {
+        "id": 6,
+        "name": "Underworld Course",
+        "xp": 40,
+        "level": 65,
+        "area": ["ardougne"]
+    },
+    {
+        "id": 7,
+        "name": "Rektlands Course",
+        "xp": 45,
+        "level": 70,
+        "area": ["rektlands"]
+    },
+    {
+        "id": 8,
+        "name": "Mountstone Course",
+        "xp": 50,
+        "level": 80,
+        "area": ["mountstone"]
+    },
+    {
+        "id": 9,
+        "name": "Royalrealm Course",
+        "xp": 55,
+        "level": 80,
+        "area": ["royalrealm"]
+    },
+    {
+        "id": 10,
+        "name": "Goneville Course",
+        "xp": 25,
+        "level": 15,
+        "area": ["goneville"]
+    },
+    {
+        "id": 11,
+        "name": "Ascended Course",
+        "xp": 150,
+        "level": 90,
+        "area": ["ascension"]
+    },
+    {
+        "id": 12,
+        "name": "Donald's Course",
+        "xp": 175,
+        "level": 90,
+        "area": ["donaldscave"]
+    },
+    {
+        "id": 13,
+        "name": "Barren Course",
+        "xp": 200,
+        "level": 100,
+        "area": ["barrens"]
+    },
+    {
+        "id": 14,
+        "name": "Mystic Course",
+        "xp": 250,
+        "level": 110,
+        "area": ["eastlands"]
+    },
+    {
+        "id": 15,
+        "name": "Blood Course",
+        "xp": 300,
+        "level": 120,
+        "area": ["bloodlands"]
+    }
+
+]

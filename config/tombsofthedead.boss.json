@@ -1,0 +1,15 @@
+[
+    {
+    "name": "Xandala",
+    "level": 75,
+    "attack": 20000,
+    "defense": 18750,
+    "health": 50000,
+    "xpReward": 7000,
+    "drops": [
+        {"itemId": "100", "dropRate": 0.25, "name": "Hammer of the Dead"},
+        {"itemId": "102", "dropRate": 0.01, "name": "Xandala's Shadow"}
+    ]
+
+}
+]

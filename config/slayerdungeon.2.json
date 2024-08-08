@@ -1,0 +1,47 @@
+[
+    {
+    "name": "Ghast",
+    "level": 20,
+    "attack": 2000,
+    "defense": 1500,
+    "health": 1500,
+    "xpReward": 75,
+    "slayerxp": 75,
+    "drops": [
+
+        {"itemId": "104", "dropRate": 0.1, "name": "Slayer Gloves"}
+
+    ]
+
+},
+{
+    "name": "Wrathe",
+    "level": 20,
+    "attack": 3000,
+    "defense": 2500,
+    "health": 2500,
+    "xpReward": 75,
+    "slayerxp": 75,
+    "drops": [
+
+        {"itemId": "104", "dropRate": 0.1, "name": "Slayer Gloves"}
+
+    ]
+
+},
+{
+    "name": "Ogre",
+    "level": 20,
+    "attack": 3000,
+    "defense": 3500,
+    "health": 3000,
+    "xpReward": 75,
+    "slayerxp": 75,
+    "drops": [
+
+        {"itemId": "104", "dropRate": 0.1, "name": "Slayer Gloves"}
+
+    ]
+
+}
+]

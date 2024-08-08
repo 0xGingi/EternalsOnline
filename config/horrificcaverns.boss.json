@@ -1,0 +1,19 @@
+[
+    {
+    "name": "Fred, the Necromaner",
+    "level": 70,
+    "attack": 70000,
+    "defense": 60000,
+    "health": 65000,
+    "xpReward": 5000,
+    "drops": [
+        {"itemId": "82", "dropRate": 0.10, "name": "Corrupt Battleaxe"},
+        {"itemId": "76", "dropRate": 0.11, "name": "Corrupt Platebody"},
+        {"itemId": "75", "dropRate": 0.12, "name": "Corrupt Cape"},
+        {"itemId": "83", "dropRate": 0.13, "name": "Corrupt Greatsword"},
+        {"itemId": "85", "dropRate": 0.14, "name": "Corrupt Flail"},
+        {"itemId": "86", "dropRate": 0.1, "name": "Ancient Corrupt Sword"}
+    ]
+
+}
+]

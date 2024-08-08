@@ -1,0 +1,47 @@
+[
+    {
+    "name": "Wyvern",
+    "level": 60,
+    "attack": 9000,
+    "defense": 8790,
+    "health": 9000,
+    "xpReward": 160,
+    "slayerxp": 160,
+    "drops": [
+
+        {"itemId": "108", "dropRate": 0.1, "name": "Slayer Pants"}
+
+    ]
+
+},
+{
+    "name": "Red Dragon",
+    "level": 60,
+    "attack": 10000,
+    "defense": 9500,
+    "health": 9000,
+    "xpReward": 160,
+    "slayerxp": 160,
+    "drops": [
+
+        {"itemId": "108", "dropRate": 0.1, "name": "Slayer Pants"}
+
+    ]
+
+},
+{
+    "name": "Green Dragon",
+    "level": 60,
+    "attack": 11000,
+    "defense": 9500,
+    "health": 9000,
+    "xpReward": 160,
+    "slayerxp": 160,
+    "drops": [
+
+        {"itemId": "108", "dropRate": 0.1, "name": "Slayer Pants"}
+
+    ]
+
+}
+]

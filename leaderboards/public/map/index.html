@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Interactive Map</title>
+    <link rel="stylesheet" href="https://unpkg.com/leaflet/dist/leaflet.css" />
+    <script src="https://unpkg.com/leaflet/dist/leaflet.js"></script>
+    <script src="https://code.jquery.com/jquery-3.5.1.min.js"></script>
+</head>
+<body>
+    <div id="map" style="height: 600px;"></div>
+
+    <script>
+        // Initialize the map
+        var map = L.map('map').setView([51.505, -0.09], 13);
+    
+        var imageUrl = 'https://as2.ftcdn.net/v2/jpg/06/69/21/27/1000_F_669212779_vxz2tE0K2COgyQ741PyPIPQyPaVPrcn8.jpg';
+        var imageBounds = [[0,0], [0,0]];
+        var center = map.getCenter();
+        console.log(center.lat, center.lng);    
+        L.imageOverlay(imageUrl, imageBounds).addTo(map);
+    
+        $.getJSON('data.json', function(data) {
+            data.areas.forEach(function(area) {
+                var marker = L.marker([area.lat, area.lng]).addTo(map);
+    
+                marker.on('click', function() {
+                    var popupContent = 'Resources: ' + area.resources.join(', ') +
+                                       '<br>Monsters: ' + area.monsters.join(', ');
+                    marker.bindPopup(popupContent).openPopup();
+                });
+            });
+        });
+    </script></body>
+</html>

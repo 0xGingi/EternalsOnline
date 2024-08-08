@@ -1,0 +1,602 @@
+[
+  {
+    "id": 0,
+    "name": "Bronze Dagger",
+    "alias": [ "BronzeDagger", "BD", "bd" ],
+    "equipalias": "BD",
+    "xp": 5,
+    "level": 1,
+    "cost": 500,
+    "categorie": "weapon",
+    "combination": [
+      {
+        "id": 0,
+        "amount": 1,
+        "name": "Bronze Bar"
+      }
+    ]
+
+  },
+  {
+    "id": 2,
+    "name": "Bronze Battleaxe",
+    "alias": [ "BronzeBattleaxe", "BBA", "bba" ],
+    "equipalias": "BBA",
+    "xp": 10,
+    "level": 2,
+    "cost": 500,
+    "categorie": "weapon",
+    "combination": [
+      {
+        "id": 0,
+        "amount": 2,
+        "name": "Bronze Bar"
+      }
+    ]
+
+  },
+  {
+    "id": 1,
+    "name": "Bronze Sword",
+    "alias": [ "BronzeSword", "BS", "bs" ],
+    "equipalias": "BS",
+    "xp": 15,
+    "level": 3,
+    "cost": 500,
+    "categorie": "weapon",
+    "combination": [
+      {
+        "id": 0,
+        "amount": 2,
+        "name": "Bronze Bar"
+      }
+    ]
+
+  },
+  {
+    "id": 3,
+    "name": "Bronze Greatsword",
+    "alias": [ "BronzeGreatsword", "BGS", "bgs" ],
+    "equipalias": "BGS",
+    "xp": 20,
+    "level": 4,
+    "cost": 500,
+    "categorie": "weapon",
+    "combination": [
+      {
+        "id": 0,
+        "amount": 3,
+        "name": "Bronze Bar"
+      }
+    ]
+
+  },
+  {
+    "id": 4,
+    "name": "Bronze Helmet",
+    "alias": [ "BronzeHelmet", "BH", "bh" ],
+    "equipalias": "BH",
+    "xp": 20,
+    "level": 4,
+    "cost": 500,
+    "categorie": "armor",
+    "combination": [
+      {
+        "id": 0,
+        "amount": 3,
+        "name": "Bronze Bar"
+      }
+    ]
+
+  },
+  {
+    "id": 5,
+    "name": "Bronze Platebody",
+    "alias": [ "BronzePlatebody", "BPB", "bpb" ],
+    "equipalias": "BPB",
+    "xp": 30,
+    "level": 5,
+    "cost": 500,
+    "categorie": "armor",
+    "combination": [
+      {
+        "id": 0,
+        "amount": 5,
+        "name": "Bronze Bar"
+      }
+    ]
+
+  },
+  {
+    "id": 7,
+    "name": "Iron Claws",
+    "alias": [ "IronClaws", "IC", "ic" ],
+    "equipalias": "IC",
+    "xp": 35,
+    "level": 10,
+    "cost": 500,
+    "categorie": "weapon",
+    "combination": [
+      {
+        "id": 1,
+        "amount": 3,
+        "name": "Iron Bar"
+      }
+    ]
+
+  },
+  {
+    "id": 8,
+    "name": "Iron Sword",
+    "alias": [ "IronSword", "IS", "is" ],
+    "equipalias": "IS",
+    "xp": 37,
+    "level": 11,
+    "cost": 500,
+    "categorie": "weapon",
+    "combination": [
+      {
+        "id": 1,
+        "amount": 3,
+        "name": "Iron Bar"
+      }
+    ]
+
+  },
+  {
+    "id": 11,
+    "name": "Iron Helmet",
+    "alias": [ "IronHelmet", "IH", "ih" ],
+    "equipalias": "IH",
+    "xp": 38,
+    "level": 12,
+    "cost": 500,
+    "categorie": "armor",
+    "combination": [
+      {
+        "id": 1,
+        "amount": 2,
+        "name": "Iron Bar"
+      }
+    ]
+
+  },
+  {
+    "id": 9,
+    "name": "Iron Battleaxe",
+    "alias": [ "IronBattleaxe", "IBA", "iba" ],
+    "equipalias": "IBA",
+    "xp": 40,
+    "level": 12,
+    "cost": 500,
+    "categorie": "weapon",
+    "combination": [
+      {
+        "id": 1,
+        "amount": 3,
+        "name": "Iron Bar"
+      }
+    ]
+
+  },
+  {
+    "id": 13,
+    "name": "Iron Platelegs",
+    "alias": [ "IronPlatelegs", "IPL", "ipl" ],
+    "equipalias": "IPL",
+    "xp": 45,
+    "level": 14,
+    "cost": 500,
+    "categorie": "armor",
+    "combination": [
+      {
+        "id": 1,
+        "amount": 3,
+        "name": "Iron Bar"
+      }
+    ]
+
+  },
+  {
+    "id": 12,
+    "name": "Iron Platebody",
+    "alias": [ "IronPlatebody", "IPB", "ipb" ],
+    "equipalias": "IPB",
+    "xp": 50,
+    "level": 15,
+    "cost": 500,
+    "categorie": "armor",
+    "combination": [
+      {
+        "id": 1,
+        "amount": 4,
+        "name": "Iron Bar"
+      }
+    ]
+
+  },
+  {
+    "id": 23,
+    "name": "Etherment Dagger",
+    "alias": [ "EthermentDagger", "ED", "ed" ],
+    "equipalias": "ED",
+    "xp": 100,
+    "level": 30,
+    "cost": 500,
+    "categorie": "weapon",
+    "combination": [
+      {
+        "id": 3,
+        "amount": 2,
+        "name": "Etherment Bar"
+      }
+    ]
+
+  },
+  {
+    "id": 24,
+    "name": "Etherment Sword",
+    "alias": [ "EthermentSword", "ES", "es" ],
+    "equipalias": "ES",
+    "xp": 125,
+    "level": 32,
+    "cost": 500,
+    "categorie": "weapon",
+    "combination": [
+      {
+        "id": 3,
+        "amount": 3,
+        "name": "Etherment Bar"
+      }
+    ]
+
+  },
+  {
+    "id": 25,
+    "name": "Etherment Battleaxe",
+    "alias": [ "EthermentBattleaxe", "EBA", "eba" ],
+    "equipalias": "EBA",
+    "xp": 140,
+    "level": 35,
+    "cost": 500,
+    "categorie": "weapon",
+    "combination": [
+      {
+        "id": 3,
+        "amount": 3,
+        "name": "Etherment Bar"
+      }
+    ]
+
+  },
+  {
+    "id": 27,
+    "name": "Etherment Helmet",
+    "alias": [ "EthermentHelmet", "EH", "eh" ],
+    "equipalias": "EH",
+    "xp": 150,
+    "level": 36,
+    "cost": 500,
+    "categorie": "armor",
+    "combination": [
+      {
+        "id": 3,
+        "amount": 2,
+        "name": "Etherment Bar"
+      }
+    ]
+
+  },
+  {
+    "id": 28,
+    "name": "Etherment Platebody",
+    "alias": [ "EthermentPlatebody", "EPB", "epb" ],
+    "equipalias": "EPB",
+    "xp": 200,
+    "level": 38,
+    "cost": 500,
+    "categorie": "armor",
+    "combination": [
+      {
+        "id": 3,
+        "amount": 4,
+        "name": "Etherment Bar"
+      }
+    ]
+
+  },
+  {
+    "id": 31,
+    "name": "Polyment Dagger",
+    "alias": [ "PolymentDagger", "PD", "pd" ],
+    "equipalias": "PD",
+    "xp": 220,
+    "level": 40,
+    "cost": 500,
+    "categorie": "weapon",
+    "combination": [
+      {
+        "id": 4,
+        "amount": 2,
+        "name": "Polyment Bar"
+      }
+    ]
+
+  },
+  {
+    "id": 32,
+    "name": "Polyment Sword",
+    "alias": [ "PolymentSword", "PS", "ps" ],
+    "equipalias": "PS",
+    "xp": 250,
+    "level": 42,
+    "cost": 500,
+    "categorie": "weapon",
+    "combination": [
+      {
+        "id": 4,
+        "amount": 2,
+        "name": "Polyment Bar"
+      }
+    ]
+
+  },
+  {
+    "id": 34,
+    "name": "Polyment Greatsword",
+    "alias": [ "PolymentGreatsword", "PGS", "pgs" ],
+    "equipalias": "PGS",
+    "xp": 280,
+    "level": 43,
+    "cost": 500,
+    "categorie": "weapon",
+    "combination": [
+      {
+        "id": 4,
+        "amount": 3,
+        "name": "Polyment Bar"
+      }
+    ]
+
+  },
+  {
+    "id": 35,
+    "name": "Polyment Helmet",
+    "alias": [ "PolymentHelmet", "PH", "ph" ],
+    "equipalias": "PH",
+    "xp": 260,
+    "level": 46,
+    "cost": 500,
+    "categorie": "armor",
+    "combination": [
+      {
+        "id": 4,
+        "amount": 2,
+        "name": "Polyment Bar"
+      }
+    ]
+
+  },
+  {
+    "id": 36,
+    "name": "Polyment Platebody",
+    "alias": [ "PolymentPlatebody", "PPB", "ppb" ],
+    "equipalias": "PPB",
+    "xp": 300,
+    "level": 48,
+    "cost": 500,
+    "categorie": "armor",
+    "combination": [
+      {
+        "id": 4,
+        "amount": 4,
+        "name": "Polyment Bar"
+      }
+    ]
+
+  },
+  {
+    "id": 79,
+    "name": "Corrupt Dagger",
+    "alias": ["CorruptDagger", "CRD", "crd"],
+    "equipalias": "CRD",
+    "xp": 1500,
+    "level": 65,
+    "cost": 15000,
+    "categorie": "weapon",
+    "combination": [
+      {
+        "id": 6,
+        "amount": 2,
+        "name": "Corrupt Bar"
+      }
+    ]
+  },
+  {
+    "id": 80,
+    "name": "Corrupt Sword",
+    "alias": ["CorruptSword", "CRS", "crs"],
+    "equipalias": "CRS",
+    "xp": 1700,
+    "level": 67,
+    "cost": 20000,
+    "categorie": "weapon",
+    "combination": [
+      {
+        "id": 6,
+        "amount": 3,
+        "name": "Corrupt Bar"
+      }
+    ]
+  },
+  {
+    "id": 76,
+    "name": "Corrupt Platebody",
+    "alias": ["corruptplatebody", "CRPB", "crpb"],
+    "equipalias": "CRPB",
+    "xp": 2000,
+    "level": 70,
+    "cost": 25000,
+    "categorie": "weapon",
+    "combination": [
+      {
+        "id": 6,
+        "amount": 6,
+        "name": "Corrupt Bar"
+      }
+    ]
+  },
+  {
+    "id": 115,
+    "name": "Barren Hammer",
+    "alias": ["BARH", "barh"],
+    "equipalias" : "BARH",
+    "xp": 2000,
+    "level": 100,
+    "cost": 100000,
+    "categorie": "weapon",
+    "combination": [
+      {
+        "id": 11,
+        "amount": 5,
+        "name": "Barren Bar"
+      }
+    ]
+  },
+  {
+    "id": 116,
+    "name": "Barren Chestplate",
+    "alias": ["BARCP", "barcp"],
+    "equipalias" : "BARCP",
+    "xp": 2000,
+    "level": 100,
+    "cost": 100000,
+    "categorie": "armor",
+    "combination": [
+      {
+        "id": 11,
+        "amount": 5,
+        "name": "Barren Bar"
+      }
+    ]
+  },
+  {
+    "id": 117,
+    "name": "Barren Scroll",
+    "alias": ["BARS", "bars"],
+    "equipalias" : "BARS",
+    "xp": 2000,
+    "level": 100,
+    "cost": 100000,
+    "categorie": "magic-item",
+    "combination": [
+      {
+        "id": 11,
+        "amount": 5,
+        "name": "Barren Bar"
+      }
+    ]
+  },
+  {
+    "id": 118,
+    "name": "Mystic Staff",
+    "alias": ["MYSS", "myss"],
+    "equipalias" : "MYSS",
+    "xp": 2200,
+    "level": 110,
+    "cost": 100000,
+    "categorie": "magic-item",
+    "combination": [
+      {
+        "id": 12,
+        "amount": 5,
+        "name": "Mystic Bar"
+      }
+    ]
+  },
+  {
+    "id": 119,
+    "name": "Mystic Robe",
+    "alias": ["MYSR", "mysr"],
+    "equipalias" : "MYSR",
+    "xp": 2200,
+    "level": 110,
+    "cost": 100000,
+    "categorie": "armor",
+    "combination": [
+      {
+        "id": 12,
+        "amount": 5,
+        "name": "Mystic Bar"
+      }
+    ]
+  },
+  {
+    "id": 120,
+    "name": "Mystic Dagger",
+    "alias": ["MYSD", "mysd"],
+    "equipalias" : "MYSD",
+    "xp": 2200,
+    "level": 110,
+    "cost": 100000,
+    "categorie": "weapon",
+    "combination": [
+      {
+        "id": 12,
+        "amount": 5,
+        "name": "Mystic Bar"
+      }
+    ]
+  },
+  {
+    "id": 121,
+    "name": "Blood Dagger",
+    "alias": ["BLOD", "blod"],
+    "equipalias" : "BLOD",
+    "xp": 2500,
+    "level": 120,
+    "cost": 100000,
+    "categorie": "weapon",
+    "combination": [
+      {
+        "id": 12,
+        "amount": 5,
+        "name": "Blood Bar"
+      }
+    ]
+  },
+  {
+    "id": 122,
+    "name": "Blood Scroll",
+    "alias": ["BLOS", "blos"],
+    "equipalias" : "BLOS",
+    "xp": 2500,
+    "level": 120,
+    "cost": 100000,
+    "categorie": "magic-item",
+    "combination": [
+      {
+        "id": 12,
+        "amount": 5,
+        "name": "Blood Bar"
+      }
+    ]
+  },
+  {
+    "id": 123,
+    "name": "Blood Robe",
+    "alias": ["BLOR", "blor"],
+    "equipalias" : "BLOR",
+    "xp": 2500,
+    "level": 120,
+    "cost": 100000,
+    "categorie": "armor",
+    "combination": [
+      {
+        "id": 12,
+        "amount": 5,
+        "name": "Blood Bar"
+      }
+    ]
+  }
+]

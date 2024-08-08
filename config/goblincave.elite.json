@@ -1,0 +1,50 @@
+[
+    {
+    "name": "Goblin Lich",
+    "level": 15,
+    "attack": 3650,
+    "defense": 2500,
+    "health": 4500,
+    "xpReward": 110,
+    "drops": [
+
+        {"itemId": "27", "dropRate": 0.05, "name": "Etherment Helmet"},
+
+        {"itemId": "29", "dropRate": 0.05, "name": "Etherment Platelegs"}
+
+    ]
+
+},
+{
+    "name": "Hobin Goblin",
+    "level": 15,
+    "attack": 2700,
+    "defense": 2400,
+    "health": 4000,
+    "xpReward": 110,
+    "drops": [
+
+        {"itemId": "27", "dropRate": 0.05, "name": "Etherment Helmet"},
+
+        {"itemId": "29", "dropRate": 0.05, "name": "Etherment Platelegs"}
+
+    ]
+
+},
+{
+    "name": "Goblin Chief",
+    "level": 15,
+    "attack": 2800,
+    "defense": 2200,
+    "health": 4000,
+    "xpReward": 110,
+    "drops": [
+
+        {"itemId": "27", "dropRate": 0.05, "name": "Etherment Helmet"},
+
+        {"itemId": "29", "dropRate": 0.05, "name": "Etherment Platelegs"}
+
+    ]
+
+}
+]

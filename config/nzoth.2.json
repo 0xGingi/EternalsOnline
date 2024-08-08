@@ -1,0 +1,18 @@
+[
+    {
+    "name": "Kral'haf the insatiable",
+    "level": 99,
+    "attack": 1500,
+    "defense": 900,
+    "health": 1500,
+    "xpReward": 15000,
+    "drops": [
+
+        {"itemId": "43", "dropRate": 0.25, "name": "Rocky Smash Maul"},
+
+        {"itemId": "55", "dropRate": 0.1, "name": "Stone Combat Cape"}
+
+    ]
+
+}
+]

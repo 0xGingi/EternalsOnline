@@ -1,0 +1,36 @@
+body {
+    background-color: #212324;
+    color: #f1f4f8; 
+}
+.navbar {
+    background-color: #603677 !important;
+    color: #f1f4f8;
+}
+.navbar-brand {
+color: #f1f4f8 !important;
+}
+.navbar-nav .nav-link {
+    color: #f1f4f8 !important;
+}
+.navbar-nav .nav-link:hover {
+    color: #f1f4f8 !important;
+}
+.container {
+    background-color: #212324;
+    border-radius: 10px;
+    padding: 20px;
+}
+.table {
+    background-color: #212324;
+    color: #f1f4f8;
+}
+.table-striped tbody tr:nth-of-type(odd) {
+    background-color:  #212324;
+}
+.table th, .table td {
+    border-color: #333333;
+}
+::selection {
+    background: #585b70;
+    color: #f1f4f8;
+}

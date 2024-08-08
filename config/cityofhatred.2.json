@@ -1,0 +1,16 @@
+[
+    {
+    "name": "Abyzou, Bringer of Nightmares",
+    "level": 99,
+    "attack": 55000,
+    "defense": 52500,
+    "health": 65000,
+    "xpReward": 15000,
+    "drops": [
+
+        {"itemId": "87", "dropRate": 0.1, "name": "Ancient Corrupt Cape"}
+
+    ]
+
+}
+]

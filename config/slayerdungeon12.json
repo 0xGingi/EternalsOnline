@@ -1,0 +1,47 @@
+[
+    {
+    "name": "Bloodsworn Fiend",
+    "level": 120,
+    "attack": 50000,
+    "defense": 50000,
+    "health": 50000,
+    "xpReward": 500,
+    "slayerxp": 500,
+    "drops": [
+
+        {"itemId": "111", "dropRate": 0.1, "name": "Slayer Warhammer"}
+
+    ]
+
+},
+{
+    "name": "Dreadful Demon",
+    "level": 120,
+    "attack": 50000,
+    "defense": 50000,
+    "health": 50000,
+    "xpReward": 500,
+    "slayerxp": 500,
+    "drops": [
+
+        {"itemId": "111", "dropRate": 0.1, "name": "Slayer Warhammer"}
+
+    ]
+
+},
+{
+    "name": "Bloodhungry Vampire",
+    "level": 120,
+    "attack": 55000,
+    "defense": 50000,
+    "health": 50000,
+    "xpReward": 500,
+    "slayerxp": 500,
+    "drops": [
+
+        {"itemId": "111", "dropRate": 0.1, "name": "Slayer Warhammer"}
+
+    ]
+
+}
+]

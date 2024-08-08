@@ -1,0 +1,178 @@
+[
+    {
+        "id": 0,
+        "name": "Log",
+        "xp": 5,
+        "level": 1,
+        "cost": 5,
+        "ge": "LOG",
+        "area": ["lumby", "emberfall", "ascension"],
+        "categorie": "log",
+        "alias": "log"
+    },
+    {
+        "id": 1,
+        "name": "Oak Log",
+        "xp": 7,
+        "level": 5,
+        "cost": 5,
+        "ge": "OAK",
+        "area": ["emberfall", "ascension"],
+        "alias": "oak"
+    },
+    {
+        "id": 2,
+        "name": "Maple Log",
+        "xp": 11,
+        "level": 10,
+        "cost": 5,
+        "ge": "MAPLE",
+        "area": ["highlands", "emberfall", "ascension"],
+        "categorie": "log",
+        "alias": "maple"
+    },
+    {
+        "id": 3,
+        "name": "Cedar Log",
+        "xp": 15,
+        "level": 15,
+        "cost": 5,
+        "ge": "CEDAR",
+        "area": ["highlands", "emberfall", "ascension"],
+        "categorie": "log",
+        "alias": "cedar"
+    },
+    {
+        "id": 4,
+        "name": "Artic Log",
+        "xp": 18,
+        "level": 25,
+        "cost": 5,
+        "ge": "ARTIC",
+        "area": ["astrals", "emberfall", "ascension"],
+        "categorie": "log",
+        "alias": "artic"
+    },
+    {
+        "id": 5,
+        "name": "Ember Log",
+        "xp": 24,
+        "level": 35,
+        "cost": 5,
+        "ge": "EMBER",
+        "area": ["ethereal", "astrals", "emberfall", "ascension"],
+        "categorie": "log",
+        "alias": "ember"
+    },
+    {
+        "id": 6,
+        "name": "Poly Log",
+        "xp": 42,
+        "level": 50,
+        "cost": 5,
+        "ge": "POLYLOG",
+        "area": ["polyzeal", "ascension"],
+        "categorie": "log",
+        "alias": "polylog"
+    },
+    {
+        "id": 7,
+        "name": "Ether Log",
+        "xp": 32,
+        "level": 30,
+        "cost": 5,
+        "ge": "ETHERLOG",
+        "area": ["ethereal", "ascension"],
+        "categorie": "log",
+        "alias": "etherlog"
+    },
+    {
+        "id": 8,
+        "name": "Magic Log",
+        "xp": 55,
+        "level": 60,
+        "cost": 5,
+        "ge": "MAGICLOG",
+        "area": ["astrals","underworld","rektlands", "ascension", "royalrealm"],
+        "categorie": "log",
+        "alias": "magiclog"
+    },
+    {
+        "id": 9,
+        "name": "Rekt Log",
+        "xp": 75,
+        "level": 70,
+        "cost": 5,
+        "ge": "REKTLOG",
+        "area": ["rektlands", "ascension", "royalrealm"],
+        "categorie": "log",
+        "alias": "rektlog"
+    },
+    {
+        "id": 10,
+        "name": "Ironroot",
+        "xp": 62,
+        "level": 65,
+        "cost": 5,
+        "ge": "IRONROOT",
+        "area": ["astrals","underworld","rektlands", "ascension", "mountstone"],
+        "categorie": "log",
+        "alias": "ironroot"
+    },
+    {
+        "id": 11,
+        "name": "Obsidian Log",
+        "xp": 110,
+        "level": 80,
+        "cost": 5,
+        "ge": "OBSIDIANLOG",
+        "area": ["astrals","underworld","rektlands", "ascension", "donaldscave"],
+        "categorie": "log",
+        "alias": "obsidianlog"
+    },
+    {
+        "id": 12,
+        "name": "Gone Log",
+        "xp": 17,
+        "level": 15,
+        "cost": 5,
+        "ge": "GONELOG",
+        "area": ["goneville"],
+        "categorie": "log",
+        "alias": "gonelog"
+    },
+    {
+        "id": 13,
+        "name": "Barren Log",
+        "xp": 150,
+        "level": 100,
+        "cost": 5,
+        "ge": "BARRENLOG",
+        "area": ["barrens"],
+        "categorie": "log",
+        "alias": "barrenlog"
+    },
+    {
+        "id": 14,
+        "name": "Mystic Log",
+        "xp": 200,
+        "level": 110,
+        "cost": 5,
+        "ge": "MYSTICLOG",
+        "area": ["eastlands"],
+        "categorie": "log",
+        "alias": "mysticlog"
+    },
+    {
+        "id": 15,
+        "name": "Blood Log",
+        "xp": 250,
+        "level": 120,
+        "cost": 5,
+        "ge": "BLOODLOG",
+        "area": ["bloodlands"],
+        "categorie": "log",
+        "alias": "bloodlog"
+    }
+
+]

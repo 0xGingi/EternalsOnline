@@ -1,0 +1,22 @@
+{
+
+    "horrificcaverns": {
+  
+      "trash": "config/horrificcaverns.trash.json",
+  
+      "elite": "config/config/horrificcaverns.elite.json",
+  
+      "boss": "config/config/horrificcaverns.boss.json",
+
+      "level": 1,
+
+      "alias": "hc",
+
+      "display": "Horrific Caverns",
+
+      "progressProperty": "dungeonHorrificCavernsProgress",
+
+      "totem": "Screaming Totem"
+    }
+  
+}

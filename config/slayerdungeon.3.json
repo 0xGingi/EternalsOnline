@@ -1,0 +1,47 @@
+[
+    {
+    "name": "Shaman",
+    "level": 30,
+    "attack": 6000,
+    "defense": 4500,
+    "health": 5000,
+    "xpReward": 100,
+    "slayerxp": 100,
+    "drops": [
+
+        {"itemId": "105", "dropRate": 0.1, "name": "Slayer Shortsword"}
+
+    ]
+
+},
+{
+    "name": "Green Dragon",
+    "level": 30,
+    "attack": 6000,
+    "defense": 5000,
+    "health": 5500,
+    "xpReward": 100,
+    "slayerxp": 100,
+    "drops": [
+
+        {"itemId": "105", "dropRate": 0.1, "name": "Slayer Shortsword"}
+
+    ]
+
+},
+{
+    "name": "Banshee",
+    "level": 30,
+    "attack": 4000,
+    "defense": 4500,
+    "health": 4500,
+    "xpReward": 100,
+    "slayerxp": 100,
+    "drops": [
+
+        {"itemId": "105", "dropRate": 0.1, "name": "Slayer Shortsword"}
+
+    ]
+
+}
+]

@@ -1,0 +1,18 @@
+[
+    {
+    "name": "Hivemind",
+    "level": 99,
+    "attack": 1000,
+    "defense": 1500,
+    "health": 1250,
+    "xpReward": 10000,
+    "drops": [
+
+        {"itemId": "44", "dropRate": 0.25, "name": "Null Blade"},
+
+        {"itemId": "55", "dropRate": 0.1, "name": "Stone Combat Cape"}
+
+    ]
+
+}
+]

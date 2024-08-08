@@ -1,0 +1,47 @@
+[
+    {
+    "name": "Lord Succulent",
+    "level": 100,
+    "attack": 35000,
+    "defense": 30000,
+    "health": 50000,
+    "xpReward": 400,
+    "slayerxp": 400,
+    "drops": [
+
+        {"itemId": "111", "dropRate": 0.1, "name": "Slayer Warhammer"}
+
+    ]
+
+},
+{
+    "name": "Swarm of Flies",
+    "level": 100,
+    "attack": 40000,
+    "defense": 31000,
+    "health": 40000,
+    "xpReward": 400,
+    "slayerxp": 400,
+    "drops": [
+
+        {"itemId": "111", "dropRate": 0.1, "name": "Slayer Warhammer"}
+
+    ]
+
+},
+{
+    "name": "Withered Tree",
+    "level": 100,
+    "attack": 40000,
+    "defense": 35000,
+    "health": 30000,
+    "xpReward": 400,
+    "slayerxp": 400,
+    "drops": [
+
+        {"itemId": "111", "dropRate": 0.1, "name": "Slayer Warhammer"}
+
+    ]
+
+}
+]

@@ -1,0 +1,313 @@
+[
+    {
+        "id": 0,
+        "name": "Bronze Bar",
+        "xp": 5,
+        "level": 1,
+        "cost": 5,
+        "ge": "BRONZEBAR",
+        "categorie": "bar",
+        "alias": "bronzebar",
+        "smithalias": "bronze",
+        "combination": [
+            {
+                "id": 0,
+                "amount": 1,
+                "name": "Tin Ore"
+            },
+            {
+                "id": 1,
+                "amount": 1,
+                "name": "Copper Ore"
+            }
+        ]
+
+    },
+    {
+        "id": 1,
+        "name": "Iron Bar",
+        "xp": 10,
+        "level": 5,
+        "cost": 5,
+        "ge": "IRONBAR",
+        "categorie": "bar",
+        "alias": "ironbar",        
+        "smithalias": "iron",
+        "combination": [
+            {
+                "id": 2,
+                "amount": 1,
+                "name": "Iron Ore"
+            },
+            {
+                "id": 3,
+                "amount": 1,
+                "name": "Coal"
+            }
+        ]
+    },
+    {
+        "id": 2,
+        "name": "Mithril Bar",
+        "xp": 140,
+        "level": 80,
+        "cost": 5,
+        "ge": "MITHRILBAR",
+        "categorie": "bar",
+        "alias": "mithrilbar",
+        "smithalias": "mithril",
+        "combination": [
+            {
+                "id": 3,
+                "amount": 2,
+                "name": "Coal"
+            },
+            {
+                "id": 4,
+                "amount": 1,
+                "name": "Mithril Ore"
+            }
+        ]
+    },
+  {
+    "id": 3,
+    "name": "Etherment Bar",
+    "xp": 30,
+    "level": 30,
+    "cost": 5,
+    "ge": "ETHERMENTBAR",
+    "categorie": "bar",
+    "alias": "ethermentbar",
+    "smithalias": "etherment",
+    "combination": [
+      {
+        "id": 3,
+        "amount": 5,
+        "name": "Coal"
+      },
+      {
+        "id": 5,
+        "amount": 1,
+        "name": "Etherment Ore"
+      }
+    ]
+  },
+
+    {
+        "id": 4,
+        "name": "Polyment Bar",
+        "xp": 50,
+        "level": 40,
+        "cost": 5,
+        "ge": "POLYMENTBAR",
+        "categorie": "bar",
+        "alias": "polymentbar",
+        "smithalias": "polyment",
+        "combination": [
+            {
+                "id": 3,
+                "amount": 5,
+                "name": "Coal"
+            },
+            {
+                "id": 8,
+                "amount": 1,
+                "name": "Polyment Ore"
+            }
+        ]
+    },
+    {
+        "id": 5,
+        "name": "Gold Bar",
+        "xp": 40,
+        "level": 40,
+        "cost": 5,
+        "ge": "GOLDBAR",
+        "categorie": "bar",
+        "alias": "goldbar",
+        "smithalias": "gold",
+        "combination": [
+            {
+                "id": 7,
+                "amount": 2,
+                "name": "Gold Ore"
+            }
+        ]
+    },
+    {
+        "id": 6,
+        "name": "Corrupt Bar",
+        "xp": 65,
+        "level": 65,
+        "cost": 5,
+        "ge": "CORRUPTBAR",
+        "categorie": "bar",
+        "alias": "corruptbar",
+        "smithalias": "corrupt",
+        "combination": [
+            {
+                "id": 9,
+                "amount": 10,
+                "name": "Corrupt Ore"
+            }
+        ]
+    },
+    {
+        "id": 7,
+        "name": "Rekt Bar",
+        "xp": 70,
+        "level": 70,
+        "cost": 5,
+        "ge": "REKTBAR",
+        "categorie": "bar",
+        "alias": "rektbar",
+        "smithalias": "rekt",
+        "combination": [
+            {
+                "id": 11,
+                "amount": 10,
+                "name": "Rekt Ore"
+            }
+        ]
+    },
+    {
+        "id": 8,
+        "name": "Phoenix Bar",
+        "xp": 420,
+        "level": 90,
+        "cost": 5,
+        "ge": "PHOENIXBAR",
+        "categorie": "bar",
+        "alias": "phoenixbar",
+        "smithalias": "phoenix",
+        "combination": [
+            {
+                "id": 11,
+                "amount": 15,
+                "name": "Rekt Ore"
+            },
+            {
+                "id": 9,
+                "amount": 15,
+                "name": "Corrupt Ore"
+            },
+            {
+                "id": 10,
+                "amount": 15,
+                "name": "Brimstone"
+            },
+            {
+                "id": 4,
+                "amount": 15,
+                "name": "Mithril Ore"
+            }
+        ]
+    },
+    {
+        "id": 9,
+        "name": "Hard Clay",
+        "xp": 6,
+        "level": 2,
+        "cost": 5,
+        "ge": "HARDCLAY",
+        "categorie": "bar",
+        "alias": "hardclay",
+        "smithalias": "clay",
+        "combination": [
+            {
+                "id": 6,
+                "amount": 2,
+                "name": "Soft Clay"
+            }
+        ]
+    },
+    {
+        "id": 10,
+        "name": "Brimstone Bar",
+        "xp": 60,
+        "level": 65,
+        "cost": 5,
+        "ge": "BRIMSTONEBAR",
+        "categorie": "bar",
+        "alias": "brimstonebar",
+        "smithalias": "brimstone",
+        "combination": [
+            {
+                "id": 10,
+                "amount": 5,
+                "name": "Brimstone"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Barren Bar",
+        "xp": 400,
+        "level": 100,
+        "cost": 5,
+        "ge": "BARRENBAR",
+        "categorie": "bar",
+        "alias": "barrenbar",
+        "smithalias": "barren",
+        "combination": [
+            {
+                "id": 12,
+                "amount": 1,
+                "name": "Holy Ore"
+            },
+            {
+                "id": 13,
+                "amount": 1,
+                "name": "Barren Ore"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Mystic Bar",
+        "xp": 450,
+        "level": 110,
+        "cost": 5,
+        "ge": "MYSTICBAR",
+        "categorie": "bar",
+        "alias": "mysticbar",
+        "smithalias": "mystic",
+        "combination": [
+            {
+                "id": 12,
+                "amount": 3,
+                "name": "Holy Ore"
+            },
+            {
+                "id": 14,
+                "amount": 1,
+                "name": "Mystic Ore"
+            }
+        ]
+    },
+    {
+        "id": 11,
+        "name": "Blood Bar",
+        "xp": 500,
+        "level": 120,
+        "cost": 5,
+        "ge": "BLOODBAR",
+        "categorie": "bar",
+        "alias": "bloodbar",
+        "smithalias": "blood",
+        "combination": [
+            {
+                "id": 12,
+                "amount": 5,
+                "name": "Holy Ore"
+            },
+            {
+                "id": 15,
+                "amount": 1,
+                "name": "Blood Ore"
+            }
+        ]
+    }
+
+    
+]

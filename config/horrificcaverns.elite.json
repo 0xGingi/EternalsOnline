@@ -1,0 +1,44 @@
+[
+    {
+    "name": "Screaming Horror",
+    "level": 67,
+    "attack": 55500,
+    "defense": 48500,
+    "health": 50000,
+    "xpReward": 2000,
+    "drops": [
+
+        {"itemId": "80", "dropRate": 0.1, "name": "Corrupt Sword"}
+
+    ]
+
+},
+{
+    "name": "Eye of the Abyss",
+    "level": 67,
+    "attack": 50200,
+    "defense": 49000,
+    "health": 49500,
+    "xpReward": 2000,
+    "drops": [
+
+        {"itemId": "81", "dropRate": 0.1, "name": "Corrupt Shield"}
+
+    ]
+
+},
+{
+    "name": "Knight of Hatred",
+    "level": 67,
+    "attack": 50000,
+    "defense": 50000,
+    "health": 50000,
+    "xpReward": 2000,
+    "drops": [
+
+        {"itemId": "78", "dropRate": 0.1, "name": "Corrupt Platelegs"}
+
+    ]
+
+}
+]

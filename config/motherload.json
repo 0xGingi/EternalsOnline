@@ -1,0 +1,24 @@
+[
+    {
+        "id": 3,
+        "name": "Coal",
+        "xp": 15,
+        "level": 20,
+        "cost": 5,
+        "ge": "coal",
+        "chance": 0.75,
+        "categorie": "ore",
+        "alias": "coal"
+    },
+    {
+        "id": 7,
+        "name": "Gold Ore",
+        "xp": 30,
+        "level": 40,
+        "cost": 5,
+        "ge": "gold",
+        "chance": 0.25,
+        "categorie": "ore",
+        "alias": "gold"
+    }
+]

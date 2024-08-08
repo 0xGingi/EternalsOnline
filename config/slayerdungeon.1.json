@@ -1,0 +1,47 @@
+[
+    {
+    "name": "Slime",
+    "level": 10,
+    "attack": 1254,
+    "defense": 750,
+    "health": 1000,
+    "xpReward": 50,
+    "slayerxp": 50,
+    "drops": [
+
+        {"itemId": "103", "dropRate": 0.1, "name": "Slayer Dagger"}
+
+    ]
+
+},
+{
+    "name": "Goblin",
+    "level": 10,
+    "attack": 1400,
+    "defense": 1000,
+    "health": 950,
+    "xpReward": 50,
+    "slayerxp": 50,
+    "drops": [
+
+        {"itemId": "103", "dropRate": 0.1, "name": "Slayer Dagger"}
+
+    ]
+
+},
+{
+    "name": "Ghost",
+    "level": 10,
+    "attack": 1500,
+    "defense": 950,
+    "health": 950,
+    "xpReward": 50,
+    "slayerxp": 50,
+    "drops": [
+
+        {"itemId": "103", "dropRate": 0.1, "name": "Slayer Dagger"}
+
+    ]
+
+}
+]

@@ -1,0 +1,50 @@
+[
+    {
+    "name": "Baby Dragon",
+    "level": 20,
+    "attack": 3100,
+    "defense": 2600,
+    "health": 7500,
+    "xpReward": 140,
+    "drops": [
+
+        {"itemId": "27", "dropRate": 0.05, "name": "Etherment Helmet"},
+
+        {"itemId": "29", "dropRate": 0.05, "name": "Etherment Platelegs"}
+
+    ]
+
+},
+{
+    "name": "Skeleton Warrior",
+    "level": 20,
+    "attack": 3400,
+    "defense": 2350,
+    "health": 4500,
+    "xpReward": 140,
+    "drops": [
+
+        {"itemId": "27", "dropRate": 0.05, "name": "Etherment Helmet"},
+
+        {"itemId": "29", "dropRate": 0.05, "name": "Etherment Platelegs"}
+
+    ]
+
+},
+{
+    "name": "Skeleton Archer",
+    "level": 20,
+    "attack": 3300,
+    "defense": 2200,
+    "health": 4000,
+    "xpReward": 140,
+    "drops": [
+
+        {"itemId": "27", "dropRate": 0.05, "name": "Etherment Helmet"},
+
+        {"itemId": "29", "dropRate": 0.05, "name": "Etherment Platelegs"}
+
+    ]
+
+}
+]

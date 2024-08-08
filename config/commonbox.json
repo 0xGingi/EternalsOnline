@@ -1,0 +1,771 @@
+[
+    {
+        "id": 0,
+        "name": "Bronze Dagger",
+        "alias": ["BronzeDagger", "BD", "bd"],
+        "equipalias" : "BD",
+        "categorie": "weapon",
+        "cost": 500,
+        "rarety": "Tier 1",
+        "costperenhancement": 500,
+        "levelAttack": {
+            "level1": 25
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 1,
+        "name": "Bronze Sword",
+        "alias": ["BronzeSword", "BS", "bs"],
+        "equipalias" : "BS",
+        "categorie": "weapon",
+        "cost": 500,
+        "rarety": "Tier 1",
+        "costperenhancement": 500,
+        "levelAttack": {
+            "level1": 50
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 2,
+        "name": "Bronze Battleaxe",
+        "alias": ["BronzeBattleaxe", "BBA", "bba"],
+        "equipalias" : "BBA",
+        "categorie": "weapon",
+        "cost": 500,
+        "rarety": "Tier 1",
+        "costperenhancement": 500,
+        "levelAttack": {
+            "level1": 75
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 3,
+        "name": "Bronze Greatsword",
+        "alias": ["BronzeGreatsword", "BGS", "bgs"],
+        "equipalias" : "BGS",
+        "categorie": "weapon",
+        "cost": 500,
+        "rarety": "Tier 1",
+        "costperenhancement": 500,
+        "levelAttack": {
+            "level1": 80
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 4,
+        "name": "Bronze Helmet",
+        "alias": ["BronzeHelmet", "BH", "bh"],
+        "equipalias" : "BH",
+        "categorie": "armor",
+        "cost": 500,
+        "rarety": "Tier 1",
+        "costperenhancement": 500,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 60
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 5,
+        "name": "Bronze Platebody",
+        "alias": ["BronzePlatebody", "BPB", "bpb"],
+        "equipalias" : "BPB",
+        "categorie": "armor",
+        "cost": 500,
+        "rarety": "Tier 1",
+        "costperenhancement": 500,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 75
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 6,
+        "name": "Bronze Shield",
+        "alias": ["BronzeShield", "BSH", "bsh"],
+        "equipalias" : "BSH",
+        "categorie": "armor",
+        "cost": 500,
+        "rarety": "Tier 1",
+        "costperenhancement": 500,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 50
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 7,
+        "name": "Iron Claws",
+        "alias": ["IronClaws", "IC", "ic"],
+        "equipalias" : "IC",
+        "categorie": "weapon",
+        "description": "Claws made of iron",
+        "cost": 750,
+        "rarety": "Tier 2",
+        "itemlevel": 5,
+        "levelAttack": {
+            "level1": 80
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 8,
+        "name": "Iron Sword",
+        "alias": ["IronSword", "IS", "is"],
+        "equipalias" : "IS",
+        "categorie": "weapon",
+        "cost": 750,
+        "rarety": "Tier 2",
+        "costperenhancement": 1000,
+        "levelAttack": {
+            "level1": 100
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 9,
+        "name": "Iron Battleaxe",
+        "alias": ["IronBattleaxe", "IBA", "iba"],
+        "equipalias" : "IBA",
+        "categorie": "weapon",
+        "cost": 750,
+        "rarety": "Tier 2",
+        "costperenhancement": 1000,
+        "levelAttack": {
+            "level1": 120
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 10,
+        "name": "Iron Greatsword",
+        "alias": ["IronGreatsword", "IGS", "igs"],
+        "equipalias" : "IGS",
+        "categorie": "weapon",
+        "cost": 750,
+        "rarety": "Tier 2",
+        "costperenhancement": 1000,
+        "levelAttack": {
+            "level1": 155
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 11,
+        "name": "Iron Helmet",
+        "alias": ["IronHelmet", "IH", "ih"],
+        "equipalias" : "IH",
+        "categorie": "armor",
+        "cost": 750,
+        "rarety": "Tier 2",
+        "costperenhancement": 1000,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 100
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 12,
+        "name": "Iron Platebody",
+        "alias": ["IronPlatebody", "IPB", "ipb"],
+        "equipalias" : "IPB",
+        "categorie": "armor",
+        "cost": 750,
+        "rarety": "Tier 2",
+        "costperenhancement": 1000,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 290
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 13,
+        "name": "Iron Platelegs",
+        "alias": ["IronPlatelegs", "IPL", "ipl"],
+        "equipalias" : "IPL",
+        "categorie": "armor",
+        "cost": 750,
+        "rarety": "Tier 2",
+        "costperenhancement": 1000,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 250
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 14,
+        "name": "Iron Shield",
+        "alias": ["IronShield", "ISH", "ish"],
+        "equipalias" : "ISH",
+        "categorie": "armor",
+        "cost": 750,
+        "rarety": "Tier 2",
+        "costperenhancement": 1000,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 190
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 15,
+        "name": "Steel Dagger",
+        "alias": ["SteelDagger", "SD", "sd"],
+        "equipalias" : "SD",
+        "categorie": "weapon",
+        "cost": 1000,
+        "rarety": "Tier 3",
+        "costperenhancement": 2000,
+        "levelAttack": {
+            "level1": 200
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 16,
+        "name": "Steel Sword",
+        "alias": ["SteelSword", "SS", "ss"],
+        "equipalias" : "SS",
+        "categorie": "weapon",
+        "cost": 1000,
+        "rarety": "Tier 3",
+        "costperenhancement": 2000,
+        "levelAttack": {
+            "level1": 220
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 17,
+        "name": "Steel Battleaxe",
+        "alias": ["SteelBattleaxe", "SBA", "sba"],
+        "equipalias" : "SBA",
+        "categorie": "weapon",
+        "cost": 1000,
+        "rarety": "Tier 3",
+        "costperenhancement": 2000,
+        "levelAttack": {
+            "level1": 250
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 18,
+        "name": "Steel Greatsword",
+        "alias": ["SteelGreatsword", "SGS", "sgs"],
+        "equipalias" : "SGS",
+        "categorie": "weapon",
+        "cost": 1000,
+        "rarety": "Tier 3",
+        "costperenhancement": 2000,
+        "levelAttack": {
+            "level1": 300
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 19,
+        "name": "Steel Helmet",
+        "alias": ["SteelHelmet", "SH", "sh"],
+        "equipalias" : "SH",
+        "categorie": "armor",
+        "cost": 1000,
+        "rarety": "Tier 3",
+        "costperenhancement": 2000,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 300
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 20,
+        "name": "Steel Platebody",
+        "alias": ["SteelPlatebody", "SPB", "spb"],
+        "equipalias" : "SPB",
+        "categorie": "armor",
+        "cost": 1000,
+        "rarety": "Tier 3",
+        "costperenhancement": 2000,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 600
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 21,
+        "name": "Steel Platelegs",
+        "alias": ["SteelPlatelegs", "SPL", "spl"],
+        "equipalias" : "SPL",
+        "categorie": "armor",
+        "cost": 1000,
+        "rarety": "Tier 3",
+        "costperenhancement": 2000,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 500
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 22,
+        "name": "Steel Shield",
+        "alias": ["SteelShield", "SSH", "ssh"],
+        "equipalias" : "SSH",
+        "categorie": "armor",
+        "cost": 1000,
+        "rarety": "Tier 3",
+        "costperenhancement": 2000,
+        "levelAttack": {
+            "level1": 0
+        },
+        "levelDefense": {
+            "level1": 400
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 0
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    },
+
+    {
+        "id": 23,
+        "name": "Etherment Dagger",
+        "alias": ["EthermentDagger", "ED", "ed"],
+        "equipalias" : "ED",
+        "categorie": "weapon",
+        "cost": 2500,
+        "rarety": "Tier 4",
+        "costperenhancement": 3000,
+        "levelAttack": {
+            "level1": 700
+        },
+        "levelDefense": {
+            "level1": 0
+        },
+        "levelDodge": {
+            "level1": 0
+        },
+        "levelCrit": {
+            "level1": 1
+        },
+        "levelPenetration": {
+            "level1": 0
+        },
+        "levelLifeSteal": {
+            "level1": 0
+        },
+        "levelHealth": {
+            "level1": 0
+        }
+    } 
+
+]

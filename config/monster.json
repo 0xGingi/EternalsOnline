@@ -1,0 +1,604 @@
+[
+    {
+        "name": "Floor Rug",
+        "level": 1,
+        "attack": 100,
+        "defense": 10,
+        "health": 1000,
+        "xpReward": 4,
+        "description": "Get $RUGGED",
+        "area": "lumby",
+        "drops": [
+
+            {"itemId": "42", "dropRate": 0.005, "name": "Yellow Partyhat"},
+    
+            {"itemId": "41", "dropRate": 0.005, "name": "Blue Partyhat"}
+     
+        ]
+    },
+    {
+        "name": "Crypto Rat",
+        "level": 2,
+        "attack": 125,
+        "defense": 20,
+        "health": 1000,
+        "xpReward": 6,
+        "description": "A Crypto Rat.",
+        "area": "lumby",
+        "drops": [
+
+            {"itemId": "1", "dropRate": 1.0, "name": "Bronze Sword"},
+
+            {"itemId": "4", "dropRate": 0.1, "name": "Bronze Helmet"}
+
+        ]
+    },
+    {
+        "name": "Cow",
+        "level": 3,
+        "attack": 210,
+        "defense": 240,
+        "health": 1200,
+        "xpReward": 8,
+        "description": "A Cow. It goes Moo.",
+        "area": "lumby",
+        "drops": [
+
+            {"itemId": "1", "dropRate": 0.01, "name": "Bronze Sword"},
+
+            {"itemId": "4", "dropRate": 0.01, "name": "Bronze Helmet"}
+
+        ]
+    },
+    {
+        "name": "Thief",
+        "level": 3,
+        "attack": 250,
+        "defense": 250,
+        "health": 1100,
+        "xpReward": 10,
+        "description": "A Thief. He steals.",
+        "area": "lumby",
+        "drops": [
+
+            {"itemId": "11", "dropRate": 0.005, "name": "Iron Helmet"},
+
+            {"itemId": "0", "dropRate": 0.1, "name": "Bronze Dagger"}
+
+        ]
+
+    },
+    {
+        "name": "Henchman",
+        "level": 5,
+        "attack": 375,
+        "defense": 475,
+        "health": 1200,
+        "xpReward": 12,
+        "description": "A Henchman. He's a henchman.",
+        "area": "emberfall",
+        "drops": [
+
+            {"itemId": "1", "dropRate": 0.1, "name": "Bronze Sword"},
+
+            {"itemId": "4", "dropRate": 0.1, "name": "Bronze Helmet"}
+
+        ]
+    },
+    {
+        "name": "Goblin",
+        "level": 7,
+        "attack": 450,
+        "defense": 570,
+        "health": 1100,
+        "xpReward": 14,
+        "description": "Green midget with a club",
+        "area": "lumby",
+        "drops": [
+
+            {"itemId": "1", "dropRate": 0.1, "name": "Bronze Sword"},
+
+            {"itemId": "5", "dropRate": 0.1, "name": "Bronze Platebody"}
+
+        ]
+    },
+    {
+        "name": "Ent",
+        "level": 10,
+        "attack": 1350,
+        "defense": 1120,
+        "health": 2200,
+        "xpReward": 16,
+        "description": "Tree thing abomination",
+        "area": "highlands",
+        "drops": [
+
+            {"itemId": "6", "dropRate": 0.1, "name": "Bronze Shield"},
+
+            {"itemId": "10", "dropRate": 0.005, "name": "Iron Greatsword"}
+
+        ]
+    },
+   {
+        "name": "Skeleton",
+        "level": 12,
+        "attack": 1585,
+        "defense": 1175,
+        "health": 1800,
+        "xpReward": 18,
+        "description": "Spooky scary skeleton",
+        "area": "emberfall",
+        "drops": [
+
+            {"itemId": "8", "dropRate": 0.1, "name": "Iron Sword"},
+
+            {"itemId": "11", "dropRate": 0.1, "name": "Iron Helmet"}
+
+        ]
+    },
+    {
+        "name": "Zombie",
+        "level": 14,
+        "attack": 1690,
+        "defense": 1140,
+        "health": 2800,
+        "xpReward": 20,
+        "description": "Braaaiiinnnssss",
+        "area": "emberfall",
+        "drops": [
+
+            {"itemId": "1", "dropRate": 0.1, "name": "Bronze Sword"},
+
+            {"itemId": "11", "dropRate": 0.1, "name": "Iron Helmet"}
+
+        ]
+    },
+    {
+        "name": "Necromancer",
+        "level": 18,
+        "attack": 1850,
+        "defense": 1320,
+        "health": 2500,
+        "xpReward": 22,
+        "description": "Edge lord that summons skeletons",
+        "area": "highlands",
+        "drops": [
+
+            {"itemId": "15", "dropRate": 0.1, "name": "Steel Dagger"},
+
+            {"itemId": "16", "dropRate": 0.1, "name": "Steel Sword"}
+
+        ]
+         
+    },
+    {
+        "name": "Dark Knight",
+        "level": 20,
+        "attack": 2125,
+        "defense": 1380,
+        "health": 3600,
+        "xpReward": 24,
+        "description": "Dark Knight",
+        "area": "highlands",
+        "drops": [
+
+            {"itemId": "20", "dropRate": 0.1, "name": "Steel Platebody"},
+
+            {"itemId": "18", "dropRate": 0.1, "name": "Steel Greatsword"}
+
+        ]
+    },
+    {
+        "name": "Zealous Knight",
+        "level": 20,
+        "attack": 2200,
+        "defense": 1350,
+        "health": 3200,
+        "xpReward": 24,
+        "description": "A zealous knight",
+        "area": "highlands",
+        "drops": [
+
+            {"itemId": "20", "dropRate": 0.1, "name": "Steel Platebody"},
+
+            {"itemId": "18", "dropRate": 0.1, "name": "Steel Greatsword"}
+
+        ]
+    },
+    {
+        "name": "Mini Demon",
+        "level": 22,
+        "attack": 2400,
+        "defense": 1440,
+        "health": 4800,
+        "xpReward": 26,
+        "description": "A mini demon",
+        "area": "highlands",
+        "drops": [
+
+            {"itemId": "7", "dropRate": 0.1, "name": "Iron Claws"},
+
+            {"itemId": "15", "dropRate": 0.1, "name": "Steel Dagger"}
+
+        ]
+    },
+    {
+        "name": "Corrupt Paladin",
+        "level": 25,
+        "attack": 2500,
+        "defense": 1700,
+        "health": 4900,
+        "xpReward": 28,
+        "description": "A corrupt paladin",
+        "area": "astrals",
+        "drops": [
+
+            {"itemId": "16", "dropRate": 0.1, "name": "Steel Sword"},
+
+            {"itemId": "17", "dropRate": 0.1, "name": "Steel Battleaxe"}
+
+        ]
+
+    },
+    {
+        "name": "Warlock",
+        "level": 27,
+        "attack": 2910,
+        "defense": 1780,
+        "health": 5000,
+        "xpReward": 30,
+        "description": "Edgy mage",
+        "area": "astrals",
+        "drops": [
+
+            {"itemId": "20", "dropRate": 0.1, "name": "Steel Platebody"},
+
+            {"itemId": "18", "dropRate": 0.1, "name": "Steel Greatsword"}
+
+        ]
+        
+    },
+    {
+        "name": "Wizard",
+        "level": 28,
+        "attack": 3120,
+        "defense": 1400,
+        "health": 5200,
+        "xpReward": 32,
+        "description": "A wizard",
+        "area": "astrals",
+        "drops": [
+
+            {"itemId": "19", "dropRate": 0.1, "name": "Steel Helmet"},
+
+            {"itemId": "89", "dropRate": 0.005, "name": "Red Partyhat"}
+
+        ]
+    },
+    {
+        "name": "Great Demon",
+        "level": 30,
+        "attack": 4800,
+        "defense": 2666,
+        "health": 6666,
+        "xpReward": 34,
+        "description": "A great demon",
+        "area": "ethereal",
+        "drops": [
+
+            {"itemId": "28", "dropRate": 0.1, "name": "Etherment Platebody"},
+
+            {"itemId": "30", "dropRate": 0.1, "name": "Etherment Shield"}
+
+        ]
+
+    },
+    {
+        "name": "Holy Party Hat",
+        "level": 30,
+        "attack": 4950,
+        "defense": 2500,
+        "health": 6400,
+        "xpReward": 35,
+        "description": "A holy party hat, probably worth a lot",
+        "area": "ethereal",
+        "drops": [
+            {"itemId": "42", "dropRate": 0.001, "name": "Yellow Partyhat"}
+        ]
+
+
+    },
+    {
+        "name": "PolyKnight",
+        "level": 50,
+        "attack": 8800,
+        "defense": 5500,
+        "health": 7500,
+        "xpReward": 60,
+        "description": "A knight of Polyzeal",
+        "area": "polyzeal",
+        "drops": [
+            {"itemId": "40", "dropRate": 0.1, "name": "Polyment Flail"}
+        ]
+
+
+    },
+    {
+        "name": "PolyGoon",
+        "level": 50,
+        "attack": 7700,
+        "defense": 4800,
+        "health": 7000,
+        "xpReward": 60,
+        "description": "A goon of Polyzeal",
+        "area": "polyzeal",
+        "drops": [
+            {"itemId": "39", "dropRate": 0.1, "name": "Polyment Claws"}
+        ]
+
+
+    },
+    {
+        "name": "Undead Giant",
+        "level": 65,
+        "attack": 9400,
+        "defense": 7000,
+        "health": 6666,
+        "xpReward": 70,
+        "description": "An undead giant, don't see that everyday",
+        "area": "underworld",
+        "drops": [
+            {"itemId": "38", "dropRate": 0.1, "name": "Polyment Shield"}
+        ]
+
+
+    },
+    {
+        "name": "Space Skellie",
+        "level": 65,
+        "attack": 9822,
+        "defense": 4588,
+        "health": 6666,
+        "xpReward": 70,
+        "description": "A skellie from space",
+        "area": "underworld",
+        "drops": [
+            {"itemId": "91", "dropRate": 0.002, "name": "Pink Partyhat"}
+        ]
+
+
+    },
+    {
+        "name": "Walking Plauge",
+        "level": 70,
+        "attack": 11440,
+        "defense": 6500,
+        "health": 6666,
+        "xpReward": 74,
+        "description": "A walking plauge, how and why?",
+        "area": "underworld",
+        "drops": [
+            {"itemId": "38", "dropRate": 0.1, "name": "Polyment Shield"}
+        ]
+
+
+    },
+    {
+        "name": "Terror Slug",
+        "level": 65,
+        "attack": 7422,
+        "defense": 6060,
+        "health": 6666,
+        "xpReward": 68,
+        "description": "A slug of terror, he's also pretty cute",
+        "area": "underworld",
+        "drops": [
+            {"itemId": "39", "dropRate": 0.001, "name": "Polyment Claws"}
+        ]
+
+
+    },
+    {
+        "name": "Rock Crab",
+        "level": 80,
+        "attack": 7000,
+        "defense": 8000,
+        "health": 7420,
+        "xpReward": 110,
+        "description": "A crab made of rock, or is it a rock?",
+        "area": "mountstone",
+        "drops": [
+            {"itemId": "55", "dropRate": 0.01, "name": "Stone Combat Cape"}
+        ]
+
+
+    },
+    {
+        "name": "Royal Guard",
+        "level": 80,
+        "attack": 12060,
+        "defense": 10800,
+        "health": 8400,
+        "xpReward": 140,
+        "description": "A royal guard, he's pretty royal",
+        "area": "royalrealm",
+        "drops": [
+            {"itemId": "56", "dropRate": 0.05, "name": "Royal Cape"}
+        ]
+
+
+    },
+    {
+        "name": "Royal Paladin",
+        "level": 80,
+        "attack": 12860,
+        "defense": 11800,
+        "health": 9400,
+        "xpReward": 140,
+        "description": "A royal paladin, he's pretty royal",
+        "area": "royalrealm",
+        "drops": [
+            {"itemId": "57", "dropRate": 0.05, "name": "Royal Platebody"}
+        ]
+
+
+    },
+    {
+        "name": "Royal Knight",
+        "level": 80,
+        "attack": 12860,
+        "defense": 10600,
+        "health": 9000,
+        "xpReward": 140,
+        "description": "A royal knight, he's pretty royal",
+        "area": "royalrealm",
+        "drops": [
+            {"itemId": "58", "dropRate": 0.05, "name": "Royal Helmet"}
+        ]
+
+
+    },
+    {
+        "name": "Royal Defender",
+        "level": 80,
+        "attack": 11060,
+        "defense": 14600,
+        "health": 9700,
+        "xpReward": 140,
+        "description": "A royal defender, he's pretty royal",
+        "area": "royalrealm",
+        "drops": [
+            {"itemId": "59", "dropRate": 0.05, "name": "Royal Platelegs"}
+        ]
+    },
+    {
+        "name": "Messenger",
+        "level": 80,
+        "attack": 11060,
+        "defense": 14600,
+        "health": 9700,
+        "xpReward": 140,
+        "description": "A birdman, kind of looks like an angel, don't tell him that though. Dev Note: Messengers are birthed from trees, which make them fruit I think?",
+        "area": "royalrealm",
+        "drops": [
+            {"itemId": "59", "dropRate": 0.05, "name": "Royal Platelegs"}
+        ]
+
+
+    },
+    {
+        "name": "Mini GONE Rat",
+        "level": 5,
+        "attack": 240,
+        "defense": 106,
+        "health": 1200,
+        "xpReward": 14,
+        "description": "What Rat? It's $GONE",
+        "area": "goneville",
+        "drops": [
+            {"itemId": "18", "dropRate": 0.15, "name": "Steel Greatsword"},
+
+            {"itemId": "90", "dropRate": 0.002, "name": "Green Partyhat"}
+        ]
+
+
+    },
+    {
+        "name": "Potto Defender",
+        "level": 10,
+        "attack": 540,
+        "defense": 306,
+        "health": 1700,
+        "xpReward": 23,
+        "description": "A strong looking potato thing",
+        "area": "goneville",
+        "drops": [
+            {"itemId": "21", "dropRate": 0.15, "name": "Steel Platelegs"},
+
+            {"itemId": "22", "dropRate": 0.15, "name": "Steel Shield"}
+        ]
+
+
+    },
+    {
+        "name": "Ascended Crab",
+        "level": 90,
+        "attack": 1000,
+        "defense": 1000,
+        "health": 1000,
+        "xpReward": 300,
+        "description": "An important looking crab",
+        "area": "ascension",
+        "drops": [
+            {"itemId": "92", "dropRate": 0.05, "name": "Ascended Cape"}
+        ]
+
+
+    },
+    {
+        "name": "Donald Tabor",
+        "level": 99,
+        "attack": 52000,
+        "defense": 32000,
+        "health": 15000,
+        "xpReward": 500,
+        "description": "The Man, The Myth, The Legend",
+        "area": "donaldscave",
+        "drops": [
+            {"itemId": "102", "dropRate": 0.05, "name": "Xandala's Shadow"}
+        ]
+    },
+    {
+        "name": "Barren Deer",
+        "level": 100,
+        "attack": 50000,
+        "defense": 52000,
+        "health": 55000,
+        "xpReward": 700,
+        "description": "A Deer found in the barrens",
+        "area": "barrens",
+        "drops": [
+            {"itemId": "117", "dropRate": 0.1, "name": "Barren Scroll"}
+        ]
+    },
+    {
+        "name": "Toren",
+        "level": 100,
+        "attack": 55000,
+        "defense": 52000,
+        "health": 55000,
+        "xpReward": 700,
+        "description": "An ox looking dude, hes pretty mad",
+        "area": "barrens",
+        "drops": [
+            {"itemId": "115", "dropRate": 0.1, "name": "Barren Hammer"}
+        ]
+    },
+
+    {
+        "name": "Fairy",
+        "level": 110,
+        "attack": 62000,
+        "defense": 52000,
+        "health": 65000,
+        "xpReward": 800,
+        "description": "A fairy",
+        "area": "eastlands",
+        "drops": [
+            {"itemId": "119", "dropRate": 0.1, "name": "Mystic Robe"}
+        ]
+    },
+    {
+        "name": "Vampire",
+        "level": 120,
+        "attack": 70000,
+        "defense": 70000,
+        "health": 70000,
+        "xpReward": 1000,
+        "description": "A vampire",
+        "area": "bloodlands",
+        "drops": [
+            {"itemId": "121", "dropRate": 0.1, "name": "Blood Dagger"}
+        ]
+    }
+]

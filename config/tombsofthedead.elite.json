@@ -1,0 +1,44 @@
+[
+    {
+    "name": "Sorrowsworn, The Wretched",
+    "level": 72,
+    "attack": 15000,
+    "defense": 12000,
+    "health": 13000,
+    "xpReward": 2500,
+    "drops": [
+
+        {"itemId": "95", "dropRate": 0.25, "name": "Platebody of the Dead"}
+
+    ]
+
+},
+{
+    "name": "Sorrowsworn, The Lost",
+    "level": 72,
+    "attack": 13000,
+    "defense": 12000,
+    "health": 14000,
+    "xpReward": 2500,
+    "drops": [
+
+        {"itemId": "99", "dropRate": 0.25, "name": "Sword of the Dead"}
+
+    ]
+
+},
+{
+    "name": "Sorrowsworn, The Lonely",
+    "level": 72,
+    "attack": 14000,
+    "defense": 12000,
+    "health": 13000,
+    "xpReward": 2000,
+    "drops": [
+
+        {"itemId": "101", "dropRate": 0.25, "name": "Bow of the Dead"}
+
+    ]
+
+}
+]

@@ -1,0 +1,41 @@
+{
+
+    "nzoth": {
+  
+      "boss1": "config/nzoth.1.json",
+  
+      "boss2": "config/nzoth.2.json",
+  
+      "boss3": "config/nzoth.3.json",
+
+      "level": 60,
+
+      "alias": "nz",
+
+      "display": "Lair of N'Zoth",
+
+      "description": "Fight through the last of the old gods and free the world from their corruption",
+
+      "progressProperty": "raidnzothprogress"
+    },
+    "cityofhatred": {
+  
+      "boss1": "config/cityofhatred.1.json",
+  
+      "boss2": "config/cityofhatred.2.json",
+  
+      "boss3": "config/cityofhatred.3.json",
+
+      "level": 99,
+
+      "alias": "coh",
+
+      "display": "City of Hatred",
+
+      "description": "By three they come. By three, thy way opens. By the blood of the willing, we call thee home. Hail, Daughter of Hatred. Hail...Lilith",
+
+      "progressProperty": "raidcityofhatredprogress"
+    }
+
+  
+  }

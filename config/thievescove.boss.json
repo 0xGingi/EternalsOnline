@@ -1,0 +1,16 @@
+[
+    {
+    "name": "Thief Leader Terry",
+    "level": 50,
+    "attack": 9960,
+    "defense": 9200,
+    "health": 15000,
+    "xpReward": 1100,
+    "drops": [
+
+        {"itemId": "49", "dropRate": 0.1, "name": "Fail Flail"}
+
+    ]
+
+}
+]

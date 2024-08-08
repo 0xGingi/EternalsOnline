@@ -1,0 +1,47 @@
+[
+    {
+    "name": "Basilisk",
+    "level": 40,
+    "attack": 6000,
+    "defense": 8000,
+    "health": 7500,
+    "xpReward": 120,
+    "slayerxp": 120,
+    "drops": [
+
+        {"itemId": "106", "dropRate": 0.1, "name": "Slayer Boots"}
+
+    ]
+
+},
+{
+    "name": "Cockatrice",
+    "level": 40,
+    "attack": 7500,
+    "defense": 6000,
+    "health": 6500,
+    "xpReward": 120,
+    "slayerxp": 120,
+    "drops": [
+
+        {"itemId": "106", "dropRate": 0.1, "name": "Slayer Boots"}
+
+    ]
+
+},
+{
+    "name": "Gargoyle",
+    "level": 40,
+    "attack": 6500,
+    "defense": 8500,
+    "health": 8000,
+    "xpReward": 120,
+    "slayerxp": 120,
+    "drops": [
+
+        {"itemId": "106", "dropRate": 0.1, "name": "Slayer Boots"}
+
+    ]
+
+}
+]

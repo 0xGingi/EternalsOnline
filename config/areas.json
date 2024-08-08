@@ -1,0 +1,88 @@
+[
+    {
+        "id": 0,
+        "name": "lumby",
+        "level": 1
+    },
+    {
+        "id": 1,
+        "name": "emberfall",
+        "level": 5
+    },
+    {
+        "id": 2,
+        "name": "highlands",
+        "level": 10
+    },
+    {
+        "id": 3,
+        "name": "astrals",
+        "level": 20
+    },
+    {
+        "id": 4,
+        "name": "ethereal",
+        "level": 30
+    },
+    {
+        "id": 5,
+        "name": "polyzeal",
+        "level": 40
+    },
+    {
+        "id": 6,
+        "name": "underworld",
+        "level": 65
+    },
+    {
+        "id": 7,
+        "name": "rektlands",
+        "level": 70
+    },
+    {
+        "id": 8,
+        "name": "mountstone",
+        "level": 75
+    },
+    {
+        "id": 9,
+        "name": "royalrealm",
+        "level": 80
+    },
+    {
+        "id": 10,
+        "name": "goneville",
+        "level": 15
+    },
+    {
+        "id": 11,
+        "name": "ascension",
+        "level": 90
+    },
+    {
+        "id":12,
+        "name": "donaldscave",
+        "level": 99
+    },
+    {
+        "id":13,
+        "name": "wilderness",
+        "level": 1
+    },
+    {
+        "id":14,
+        "name": "barrens",
+        "level": 100
+    },
+    {
+        "id":15,
+        "name": "eastlands",
+        "level": 110
+    },
+    {
+        "id":16,
+        "name": "bloodlands",
+        "level": 120
+    }
+
+]

@@ -1,0 +1,35 @@
+[
+    {
+        "id": 0,
+        "name": "Salmon",
+        "xp": 3,
+        "level": 6,
+        "cost": 5,
+        "ge": "salmon",
+        "chance": 0.75,
+        "categorie": "fish",
+        "alias": "salmon"
+    },
+    {
+        "id": 0,
+        "name": "Trout",
+        "xp": 6,
+        "level": 10,
+        "cost": 5,
+        "ge": "trout",
+        "chance": 0.75,
+        "categorie": "fish",
+        "alias": "trout"
+    },
+    {
+        "id": 7,
+        "name": "Polyfish",
+        "xp": 55,
+        "level": 50,
+        "cost": 5,
+        "ge": "polyfish",
+        "chance": 0.25,
+        "categorie": "fish",
+        "alias": "polyfish"
+    }
+]

@@ -1,0 +1,50 @@
+[
+    {
+    "name": "Ent",
+    "level": 30,
+    "attack": 3700,
+    "defense": 5000,
+    "health": 15000,
+    "xpReward": 210,
+    "drops": [
+
+        {"itemId": "27", "dropRate": 0.05, "name": "Etherment Helmet"},
+
+        {"itemId": "29", "dropRate": 0.05, "name": "Etherment Platelegs"}
+
+    ]
+
+},
+{
+    "name": "Elvish Protector",
+    "level": 30,
+    "attack": 3800,
+    "defense": 2500,
+    "health": 9000,
+    "xpReward": 210,
+    "drops": [
+
+        {"itemId": "27", "dropRate": 0.05, "name": "Etherment Helmet"},
+
+        {"itemId": "29", "dropRate": 0.05, "name": "Etherment Platelegs"}
+
+    ]
+
+},
+{
+    "name": "Elvish Archer",
+    "level": 30,
+    "attack": 4500,
+    "defense": 1900,
+    "health": 7000,
+    "xpReward": 210,
+    "drops": [
+
+        {"itemId": "27", "dropRate": 0.05, "name": "Etherment Helmet"},
+
+        {"itemId": "29", "dropRate": 0.05, "name": "Etherment Platelegs"}
+
+    ]
+
+}
+]

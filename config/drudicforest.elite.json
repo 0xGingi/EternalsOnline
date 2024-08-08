@@ -1,0 +1,50 @@
+[
+    {
+    "name": "Elder Ent",
+    "level": 35,
+    "attack": 4500,
+    "defense": 7000,
+    "health": 8400,
+    "xpReward": 410,
+    "drops": [
+
+        {"itemId": "27", "dropRate": 0.05, "name": "Etherment Helmet"},
+
+        {"itemId": "29", "dropRate": 0.05, "name": "Etherment Platelegs"}
+
+    ]
+
+},
+{
+    "name": "Nature Druid",
+    "level": 35,
+    "attack": 5400,
+    "defense": 6000,
+    "health": 9000,
+    "xpReward": 410,
+    "drops": [
+
+        {"itemId": "27", "dropRate": 0.05, "name": "Etherment Helmet"},
+
+        {"itemId": "29", "dropRate": 0.05, "name": "Etherment Platelegs"}
+
+    ]
+
+},
+{
+    "name": "Elder Elf",
+    "level": 35,
+    "attack": 5480,
+    "defense": 6700,
+    "health": 6000,
+    "xpReward": 410,
+    "drops": [
+
+        {"itemId": "27", "dropRate": 0.05, "name": "Etherment Helmet"},
+
+        {"itemId": "29", "dropRate": 0.05, "name": "Etherment Platelegs"}
+
+    ]
+
+}
+]

@@ -1,0 +1,44 @@
+[
+    {
+    "name": "Living Abomination",
+    "level": 65,
+    "attack": 48000,
+    "defense": 46000,
+    "health": 50000,
+    "xpReward": 1200,
+    "drops": [
+
+        {"itemId": "79", "dropRate": 0.25, "name": "Corrupt Dagger"}
+
+    ]
+
+},
+{
+    "name": "Blood Stained Horror",
+    "level": 65,
+    "attack": 49500,
+    "defense": 48750,
+    "health": 47478,
+    "xpReward": 1200,
+    "drops": [
+
+        {"itemId": "84", "dropRate": 0.25, "name": "Corrupt Claws"}
+
+    ]
+
+},
+{
+    "name": "Vampiric Bat",
+    "level": 65,
+    "attack": 50200,
+    "defense": 45000,
+    "health": 45000,
+    "xpReward": 1200,
+    "drops": [
+
+        {"itemId": "77", "dropRate": 0.25, "name": "Corrupt Helmet"}
+
+    ]
+
+}
+]

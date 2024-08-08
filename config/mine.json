@@ -1,0 +1,179 @@
+[
+    {
+        "id": 0,
+        "name": "Tin Ore",
+        "xp": 5,
+        "level": 1,
+        "cost": 5,
+        "ge": "TIN",
+        "area": ["lumby", "emberfall", "ascension"],
+        "categorie": "ore",
+        "alias": "tin"
+
+    },
+    {
+        "id": 1,
+        "name": "Copper Ore",
+        "xp": 5,
+        "level": 1,
+        "cost": 5,
+        "ge": "COPPER",
+        "area": ["lumby", "emberfall", "ascension"],
+        "categorie": "ore",
+        "alias": "copper"
+    },
+    {
+        "id": 2,
+        "name": "Iron Ore",
+        "xp": 10,
+        "level": 5,
+        "cost": 5,
+        "ge": "IRON",
+        "area": ["emberfall", "highlands", "goneville", "ascension"],
+        "categorie": "ore",
+        "alias": "iron"
+    },
+    {
+        "id": 3,
+        "name": "Coal",
+        "xp": 15,
+        "level": 20,
+        "cost": 5,
+        "ge": "COAL",
+        "area": ["highlands", "emberfall", "ascension", "mountstone"],
+        "categorie": "ore",
+        "alias": "coal"
+    },
+    {
+        "id": 4,
+        "name": "Mithril Ore",
+        "xp": 210,
+        "level": 80,
+        "cost": 5,
+        "ge": "MITHRIL",
+        "area": ["polyzeal", "rektlands", "ascension", "royalrealm"],
+        "categorie": "ore",
+        "alias": "mithril"
+    },
+    {
+        "id": 5,
+        "name": "Etherment Ore",
+        "xp": 25,
+        "level": 30,
+        "cost": 5,
+        "ge": "ETHERMENT",
+        "area": ["ethereal", "ascension"],
+        "categorie": "ore",
+        "alias": "etherment"
+    },
+    {
+        "id": 6,
+        "name": "Soft Clay",
+        "xp": 5,
+        "level": 1,
+        "cost": 5,
+        "ge": "CLAY",
+        "area": ["lumby", "ascension"],
+        "categorie": "ore",
+        "alias": "clay"
+    },
+    {
+        "id": 7,
+        "name": "Gold Ore",
+        "xp": 30,
+        "level": 40,
+        "cost": 5,
+        "ge": "GOLD",
+        "area": ["emberfall", "astrals", "ascension", "mountstone"],
+        "categorie": "ore",
+        "alias": "gold"
+    },
+    {
+        "id": 8,
+        "name": "Polyment Ore",
+        "xp": 100,
+        "level": 50,
+        "cost": 5,
+        "ge": "POLYMENT",
+        "area": ["polyzeal", "ascension"],
+        "categorie": "ore",
+        "alias": "polyment"
+    },
+    {
+        "id": 9,
+        "name": "Corrupt Ore",
+        "xp": 145,
+        "level": 65,
+        "cost": 5,
+        "ge": "CORRUPTORE",
+        "area": ["underworld", "ascension", "donaldscave"],
+        "categorie": "ore",
+        "alias": "corrupt"
+    },
+    {
+        "id": 10,
+        "name": "Brimstone",
+        "xp": 120,
+        "level": 65,
+        "cost": 5,
+        "ge": "BRIMSTONE",
+        "area": ["underworld", "ascension"],
+        "categorie": "ore",
+        "alias": "brimstone"
+    },
+    {
+        "id": 11,
+        "name": "Rekt Ore",
+        "xp": 160,
+        "level": 70,
+        "cost": 5,
+        "ge": "REKTORE",
+        "area": ["rektlands", "ascension", "royalrealm"],
+        "categorie": "ore",
+        "alias": "rektore"
+    },
+    {
+        "id": 12,
+        "name": "Holy Ore",
+        "xp": 200,
+        "level": 100,
+        "cost": 5,
+        "ge": "HOLYORE",
+        "area": ["barrens", "eastlands", "bloodlands"],
+        "categorie": "ore",
+        "alias": "holyore"
+    },
+    {
+        "id": 13,
+        "name": "Barren Ore",
+        "xp": 200,
+        "level": 100,
+        "cost": 5,
+        "ge": "BARRENORE",
+        "area": ["barrens"],
+        "categorie": "ore",
+        "alias": "barrenore"
+    },
+    {
+        "id": 14,
+        "name": "Mystic Ore",
+        "xp": 250,
+        "level": 110,
+        "cost": 5,
+        "ge": "MYSTICORE",
+        "area": ["eastlands"],
+        "categorie": "ore",
+        "alias": "mysticore"
+    },
+    {
+        "id": 15,
+        "name": "Blood Ore",
+        "xp": 300,
+        "level": 120,
+        "cost": 5,
+        "ge": "BLOODORE",
+        "area": ["bloodlands"],
+        "categorie": "ore",
+        "alias": "bloodore"
+    }
+]

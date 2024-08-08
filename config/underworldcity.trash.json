@@ -1,0 +1,44 @@
+[
+    {
+    "name": "Fleshling",
+    "level": 65,
+    "attack": 9000,
+    "defense": 8000,
+    "health": 9000,
+    "xpReward": 1200,
+    "drops": [
+
+        {"itemId": "79", "dropRate": 0.25, "name": "Corrupt Dagger"}
+
+    ]
+
+},
+{
+    "name": "Lifeless Shell",
+    "level": 65,
+    "attack": 9000,
+    "defense": 8000,
+    "health": 9000,
+    "xpReward": 1200,
+    "drops": [
+
+        {"itemId": "84", "dropRate": 0.25, "name": "Corrupt Claws"}
+
+    ]
+
+},
+{
+    "name": "Envy Demon",
+    "level": 65,
+    "attack": 9000,
+    "defense": 8000,
+    "health": 9000,
+    "xpReward": 1200,
+    "drops": [
+
+        {"itemId": "77", "dropRate": 0.25, "name": "Corrupt Helmet"}
+
+    ]
+
+}
+]

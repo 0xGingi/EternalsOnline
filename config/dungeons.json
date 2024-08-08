@@ -1,0 +1,177 @@
+{
+
+    "goblincave": {
+  
+      "trash": "config/goblincave.trash.json",
+  
+      "elite": "config/config/goblincave.elite.json",
+  
+      "boss": "config/config/goblincave.boss.json",
+
+      "level": 10,
+
+      "alias": "gc",
+
+      "display": "Goblin Cave",
+
+      "progressProperty": "dungeonGoblinCaveProgress",
+
+      "totem": "Broken Log Totem"
+    },
+  
+    "eternalmountain": {
+      "trash": "config/eternalmountain.trash.json",
+  
+      "elite": "config/eternalmountain.elite.json",
+  
+      "boss": "config/eternalmountain.boss.json",
+      
+      "level": 20,
+
+      "alias": "em",
+
+      "display": "Eternal Mountain",
+
+      "progressProperty": "dungeonEtherealMountainProgress",
+
+      "totem": "Crude Iron Totem"
+  
+    },
+
+    "drudicforest": {
+  
+      "trash": "config/drudicforest.trash.json",
+  
+      "elite": "config/config/drudicforest.elite.json",
+  
+      "boss": "config/config/drudicforest.boss.json",
+
+      "level": 30,
+
+      "alias": "df",
+
+      "display": "Drudic Forest",
+
+      "progressProperty": "dungeonDrudicForestProgress",
+
+      "totem": "Maple Totem"
+    },
+
+    "underworldcity": {
+  
+      "trash": "config/underworldcity.trash.json",
+  
+      "elite": "config/config/underworldcity.elite.json",
+  
+      "boss": "config/config/underworldcity.boss.json",
+
+      "level": 65,
+
+      "alias": "uw",
+
+      "display": "Underworld City",
+
+      "progressProperty": "dungeonUnderWorldCityProgress",
+
+      "totem": "Corrupted Totem"
+    },
+
+    "thievescove": {
+  
+      "trash": "config/thievescove.trash.json",
+  
+      "elite": "config/config/thievescove.elite.json",
+  
+      "boss": "config/config/thievescove.boss.json",
+
+      "level": 40,
+
+      "alias": "tc",
+
+      "display": "Thieves Cove",
+
+      "progressProperty": "dungeonThievesCoveProgress",
+
+      "totem": "Crude Gold Totem"
+    },
+
+
+    "cosmicshard": {
+  
+      "trash": "config/cosmicshard.trash.json",
+  
+      "elite": "config/config/cosmicshard.elite.json",
+  
+      "boss": "config/config/cosmicshard.boss.json",
+
+      "level": 80,
+
+      "alias": "cs",
+
+      "display": "Cosmic Shard",
+
+      "progressProperty": "dungeonCosmicShardProgress",
+
+      "totem": "Sacred Mithril Totem"
+    },
+
+    "ancientcatacombs": {
+  
+      "trash": "config/ancientcatacombs.trash.json",
+  
+      "elite": "config/config/ancientcatacombs.elite.json",
+  
+      "boss": "config/config/ancientcatacombs.boss.json",
+
+      "level": 90,
+
+      "alias": "ac",
+
+      "display": "Ancient Catacombs",
+
+      "progressProperty": "dungeonAncientCatacombsProgress",
+
+      "totem": "Phoenix Totem"
+    },
+
+    "tombsofthedead": {
+  
+      "trash": "config/tombsofthedead.trash.json",
+  
+      "elite": "config/config/tombsofthedead.elite.json",
+  
+      "boss": "config/config/tombsofthedead.boss.json",
+
+      "level": 70,
+
+      "alias": "totd",
+
+      "display": "Tombs of the Dead",
+
+      "progressProperty": "dungeonTombsoftheDeadProgress",
+
+      "totem": "Brim Totem"
+    },
+    "witchestower": {
+  
+      "trash": "config/witchestower.trash.json",
+  
+      "elite": "config/config/witchestower.elite.json",
+  
+      "boss": "config/config/witchestower.boss.json",
+
+      "level": 100,
+
+      "alias": "witt",
+
+      "display": "Witches Tower",
+
+      "progressProperty": "dungeonWitchesTowerProgress",
+
+      "totem": "Witches Totem"
+    }
+
+
+
+    
+  }
