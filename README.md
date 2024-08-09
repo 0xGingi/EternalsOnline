@@ -22,6 +22,7 @@
 * Run `node deploy-commands.json` to initalize slash commands (Optional)
 * Modify config/emoji.json with your emojis in your server
 * Run `node App/` to start the bot
+* Note: There are many hardcoded Channel/Server/Admin IDs in various commands you might have to change
 
 ### Directories
 * `api/` - Contains API for FlipMMO Database
