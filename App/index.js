@@ -1,12 +1,13 @@
-const config = require('App/config.json');
+const config = require('./config.json');
 const { Client, GatewayIntentBits, Collection, Events, ActivityType, Status } = require('discord.js');
 const { dim, yellow } = require('colors');
 require('events').EventEmitter.prototype._maxListeners = 200;
 const mongoose = require('mongoose');
 
 mongoose
-   .connect(config.mongodb, {})
-   .then(() => console.log(`${dim('\nMongoDB:')} ${yellow('Ready')}`));
+.connect(config.mongodb, {})
+.then(() => console.log(`MongoDB Ready`))
+.catch(err => console.error(`MongoDB connection error: ${err}`));
 
 const client = new Client({ intents: [GatewayIntentBits.DirectMessages, GatewayIntentBits.Guilds, GatewayIntentBits.GuildMessages, GatewayIntentBits.GuildMembers, GatewayIntentBits.GuildPresences] });
 module.exports = { client, mongoose };

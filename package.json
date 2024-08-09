@@ -6,8 +6,8 @@
     "discord.js-captcha": "^3.0.8",
     "fs": "^0.0.1-security",
     "lodash": "^4.17.21",
-    "mongoose": "^8.4.1",
-    "npm-check-updates": "^16.14.20",
+    "mongoose": "^8.5.2",
+    "npm-check-updates": "^17.0.6",
     "path": "^0.12.7"
   }
 }

@@ -20,7 +20,7 @@
 * Run `npm install` to install the required packages
 * Run `node serverinit.js` to initialize the database
 * Run `node deploy-commands.json` to initalize slash commands (Optional)
-* Modify config/emoji.json with your emojis in your server
+* Modify config/emoji.json with your emojis in your server (Optional)
 * Run `node App/` to start the bot
 * Note: There are many hardcoded Channel/Server/Admin IDs in various commands you might have to change
 

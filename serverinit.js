@@ -1,13 +1,14 @@
 const STATS = require('./modules/statsBot.js');
 const BOSS = require('./modules/boss.js');
 const BOSSCONFIG = require('./config/boss.json');
-const AREA = require('/modules/area.js')
+const AREA = require('./modules/area.js')
 const config = require('./App/config.json');
 const mongoose = require('mongoose');
 
 mongoose
-    .connect(config.mongodb, {})
-    .then(() => console.log(`MongoDB Ready`));
+.connect(config.mongodb, {})
+.then(() => console.log(`MongoDB Ready`))
+.catch(err => console.error(`MongoDB connection error: ${err}`));
 
 async function initializeServer() {
     var statsBot = new STATS({
