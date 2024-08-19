@@ -35,3 +35,11 @@
 * `models/` - Contains all database models
 * `scripts/` - Contains random scripts
 * `topgg/` - Contains top.gg rewards
+
+### Links
+
+* FlipMMO Wiki - [https://wiki.flipmmo.com](https://wiki.flipmmo.com)
+* FlipMMO Leaderboards Website - [https://https://stats.flipmmo.com](https://stats.flipmmo.com)
+* Invite FlipMMO to your Server - [https://discord.com/api/oauth2/authorize?client_id=1157454837861056552&permissions=139586792512&scope=applications.commands+bot](https://discord.com/api/oauth2/authorize?client_id=1157454837861056552&permissions=139586792512&scope=applications.commands+bot)
+* FlipMMO Discord Server - [https://discord.gg/ywdfj3qbrF](https://discord.gg/ywdfj3qbrF)
+
