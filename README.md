@@ -23,6 +23,7 @@
 * Modify config/emoji.json with your emojis in your server (Optional)
 * Run `node App/` to start the bot
 * Note: There are many hardcoded Channel/Server/Admin IDs in various commands you might have to change
+* Interact with the bot by @Bot command
 
 ### Directories
 * `api/` - Contains API for Eternals Database
