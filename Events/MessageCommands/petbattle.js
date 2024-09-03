@@ -76,14 +76,14 @@ module.exports = {
         // === Player 1 : DataBase ===
         let playerOne = await PLAYERDATA.findOne({ userId: message.author.id });
         if (wager > 0 && playerOne.player.other.ironman === true) return message.reply(`${EMOJICONFIG.no} You are an ironman, you can't bet on a pet battle!`);
-        if (!playerOne) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
-        if (playerOne.player.energy < 2) return message.reply(`${EMOJICONFIG.no} You don't have enough energy! Restore your energy with ${inlineCode('@FlipMMO energy')}`)
+        if (!playerOne) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
+        if (playerOne.player.energy < 2) return message.reply(`${EMOJICONFIG.no} You don't have enough energy! Restore your energy with ${inlineCode('@Eternals energy')}`)
 
         else {
 
             // === Balance Player 1 : DataBase ===
             let balance = await BALANCEDATA.findOne({ userId: message.author.id });
-            if (!balance) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
+            if (!balance) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
             else {
             if (balance.eco.coins < wagerAmount) return message.reply(`${EMOJICONFIG.no} You don't have enough coins for the wager`);
                             // === Balance Player 1 : DataBase ===
@@ -312,7 +312,7 @@ module.exports = {
                 };
             };
                }       };
-        } else return message.reply(`${EMOJICONFIG.no} player undefined : ${inlineCode("@FlipMMO pet battle <@user>")}`);
+        } else return message.reply(`${EMOJICONFIG.no} player undefined : ${inlineCode("@Eternals pet battle <@user>")}`);
 }; 
 }, 
 info: {

@@ -17,7 +17,7 @@ app.get('/leaderboard/:endpoint', async (req, res) => {
         return;
     }
     try {
-    const response = await fetch(`https://api.flipmmo.com/leaderboard/${endpoint}`);
+    const response = await fetch(`https://api.eternalsonline.com/leaderboard/${endpoint}`);
     const data = await response.json();
 
     cache[endpoint] = {
@@ -42,7 +42,7 @@ app.get('/api/:endpoint', async (req, res) => {
     const { minPrice, maxPrice } = req.query;
 
     try {
-        const response = await fetch(`https://api.flipmmo.com/${endpoint}`);
+        const response = await fetch(`https://api.eternalsonline.com/${endpoint}`);
         const filteredData = await parseAndFilterData(response, parseInt(minPrice), parseInt(maxPrice));
 
         cache[endpoint] = {

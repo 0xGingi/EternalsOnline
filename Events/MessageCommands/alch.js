@@ -29,7 +29,7 @@ async execute(message) {
             message.reply("You are not a player yet.");
             return;
         }
-        if (player.player.energy < 2) return message.reply(`${EMOJICONFIG.no} You don't have enough energy! Restore your energy with ${inlineCode('@FlipMMO energy')}`)
+        if (player.player.energy < 2) return message.reply(`${EMOJICONFIG.no} You don't have enough energy! Restore your energy with ${inlineCode('@Eternals energy')}`)
         const itemAlias = args[0];
         if (!itemAlias) {
             message.reply("Please specify an item to alch.");

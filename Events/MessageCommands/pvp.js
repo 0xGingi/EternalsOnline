@@ -30,8 +30,8 @@ module.exports = {
         let playerStats = await PLAYERDATA.findOne({ userId: user.id });
         let balance = await BALANCEDATA.findOne({ userId: user.id });
 
-        if (!playerStats) return message.reply(`${inlineCode('❌')} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
-        if (playerStats.player.other.area !== 'wilderness') return message.reply(`${inlineCode('❌')} you are not in the wilderness! : ${inlineCode('@FlipMMO travel')}`);
+        if (!playerStats) return message.reply(`${inlineCode('❌')} you are not a player ! : ${inlineCode('@Eternals start')}`);
+        if (playerStats.player.other.area !== 'wilderness') return message.reply(`${inlineCode('❌')} you are not in the wilderness! : ${inlineCode('@Eternals travel')}`);
         if (!userInput) {
             return message.reply(`You need to mention a player in the wilderness to attack them!`);
         }
@@ -52,11 +52,11 @@ module.exports = {
 
                 let playerOne = await PLAYERDATA.findOne({ userId: message.author.id });
                 console.log(playerOne.pseudo);
-                if (!playerOne) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
+                if (!playerOne) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
                 let balance = await BALANCEDATA.findOne({ userId: message.author.id });
                 let wagerAmountPlayer1 = balance.eco.coins;
-                if (!balance) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
-                if (playerOne.player.other.area !== 'wilderness') return message.reply(`${EMOJICONFIG.no} you are not in the wilderness! : ${inlineCode('@FlipMMO travel')}`);
+                if (!balance) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
+                if (playerOne.player.other.area !== 'wilderness') return message.reply(`${EMOJICONFIG.no} you are not in the wilderness! : ${inlineCode('@Eternals travel')}`);
                 else {
                         let playerTwo = await PLAYERDATA.findOne({ pseudo: userInput });
                         console.log(playerTwo.pseudo);
@@ -168,7 +168,7 @@ module.exports = {
                             await message.reply({ embeds:[battle(playerOne.player.attack , playerTwo.player.attack, playerOne.player.health, playerTwo.player.health, playerOne.player.defense, playerTwo.player.defense)], ephemeral: false });
                        }       
                     };
-                } else return message.reply(`${EMOJICONFIG.no} player undefined : ${inlineCode("@FlipMMO pvp <@user>")}`);
+                } else return message.reply(`${EMOJICONFIG.no} player undefined : ${inlineCode("@Eternals pvp <@user>")}`);
         
     
         }

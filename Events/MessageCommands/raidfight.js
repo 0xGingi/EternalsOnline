@@ -41,7 +41,7 @@ module.exports = {
         }
         let playerStats = await PLAYERDATA.findOne({ userId: message.author.id });
         if (!playerStats) {
-            return message.reply('You are not a player! Use `@FlipMMO start` to begin your adventure.');
+            return message.reply('You are not a player! Use `@Eternals start` to begin your adventure.');
         }
 
         let squadData = await SQUADDATA.findOne({ squadName: playerStats.player.other.squadName });

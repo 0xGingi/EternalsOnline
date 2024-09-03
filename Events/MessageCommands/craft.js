@@ -24,14 +24,14 @@ module.exports = {
 
             let playerStats = await PLAYERDATA.findOne({ userId: message.author.id });
             if (!playerStats) {
-                return message.reply('You are not a player! Use `@FlipMMO start` to begin your adventure.');
+                return message.reply('You are not a player! Use `@Eternals start` to begin your adventure.');
             }
             let recipe = CRAFT.find(item => item.smithalias === bar);
             if (!recipe) {
                 return message.reply(`The recipe for the specified totem doesn't exist.`);
             }            
 
-            if (playerStats.player.energy < 2) return message.reply(`${EMOJICONFIG.no} You don't have enough energy! Restore your energy with ${inlineCode('@FlipMMO energy')}`)
+            if (playerStats.player.energy < 2) return message.reply(`${EMOJICONFIG.no} You don't have enough energy! Restore your energy with ${inlineCode('@Eternals energy')}`)
 
             var user = message.author;
             let quantity;

@@ -28,7 +28,7 @@ module.exports = {
             message.reply("You are not a player yet.");
             return;
         }
-        if (player.player.energy < 2) return message.reply(`${EMOJICONFIG.no} You don't have enough energy! Restore your energy with ${inlineCode('@FlipMMO energy')}`)
+        if (player.player.energy < 2) return message.reply(`${EMOJICONFIG.no} You don't have enough energy! Restore your energy with ${inlineCode('@Eternals energy')}`)
 
         if (player.player.woodcutting.level < 50) {
             message.reply("You need to be at least woodcutting level 50 to enter the ember forest");

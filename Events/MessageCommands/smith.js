@@ -24,9 +24,9 @@ module.exports = {
         if (this.info.names.some(name => commandName === name)) {
             let playerStats = await PLAYERDATA.findOne({ userId: message.author.id });
             if (!playerStats) {
-                return message.reply('You are not a player! Use `@FlipMMO start` to begin your adventure.');
+                return message.reply('You are not a player! Use `@Eternals start` to begin your adventure.');
             }
-            if (playerStats.player.energy < 2) return message.reply(`${EMOJICONFIG.no} You don't have enough energy! Restore your energy with ${inlineCode('@FlipMMO energy')}`)
+            if (playerStats.player.energy < 2) return message.reply(`${EMOJICONFIG.no} You don't have enough energy! Restore your energy with ${inlineCode('@Eternals energy')}`)
 
             const bar = args[0].toLowerCase();
 

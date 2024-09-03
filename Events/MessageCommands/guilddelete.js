@@ -16,13 +16,13 @@ module.exports = {
             var squadNameToDelete = args[0];
 
             if (!squadNameToDelete) {
-                return message.reply(`${EMOJICONFIG.no} Please specify the guild name to delete: ${inlineCode("@FlipMMO guild destroy <guild name>")}`);
+                return message.reply(`${EMOJICONFIG.no} Please specify the guild name to delete: ${inlineCode("@Eternals guild destroy <guild name>")}`);
             }
 
             // == Player DB ==
             let playerStats = await PLAYERDATA.findOne({ userId: user.id });
             if (!playerStats) {
-                return message.reply(`${EMOJICONFIG.no} You are not a player! Type: ${inlineCode('@FlipMMO start')}`);
+                return message.reply(`${EMOJICONFIG.no} You are not a player! Type: ${inlineCode('@Eternals start')}`);
             }
 
             // == Squad DB ==

@@ -35,7 +35,7 @@ module.exports = {
                     break;
                 default:
                     // Handle unknown subcommands
-                    message.reply("Unknown subcommand for boss. Please use '@FlipMMO boss' '@FlipMMO boss all' or '@FlipMMO boss attack'");
+                    message.reply("Unknown subcommand for boss. Please use '@Eternals boss' '@Eternals boss all' or '@Eternals boss attack'");
                     break;
             }
         } }

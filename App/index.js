@@ -24,7 +24,7 @@ client.once('ready', async () => {
     await loadCommands(client);
     await loadEvents(client);
     await client.user.setPresence({
-        activities: [{name :'@FlipMMO help', type: ActivityType.Playing }],
+        activities: [{name :'@Eternals help', type: ActivityType.Playing }],
         status: `online`,
     });
 });

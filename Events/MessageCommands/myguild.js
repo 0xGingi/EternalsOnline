@@ -32,7 +32,7 @@ async execute(message, args, commandName) {
     // == Player Db ==
     let playerStats = await PLAYERDATA.findOne({ userId: message.author.id });
     if (playerStats.player.other.ironman === true) return message.reply(`${EMOJICONFIG.no} You are an ironman, you can't join a guild!`)
-    if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
+    if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
     else {
 
         // == Squad Db ==

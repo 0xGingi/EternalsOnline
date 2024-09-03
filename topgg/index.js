@@ -4,9 +4,8 @@ const PLAYER = require('./modules/player.js');
 const mongoose = require('mongoose');
 const axios = require('axios');
 const app = express();
-//FlipGuard API Webhook
+
 const webhook = new Webhook('');
-//MongoDB Connection
 mongoose.connect('');
 
 app.use('/vote', function(req, res, next) {
@@ -21,7 +20,6 @@ app.post('/vote', webhook.listener(async vote => {
   try {
     const userId = vote.user;
     const player = await PLAYER.findOne({ userId: userId });
-    axios.post(`https://api.flipguard.xyz/flipbot/topgg-flipmmo`, {userId}, {headers: {authorization: ''}}).catch()
     if (!player){
       console.log(`Player ${userId} not found`);
       return;

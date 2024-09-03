@@ -44,14 +44,14 @@ module.exports = {
         
         if (!commandName === 'slayerdungeon') return;
         if (!playerStats) {
-            return message.reply('You are not a player! Use `@FlipMMO start` to begin your adventure.');
+            return message.reply('You are not a player! Use `@Eternals start` to begin your adventure.');
         }
         
-        if (playerStats.player.energy < 2) return message.reply(`${EMOJICONFIG.no} You don't have enough energy! Restore your energy with ${inlineCode('@FlipMMO energy')}`)
+        if (playerStats.player.energy < 2) return message.reply(`${EMOJICONFIG.no} You don't have enough energy! Restore your energy with ${inlineCode('@Eternals energy')}`)
 
 
         let balance = await BALANCEDATA.findOne({ userId: message.author.id });
-        if (!balance) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
+        if (!balance) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
         else {
     
             let stats = await STATS.findOne({ botID: 899 });

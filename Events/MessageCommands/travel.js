@@ -25,7 +25,7 @@ module.exports = {
    // let Areas = Areas;
     let player = await Player.findOne({ userId: user.id });
     let playerLevel = player.player.level;
-    if (!player) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
+    if (!player) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
     else {
     let checkarea = await Areas.findOne({ areaname: newArea });
     if (!checkarea) {

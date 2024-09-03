@@ -22,13 +22,13 @@ module.exports = {
     var item = args[0]
     //var slotItem = args[1]
     var user = message.author
-    if(item == undefined || item == '' || item == ' ') return message.reply(`${EMOJICONFIG.no} item error : ${inlineCode("@FlipMMO equip <item> <1/2/3/4/5>")}`);
+    if(item == undefined || item == '' || item == ' ') return message.reply(`${EMOJICONFIG.no} item error : ${inlineCode("@Eternals equip <item> <1/2/3/4/5>")}`);
     /*
     if(!item || item == undefined || item == '' || item == ' ')
     {
         
         let playerStats = await PLAYERDATA.findOne({ userId: user.id });
-        if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
+        if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
 
         function itemExist(itemName) {
             for (let pas = 0; pas < CONFIGITEM.length; pas++) {
@@ -166,14 +166,14 @@ module.exports = {
    // if(isNaN(slotItem) == false && slotItem <= 5 && slotItem >= 0){
         
         let playerStats = await PLAYERDATA.findOne({ userId: user.id });
-        if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
+        if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
         else {
             let balance = await BALANCEDATA.findOne({ userId: user.id });
-            if (!balance) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
+            if (!balance) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
             else {
                 let freeSlot = [playerStats.player.slotItem.slot1, playerStats.player.slotItem.slot2, playerStats.player.slotItem.slot3, playerStats.player.slotItem.slot4, playerStats.player.slotItem.slot5].findIndex(slot => slot == -1) + 1;
                 if (freeSlot == 0) {
-                    return message.reply(`${EMOJICONFIG.no} All slots are full, first remove an item with : ${inlineCode("@FlipMMO unequip <1/2/3/4/5>")}`);
+                    return message.reply(`${EMOJICONFIG.no} All slots are full, first remove an item with : ${inlineCode("@Eternals unequip <1/2/3/4/5>")}`);
                 }
                 
                 function itemExist(item){
@@ -237,12 +237,12 @@ module.exports = {
                         }
 
                         await playerStats.save();
-                        message.reply(`${EMOJICONFIG.attack} You equip your: **${inlineCode(itemExist(item)[2])}** in your slot number : **${inlineCode(freeSlot)}**\nTo remove your equipment type : ${inlineCode(`@FlipMMO unequip ${freeSlot}`)}`)
-                    } else return message.reply(`${EMOJICONFIG.no} you don't have this item, you have to buy it from the GE: ${inlineCode(`@FlipMMO ge`)}`);
+                        message.reply(`${EMOJICONFIG.attack} You equip your: **${inlineCode(itemExist(item)[2])}** in your slot number : **${inlineCode(freeSlot)}**\nTo remove your equipment type : ${inlineCode(`@Eternals unequip ${freeSlot}`)}`)
+                    } else return message.reply(`${EMOJICONFIG.no} you don't have this item, you have to buy it from the GE: ${inlineCode(`@Eternals ge`)}`);
                 } else return message.reply(`${EMOJICONFIG.no} this item does not exist...`);
             };
         };
-  //  } else return message.reply(`${EMOJICONFIG.no} please specify a correct slot: ${inlineCode("@FlipMMO equip <item> <1/2/3/4/5>")}`);
+  //  } else return message.reply(`${EMOJICONFIG.no} please specify a correct slot: ${inlineCode("@Eternals equip <item> <1/2/3/4/5>")}`);
 };
     },
 info: {

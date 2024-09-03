@@ -35,7 +35,7 @@ module.exports = {
                     message.reply("You are not a player yet.");
                     return;
                 }
-                if (player.player.energy < 2) return message.reply(`${EMOJICONFIG.no} You don't have enough energy! Restore your energy with ${inlineCode('@FlipMMO energy')}`)
+                if (player.player.energy < 2) return message.reply(`${EMOJICONFIG.no} You don't have enough energy! Restore your energy with ${inlineCode('@Eternals energy')}`)
 
 
                 const currentArea = player.player.other.area;

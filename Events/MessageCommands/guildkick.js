@@ -22,7 +22,7 @@ async execute(message, args, commandName) {
     var user = message.author;
     var userBan = Array.from(message.mentions.users.values())[1];
 
-    if(userBan == undefined || userBan == ' ' || userBan == '') return message.reply(`${inlineCode("❌")} error command, type: ${inlineCode("@FlipMMO guild ban <@user>")}`);
+    if(userBan == undefined || userBan == ' ' || userBan == '') return message.reply(`${inlineCode("❌")} error command, type: ${inlineCode("@Eternals guild ban <@user>")}`);
 
     function playerInSquad(userBan, player){
         if(userBan.player.other.squadName != 'undefined' && userBan.player.other.squadName == player.player.other.squadName) return true
@@ -31,7 +31,7 @@ async execute(message, args, commandName) {
 
     // == Player DB ==
     let playerStats = await PLAYERDATA.findOne({ userId: user.id });
-    if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
+    if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
     else {
 
         // == Squad DB ==

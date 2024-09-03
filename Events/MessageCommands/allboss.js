@@ -30,7 +30,7 @@ module.exports = {
     
     // Stats
     let playerStats = await PLAYERDATA.findOne({ userId: message.author.id });
-    if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are a not player ! : ${inlineCode('@FlipMMO start')}`);
+    if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are a not player ! : ${inlineCode('@Eternals start')}`);
     else {
         /**=== Account BOSs ===*/
         let boss = await BOSSDATA.findOne({ idboss: 8 });
@@ -39,7 +39,7 @@ module.exports = {
             var bossEmbed = new EmbedBuilder()
                 .setColor('#fc9803')
                 .setTitle(`WOLD BOSS`)
-                .setDescription(`${EMOJICONFIG.attack6} **Current World Boss**: ${inlineCode(boss.bossname)}\n${EMOJICONFIG.attack} **Attack** : ${boss.stats.attack}\n${EMOJICONFIG.heart} **Health** : ${boss.stats.health}\nAttack the boss : ${inlineCode("@FlipMMO boss attack")}\n\n${EMOJICONFIG.map} **ALL WORLD BOSSES** : \n`)
+                .setDescription(`${EMOJICONFIG.attack6} **Current World Boss**: ${inlineCode(boss.bossname)}\n${EMOJICONFIG.attack} **Attack** : ${boss.stats.attack}\n${EMOJICONFIG.heart} **Health** : ${boss.stats.health}\nAttack the boss : ${inlineCode("@Eternals boss attack")}\n\n${EMOJICONFIG.map} **ALL WORLD BOSSES** : \n`)
                 .addFields(
                 { name: `**BOSS ** : **${BOSSCONFIG.boss1.name}**\n`, value: `\n${EMOJICONFIG.attack} **Attack** : ${BOSSCONFIG.boss1.attack}\n${EMOJICONFIG.heart} **Health** : ${BOSSCONFIG.boss1.health}`, inline: true },
                 { name: `**BOSS ** : **${BOSSCONFIG.boss2.name}**\n`, value: `\n${EMOJICONFIG.attack} **Attack** : ${BOSSCONFIG.boss2.attack}\n${EMOJICONFIG.heart} **Health** : ${BOSSCONFIG.boss2.health}`, inline: true },

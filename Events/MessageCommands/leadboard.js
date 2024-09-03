@@ -27,12 +27,12 @@ module.exports = {
 
             const voteEmbed = new EmbedBuilder()
             .setColor('#0099ff')
-            .setTitle('FlipMMO Leaderboards')
-            .setURL('https://stats.flipmmo.com')
+            .setTitle('Eternals Leaderboards')
+            .setURL('https://stats.EternalsOnline.com')
             .setDescription('Click the link above to view leaderboards!')
             .setThumbnail('https://images.discordapp.net/avatars/1157454837861056552/c8d66bd2b5f32dbf44e3bdd2d3f61489.png')
             .setTimestamp()
-            .setFooter({ text: 'FlipMMO Leaderboards'});
+            .setFooter({ text: 'Eternals Leaderboards'});
 
         message.channel.send({ embeds: [voteEmbed] });
         }

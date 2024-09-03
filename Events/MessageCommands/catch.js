@@ -21,9 +21,9 @@ module.exports = {
             let playerStats = await PLAYERDATA.findOne({ userId: user.id });
             
             if (!playerStats) {
-                return message.reply("You need to be a player to catch pets! Use '@FlipMMO start' to begin your adventure.");
+                return message.reply("You need to be a player to catch pets! Use '@Eternals start' to begin your adventure.");
             }
-            if (playerStats.player.energy < 2) return message.reply(`${EMOJICONFIG.no} You don't have enough energy! Restore your energy with ${inlineCode('@FlipMMO energy')}`)
+            if (playerStats.player.energy < 2) return message.reply(`${EMOJICONFIG.no} You don't have enough energy! Restore your energy with ${inlineCode('@Eternals energy')}`)
 
             if (playerStats.player.cooldowns && playerStats.player.cooldowns.catchpet) {
                 const timeSinceLastDaily = new Date().getTime() - new Date(playerStats.player.cooldowns.catchpet).getTime();

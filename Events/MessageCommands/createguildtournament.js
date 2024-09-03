@@ -24,10 +24,10 @@ module.exports = {
     var squadTournamentName = args[0]
     var maxSquadMember = args[1]
 
-    if(maxSquadMember == '' || maxSquadMember == ' ' || maxSquadMember == undefined) return message.reply(`${EMOJICONFIG.no} error command, type: ${inlineCode("@FlipMMO tournament create <tournament name> <max member>")}`)
+    if(maxSquadMember == '' || maxSquadMember == ' ' || maxSquadMember == undefined) return message.reply(`${EMOJICONFIG.no} error command, type: ${inlineCode("@Eternals tournament create <tournament name> <max member>")}`)
     if(isNaN(maxSquadMember) == false){
         if(maxSquadMember >= 2 && maxSquadMember <= 20){
-            if(squadTournamentName === '' || squadTournamentName === ' ' || squadTournamentName === undefined || squadTournamentName === 'undefined') return message.reply(`${EMOJICONFIG.no} error command, type: ${inlineCode("@FlipMMO tournament create <tournament name> <max member>")}`)
+            if(squadTournamentName === '' || squadTournamentName === ' ' || squadTournamentName === undefined || squadTournamentName === 'undefined') return message.reply(`${EMOJICONFIG.no} error command, type: ${inlineCode("@Eternals tournament create <tournament name> <max member>")}`)
             else {
 
                 // ==== Check if squad name ever use ====
@@ -77,10 +77,10 @@ module.exports = {
                         return message.channel.send({embeds: [squadEmbed]});
 
                     } else return message.reply(`${EMOJICONFIG.no} you have already created a tournament, you can't create a second one...`)
-                } else return message.reply(`${EMOJICONFIG.no} the name ${inlineCode(squadTournamentName)} is already taken ! ${inlineCode('@FlipMMO tournament create <guild name> <max member>')}`)
+                } else return message.reply(`${EMOJICONFIG.no} the name ${inlineCode(squadTournamentName)} is already taken ! ${inlineCode('@Eternals tournament create <guild name> <max member>')}`)
             }; 
         } else return message.reply(`${EMOJICONFIG.no} a tournament must be composed of a minimum of 2 guilds and a maximum of 15!`);
-    } return message.reply(`${EMOJICONFIG.no} error command, type: ${inlineCode("@FlipMMO tournament create <tournament name> <max member>")}`);
+    } return message.reply(`${EMOJICONFIG.no} error command, type: ${inlineCode("@Eternals tournament create <tournament name> <max member>")}`);
 };
 },
 info: {

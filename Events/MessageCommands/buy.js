@@ -45,7 +45,7 @@ module.exports = {
     let buyer = await Player.findOne({ userId: user.id });
     if (buyer.player.other.ironman === true) return message.reply(`${EMOJICONFIG.no} You are an ironman, you can't buy items from other players!`);
 
-    if (!buyer) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
+    if (!buyer) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
     else {
         function itemExist(listingId){
            // listingId = listingId.toLowerCase();
@@ -130,7 +130,7 @@ module.exports = {
 
 
         let balance = await Balance.findOne({ userId: user.id });
-        if (!balance) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
+        if (!balance) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
         else {
 
     // Retrieve the marketplace listing
@@ -301,7 +301,7 @@ module.exports = {
                                 var itemEmbed = new EmbedBuilder()
                                 .setColor('#6d4534')
                                 .setTitle(`${EMOJICONFIG.coinchest} ${user.username}'s New Item(s)`)
-                                .setDescription(`${EMOJICONFIG.yes} **Purchase made!**\n${EMOJICONFIG.coinchest} **NEW ITEM(S)** : **${amountToBuy}x ${inlineCode(itemExist(listingId)[3])}**\n${EMOJICONFIG.paper} Don't forget to equip yourself with : ${inlineCode(`@FlipMMO equip ${listingId} <1/2/3/4/5>`)}`)
+                                .setDescription(`${EMOJICONFIG.yes} **Purchase made!**\n${EMOJICONFIG.coinchest} **NEW ITEM(S)** : **${amountToBuy}x ${inlineCode(itemExist(listingId)[3])}**\n${EMOJICONFIG.paper} Don't forget to equip yourself with : ${inlineCode(`@Eternals equip ${listingId} <1/2/3/4/5>`)}`)
                                 .setTimestamp()
                                 if (interaction.message) {
                                     await interaction.reply({embeds: [itemEmbed], ephemeral: true});

@@ -27,13 +27,13 @@ async execute(message, args, commandName) {
     var user = message.author;
     var squadNameJoin = args[0]
 
-    if(squadNameJoin === '') return message.reply(`${EMOJICONFIG.no} error command, type: ${inlineCode("@FlipMMO guild join <guild name>")}`)
-    else if(squadNameJoin === ' ') message.reply(`${EMOJICONFIG.no} error command, type: ${inlineCode("@FlipMMO guild join <guild name>")}`)
-    else if(squadNameJoin === undefined) message.reply(`${EMOJICONFIG.no} error command, type: ${inlineCode("@FlipMMO guild join <guild name>")}`)
+    if(squadNameJoin === '') return message.reply(`${EMOJICONFIG.no} error command, type: ${inlineCode("@Eternals guild join <guild name>")}`)
+    else if(squadNameJoin === ' ') message.reply(`${EMOJICONFIG.no} error command, type: ${inlineCode("@Eternals guild join <guild name>")}`)
+    else if(squadNameJoin === undefined) message.reply(`${EMOJICONFIG.no} error command, type: ${inlineCode("@Eternals guild join <guild name>")}`)
     else if(squadNameJoin != undefined) {
 
         function playerInSquad(playerStats){
-            if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
+            if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
             else {
                 if(playerStats.player.other.squadName != 'undefined') return true
             }
@@ -53,12 +53,12 @@ async execute(message, args, commandName) {
 
             // == Balance Db ==
             let balance = await BALANCEDATA.findOne({ userId: message.author.id });
-            if (!balance) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
+            if (!balance) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
             else {
 
                 // == Player Db ==
                 
-                if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
+                if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
                 else {
 
                     if(playerInSquad(playerStats) == false){

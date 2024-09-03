@@ -40,7 +40,7 @@ module.exports = {
 
         const dungeonAlias = args[0];
         if (!args[0]) {
-            message.channel.send('Please use `@FlipMMO list dungeons` to view all dungeons. Usage: `@FlipMMO df <dungeon>`');
+            message.channel.send('Please use `@Eternals list dungeons` to view all dungeons. Usage: `@Eternals df <dungeon>`');
             return;
         }
         
@@ -60,13 +60,13 @@ module.exports = {
         if (!commandName === 'dungeonfight') return;
         let playerStats = await PLAYERDATA.findOne({ userId: message.author.id });
         if (!playerStats) {
-            return message.reply('You are not a player! Use `@FlipMMO start` to begin your adventure.');
+            return message.reply('You are not a player! Use `@Eternals start` to begin your adventure.');
         }    
-        if (playerStats.player.energy < 2) return message.reply(`${EMOJICONFIG.no} You don't have enough energy! Restore your energy with ${inlineCode('@FlipMMO energy')}`)
+        if (playerStats.player.energy < 2) return message.reply(`${EMOJICONFIG.no} You don't have enough energy! Restore your energy with ${inlineCode('@Eternals energy')}`)
 
 
         let balance = await BALANCEDATA.findOne({ userId: message.author.id });
-        if (!balance) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
+        if (!balance) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
         else {
             if (playerStats.player.cooldowns && playerStats.player.cooldowns.dungeon) {
                 const timeSinceLastDaily = new Date().getTime() - new Date(playerStats.player.cooldowns.dungeon).getTime();

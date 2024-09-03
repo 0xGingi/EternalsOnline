@@ -24,7 +24,7 @@ module.exports = {
             var user = message.author;
             let playerStats = await PLAYERDATA.findOne({ userId: message.author.id });
             if (!playerStats) {
-                return message.reply('You are not a player! Use `@FlipMMO start` to begin your adventure.');
+                return message.reply('You are not a player! Use `@Eternals start` to begin your adventure.');
             }
             let itemsToRemoveIds = [41, 42, 89, 90, 91];
             let itemToAddId = 129;
@@ -37,7 +37,7 @@ module.exports = {
                     return message.reply(`Hmm... You have a feeling you need a ${itemName} in your inventory... but you're not sure why.`);
                 }
             }            
-            if (playerStats.player.energy < 2) return message.reply(`${EMOJICONFIG.no} You don't have enough energy! Restore your energy with ${inlineCode('@FlipMMO energy')}`)
+            if (playerStats.player.energy < 2) return message.reply(`${EMOJICONFIG.no} You don't have enough energy! Restore your energy with ${inlineCode('@Eternals energy')}`)
                 
                 for (let itemId of itemsToRemoveIds) {
                     let item = playerInventory.find(item => item.id === itemId);

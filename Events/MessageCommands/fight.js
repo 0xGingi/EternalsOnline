@@ -28,7 +28,7 @@ module.exports = {
     var user = message.author
     var userInput = Array.from(message.mentions.users.values())[1];
 
-    if (userInput === ' ' || userInput === '') return message.reply(`${EMOJICONFIG.no} player undefined : ${inlineCode("@FlipMMO brawl <@user>")}`);
+    if (userInput === ' ' || userInput === '') return message.reply(`${EMOJICONFIG.no} player undefined : ${inlineCode("@Eternals brawl <@user>")}`);
     if (user === userInput) return message.reply(`${EMOJICONFIG.no} You can't fight yourself, I mean theoretically you could, but...`);
 
     // === Try if player are real ===
@@ -54,14 +54,14 @@ module.exports = {
 
         // === Player 1 : DataBase ===
         let playerOne = await PLAYERDATA.findOne({ userId: message.author.id });
-        if (!playerOne) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
-        if (playerOne.player.energy < 2) return message.reply(`${EMOJICONFIG.no} You don't have enough energy! Restore your energy with ${inlineCode('@FlipMMO energy')}`)
+        if (!playerOne) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
+        if (playerOne.player.energy < 2) return message.reply(`${EMOJICONFIG.no} You don't have enough energy! Restore your energy with ${inlineCode('@Eternals energy')}`)
 
         else {
 
             // === Balance Player 1 : DataBase ===
             let balance = await BALANCEDATA.findOne({ userId: message.author.id });
-            if (!balance) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
+            if (!balance) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
             else {
 
                 // === Player 2 : DataBase ===
@@ -232,7 +232,7 @@ module.exports = {
                 };
             };
         };
-    } else return message.reply(`${EMOJICONFIG.no} player undefined : ${inlineCode("@FlipMMO duel <@user>")}`);
+    } else return message.reply(`${EMOJICONFIG.no} player undefined : ${inlineCode("@Eternals duel <@user>")}`);
 };
 },
 

@@ -26,7 +26,7 @@ module.exports = {
             message.reply("You are not a player yet.");
             return;
         }
-        if (player.player.energy < 2) return message.reply(`${EMOJICONFIG.no} You don't have enough energy! Restore your energy with ${inlineCode('@FlipMMO energy')}`)
+        if (player.player.energy < 2) return message.reply(`${EMOJICONFIG.no} You don't have enough energy! Restore your energy with ${inlineCode('@Eternals energy')}`)
 
         const currentArea = player.player.other.area;
         const eligibleOre = ORE.filter(ore => player.player.mining.level >= ore.level && ore.area.includes(currentArea));

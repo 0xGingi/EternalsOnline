@@ -26,13 +26,13 @@ module.exports = {
     var user = message.author;
     var partyNameJoin = args[0]
 
-    if(partyNameJoin === '') return message.reply(`${EMOJICONFIG.no} error command, type: ${inlineCode("@FlipMMO party join <party name>")}`)
-    else if(partyNameJoin === ' ') message.reply(`${EMOJICONFIG.no} error command, type: ${inlineCode("@FlipMMO party join <party name>")}`)
-    else if(partyNameJoin === undefined) message.reply(`${EMOJICONFIG.no} error command, type: ${inlineCode("@FlipMMO party join <party name>")}`)
+    if(partyNameJoin === '') return message.reply(`${EMOJICONFIG.no} error command, type: ${inlineCode("@Eternals party join <party name>")}`)
+    else if(partyNameJoin === ' ') message.reply(`${EMOJICONFIG.no} error command, type: ${inlineCode("@Eternals party join <party name>")}`)
+    else if(partyNameJoin === undefined) message.reply(`${EMOJICONFIG.no} error command, type: ${inlineCode("@Eternals party join <party name>")}`)
     else if(partyNameJoin != undefined) {
 
         function playerInParty(playerStats){
-            if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
+            if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
             else {
                 if(playerStats.player.other.partyName != 'undefined') return true
             }
@@ -47,14 +47,14 @@ module.exports = {
             }
             // == Balance Db ==
             let balance = await BALANCEDATA.findOne({ userId: message.author.id });
-            if (!balance) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
+            if (!balance) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
             else {
 
                 // == Player Db ==
                 let playerStats = await PLAYERDATA.findOne({ userId: message.author.id });
                 if (playerStats.player.other.ironman === true) return message.reply(`${EMOJICONFIG.no} You are an ironman, you can't join a party!`)
 
-                if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
+                if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
                 else {
 
                     if(playerInParty(playerStats) == false){
@@ -123,7 +123,7 @@ module.exports = {
                                             .setColor('#4dca4d')
                                             .setTitle(`${EMOJICONFIG.scroll4} You join ${party.partyName}`)
                                             .setDescription(`${EMOJICONFIG.yes} New Party Member: ${inlineCode(user.username)}\n${EMOJICONFIG.paper} Congrats you have sucessfully join your new party !\n${EMOJICONFIG.helmet} Leader : ${inlineCode(party.leader[1])}\n${EMOJICONFIG.hat7} Member(s): ${inlineCode(party.member.length), '+1'}`)
-                                            .setFooter({text:'FlipMMO | @FlipMMO help'})
+                                            .setFooter({text:'Eternals | @Eternals help'})
                                             .setTimestamp();
                                         return message.reply({embeds: [partyEmbed]});
                                         

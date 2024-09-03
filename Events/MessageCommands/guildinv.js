@@ -25,7 +25,7 @@ module.exports = {
     var user = message.author
 
     let playerStats = await PLAYERDATA.findOne({ userId: user.id });
-    if (!playerStats) return message.reply(`${EMOJICONFIG.no} You are not a player! : ${inlineCode('@FlipMMO start')}`);
+    if (!playerStats) return message.reply(`${EMOJICONFIG.no} You are not a player! : ${inlineCode('@Eternals start')}`);
 
     let squad = await SQUADDATA.findOne({ squadName: playerStats.player.other.squadName });
     if (!squad) return message.reply(`${EMOJICONFIG.no} You are in a guild.`);

@@ -24,7 +24,7 @@ async execute(message, args, commandName) {
 
         function playerInSquad(playerStats){
             // == Player Db ==
-            if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
+            if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
             else {
                 if(playerStats.player.other.squadName != 'undefined') return true
             }
@@ -33,7 +33,7 @@ async execute(message, args, commandName) {
         
 
             let playerStats = await PLAYERDATA.findOne({ userId: message.author.id });
-            if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
+            if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
             else {
                 let guild = playerStats.player.other.squadName;
                 let players = await PLAYERDATA.find({ "player.other.squadName": guild });

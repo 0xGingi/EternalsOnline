@@ -24,10 +24,10 @@ module.exports = {
     var nameTournament = args[0]
     var priceJoin = 10000;
 
-    if(nameTournament === '' || nameTournament === '' || nameTournament == undefined) return message.reply(`${EMOJICONFIG.no} error command, type: ${inlineCode("@FlipMMO tournament join <Tournament Name>")}`);
+    if(nameTournament === '' || nameTournament === '' || nameTournament == undefined) return message.reply(`${EMOJICONFIG.no} error command, type: ${inlineCode("@Eternals tournament join <Tournament Name>")}`);
 
     function playerInSquad(playerStats){
-        if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
+        if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
         else {
             if(playerStats.player.other.squadName != 'undefined') return true
         }
@@ -49,7 +49,7 @@ module.exports = {
 
     // == Player DB ==
     let playerStats = await PLAYERDATA.findOne({ userId: user.id });
-    if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
+    if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
     else {
 
         // == Squad DB ==
@@ -86,7 +86,7 @@ module.exports = {
                                     squadTournament.squadMember.push({ nameSquad: squad.squadName, squadLeader: squad.leader[1], totalMember: squad.member.length});
                                     squadTournament.save();
 
-                                    return message.reply(`${EMOJICONFIG.yes} You join the ${inlineCode(squadTournament.squadTournamentName)} tournament\n(Check that your registration is complete by typing the command: ${inlineCode("@FlipMMO tournament view " + nameTournament)})`)
+                                    return message.reply(`${EMOJICONFIG.yes} You join the ${inlineCode(squadTournament.squadTournamentName)} tournament\n(Check that your registration is complete by typing the command: ${inlineCode("@Eternals tournament view " + nameTournament)})`)
 
                                 } else return message.reply(`${EMOJICONFIG.no} There are too many guilds in this tournament, the creator decided that the maximum number of squads would be : ${inlineCode(squadTournament.maxSquad)}`);
                         } else return message.reply(`${EMOJICONFIG.no} your Guild bank doesn't have enought money...\nIt takes ${priceJoin} ${EMOJICONFIG.coin} to join a Guild tournament`);

@@ -25,7 +25,7 @@ module.exports = {
 
   /**=== Account Stats ===*/
   let playerStats = await PLAYERDATA.findOne({ userId: message.author.id });
-  if (!playerStats) return message.reply(`${inlineCode('❌')} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
+  if (!playerStats) return message.reply(`${inlineCode('❌')} you are not a player ! : ${inlineCode('@Eternals start')}`);
   else {
     if(playerStats.player.other.dm == false){
         playerStats.player.other.dm = true

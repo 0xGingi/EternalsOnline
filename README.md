@@ -1,4 +1,4 @@
-## FlipMMO Discord Bot
+## Eternals Online Discord Bot
 
 ### Features
 * Player Marketplace (Grand Exchange)
@@ -25,12 +25,12 @@
 * Note: There are many hardcoded Channel/Server/Admin IDs in various commands you might have to change
 
 ### Directories
-* `api/` - Contains API for FlipMMO Database
+* `api/` - Contains API for Eternals Database
 * `App/` - Contains the main bot files
 * `config/` - Contains Configuration files for skills, monsters...etc
 * `commands/` - Contains slash commands
 * `Events/` - Contains event listeners
-* `Events/MessageCommands/` - Contains all FlipMMO Commands
+* `Events/MessageCommands/` - Contains all Eternals Commands
 * `leaderboards/` - Contains leaderboard website
 * `models/` - Contains all database models
 * `scripts/` - Contains random scripts
@@ -38,8 +38,6 @@
 
 ### Links
 
-* FlipMMO Wiki - [https://wiki.flipmmo.com](https://wiki.flipmmo.com)
-* FlipMMO Leaderboards Website - [https://https://stats.flipmmo.com](https://stats.flipmmo.com)
-* Invite FlipMMO to your Server - [https://discord.com/api/oauth2/authorize?client_id=1157454837861056552&permissions=139586792512&scope=applications.commands+bot](https://discord.com/api/oauth2/authorize?client_id=1157454837861056552&permissions=139586792512&scope=applications.commands+bot)
-* FlipMMO Discord Server - [https://discord.gg/ywdfj3qbrF](https://discord.gg/ywdfj3qbrF)
-
+* Eternals Leaderboards Website - [https://https://stats.eternalsonline.com](https://stats.eternalsonline.com)
+* Invite Eternals to your Server - [https://discord.com/api/oauth2/authorize?client_id=1234552588339511439&permissions=139586792512&scope=applications.commands+bot ](https://discord.com/api/oauth2/authorize?client_id=1234552588339511439&permissions=139586792512&scope=applications.commands+bot )
+* Eternals Discord Server - [https://discord.gg/ywdfj3qbrF](https://discord.gg/ywdfj3qbrF)

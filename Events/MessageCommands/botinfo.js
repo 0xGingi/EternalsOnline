@@ -32,19 +32,17 @@ module.exports = {
       .setColor('E03636')
       .setAuthor({name: 'Bot Info', iconURL: 'https://cdn.discordapp.com/app-icons/1157454837861056552/c8d66bd2b5f32dbf44e3bdd2d3f61489.png'})
       .addFields(
-        { name: 'Owner :', value: 'FlipGuard', inline: true },
-        { name: 'Prefix :', value: 'Mention @FlipMMO ', inline: true },
+        { name: 'Owner :', value: '0xGingi + StillDegen', inline: true },
+        { name: 'Prefix :', value: 'Mention @Eternals ', inline: true },
         { name: 'Uptime :', value: uptimeForEmbed, inline: true },
         { name: 'Programming language  :', value: 'JavaScript', inline: true },
         { name: 'API  :', value: apiForEmbed, inline: true },
         { name: 'Number Commands  :', value: numCommands.toString(), inline: true },
-        { name: 'Version  :', value: 'FlipMMO 2.0a', inline: true },
+        { name: 'Version  :', value: 'Eternals 2.0a', inline: true },
         { name: 'Users  :', value: `${numUsers}`, inline: true },
         { name: 'Servers :', value: `${serverCount}`, inline: true },
-        { name: '**FlipMMO Server**', value:`[Official Server](https://discord.gg/ywdfj3qbrF)`,inline: true},
-        { name: '**FlipMMO Invite**', value: `[Invite to your Server](https://discord.com/api/oauth2/authorize?client_id=1157454837861056552&permissions=139586792512&scope=applications.commands+bot)`, inline: true},
-        //{ name: '**FlipMMO WebSite**', value: `[WebSite](https://flipguard.xyz)`},
-        //{ name: '**FlipMMO PREMIUM**', value: `[Buy the Premium Soon](https://www.patreon.com/)`}
+        { name: '**Eternals Server**', value:`[Official Server](https://discord.gg/ywdfj3qbrF)`,inline: true},
+        { name: '**Eternals Invite**', value: `[Invite to your Server](https://discord.com/api/oauth2/authorize?client_id=1234552588339511439&permissions=139586792512&scope=applications.commands+bot)`, inline: true},
 
       )
 

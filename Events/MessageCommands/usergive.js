@@ -40,7 +40,7 @@ module.exports = {
             if (recipientStats.player.other.ironman === true) return message.reply(`${EMOJICONFIG.no} You can't give items to an ironman!`);
             let giverBal = await BALANCEDATA.findOne({userId: message.author.id});
             let recpBal = await BALANCEDATA.findOne({userId: recipient.id});
-
+            if (recipient === user) return message.reply(`${EMOJICONFIG.no} You cannot give items to yourself!`);
             if (!giverStats) return message.reply(`${EMOJICONFIG.no} You are not a player!`);
             if (!recipientStats) return message.reply(`${EMOJICONFIG.no} The recipient is not a player!`);
 

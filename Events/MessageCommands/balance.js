@@ -28,7 +28,7 @@ module.exports = {
 
   			/**=== Account Economie ===*/
   			let balance = await BALANCEDATA.findOne({ userId: message.author.id });
-  			if (!balance) return message.reply(`${EMOJICONFIG.no} you are not player ! : ${inlineCode('@FlipMMO start')}`);
+  			if (!balance) return message.reply(`${EMOJICONFIG.no} you are not player ! : ${inlineCode('@Eternals start')}`);
 
      		var balanceEmbed = new EmbedBuilder()
 				.setColor('#d1d72c')

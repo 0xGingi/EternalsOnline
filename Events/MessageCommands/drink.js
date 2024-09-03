@@ -34,7 +34,7 @@ module.exports = {
 
         let player = await PLAYER.findOne({ userId: user.id }).exec();
             if (!player) {
-                message.reply(`You are not a player yet ${inlineCode(`@FlipMMO start`)}`);
+                message.reply(`You are not a player yet ${inlineCode(`@Eternals start`)}`);
                 return;
             }
 
@@ -46,7 +46,7 @@ module.exports = {
             const foodConfig = POTIONS.find(f => f.name.toLowerCase() === foodName || (f.eatalias && f.eatalias.toLowerCase() === foodName));
 
             if (!foodConfig) {
-                message.reply(`The Potion ${args[0]} does not exist ${inlineCode(`@FlipMMO list potions`)}`);
+                message.reply(`The Potion ${args[0]} does not exist ${inlineCode(`@Eternals list potions`)}`);
                 return;
             }
             

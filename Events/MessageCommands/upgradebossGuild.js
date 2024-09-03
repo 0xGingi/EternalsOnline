@@ -26,15 +26,15 @@ async execute(message, args, commandName) {
     var user = message.author;
     var itemUpgrade = args[0]
     var amoutUpgrade = parseInt(args[1])
-    if(isNaN(amoutUpgrade) || !Number.isInteger(amoutUpgrade))  return message.reply(`${EMOJICONFIG.no} Please only use whole numbers \n Command Structure: ${inlineCode("@FlipMMO guild upgrade <attack/health/defense> <stat amount>")}\n Pricing: \n Attack: ${inlineCode('112 coins')}\n Health: ${inlineCode('7 coins')}\n Defense: ${inlineCode('75 coins')}`);
-    if(itemUpgrade === '' || amoutUpgrade === '') return message.reply(`${EMOJICONFIG.no} Command Structure: ${inlineCode("@FlipMMO guild upgrade <attack/health/defense> <stat amount>")}\n Pricing: \n Attack: ${inlineCode('112 coins')}\n Health: ${inlineCode('7 coins')}\n Defense: ${inlineCode('75 coins')}`);
-    else if(itemUpgrade === ' ' || amoutUpgrade === ' ') return message.reply(`${EMOJICONFIG.no} Command Structure: ${inlineCode("@FlipMMO guild upgrade <attack/health/defense> <stat amount>")}\n Pricing: \n Attack: ${inlineCode('112 coins')}\n Health: ${inlineCode('7 coins')}\n Defense: ${inlineCode('75 coins')}`);
-    else if(itemUpgrade === undefined || amoutUpgrade === undefined) return message.reply(`${EMOJICONFIG.no} Command Structure: ${inlineCode("@FlipMMO guild upgrade <attack/health/defense> <stat amount>")}\n Pricing: \n Attack: ${inlineCode('112 coins')}\n Health: ${inlineCode('7 coins')}\n Defense: ${inlineCode('75 coins')}`);
-    else if(isNaN(amoutUpgrade))  return message.reply(`${EMOJICONFIG.no} Command Structure: ${inlineCode("@FlipMMO guild upgrade <attack/health/defense> <stat amount>")}\n Pricing: \n Attack: ${inlineCode('112 coins')}\n Health: ${inlineCode('7 coins')}\n Defense: ${inlineCode('75 coins')}`);
+    if(isNaN(amoutUpgrade) || !Number.isInteger(amoutUpgrade))  return message.reply(`${EMOJICONFIG.no} Please only use whole numbers \n Command Structure: ${inlineCode("@Eternals guild upgrade <attack/health/defense> <stat amount>")}\n Pricing: \n Attack: ${inlineCode('112 coins')}\n Health: ${inlineCode('7 coins')}\n Defense: ${inlineCode('75 coins')}`);
+    if(itemUpgrade === '' || amoutUpgrade === '') return message.reply(`${EMOJICONFIG.no} Command Structure: ${inlineCode("@Eternals guild upgrade <attack/health/defense> <stat amount>")}\n Pricing: \n Attack: ${inlineCode('112 coins')}\n Health: ${inlineCode('7 coins')}\n Defense: ${inlineCode('75 coins')}`);
+    else if(itemUpgrade === ' ' || amoutUpgrade === ' ') return message.reply(`${EMOJICONFIG.no} Command Structure: ${inlineCode("@Eternals guild upgrade <attack/health/defense> <stat amount>")}\n Pricing: \n Attack: ${inlineCode('112 coins')}\n Health: ${inlineCode('7 coins')}\n Defense: ${inlineCode('75 coins')}`);
+    else if(itemUpgrade === undefined || amoutUpgrade === undefined) return message.reply(`${EMOJICONFIG.no} Command Structure: ${inlineCode("@Eternals guild upgrade <attack/health/defense> <stat amount>")}\n Pricing: \n Attack: ${inlineCode('112 coins')}\n Health: ${inlineCode('7 coins')}\n Defense: ${inlineCode('75 coins')}`);
+    else if(isNaN(amoutUpgrade))  return message.reply(`${EMOJICONFIG.no} Command Structure: ${inlineCode("@Eternals guild upgrade <attack/health/defense> <stat amount>")}\n Pricing: \n Attack: ${inlineCode('112 coins')}\n Health: ${inlineCode('7 coins')}\n Defense: ${inlineCode('75 coins')}`);
     else if((itemUpgrade == 'attack' || itemUpgrade == 'atk' || itemUpgrade == 'a' || itemUpgrade == 'health' || itemUpgrade == 'hlh' || itemUpgrade == 'h' || itemUpgrade == 'defense' || itemUpgrade == 'def' || itemUpgrade == 'd') && isNaN(amoutUpgrade) == false) {
 
         function playerInSquad(playerStats){
-            if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
+            if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
             else {
                 if(playerStats.player.other.squadName != 'undefined') return true
             }
@@ -43,7 +43,7 @@ async execute(message, args, commandName) {
 
         // == Player DB ==
         let playerStats = await PLAYERDATA.findOne({ userId: user.id });
-        if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
+        if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
         else {
 
             // == Squad DB ==
@@ -158,7 +158,7 @@ async execute(message, args, commandName) {
 
                             } else if(itemUpgrade == 'defense' || itemUpgrade == 'def' || itemUpgrade == 'd'){
                                 return upgradeBossMessage('defense', `${EMOJICONFIG.shield2}`, Math.floor(amoutUpgrade * 75), amoutUpgrade);
-                            } else return message.reply(`${EMOJICONFIG.no} error command, type: ${inlineCode("@FlipMMO guild upgrade <attack/health/defense> <amount>")}`);
+                            } else return message.reply(`${EMOJICONFIG.no} error command, type: ${inlineCode("@Eternals guild upgrade <attack/health/defense> <amount>")}`);
 
                     } else return message.reply(`${EMOJICONFIG.no}  You Don't Have Enough Coins in the Guild Bank...`);
                 } else return message.reply(`${EMOJICONFIG.no} you are not in a guild...`);

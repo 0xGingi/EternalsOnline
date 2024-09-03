@@ -29,8 +29,8 @@ module.exports = {
         let playerStats = await PLAYERDATA.findOne({ userId: user.id });
         let balance = await BALANCEDATA.findOne({ userId: user.id });
 
-        if (!playerStats) return message.reply(`${inlineCode('❌')} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
-        if (playerStats.player.other.area !== 'wilderness') return message.reply(`${inlineCode('❌')} you are not in the wilderness! : ${inlineCode('@FlipMMO travel')}`);
+        if (!playerStats) return message.reply(`${inlineCode('❌')} you are not a player ! : ${inlineCode('@Eternals start')}`);
+        if (playerStats.player.other.area !== 'wilderness') return message.reply(`${inlineCode('❌')} you are not in the wilderness! : ${inlineCode('@Eternals travel')}`);
         else {
             async function findEligiblePlayers(playerId) {
                 return await PLAYERDATA.aggregate([

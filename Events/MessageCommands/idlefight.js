@@ -36,7 +36,7 @@ module.exports = {
             message.reply("You are not a player yet.");
             return;
         }
-        if (player1.player.energy < 2) return message.reply(`${EMOJICONFIG.no} You don't have enough energy! Restore your energy with ${inlineCode('@FlipMMO energy')}`)
+        if (player1.player.energy < 2) return message.reply(`${EMOJICONFIG.no} You don't have enough energy! Restore your energy with ${inlineCode('@Eternals energy')}`)
         let slayer = 0;
         const currentArea = player1.player.other.area;
         const eligibleFishes = MONSTERCONFIG.filter(monster => monster.area === currentArea);

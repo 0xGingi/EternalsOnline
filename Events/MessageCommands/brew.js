@@ -25,19 +25,19 @@ async execute(message) {
     var user = message.author;
     var userPotion = args[0];
     if (!userPotion) {
-        message.reply(`You need to specify a potion to brew! ${inlineCode(`@FlipMMO list potions`)}`);
+        message.reply(`You need to specify a potion to brew! ${inlineCode(`@Eternals list potions`)}`);
         return;
     }
     let player = await PLAYER.findOne({ userId: user.id }).exec();
     if (!player) {
-        message.reply(`You are not a player! ${inlineCode(`@FlipMMO start`)}`);
+        message.reply(`You are not a player! ${inlineCode(`@Eternals start`)}`);
         return;
     }
-    if (player.player.energy < 2) return message.reply(`${EMOJICONFIG.no} You don't have enough energy! Restore your energy with ${inlineCode('@FlipMMO energy')}`)
+    if (player.player.energy < 2) return message.reply(`${EMOJICONFIG.no} You don't have enough energy! Restore your energy with ${inlineCode('@Eternals energy')}`)
 
     var potion = POTIONS.find(potion => potion.eatalias.toLowerCase() === userPotion.toLowerCase());
     if (!potion) {
-        message.reply(`That potion does not exist! ${inlineCode(`@FlipMMO list potions`)}`);
+        message.reply(`That potion does not exist! ${inlineCode(`@Eternals list potions`)}`);
         return;
     }
     var crop = crops.find(crop => crop.name.toLowerCase() === potion.eatalias.toLowerCase());

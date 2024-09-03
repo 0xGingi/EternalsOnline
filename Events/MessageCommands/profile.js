@@ -34,11 +34,11 @@ module.exports = {
 
   if(userInput == ' ' || userInput == '' || userInput == undefined || userInput.id == user.id){
     let playerStats = await PLAYERDATA.findOne({ userId: user.id });
-    if (!playerStats) return message.reply(`${inlineCode('❌')} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
+    if (!playerStats) return message.reply(`${inlineCode('❌')} you are not a player ! : ${inlineCode('@Eternals start')}`);
     else {
 
       let balance = await BALANCEDATA.findOne({ userId: user.id });
-      if (!balance) return message.reply(`${inlineCode('❌')} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
+      if (!balance) return message.reply(`${inlineCode('❌')} you are not a player ! : ${inlineCode('@Eternals start')}`);
       else {
 
         var squadMessage = ``

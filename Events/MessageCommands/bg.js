@@ -27,10 +27,10 @@ module.exports = {
                 try {
                     const announcementEmbed = new EmbedBuilder()
                     .setColor('#0099ff')
-                    .setTitle('FlipMMO Battlegrounds')
+                    .setTitle('Eternals Battlegrounds')
                     .setDescription('The next battleground will start in 30 minutes!')
                     .setTimestamp()
-                    .setFooter({ text: 'FlipMMO Battlegrounds' });
+                    .setFooter({ text: 'Eternals Battlegrounds' });
                 await message.channel.send({ embeds: [announcementEmbed] });
                 const guildMembers = await message.guild.members.fetch();
                 let allPlayers2 = await Player.find();
@@ -38,10 +38,10 @@ module.exports = {
                 let allPlayers = _.sampleSize(allPlayers2, 16);
                 const announcementEmbed2 = new EmbedBuilder()
                 .setColor('#0099ff')
-                .setTitle('FlipMMO Battlegrounds')
+                .setTitle('Eternals Battlegrounds')
                 .addFields( {name: `${EMOJICONFIG.helmet} Selected Players:`, value: allPlayers.map(p => `\`${p.pseudo}\``).join('\n')})
                 .setTimestamp()
-                .setFooter({ text: 'FlipMMO Battlegrounds' });
+                .setFooter({ text: 'Eternals Battlegrounds' });
             await message.channel.send({ embeds: [announcementEmbed2] });
 
 
@@ -130,7 +130,7 @@ module.exports = {
 
                         const battleground = new EmbedBuilder()
                         .setColor('#0099ff')
-                        .setTitle('FlipMMO Battlegrounds')
+                        .setTitle('Eternals Battlegrounds')
                         .setDescription(`Round ${round}`)
                         .setThumbnail('https://images.discordapp.net/avatars/1157454837861056552/c8d66bd2b5f32dbf44e3bdd2d3f61489.png')
                         .addFields(
@@ -138,7 +138,7 @@ module.exports = {
                             { name: 'Next Round', value: nextRoundPlayers.join('\n') }
                         )
                         .setTimestamp()
-                        .setFooter({ text: 'FlipMMO Battlegrounds'});
+                        .setFooter({ text: 'Eternals Battlegrounds'});
                 
                     message.channel.send({ embeds: [battleground] });
                         //allPlayers.length = 0;
@@ -170,15 +170,15 @@ module.exports = {
 
                     const battleground2 = new EmbedBuilder()
                     .setColor('#0099ff')
-                    .setTitle('FlipMMO Battlegrounds')
-                    .setDescription(`FlipMMO Battleground Results`)
+                    .setTitle('Eternals Battlegrounds')
+                    .setDescription(`Eternals Battleground Results`)
                     .setThumbnail('https://images.discordapp.net/avatars/1157454837861056552/c8d66bd2b5f32dbf44e3bdd2d3f61489.png')
                     .addFields(
                         { name: 'Battleground Results', value: `<@${allPlayers[0].userId}> wins!` },
                         { name: 'Rewards', value: `${inlineCode(allPlayers[0].pseudo)} wins and gets **${inlineCode(numStr(winnerRewardXP))}** ${EMOJICONFIG.xp} - **${inlineCode(numStr(winnerRewardCoins))}** ${EMOJICONFIG.coin} \n ${boxMessage}` },
                     )
                     .setTimestamp()
-                    .setFooter({ text: 'FlipMMO Battlegrounds'});
+                    .setFooter({ text: 'Eternals Battlegrounds'});
             
                 message.channel.send({ embeds: [battleground2] });
                 //setTimeout(startBattleground, 30 * 60 * 1000);

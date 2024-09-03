@@ -28,8 +28,8 @@ module.exports = {
 
     /**=== Account Player ===*/
     let playerStats = await PLAYERDATA.findOne({ userId: message.author.id });
-    if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
-    if (playerStats.player.energy < 2) return message.reply(`${EMOJICONFIG.no} You don't have enough energy! Restore your energy with ${inlineCode('@FlipMMO energy')}`)
+    if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
+    if (playerStats.player.energy < 2) return message.reply(`${EMOJICONFIG.no} You don't have enough energy! Restore your energy with ${inlineCode('@Eternals energy')}`)
 
     else {
         if (playerStats.player.cooldowns && playerStats.player.cooldowns.worldBoss) {
@@ -45,11 +45,11 @@ module.exports = {
     
         /**=== Account Boss ===*/
         let boss = await BOSSDATA.findOne({ idboss: 8 });
-        if (!boss) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
+        if (!boss) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
         else {
             /**=== Account Economie ===*/
             let balance = await BALANCEDATA.find();
-            if (!balance) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
+            if (!balance) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
             else {
                 if(boss.stats.health >= 0){
                     // ==== Boss Attack Player ====
@@ -60,7 +60,7 @@ module.exports = {
 
                     // === Balance Player ===
                     let balancePlayer = await BALANCEDATA.findOne({userId: user.id});
-                    if (!balancePlayer) return message.reply(`${EMOJICONFIG.no} this person is not a player ! : ${inlineCode('@FlipMMO start')}`);
+                    if (!balancePlayer) return message.reply(`${EMOJICONFIG.no} this person is not a player ! : ${inlineCode('@Eternals start')}`);
                     else {
                         
                         message.reply(`${EMOJICONFIG.attack6} You attack the boss **${boss.bossname}** and do ${inlineCode(damage + ' dmg')}\n${EMOJICONFIG.attack6} The Boss attacks you and does ${inlineCode(damageBoss + ' dmg')}`) 

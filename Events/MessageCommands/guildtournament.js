@@ -20,7 +20,7 @@ module.exports = {
     var user = message.author;
     var nameTournament = args[0]
 
-    if(nameTournament === '' || nameTournament === '' || nameTournament == undefined) return message.reply(`${EMOJICONFIG.no} error command, type: ${inlineCode("@FlipMMO tournament view <name tournament>")}`);
+    if(nameTournament === '' || nameTournament === '' || nameTournament == undefined) return message.reply(`${EMOJICONFIG.no} error command, type: ${inlineCode("@Eternals tournament view <name tournament>")}`);
 
     // == Tournament DB ==
     let squadTournament = await SQUADTOURNAMENT.findOne({ squadTournamentName: nameTournament });

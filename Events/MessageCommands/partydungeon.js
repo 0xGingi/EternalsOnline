@@ -40,7 +40,7 @@ module.exports = {
 
         const dungeonAlias = args[0];
         if (!args[0]) {
-            message.channel.send('Please use `@FlipMMO list partydungeons` to view all dungeons. Usage: `@FlipMMO pdf <dungeon>`');
+            message.channel.send('Please use `@Eternals list partydungeons` to view all dungeons. Usage: `@Eternals pdf <dungeon>`');
             return;
         }
         
@@ -60,7 +60,7 @@ module.exports = {
         if (!commandName === 'partydungeonfight') return;
         let playerStats = await PLAYERDATA.findOne({ userId: message.author.id });
         if (!playerStats) {
-            return message.reply('You are not a player! Use `@FlipMMO start` to begin your adventure.');
+            return message.reply('You are not a player! Use `@Eternals start` to begin your adventure.');
         }
         let party = await Party.findOne({ partyName: playerStats.player.other.partyName });
         if (!party) return message.reply(`${EMOJICONFIG.no} you are not in a party...`);
@@ -79,10 +79,10 @@ module.exports = {
                     }
           }
 
-        if (playerStats.player.energy < 2) return message.reply(`${EMOJICONFIG.no} You don't have enough energy! Restore your energy with ${inlineCode('@FlipMMO energy')}`)
+        if (playerStats.player.energy < 2) return message.reply(`${EMOJICONFIG.no} You don't have enough energy! Restore your energy with ${inlineCode('@Eternals energy')}`)
 
         let balance = await BALANCEDATA.findOne({ userId: message.author.id });
-        if (!balance) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
+        if (!balance) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
         else {
     
             let stats = await STATS.findOne({ botID: 899 });

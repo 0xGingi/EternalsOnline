@@ -29,7 +29,7 @@ async execute(message, args, commandName) {
   var squadNameAttack = args[0]
     // == Player Db ==
     let playerStats = await PLAYERDATA.findOne({ userId: user.id });
-    if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
+    if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
     else {
 
         if (playerStats.player.cooldowns && playerStats.player.cooldowns.guildReward) {
@@ -46,12 +46,12 @@ async execute(message, args, commandName) {
 
         // == Balance Data ==
         let balance = await BALANCEDATA.findOne({ userId: user.id });
-        if (!balance) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
+        if (!balance) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
         else {
 
             // == Squad Data ==
             let squad = await SQUADDATA.findOne({ squadName: playerStats.player.other.squadName });
-            if (!squad) return message.reply(`${EMOJICONFIG.no} you haven't joined a Guild yet : ${inlineCode('@FlipMMO guild join <guild name>')}`);
+            if (!squad) return message.reply(`${EMOJICONFIG.no} you haven't joined a Guild yet : ${inlineCode('@Eternals guild join <guild name>')}`);
             else {
 
 

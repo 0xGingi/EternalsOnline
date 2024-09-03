@@ -25,11 +25,11 @@ module.exports = {
     if(isNaN(slotItem) == false && slotItem <= 5 && slotItem >= 0){
 
         let playerStats = await PLAYERDATA.findOne({ userId: user.id });
-        if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
+        if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
         else {
 
             let balance = await BALANCEDATA.findOne({ userId: user.id });
-            if (!balance) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
+            if (!balance) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
             else {
 
                 function slotDisplay(slotID){
@@ -183,7 +183,7 @@ module.exports = {
                 return message.reply(`${EMOJICONFIG.yes} You unequip your: **${inlineCode(itemname)}** from slot number : **${inlineCode(slotItem)}**`)
             };
         };
-    } else return message.reply(`${EMOJICONFIG.no} please specify a correct slot: ${inlineCode("@FlipMMO unequip <1/2/3/4/5>")}`);
+    } else return message.reply(`${EMOJICONFIG.no} please specify a correct slot: ${inlineCode("@Eternals unequip <1/2/3/4/5>")}`);
 };
     },
 info: {

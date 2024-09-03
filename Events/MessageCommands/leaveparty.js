@@ -26,7 +26,7 @@ module.exports = {
 
     // == Player DB ==
     let playerStats = await PLAYERDATA.findOne({ userId: user.id });
-    if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are a not player ! : ${inlineCode('@FlipMMO start')}`);
+    if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are a not player ! : ${inlineCode('@Eternals start')}`);
     else {
 
         let party = await PARTYDATA.findOne({ partyName: playerStats.player.other.partyName });

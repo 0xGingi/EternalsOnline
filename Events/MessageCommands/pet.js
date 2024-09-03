@@ -61,13 +61,13 @@ module.exports = {
                 const embed = new EmbedBuilder()
                 .setTitle('Pet Commands')
                 .addFields(
-                    { name: '@FlipMMO pet catch', value: 'catch a pet' },
-                    { name: '@FlipMMO pet train <pet>', value: 'train a pet' },
-                    { name: '@FlipMMO pet name <pet> <name>', value: 'name your pet' },
-                    { name: '@FlipMMO pet select <pet>', value: 'select a pet'},
-                    { name: '@FlipMMO pet battle <@Player> <Optional Wager>', value: 'Pet Battle with another player'},
-                    { name: '@FlipMMO pet give <@Player> <pet>', value: 'Give a player a pet'},
-                    { name: '@FlipMMO pet release <pet>', value: 'Release a pet back into the wild'}
+                    { name: '@Eternals pet catch', value: 'catch a pet' },
+                    { name: '@Eternals pet train <pet>', value: 'train a pet' },
+                    { name: '@Eternals pet name <pet> <name>', value: 'name your pet' },
+                    { name: '@Eternals pet select <pet>', value: 'select a pet'},
+                    { name: '@Eternals pet battle <@Player> <Optional Wager>', value: 'Pet Battle with another player'},
+                    { name: '@Eternals pet give <@Player> <pet>', value: 'Give a player a pet'},
+                    { name: '@Eternals pet release <pet>', value: 'Release a pet back into the wild'}
 
 
                 );

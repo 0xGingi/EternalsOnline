@@ -33,8 +33,8 @@ module.exports = {
         if (balance.eco.coins < wager) {
             return message.reply(`You don't have enough coins to lure with!`);
         }
-        if (!playerStats) return message.reply(`${inlineCode('❌')} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
-        if (playerStats.player.other.area !== 'wilderness') return message.reply(`${inlineCode('❌')} you are not in the wilderness! : ${inlineCode('@FlipMMO travel')}`);
+        if (!playerStats) return message.reply(`${inlineCode('❌')} you are not a player ! : ${inlineCode('@Eternals start')}`);
+        if (playerStats.player.other.area !== 'wilderness') return message.reply(`${inlineCode('❌')} you are not in the wilderness! : ${inlineCode('@Eternals travel')}`);
         if (!userInput) {
             return message.reply(`You need to mention a player to lure them!`);
         }

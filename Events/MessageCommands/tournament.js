@@ -42,10 +42,10 @@ module.exports = {
                 const embed = new EmbedBuilder()
                 .setTitle('Guild Tournament Commands')
                 .addFields(
-                    { name: '@FlipMMO tournament create <name>', value: 'create a tournament' },
-                    { name: '@FlipMMO tournament join <name>', value: 'join a tournament' },
-                    { name: '@FlipMMO tournament view <name>', value: 'view tournament' },
-                    { name: '@FlipMMO tournament start <name>', value: 'start tournament' },
+                    { name: '@Eternals tournament create <name>', value: 'create a tournament' },
+                    { name: '@Eternals tournament join <name>', value: 'join a tournament' },
+                    { name: '@Eternals tournament view <name>', value: 'view tournament' },
+                    { name: '@Eternals tournament start <name>', value: 'start tournament' },
                 );
                 message.reply({ embeds: [embed] });
                     break;

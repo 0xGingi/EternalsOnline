@@ -28,11 +28,11 @@ module.exports = {
 
     /**=== Account Stats Mine ===*/
     let playerStats = await PLAYERDATA.findOne({ userId: user.id });
-    if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
+    if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
     else {
 
         let balance = await BALANCEDATA.findOne({ userId: user.id });
-        if (!balance) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
+        if (!balance) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
         else {
             if (playerStats.player.other.rarebox == 0) return message.reply(`${EMOJICONFIG.no} You don't have any rare boxes to open`);
             else {

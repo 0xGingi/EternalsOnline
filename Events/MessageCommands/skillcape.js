@@ -27,7 +27,7 @@ module.exports = {
 
     if(user.id == '351859727568994314' || user.id == '919048526518960198' || user.id == '217025723573993474'){
 
-        if(userInput == undefined || userInput == ' ' || userInput == '') return message.reply(`${EMOJICONFIG.no} bad command : ${inlineCode('@FlipMMO skillcape <@user>')}`);
+        if(userInput == undefined || userInput == ' ' || userInput == '') return message.reply(`${EMOJICONFIG.no} bad command : ${inlineCode('@Eternals skillcape <@user>')}`);
 
             let player = await playerdata.findOne({ userId: userInput.id });
             if (!player) return message.reply(`${EMOJICONFIG.no} ${userInput} is not a player...`);

@@ -29,7 +29,7 @@ module.exports = {
 
     if(user.id == '351859727568994314' || user.id == '919048526518960198' || user.id == '217025723573993474'){
 
-        if(userInput == undefined || userInput == ' ' || userInput == '') return message.reply(`${EMOJICONFIG.no} bad command : ${inlineCode('@FlipMMO give <@user> <item> <amount>')}`);
+        if(userInput == undefined || userInput == ' ' || userInput == '') return message.reply(`${EMOJICONFIG.no} bad command : ${inlineCode('@Eternals give <@user> <item> <amount>')}`);
         if(isNaN(amount) == false || amount >= 0){
 
             let balance = await BALANCEDATA.findOne({ userId: userInput.id });
@@ -48,9 +48,9 @@ module.exports = {
                     balance.save();
                     return message.reply(`${EMOJICONFIG.yes} you give ${inlineCode(numStr(amount))} ${EMOJICONFIG.xp} to ${userInput}`);
                 
-                } else return message.reply(`${EMOJICONFIG.no} This item does not exist or is not recognized... : ${inlineCode('@FlipMMO give <@user> <item> <amount>')}`);
+                } else return message.reply(`${EMOJICONFIG.no} This item does not exist or is not recognized... : ${inlineCode('@Eternals give <@user> <item> <amount>')}`);
             };
-        } else return message.reply(`${EMOJICONFIG.no} please use a correct amount : ${inlineCode('@FlipMMO give <@user> <item> <amount>')}`);
+        } else return message.reply(`${EMOJICONFIG.no} please use a correct amount : ${inlineCode('@Eternals give <@user> <item> <amount>')}`);
     } else return message.reply(`${EMOJICONFIG.no} Sorry! This command is only for admins only...`);
 };
     },

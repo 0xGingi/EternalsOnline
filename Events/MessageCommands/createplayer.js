@@ -318,7 +318,7 @@ module.exports = {
 
             playerCreateEmbed.addFields([
 
-                { name: `${EMOJICONFIG.yes} Player Setup!`, value: `${EMOJICONFIG.coinchest} You get a common box and some starting equipment!\n\n Please run @FlipMMO tutorial!` }
+                { name: `${EMOJICONFIG.yes} Player Setup!`, value: `${EMOJICONFIG.coinchest} You get a common box and some starting equipment!\n\n Please run @Eternals tutorial!` }
             
             ]);            message.reply({ embeds: [playerCreateEmbed] })
 

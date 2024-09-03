@@ -19,7 +19,7 @@ module.exports = {
     var user = message.author;
     var userBan = Array.from(message.mentions.users.values())[1];
 
-    if(userBan == undefined || userBan == ' ' || userBan == '') return message.reply(`${EMOJICONFIG.no} error command, type: ${inlineCode("@FlipMMO ban <@user>")}`);
+    if(userBan == undefined || userBan == ' ' || userBan == '') return message.reply(`${EMOJICONFIG.no} error command, type: ${inlineCode("@Eternals ban <@user>")}`);
 
     function playerInParty(userBan, player){
         if(userBan.player.other.partyName != 'undefined' && userBan.player.other.partyName == player.player.other.partyName) return true
@@ -28,7 +28,7 @@ module.exports = {
 
     // == Player DB ==
     let playerStats = await PLAYERDATA.findOne({ userId: user.id });
-    if (!playerStats) return message.reply(`${inlineCode('❌')} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
+    if (!playerStats) return message.reply(`${inlineCode('❌')} you are not a player ! : ${inlineCode('@Eternals start')}`);
     else {
 
         let party = await PARTYDATA.findOne({ partyName: playerStats.player.other.partyName });

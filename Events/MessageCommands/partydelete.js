@@ -16,13 +16,13 @@ module.exports = {
             var partyNameToDelete = args[0];
 
             if (!partyNameToDelete) {
-                return message.reply(`${EMOJICONFIG.no} Please specify the party name to delete: ${inlineCode("@FlipMMO party destroy <party name>")}`);
+                return message.reply(`${EMOJICONFIG.no} Please specify the party name to delete: ${inlineCode("@Eternals party destroy <party name>")}`);
             }
 
             // == Player DB ==
             let playerStats = await PLAYERDATA.findOne({ userId: user.id });
             if (!playerStats) {
-                return message.reply(`${EMOJICONFIG.no} You are not a player! Type: ${inlineCode('@FlipMMO start')}`);
+                return message.reply(`${EMOJICONFIG.no} You are not a player! Type: ${inlineCode('@Eternals start')}`);
             }
 
             // == Party DB ==

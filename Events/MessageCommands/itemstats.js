@@ -21,9 +21,9 @@ const item = args[0];
 const item2 = args[1];
 const user = message.author;
 
-if(item == undefined || item == '' || item == ' ') return message.reply(`${EMOJICONFIG.no} item error : ${inlineCode("@FlipMMO stats <item>")}`);
+if(item == undefined || item == '' || item == ' ') return message.reply(`${EMOJICONFIG.no} item error : ${inlineCode("@Eternals stats <item>")}`);
 let playerStats = await PLAYERDATA.findOne({ userId: user.id });
-if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
+if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
 else {
     function itemExist(item){
         for(let pas = 0; pas < CONFIGITEM.length; pas++){

@@ -21,7 +21,7 @@ module.exports = {
                 var embed = new EmbedBuilder()
                 .setColor(0x0099FF)
                 .setTitle('Weapon List')
-                .setDescription('For more comprehensive stats, use the command `@FlipMMO stats {alias}`')
+                .setDescription('For more comprehensive stats, use the command `@Eternals stats {alias}`')
                 .setTimestamp();
 
             current.sort((a, b) => a.level - b.level).forEach(weapon => {

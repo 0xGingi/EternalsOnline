@@ -26,7 +26,7 @@ async execute(message) {
     var user = message.author
     var userInput = Array.from(message.mentions.users.values())[1];
 
-    if (userInput === ' ' || userInput === '') return message.reply(`${EMOJICONFIG.no} player undefined : ${inlineCode("@FlipMMO duel <@user>")}`);
+    if (userInput === ' ' || userInput === '') return message.reply(`${EMOJICONFIG.no} player undefined : ${inlineCode("@Eternals duel <@user>")}`);
     if (user === userInput) return message.reply(`${EMOJICONFIG.no} it's not good to want to cheat...`);
 
 
@@ -44,7 +44,7 @@ async execute(message) {
 
         // === Player 1 : DataBase ===
         let playerOne = await PLAYERDATA.findOne({ userId: message.author.id });
-        if (!playerOne) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
+        if (!playerOne) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
         else {
     
             // === Player 2 : DataBase ===

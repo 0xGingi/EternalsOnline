@@ -26,7 +26,7 @@ async execute(message) {
     var user = message.author;
     let stats = await STATS.findOne({ botID: 899 });
     let playerStats = await PLAYERDATA.findOne({ userId: message.author.id });
-    if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
+    if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
     if (playerStats.player.other.ironman === true) return message.reply(`${EMOJICONFIG.no} You are an ironman, you can't beg!`);
     else {
         if (playerStats.player.cooldowns && playerStats.player.cooldowns.beg) {
@@ -41,9 +41,9 @@ async execute(message) {
         }
 
         let balance = await BALANCEDATA.findOne({ userId: message.author.id });
-        if (!balance) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
+        if (!balance) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
         else {
-            if (playerStats.player.energy < 2) return message.reply(`${EMOJICONFIG.no} You don't have enough energy! Restore your energy with ${inlineCode('@FlipMMO energy')}`)
+            if (playerStats.player.energy < 2) return message.reply(`${EMOJICONFIG.no} You don't have enough energy! Restore your energy with ${inlineCode('@Eternals energy')}`)
 
             var randomCoin = Math.floor(Math.random() * (playerStats.player.level * (5 * playerStats.player.level)));
             var randomXp = Math.abs(Math.floor(Math.random() * (playerStats.player.level * (5 * playerStats.player.level))));

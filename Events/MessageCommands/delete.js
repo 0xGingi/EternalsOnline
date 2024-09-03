@@ -27,11 +27,11 @@ module.exports = {
     let playerStats = await PLAYER.findOne({ userId: user.id });
     let balance = await ECONOMIE.findOne({ userId: user.id });
 
-    if (!playerStats) return message.reply(`${inlineCode('❌')} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
+    if (!playerStats) return message.reply(`${inlineCode('❌')} you are not a player ! : ${inlineCode('@Eternals start')}`);
     async function deletePlayer(){
         await ECONOMIE.deleteOne({ userId: user.id });
         await PLAYER.deleteOne({ userId: user.id }).then(() => {
-            message.reply('Your account and all information has been deleted! If you would like to play again, type `@FlipMMO start`');
+            message.reply('Your account and all information has been deleted! If you would like to play again, type `@Eternals start`');
         })  
     }
     const row = new ActionRowBuilder()

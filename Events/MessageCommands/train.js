@@ -25,9 +25,9 @@ module.exports = {
 
         let playerStats = await PLAYERDATA.findOne({ userId: message.author.id });
         if (!playerStats) {
-            return message.reply("You need to be a player to train pets! Use '@FlipMMO start' to begin your adventure.");
+            return message.reply("You need to be a player to train pets! Use '@Eternals start' to begin your adventure.");
         }
-        if (playerStats.player.energy < 2) return message.reply(`${EMOJICONFIG.no} You don't have enough energy! Restore your energy with ${inlineCode('@FlipMMO energy')}`)
+        if (playerStats.player.energy < 2) return message.reply(`${EMOJICONFIG.no} You don't have enough energy! Restore your energy with ${inlineCode('@Eternals energy')}`)
 
         const petData = PETS.find(p => p.alias && p.alias.includes(petAlias.toLowerCase()));
         if (!petData) {

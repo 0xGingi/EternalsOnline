@@ -43,7 +43,7 @@ module.exports = {
 
 
 
-        if (!playerStats) return message.reply(`${inlineCode('❌')} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
+        if (!playerStats) return message.reply(`${inlineCode('❌')} you are not a player ! : ${inlineCode('@Eternals start')}`);
         else {
 
             if (!action) {
@@ -88,13 +88,13 @@ module.exports = {
                     return message.reply(`You don't have any ${seedInfo.name} seeds left to plant`);
                 }                
                                             
-                if (playerStats.player.energy < 2) return message.reply(`${EMOJICONFIG.no} You don't have enough energy! Restore your energy with ${inlineCode('@FlipMMO energy')}`)
+                if (playerStats.player.energy < 2) return message.reply(`${EMOJICONFIG.no} You don't have enough energy! Restore your energy with ${inlineCode('@Eternals energy')}`)
                 var battleEmbed = new Discord.EmbedBuilder()
                 .setColor('#fc9803')
                 .setTitle(`${user.username} Crop Harvest`)
                 .setDescription(`\n`)
                 .setThumbnail('https://images.discordapp.net/avatars/1157454837861056552/c8d66bd2b5f32dbf44e3bdd2d3f61489.png')
-                .setFooter({ text: 'FlipMMO Farming'});
+                .setFooter({ text: 'Eternals Farming'});
 
 
                 let farminglevel = playerStats.player.farming.level;
@@ -143,19 +143,19 @@ module.exports = {
                 await playerStats.save();               
                 const plotNumber = plotKey.replace('plot', '');
                 battleEmbed.addFields(
-                    { name: `Plot ${plotNumber}`, value: `You planted ${amount} ${crop} seeds\nIt will be ready to harvest in ${duration / 60000} minutes\n Check your progress with ${inlineCode(`@FlipMMO farm`)}` },
+                    { name: `Plot ${plotNumber}`, value: `You planted ${amount} ${crop} seeds\nIt will be ready to harvest in ${duration / 60000} minutes\n Check your progress with ${inlineCode(`@Eternals farm`)}` },
                 );
                 message.channel.send({ embeds: [battleEmbed] });
             }
             else if (action === 'harvest') {
                 let harvested = false;
-                if (playerStats.player.energy < 2) return message.reply(`${EMOJICONFIG.no} You don't have enough energy! Restore your energy with ${inlineCode('@FlipMMO energy')}`)
+                if (playerStats.player.energy < 2) return message.reply(`${EMOJICONFIG.no} You don't have enough energy! Restore your energy with ${inlineCode('@Eternals energy')}`)
                 var battleEmbed = new Discord.EmbedBuilder()
                 .setColor('#fc9803')
                 .setTitle(`${user.username} Crop Harvest`)
                 .setDescription(`\n`)
                 .setThumbnail('https://images.discordapp.net/avatars/1157454837861056552/c8d66bd2b5f32dbf44e3bdd2d3f61489.png')
-                .setFooter({ text: 'FlipMMO Farming'});
+                .setFooter({ text: 'Eternals Farming'});
                 let leveledUp = false;
                 const harvestPromises = Object.keys(playerStats.player.farming.plots).map(async key => {
                     const plot = playerStats.player.farming.plots[key];

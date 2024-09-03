@@ -23,8 +23,8 @@ module.exports = {
             var user = message.author;
             let playerStats = await PLAYERDATA.findOne({ userId: user.id });
             
-            if (!playerStats) return message.reply(`${inlineCode('❌')} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
-            if (playerStats.player.energy < 2) return message.reply(`${EMOJICONFIG.no} You don't have enough energy! Restore your energy with ${inlineCode('@FlipMMO energy')}`)
+            if (!playerStats) return message.reply(`${inlineCode('❌')} you are not a player ! : ${inlineCode('@Eternals start')}`);
+            if (playerStats.player.energy < 2) return message.reply(`${EMOJICONFIG.no} You don't have enough energy! Restore your energy with ${inlineCode('@Eternals energy')}`)
 
             if (playerStats.player.cooldowns && playerStats.player.cooldowns.gathering) {
                 const timeSinceLastDaily = new Date().getTime() - new Date(playerStats.player.cooldowns.gathering).getTime();
@@ -59,7 +59,7 @@ module.exports = {
                 .setTitle(`${user.username} Seed Gathering`)
                 .setDescription(`\n`)
                 .setThumbnail('https://images.discordapp.net/avatars/1157454837861056552/c8d66bd2b5f32dbf44e3bdd2d3f61489.png')
-                .setFooter({ text: 'FlipMMO Farming'});
+                .setFooter({ text: 'Eternals Farming'});
 
                 const availableSeeds = seeds.filter(seed => seed.level <= playerStats.player.farming.level);
                 const randomSeed = availableSeeds[Math.floor(Math.random() * availableSeeds.length)];
@@ -76,7 +76,7 @@ module.exports = {
                     playerStats.player.stuff.seeds.push({ id: seedId, name: seedName, amount: seedAmount });
                 }
                 battleEmbed.addFields(
-                    { name: `Seeds Gathered`, value: `You gathered ${seedAmount} ${seedName} and gained ${seedXp * seedAmount} XP!\nYou can plant your seeds with ${inlineCode(`@FlipMMO farm plant ${seedAlias} all`)}` },
+                    { name: `Seeds Gathered`, value: `You gathered ${seedAmount} ${seedName} and gained ${seedXp * seedAmount} XP!\nYou can plant your seeds with ${inlineCode(`@Eternals farm plant ${seedAlias} all`)}` },
                 );
 
                 playerStats.player.farming.xp += Math.abs(Math.floor(seedXp * seedAmount));

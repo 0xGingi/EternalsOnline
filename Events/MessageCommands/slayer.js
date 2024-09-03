@@ -85,7 +85,7 @@ module.exports = {
                         { name: `New Slayer Task`, value: 'You have been given a new slayer task' },
                         { name: `${killsNeeded} x ${monsterName}`, value: `Level: ${monsterLevel}\nArea: ${monsterArea}\nDescription: ${monsterDesc}` },
                     )
-                    .setFooter({ text: 'FlipMMO Slayer Task'});
+                    .setFooter({ text: 'Eternals Slayer Task'});
                     message.channel.send({ embeds: [battleEmbed] });
                 }
                 else {
@@ -109,7 +109,7 @@ module.exports = {
                         { name: `New Slayer Task`, value: 'You have been given a new slayer task' },
                         { name: `${killsNeeded} x ${monsterName}`, value: `Level: ${dungeonFloor * 10}\nArea: ${monsterArea}\nDescription: ${monsterDesc}` },
                     )
-                    .setFooter({ text: 'FlipMMO Slayer Task'});
+                    .setFooter({ text: 'Eternals Slayer Task'});
                     message.channel.send({ embeds: [battleEmbed] });
                 }
             }
@@ -128,7 +128,7 @@ module.exports = {
                         { name: `Current Slayer Task`, value: 'You have a current slayer task' },
                         { name: `${playerStats.player.slayer.task.monster}`, value: `Kills: ${playerStats.player.slayer.task.kills} / ${playerStats.player.slayer.task.neededKills}\nLevel: ${monsterLevel}\nArea: ${monsterArea}\nDescription: ${monsterDesc}` },
                     )
-                    .setFooter({ text: 'FlipMMO Slayer Task'});
+                    .setFooter({ text: 'Eternals Slayer Task'});
                     message.channel.send({ embeds: [battleEmbed] });
                     }
                     if (playerStats.player.slayer.task.monster !== "" && playerStats.player.slayer.task.kills >= playerStats.player.slayer.task.neededKills) {
@@ -184,7 +184,7 @@ module.exports = {
                             { name: `Congratulations!`, value: 'You have completed your slayer task!' },
                             { name: `Rewards`, value: `**${inlineCode(numStr(randomxp * monstersKilled))}** ${EMOJICONFIG.xp} - **${inlineCode(numStr(randomcoin))}** ${EMOJICONFIG.coin} - **${inlineCode(numStr(boxwin))}** Common Box ${EMOJICONFIG.coinchest} - **${inlineCode(numStr(boxwin2))}** Rare Box ${EMOJICONFIG.coinchest} - +1 Slayer Point` },
                         )
-                        .setFooter({ text: 'FlipMMO Slayer Task'});
+                        .setFooter({ text: 'Eternals Slayer Task'});
                             console.log(playerStats.player.slayer.xp)
                             console.log(xpNeeded)
                             if (playerStats.player.slayer.xp >= xpNeeded) {
@@ -226,9 +226,9 @@ module.exports = {
                 .setThumbnail('https://images.discordapp.net/avatars/1157454837861056552/c8d66bd2b5f32dbf44e3bdd2d3f61489.png')
                 .addFields(
                     { name: `${user.username} Slayer Points`, value: `${playerStats.player.slayer.points}` },
-                    { name: `Slayer Shop`, value: `Cancel Task (${inlineCode(`@FlipMMO slayer cancel`)}) - **${inlineCode('5')}** Slayer Points\n\nSelect Area (${inlineCode(`@FlipMMO slayer area <areaname>`)}) - **${inlineCode('10')}** Slayer Points\n\nSlayer Dungeon (${inlineCode(`@FlipMMO slayer dungeon`)}) - **${inlineCode('2')}** Slayer Points\n\nSlayer Dagger (${inlineCode(`@FlipMMO slayer dagger`)}) - **${inlineCode('5')}** Slayer Points\n\nSlayer Gloves (${inlineCode(`@FlipMMO slayer gloves`)}) - **${inlineCode('7')}** Slayer Points\n\nSlayer Shortsword (${inlineCode(`@FlipMMO slayer shortsword`)}) - **${inlineCode('10')}** Slayer Points\n\nSlayer Boots (${inlineCode(`@FlipMMO slayer boots`)}) - **${inlineCode('12')}** Slayer Points\n\nSlayer Axe (${inlineCode(`@FlipMMO slayer axe`)}) - **${inlineCode('15')}** Slayer Points\n\nSlayer Pants (${inlineCode(`@FlipMMO slayer pants`)}) - **${inlineCode('17')}** Slayer Points\n\nSlayer Sword (${inlineCode(`@FlipMMO slayer sword`)}) - **${inlineCode('20')}** Slayer Points\n\nSlayer Chestplate (${inlineCode(`@FlipMMO slayer chestplate`)}) - **${inlineCode('25')}** Slayer Points\n\nSlayer Warhammer (${inlineCode(`@FlipMMO slayer warhammer`)}) - **${inlineCode('30')}** Slayer Points` },
+                    { name: `Slayer Shop`, value: `Cancel Task (${inlineCode(`@Eternals slayer cancel`)}) - **${inlineCode('5')}** Slayer Points\n\nSelect Area (${inlineCode(`@Eternals slayer area <areaname>`)}) - **${inlineCode('10')}** Slayer Points\n\nSlayer Dungeon (${inlineCode(`@Eternals slayer dungeon`)}) - **${inlineCode('2')}** Slayer Points\n\nSlayer Dagger (${inlineCode(`@Eternals slayer dagger`)}) - **${inlineCode('5')}** Slayer Points\n\nSlayer Gloves (${inlineCode(`@Eternals slayer gloves`)}) - **${inlineCode('7')}** Slayer Points\n\nSlayer Shortsword (${inlineCode(`@Eternals slayer shortsword`)}) - **${inlineCode('10')}** Slayer Points\n\nSlayer Boots (${inlineCode(`@Eternals slayer boots`)}) - **${inlineCode('12')}** Slayer Points\n\nSlayer Axe (${inlineCode(`@Eternals slayer axe`)}) - **${inlineCode('15')}** Slayer Points\n\nSlayer Pants (${inlineCode(`@Eternals slayer pants`)}) - **${inlineCode('17')}** Slayer Points\n\nSlayer Sword (${inlineCode(`@Eternals slayer sword`)}) - **${inlineCode('20')}** Slayer Points\n\nSlayer Chestplate (${inlineCode(`@Eternals slayer chestplate`)}) - **${inlineCode('25')}** Slayer Points\n\nSlayer Warhammer (${inlineCode(`@Eternals slayer warhammer`)}) - **${inlineCode('30')}** Slayer Points` },
                 )
-                .setFooter({ text: 'FlipMMO Slayer Shop'});
+                .setFooter({ text: 'Eternals Slayer Shop'});
                 message.channel.send({ embeds: [shopEmbed] });
 
             }
@@ -272,7 +272,7 @@ module.exports = {
                     { name: `New Slayer Task`, value: 'You have been given a new slayer task' },
                     { name: `${killsNeeded} x ${monsterName}`, value: `Level: ${monsterLevel}\nArea: ${monsterArea}\nDescription: ${monsterDesc}` },
                 )
-                .setFooter({ text: 'FlipMMO Slayer Task'});
+                .setFooter({ text: 'Eternals Slayer Task'});
                 message.channel.send({ embeds: [battleEmbed] });
 
             }
@@ -301,7 +301,7 @@ module.exports = {
                     { name: `New Slayer Task`, value: 'You have been given a new slayer task' },
                     { name: `${killsNeeded} x ${monsterName}`, value: `Level: ${dungeonFloor * 10}\nArea: ${monsterArea}\nDescription: ${monsterDesc}` },
                 )
-                .setFooter({ text: 'FlipMMO Slayer Task'});
+                .setFooter({ text: 'Eternals Slayer Task'});
                 message.channel.send({ embeds: [battleEmbed] });
 
             }
@@ -324,7 +324,7 @@ module.exports = {
                 .addFields(
                     { name: `Slayer Dagger`, value: `You have successfully purchased a ${inlineCode(`Slayer Dagger (SYD)`)} for ${inlineCode(`5`)} Slayer Points!` },
                 )
-                .setFooter({ text: 'FlipMMO Slayer Task'});
+                .setFooter({ text: 'Eternals Slayer Task'});
                 message.channel.send({ embeds: [battleEmbed] });
 
 
@@ -348,7 +348,7 @@ module.exports = {
                 .addFields(
                     { name: `Slayer Gloves`, value: `You have successfully purchased a ${inlineCode(`Slayer Gloves (SYG)`)} for ${inlineCode(`7`)} Slayer Points!` },
                 )
-                .setFooter({ text: 'FlipMMO Slayer Shop'});
+                .setFooter({ text: 'Eternals Slayer Shop'});
                 message.channel.send({ embeds: [battleEmbed] });
 
 
@@ -372,7 +372,7 @@ module.exports = {
                 .addFields(
                     { name: `Slayer Shortsword`, value: `You have successfully purchased a ${inlineCode(`Slayer Shortsword (SYSS)`)} for ${inlineCode(`10`)} Slayer Points!` },
                 )
-                .setFooter({ text: 'FlipMMO Slayer Shop'});
+                .setFooter({ text: 'Eternals Slayer Shop'});
                 message.channel.send({ embeds: [battleEmbed] });
             }
             if (input == 'boots' || input == 'syb'){
@@ -394,7 +394,7 @@ module.exports = {
                 .addFields(
                     { name: `Slayer Boots`, value: `You have successfully purchased a ${inlineCode(`Slayer Boots (SYB)`)} for ${inlineCode(`12`)} Slayer Points!` },
                 )
-                .setFooter({ text: 'FlipMMO Slayer Shop'});
+                .setFooter({ text: 'Eternals Slayer Shop'});
                 message.channel.send({ embeds: [battleEmbed] });
             }
             if (input == 'axe' || input == 'sya'){
@@ -416,7 +416,7 @@ module.exports = {
                 .addFields(
                     { name: `Slayer Axe`, value: `You have successfully purchased a ${inlineCode(`Slayer Axe (SYA)`)} for ${inlineCode(`15`)} Slayer Points!` },
                 )
-                .setFooter({ text: 'FlipMMO Slayer Shop'});
+                .setFooter({ text: 'Eternals Slayer Shop'});
                 message.channel.send({ embeds: [battleEmbed] });
             }
             if (input == 'pants' || input == 'syp'){
@@ -438,7 +438,7 @@ module.exports = {
                 .addFields(
                     { name: `Slayer Pants`, value: `You have successfully purchased a ${inlineCode(`Slayer Pants (SYP)`)} for ${inlineCode(`17`)} Slayer Points!` },
                 )
-                .setFooter({ text: 'FlipMMO Slayer Shop'});
+                .setFooter({ text: 'Eternals Slayer Shop'});
                 message.channel.send({ embeds: [battleEmbed] });
             }
             if (input == 'sword' || input == 'sys'){
@@ -460,7 +460,7 @@ module.exports = {
                 .addFields(
                     { name: `Slayer Sword`, value: `You have successfully purchased a ${inlineCode(`Slayer Sword (SYS)`)} for ${inlineCode(`20`)} Slayer Points!` },
                 )
-                .setFooter({ text: 'FlipMMO Slayer Shop'});
+                .setFooter({ text: 'Eternals Slayer Shop'});
                 message.channel.send({ embeds: [battleEmbed] });
             }
             if (input == 'chestplate' || input == 'sycp' || input == 'chest'){
@@ -482,7 +482,7 @@ module.exports = {
                 .addFields(
                     { name: `Slayer Chestplate`, value: `You have successfully purchased a ${inlineCode(`Slayer Chestplate (SYCP)`)} for ${inlineCode(`25`)} Slayer Points!` },
                 )
-                .setFooter({ text: 'FlipMMO Slayer Shop'});
+                .setFooter({ text: 'Eternals Slayer Shop'});
                 message.channel.send({ embeds: [battleEmbed] });
             }
             if (input == 'warhammer' || input == 'sywh' || input == 'hammer'){
@@ -504,7 +504,7 @@ module.exports = {
                 .addFields(
                     { name: `Slayer Warhammer`, value: `You have successfully purchased a ${inlineCode(`Slayer Warhammer (SYWH)`)} for ${inlineCode(`30`)} Slayer Points!` },
                 )
-                .setFooter({ text: 'FlipMMO Slayer Shop'});
+                .setFooter({ text: 'Eternals Slayer Shop'});
                 message.channel.send({ embeds: [battleEmbed] });
             }
 

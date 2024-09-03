@@ -27,16 +27,16 @@ async execute(message, args, commandName) {
     var user = message.author;
     var coinGiven = args[0]
     
-    if(coinGiven === '') return message.reply(`${EMOJICONFIG.no} error command, type: ${inlineCode("@FlipMMO guild give <coin amout>")}`)
-    else if(coinGiven === ' ') return message.reply(`${EMOJICONFIG.no} error command, type: ${inlineCode("@FlipMMO guild give <coin amout>")}`)
-    else if(coinGiven === undefined) return message.reply(`${EMOJICONFIG.no} error command, type: ${inlineCode("@FlipMMO guild give <coin amout>")}`)
-    else if(isNaN(coinGiven)) return message.reply(`${EMOJICONFIG.no} error command, type: ${inlineCode("@FlipMMO guild give <coin amout>")}`)
+    if(coinGiven === '') return message.reply(`${EMOJICONFIG.no} error command, type: ${inlineCode("@Eternals guild give <coin amout>")}`)
+    else if(coinGiven === ' ') return message.reply(`${EMOJICONFIG.no} error command, type: ${inlineCode("@Eternals guild give <coin amout>")}`)
+    else if(coinGiven === undefined) return message.reply(`${EMOJICONFIG.no} error command, type: ${inlineCode("@Eternals guild give <coin amout>")}`)
+    else if(isNaN(coinGiven)) return message.reply(`${EMOJICONFIG.no} error command, type: ${inlineCode("@Eternals guild give <coin amout>")}`)
     else if(coinGiven != undefined && isNaN(coinGiven) == false && coinGiven > 0) {
 
 
         function playerInSquad(playerStats){
             // == Player Db ==
-            if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
+            if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
             else {
                 if(playerStats.player.other.squadName != 'undefined') return true
             }
@@ -45,12 +45,12 @@ async execute(message, args, commandName) {
         
         // == Balance Db ==
         let balance = await BALANCEDATA.findOne({ userId: message.author.id });
-        if (!balance) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
+        if (!balance) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
         else {
 
             // == Player Db ==
             let playerStats = await PLAYERDATA.findOne({ userId: message.author.id });
-            if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
+            if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
             else {
 
                 // == Squad Db ==

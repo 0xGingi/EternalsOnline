@@ -52,12 +52,12 @@ module.exports = {
     
     //const price = price1 * amountToSell
 
-    if(item == undefined || item == '' || item == ' ') return message.reply(`${EMOJICONFIG.no} item error : ${inlineCode("@FlipMMO sell <item name> <price>")}`);
+    if(item == undefined || item == '' || item == ' ') return message.reply(`${EMOJICONFIG.no} item error : ${inlineCode("@Eternals sell <item name> <price>")}`);
 
-    if (!price) return message.reply(`${EMOJICONFIG.no} Error: You must specify a price. Usage: ${inlineCode("@FlipMMO sell <item name> <price>")}`);
+    if (!price) return message.reply(`${EMOJICONFIG.no} Error: You must specify a price. Usage: ${inlineCode("@Eternals sell <item name> <price>")}`);
     let playerStats = await PLAYERDATA.findOne({ userId: sellerId });
     if (playerStats.player.other.ironman === true) return message.reply(`${EMOJICONFIG.no} You are an ironman, you can't sell items on the GE!`);
-    if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
+    if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
     else {
         function itemExist(item){
             for(let pas = 0; pas < CONFIGITEM.length; pas++){
@@ -98,7 +98,7 @@ module.exports = {
             return [false, -1, 0, 'undefined', 'undefined', 'undefined']
         };
         let balance = await Balance.findOne({ userId: sellerId });
-        if (!balance) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
+        if (!balance) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
         else {
 
         if(itemExist(item)[0]){

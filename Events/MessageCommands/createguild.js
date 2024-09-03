@@ -31,15 +31,15 @@ async execute(message, args, commandName) {
     let balance = await BALANCEDATA.findOne({ userId: message.author.id });
     let playerStats = await PLAYERDATA.findOne({ userId: message.author.id });
     if (playerStats.player.other.ironman === true) return message.reply(`${EMOJICONFIG.no} You are an ironman, you can't create a guild!`);
-    if (!balance) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
+    if (!balance) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
     else {
 
         if (balance.eco.coins < 0) return message.reply(`${EMOJICONFIG.no} error, coin balance < 0, contact the developer`)
         else {
 
-            if(squadName === '') return message.reply(`${EMOJICONFIG.no} error command, type: ${inlineCode("@FlipMMO guild create <guild name>")}`)
-            else if(squadName === ' ') return message.reply(`${EMOJICONFIG.no} error command, type: ${inlineCode("@FlipMMO guild create <guild name>")}`)
-            else if(squadName === undefined || squadName === 'undefined') return message.reply(`${EMOJICONFIG.no} name not available, type: ${inlineCode("@FlipMMO guild create <guild name>")}`)
+            if(squadName === '') return message.reply(`${EMOJICONFIG.no} error command, type: ${inlineCode("@Eternals guild create <guild name>")}`)
+            else if(squadName === ' ') return message.reply(`${EMOJICONFIG.no} error command, type: ${inlineCode("@Eternals guild create <guild name>")}`)
+            else if(squadName === undefined || squadName === 'undefined') return message.reply(`${EMOJICONFIG.no} name not available, type: ${inlineCode("@Eternals guild create <guild name>")}`)
             else {
 
                 // ==== Check if squad name ever use ====
@@ -56,7 +56,7 @@ async execute(message, args, commandName) {
                     
 
                     function playerInSquad(playerStats){
-                        if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are a not player ! : ${inlineCode('@FlipMMO start')}`);
+                        if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are a not player ! : ${inlineCode('@Eternals start')}`);
                         else {
                             if(playerStats.player.other.squadName != 'undefined') return true
                         }
@@ -117,7 +117,7 @@ async execute(message, args, commandName) {
 
                         // ===============================
                     } else return message.reply(`${EMOJICONFIG.no} you are already in a Guild...`) 
-                } else return message.reply(`${EMOJICONFIG.no} the name ${inlineCode(squadName)} is already taken ! ${inlineCode('@FlipMMO guild create <guild name>')}`)
+                } else return message.reply(`${EMOJICONFIG.no} the name ${inlineCode(squadName)} is already taken ! ${inlineCode('@Eternals guild create <guild name>')}`)
             }; 
         };
     };  

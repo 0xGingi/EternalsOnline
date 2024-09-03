@@ -31,15 +31,15 @@ module.exports = {
     let balance = await BALANCEDATA.findOne({ userId: message.author.id });
     let playerStats = await PLAYERDATA.findOne({ userId: message.author.id });
     if (playerStats.player.other.ironman === true) return message.reply(`${EMOJICONFIG.no} You are an ironman, you can't create a party!`);
-    if (!balance) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
+    if (!balance) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
     else {
 
         if (balance.eco.coins < 0) return message.reply(`${EMOJICONFIG.no} error, coin balance < 0, contact the developer`)
         else {
 
-            if(partyName === '') return message.reply(`${EMOJICONFIG.no} error command, type: ${inlineCode("@FlipMMO party create <party name>")}`)
-            else if(partyName === ' ') return message.reply(`${EMOJICONFIG.no} error command, type: ${inlineCode("@FlipMMO party create <party name>")}`)
-            else if(partyName === undefined || partyName === 'undefined') return message.reply(`${EMOJICONFIG.no} name not available, type: ${inlineCode("@FlipMMO party create <party name>")}`)
+            if(partyName === '') return message.reply(`${EMOJICONFIG.no} error command, type: ${inlineCode("@Eternals party create <party name>")}`)
+            else if(partyName === ' ') return message.reply(`${EMOJICONFIG.no} error command, type: ${inlineCode("@Eternals party create <party name>")}`)
+            else if(partyName === undefined || partyName === 'undefined') return message.reply(`${EMOJICONFIG.no} name not available, type: ${inlineCode("@Eternals party create <party name>")}`)
             else {
 
                 function partyNameEverUsed(allParty, partyNameNew){
@@ -55,7 +55,7 @@ module.exports = {
                     
 
                     function playerInParty(playerStats){
-                        if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are a not player ! : ${inlineCode('@FlipMMO start')}`);
+                        if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are a not player ! : ${inlineCode('@Eternals start')}`);
                         else {
                             if(playerStats.player.other.partyName != 'undefined') return true
                         }
@@ -92,7 +92,7 @@ module.exports = {
                         message.channel.send({embeds: [partyEmbed]});
 
                     } else return message.reply(`${EMOJICONFIG.no} you are already in a Party...`) 
-                } else return message.reply(`${EMOJICONFIG.no} the name ${inlineCode(partyName)} is already taken ! ${inlineCode('@FlipMMO party create <party name>')}`)
+                } else return message.reply(`${EMOJICONFIG.no} the name ${inlineCode(partyName)} is already taken ! ${inlineCode('@Eternals party create <party name>')}`)
             }; 
         };
     };  

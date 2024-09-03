@@ -27,10 +27,10 @@ async execute(message, args, commandName) {
     var user = message.author;
     var squadNameAttack = args[0]
 
-    if(squadNameAttack == undefined || squadNameAttack == ' ' || squadNameAttack == '') return message.reply(`${EMOJICONFIG.no} error command, type: ${inlineCode("@FlipMMO guild attack <guildname>")}`);
+    if(squadNameAttack == undefined || squadNameAttack == ' ' || squadNameAttack == '') return message.reply(`${EMOJICONFIG.no} error command, type: ${inlineCode("@Eternals guild attack <guildname>")}`);
 
     function playerInSquad(playerStats){
-        if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are a not player ! : ${inlineCode('@FlipMMO start')}`);
+        if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are a not player ! : ${inlineCode('@Eternals start')}`);
         else {
             if(playerStats.player.other.squadName != 'undefined') return true
         }
@@ -39,7 +39,7 @@ async execute(message, args, commandName) {
 
     // == Player DB ==
     let playerStats = await PLAYERDATA.findOne({ userId: user.id });
-    if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are a not player ! : ${inlineCode('@FlipMMO start')}`);
+    if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are a not player ! : ${inlineCode('@Eternals start')}`);
 
     else {
         if (playerStats.player.cooldowns && playerStats.player.cooldowns.guildAttack) {

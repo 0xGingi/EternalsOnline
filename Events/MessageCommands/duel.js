@@ -49,9 +49,9 @@ module.exports = {
     if (!userInput && !wager) {
         let player = await PLAYERDATA.findOne({ userId: message.author.id });
         if (!player) {
-                return message.reply(`${EMOJICONFIG.no} you are not a player! : ${inlineCode('@FlipMMO start')}`);
+                return message.reply(`${EMOJICONFIG.no} you are not a player! : ${inlineCode('@Eternals start')}`);
         }
-        if (player.player.energy < 2) return message.reply(`${EMOJICONFIG.no} You don't have enough energy! Restore your energy with ${inlineCode('@FlipMMO energy')}`)
+        if (player.player.energy < 2) return message.reply(`${EMOJICONFIG.no} You don't have enough energy! Restore your energy with ${inlineCode('@Eternals energy')}`)
         let eligiblePlayers = await findEligiblePlayers(player.player.level, message.author.id);
         if (eligiblePlayers.length === 0) {
             return message.reply('No eligible players found to duel.');
@@ -96,12 +96,12 @@ module.exports = {
         // === Player 1 : DataBase ===
         let playerOne = await PLAYERDATA.findOne({ userId: message.author.id });
         if (wager > 0 && playerOne.player.other.ironman === true) return message.reply(`${EMOJICONFIG.no} You can't duel with a wager as an ironman!`);
-        if (!playerOne) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
+        if (!playerOne) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
         else {
 
             // === Balance Player 1 : DataBase ===
             let balance = await BALANCEDATA.findOne({ userId: message.author.id });
-            if (!balance) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
+            if (!balance) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
             else {
             if (balance.eco.coins < wagerAmount) return message.reply(`${EMOJICONFIG.no} You don't have enough coins for the wager`);
                             // === Balance Player 1 : DataBase ===
@@ -336,7 +336,7 @@ module.exports = {
                 };
             };
                }       };
-        } else return message.reply(`${EMOJICONFIG.no} player undefined : ${inlineCode("@FlipMMO duel <@user>")}`);
+        } else return message.reply(`${EMOJICONFIG.no} player undefined : ${inlineCode("@Eternals duel <@user>")}`);
 }; 
 }, 
 info: {

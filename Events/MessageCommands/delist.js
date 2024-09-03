@@ -26,7 +26,7 @@ module.exports = {
     // Retrieve the marketplace listing
     const listing = await Marketplace.findOne({ itemEa: equipalias, sellerId: user.id, price: price });
 
-    if (!price) return message.reply(`${EMOJICONFIG.no} Error: You must specify a price. Usage: ${inlineCode("@FlipMMO delist <item name> <price>")}`);
+    if (!price) return message.reply(`${EMOJICONFIG.no} Error: You must specify a price. Usage: ${inlineCode("@Eternals delist <item name> <price>")}`);
 
 
     if (!listing) {

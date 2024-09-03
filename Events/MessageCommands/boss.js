@@ -28,16 +28,16 @@ module.exports = {
     var user = message.author
 
     let playerStats = await PLAYERDATA.findOne({ userId: message.author.id });
-    if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@FlipMMO start')}`);
+    if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
     else {
 
         let boss = await BOSSDATA.findOne({ idboss: 8 });
-        if (!boss) return message.reply(`${EMOJICONFIG.no} Please change boss id! : ${inlineCode('@FlipMMO start')}`);
+        if (!boss) return message.reply(`${EMOJICONFIG.no} Please change boss id! : ${inlineCode('@Eternals start')}`);
         else {
             var bossEmbed = new EmbedBuilder()
                 .setColor('#000000')
                 .setTitle(`${EMOJICONFIG.attack6} Current World Boss`)
-                .setDescription(`${EMOJICONFIG.attack6} **Current World Boss**: **${inlineCode(boss.bossname)}**\n${EMOJICONFIG.attack} **Attack** : ${numStr(boss.stats.attack)}\n${EMOJICONFIG.heart} **Health** : ${numStr(boss.stats.health)}\n(Attack the boss : ${inlineCode("@FlipMMO boss attack")})`)
+                .setDescription(`${EMOJICONFIG.attack6} **Current World Boss**: **${inlineCode(boss.bossname)}**\n${EMOJICONFIG.attack} **Attack** : ${numStr(boss.stats.attack)}\n${EMOJICONFIG.heart} **Health** : ${numStr(boss.stats.health)}\n(Attack the boss : ${inlineCode("@Eternals boss attack")})`)
                 .setTimestamp();
             return message.channel.send({embeds: [bossEmbed]});
         };

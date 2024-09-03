@@ -21,7 +21,7 @@ module.exports = {
 
         let playerStats = await PLAYERDATA.findOne({ userId: message.author.id });
         if (!playerStats) {
-            return message.reply("You need to be a player to have pets! Use '@FlipMMO start' to begin your adventure.");
+            return message.reply("You need to be a player to have pets! Use '@Eternals start' to begin your adventure.");
         }
 
         const petData = PETS.find(p => p.alias && p.alias.includes(petAlias.toLowerCase()));

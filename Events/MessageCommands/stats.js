@@ -26,7 +26,7 @@ module.exports = {
           
             var statsEmbed = new EmbedBuilder()
                 .setColor('#fc9803')
-                .setTitle(`FlipMMO Stats`)
+                .setTitle(`Eternals Stats`)
                 .setDescription(`${EMOJICONFIG.helmet} **Number of players** : ${inlineCode(numUsers)}\n${EMOJICONFIG.scroll4} **Number of Guilds** : ${inlineCode(numGuilds)}\n${EMOJICONFIG.coinchest} **Coins in circulation** : ${inlineCode(numStr(statss.amoutCoin))} ${EMOJICONFIG.coin}\n${EMOJICONFIG.attack} **Items in circulation** : ${inlineCode(numStr(statss.amoutItem))}\n${EMOJICONFIG.attack6} **Total number of dead monsters** : ${inlineCode(numStr(statss.amoutMonsterKilled))}`)            
                 .setTimestamp();
             

@@ -70,16 +70,16 @@ module.exports = {
                 const embed = new EmbedBuilder()
                 .setTitle('Party Commands')
                 .addFields(
-                    { name: '@FlipMMO party create <name>', value: 'create a party' },
-                    { name: '@FlipMMO party join <name>', value: 'join a party' },
-                    { name: '@FlipMMO party leave', value: 'leave your party' },
-                    { name: '@FlipMMO party list', value: 'list all parties' },
-                    { name: '@FlipMMO party kick <@Player>', value: 'kick a player from your party' },
-                    { name: '@FlipMMO party ban <@Player>', value: 'perma ban a player from your party' },
-                    { name: '@FlipMMO party unban <@Player>', value: 'unban a player from your party' },
-                    { name: '@FlipMMO party banned', value: 'list all banned players from your party' },
-                    { name: '@FlipMMO party destroy <name>', value: 'destroy your party' },
-                    { name: '@FlipMMO party view <name>', value: 'view a party' }
+                    { name: '@Eternals party create <name>', value: 'create a party' },
+                    { name: '@Eternals party join <name>', value: 'join a party' },
+                    { name: '@Eternals party leave', value: 'leave your party' },
+                    { name: '@Eternals party list', value: 'list all parties' },
+                    { name: '@Eternals party kick <@Player>', value: 'kick a player from your party' },
+                    { name: '@Eternals party ban <@Player>', value: 'perma ban a player from your party' },
+                    { name: '@Eternals party unban <@Player>', value: 'unban a player from your party' },
+                    { name: '@Eternals party banned', value: 'list all banned players from your party' },
+                    { name: '@Eternals party destroy <name>', value: 'destroy your party' },
+                    { name: '@Eternals party view <name>', value: 'view a party' }
                 );
                 message.reply({ embeds: [embed] });
                     break;
