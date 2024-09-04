@@ -38,7 +38,10 @@
 * `topgg/` - Contains top.gg rewards
 
 ### Links
+* Eternals Wiki - [https://wiki.eternalsonline.com](https://wiki.eternalsonline.com)
 
 * Eternals Leaderboards Website - [https://https://stats.eternalsonline.com](https://stats.eternalsonline.com)
+
 * Invite Eternals to your Server - [https://discord.com/api/oauth2/authorize?client_id=1234552588339511439&permissions=139586792512&scope=applications.commands+bot ](https://discord.com/api/oauth2/authorize?client_id=1234552588339511439&permissions=139586792512&scope=applications.commands+bot )
+
 * Eternals Discord Server - [https://discord.gg/ywdfj3qbrF](https://discord.gg/ywdfj3qbrF)
