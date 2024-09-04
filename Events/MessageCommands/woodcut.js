@@ -28,6 +28,7 @@ module.exports = {
         if (this.info.names.some(name => commandName === name)) {
  
             var user = message.author;
+            let constore = args[0];
 
             try {
                 let player = await PLAYER.findOne({ userId: user.id }).exec();
@@ -48,6 +49,16 @@ module.exports = {
                     return;
                 }
 
+                if (constore && !eligibleTrees.some(tree => tree.alias.toLowerCase() === constore.toLowerCase())) {
+                    message.reply(`You cannot chop ${constore} in your current area.`);
+                    return;
+                }
+                
+                if (constore && eligibleTrees.some(tree => tree.alias.toLowerCase() === constore.toLowerCase() && player.player.woodcutting.level < tree.level)) {
+                    message.reply(`Your woodcutting level is not high enough to chop ${constore} in your current area.`);
+                    return;
+                }
+        
                 if (player.player.cooldowns && player.player.cooldowns.skilling) {
                     const cooldownData = player.player.cooldowns.skilling;
                     const timeSinceLastFight = new Date().getTime() - cooldownData.timestamp;
@@ -104,9 +115,20 @@ module.exports = {
                                 message.reply("No logs are eligible for your current woodcutting level in this area. Try going to another area.");
                                 return;
                             }
-                
-                            const tree = eligibleTrees[Math.floor(Math.random() * eligibleTrees.length)];
-                            const logsCut = Math.floor(Math.random() * 25) + 1; // Adjust the max number of logs
+                            let tree;
+                            if (constore) {
+                                tree = eligibleTrees.find(t => t.alias.toLowerCase() === constore.toLowerCase());
+                            }
+                            else  {
+                             tree = eligibleTrees[Math.floor(Math.random() * eligibleTrees.length)];
+                            }
+                            let logsCut;
+                            if (constore){
+                                logsCut = Math.floor(Math.random() * 75) + 1;
+                            }
+                            else {
+                                logsCut = Math.floor(Math.random() * 25) + 1;
+                            }
                             const playerLogs = player.player.stuff.logs.find(l => l.name === tree.name);
                             if (!playerLogs) {
                                 player.player.stuff.logs.push({

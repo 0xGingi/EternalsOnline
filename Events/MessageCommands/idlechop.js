@@ -17,6 +17,7 @@ module.exports = {
 		if (message.content.toLowerCase() && this.info.names.some(name => commandName === name)) {
  
             var user = message.author;
+            let constore = args[0];
 
             try {
                 let player = await PLAYER.findOne({ userId: user.id }).exec();
@@ -36,6 +37,17 @@ module.exports = {
                     message.reply("No logs are eligible for your current woodcutting level in this area. Try going to another area.");
                     return;
                 }
+
+                if (constore && !eligibleTrees.some(tree => tree.alias.toLowerCase() === constore.toLowerCase())) {
+                    message.reply(`You cannot chop ${constore} in your current area.`);
+                    return;
+                }
+                
+                if (constore && eligibleTrees.some(tree => tree.alias.toLowerCase() === constore.toLowerCase() && player.player.woodcutting.level < tree.level)) {
+                    message.reply(`Your woodcutting level is not high enough to chop ${constore} in your current area.`);
+                    return;
+                }
+
 
                 if (player.player.cooldowns && player.player.cooldowns.skilling) {
                     const cooldownData = player.player.cooldowns.skilling;
@@ -92,13 +104,25 @@ module.exports = {
                                 message.reply("No logs are eligible for your current woodcutting level in this area. Try going to another area.");
                                 return;
                             }
-                
-                            const numLogTypes = Math.floor(Math.random() * 4) + 2;
+                            let numLogTypes;
+                            if (constore){
+                                numLogTypes = 1;
+                            }   
+                            else{
+                                numLogTypes = Math.floor(Math.random() * 4) + 2;
+                            }
                             const selectedTrees = [];
-                            for (let i = 0; i < numLogTypes; i++) {
-                                const log = eligibleTrees[Math.floor(Math.random() * eligibleTrees.length)];
+                            let log;
+                            if (constore) {
+                                log = eligibleTrees.find(log => log.alias.toLowerCase() === constore.toLowerCase());
                                 selectedTrees.push(log);
                             }
+                            else {                
+                            for (let i = 0; i < numLogTypes; i++) {
+                                log = eligibleTrees[Math.floor(Math.random() * eligibleTrees.length)];
+                                selectedTrees.push(log);
+                            }
+                        }
 
                             let fishingMessage = new EmbedBuilder()
                             .setColor('#0099ff')
@@ -108,7 +132,13 @@ module.exports = {
                             let totalXP = 0;
                             let fishCaughtMessage = '';
                             for (const log of selectedTrees) {
-                            let logsCut = Math.floor(Math.random() * 120) + 1; // Change this to adjust the maximum number of fish that can be caught
+                            let logsCut;
+                            if (constore) {
+                                logsCut = Math.floor(Math.random() * 500) + 100;
+                            }
+                            else {
+                                logsCut = Math.floor(Math.random() * 120) + 1;
+                            }
                             const playerLogs = player.player.stuff.logs.find(f => f.name === log.name);
                             if (player.player.other.ironman === true) {
                                 logsCut = Math.floor(logsCut * 1.2);

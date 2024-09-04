@@ -28,8 +28,8 @@ module.exports = {
         if (this.info.names.some(name => commandName === name)) {
      
     var user = message.author;
-
-
+    let constore = args[0];
+    
     try {
 
         let player = await PLAYER.findOne({ userId: user.id }).exec();
@@ -47,8 +47,16 @@ module.exports = {
             return;
         }
 
-
-
+        if (constore && !eligibleOre.some(ore => ore.alias.toLowerCase() === constore.toLowerCase())) {
+            message.reply(`You cannot mine ${constore} in your current area.`);
+            return;
+        }
+        
+        if (constore && eligibleOre.some(ore => ore.alias.toLowerCase() === constore.toLowerCase() && player.player.mining.level < ore.level)) {
+            message.reply(`Your mining level is not high enough to mine ${constore} in your current area.`);
+            return;
+        }
+        
         if (player.player.cooldowns && player.player.cooldowns.skilling) {
             const cooldownData = player.player.cooldowns.skilling;
             const timeSinceLastFight = new Date().getTime() - cooldownData.timestamp;
@@ -102,11 +110,23 @@ try {
                 message.reply("No mining nodes are eligible for your current mining level in this area. Try going to another area.");
                 return;
             }
-            const ore = eligibleOre[Math.floor(Math.random() * eligibleOre.length)];
-            let oreCaught = Math.floor(Math.random() * 25) + 1;
+            let ore;
+            if (constore){
+              ore = eligibleOre.find(ore => ore.alias.toLowerCase() === constore.toLowerCase());
+            } else {
+             ore = eligibleOre[Math.floor(Math.random() * eligibleOre.length)];
+            }
+            let oreCaught;
             if (ore.id === 3) {
                 oreCaught *= 5;
             }
+            if (constore){
+                oreCaught = Math.floor(Math.random() * 75) + 1;
+            }
+            else{
+                oreCaught = Math.floor(Math.random() * 25) + 1;
+            }
+
             const playerFish = player.player.stuff.ore.find(f => f.name === ore.name);
             if (!playerFish) {
                 player.player.stuff.ore.push({

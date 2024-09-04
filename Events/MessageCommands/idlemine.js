@@ -17,7 +17,7 @@ module.exports = {
 		if (message.content.toLowerCase() && this.info.names.some(name => commandName === name)) {
  
     var user = message.author;
-
+    let constore = args[0];
 
     try {
 
@@ -35,6 +35,17 @@ module.exports = {
             return;
         }
     
+        if (constore && !eligibleOre.some(ore => ore.alias.toLowerCase() === constore.toLowerCase())) {
+            message.reply(`You cannot mine ${constore} in your current area.`);
+            return;
+        }
+        
+        if (constore && eligibleOre.some(ore => ore.alias.toLowerCase() === constore.toLowerCase() && player.player.mining.level < ore.level)) {
+            message.reply(`Your mining level is not high enough to mine ${constore} in your current area.`);
+            return;
+        }
+
+
         if (player.player.cooldowns && player.player.cooldowns.skilling) {
             const cooldownData = player.player.cooldowns.skilling;
             const timeSinceLastFight = new Date().getTime() - cooldownData.timestamp;
@@ -54,6 +65,7 @@ module.exports = {
         await player.save();
 
         let countdown = 20 * 60;
+        //let countdown = 1;
         message.reply(`You started ${EMOJICONFIG.pickaxe2} Mining. Please wait 20 Minutes...`).then(msg => {
             let countdownInterval = setInterval(() => {
             countdown--;
@@ -86,13 +98,25 @@ try {
                 message.reply("No mining nodes are eligible for your current mining level in this area. Try going to another area.");
                 return;
             }
-
-            const numOreTypes = Math.floor(Math.random() * 4) + 2;
+            let numOreTypes;
+            if (constore){
+                numOreTypes = 1;
+            }
+            else{
+                numOreTypes = Math.floor(Math.random() * 4) + 2;
+            }
             const selectedOre = [];
+            let ore;
+            if (constore) {
+                ore = eligibleOre.find(ore => ore.alias.toLowerCase() === constore.toLowerCase());
+                 selectedOre.push(ore);
+            }
+            else {
             for (let i = 0; i < numOreTypes; i++) {
-                const ore = eligibleOre[Math.floor(Math.random() * eligibleOre.length)];
+                ore = eligibleOre[Math.floor(Math.random() * eligibleOre.length)];
                 selectedOre.push(ore);
             }
+        }
 
             let fishingMessage = new EmbedBuilder()
             .setColor('#0099ff')
@@ -102,7 +126,13 @@ try {
             let totalXP = 0;
             let fishCaughtMessage = '';
             for (const ore of selectedOre) {
-            let oreCaught = Math.floor(Math.random() * 120) + 1;
+            let oreCaught;
+            if (constore){
+                oreCaught = Math.floor(Math.random() * 500) + 100;
+            }
+            else{
+            oreCaught = Math.floor(Math.random() * 120) + 1;
+            }
             if (ore.id === 3) {
                 oreCaught *= 5;
             }            

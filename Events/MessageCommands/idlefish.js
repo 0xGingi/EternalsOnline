@@ -17,6 +17,7 @@ module.exports = {
 		if (message.content.toLowerCase() && this.info.names.some(name => commandName === name)) {
  
     var user = message.author;
+    let constore = args[0];
 
 
     try {
@@ -36,6 +37,16 @@ module.exports = {
         );            
         if (eligibleFishes.length === 0){
             message.reply("No fishes are eligible for your current fishing level in this area. Try going to another area.");
+            return;
+        }
+
+        if (constore && !eligibleFishes.some(fish => fish.alias.toLowerCase() === constore.toLowerCase())) {
+            message.reply(`You cannot fish ${constore} in your current area.`);
+            return;
+        }
+        
+        if (constore && eligibleFishes.some(fish => fish.alias.toLowerCase() === constore.toLowerCase() && player.player.fishing.level < fish.level)) {
+            message.reply(`Your fishing level is not high enough to fish for ${constore} in your current area.`);
             return;
         }
 
@@ -94,12 +105,25 @@ try {
                 return;
             }
 
-            const numFishTypes = Math.floor(Math.random() * 4) + 2;
+            let numFishTypes;
+            if (constore){
+                numFishTypes = 1;
+            }
+            else{
+                numFishTypes = Math.floor(Math.random() * 4) + 2;
+            }
 
             const selectedFishes = [];
-            for (let i = 0; i < numFishTypes; i++) {
-                const fish = eligibleFishes[Math.floor(Math.random() * eligibleFishes.length)];
+            let fish;
+            if (constore) {
+                fish = eligibleFishes.find(fish => fish.alias.toLowerCase() === constore.toLowerCase());
                 selectedFishes.push(fish);
+            }
+            else {
+                for (let i = 0; i < numFishTypes; i++) {
+                fish = eligibleFishes[Math.floor(Math.random() * eligibleFishes.length)];
+                selectedFishes.push(fish);
+                }
             }    
             let fishingMessage = new EmbedBuilder()
             .setColor('#0099ff')
@@ -109,7 +133,13 @@ try {
             let totalXP = 0;
             let fishCaughtMessage = '';
             for (const fish of selectedFishes) {
-            let fishCaught = Math.floor(Math.random() * 120) + 1;
+            let fishCaught;
+            if (constore){
+                fishCaught = Math.floor(Math.random() * 500) + 100;
+            }
+            else{
+                fishCaught = Math.floor(Math.random() * 120) + 1;
+            }
             
             if (player.player.other.ironman === true) {
                 fishCaught = Math.floor(fishCaught * 1.2);

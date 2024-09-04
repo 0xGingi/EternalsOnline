@@ -29,7 +29,7 @@ module.exports = {
         if (this.info.names.some(name => commandName === name)) {
  
     var user = message.author;
-
+    let constore = args[0];
     try {
 
         let player = await PLAYER.findOne({ userId: user.id }).exec();
@@ -49,6 +49,17 @@ module.exports = {
             message.reply("No fishes are eligible for your current fishing level in this area. Try going to another area.");
             return;
         }
+
+        if (constore && !eligibleFishes.some(fish => fish.alias.toLowerCase() === constore.toLowerCase())) {
+            message.reply(`You cannot fish ${constore} in your current area.`);
+            return;
+        }
+        
+        if (constore && eligibleFishes.some(fish => fish.alias.toLowerCase() === constore.toLowerCase() && player.player.fishing.level < fish.level)) {
+            message.reply(`Your fishing level is not high enough to fish for ${constore} in your current area.`);
+            return;
+        }
+
 
         if (player.player.cooldowns && player.player.cooldowns.skilling) {
             const cooldownData = player.player.cooldowns.skilling;
@@ -82,8 +93,19 @@ try {
                 message.reply("No fishes are eligible for your current fishing level in this area. Try going to another area.");
                 return;
             }
-            const fish = eligibleFishes[Math.floor(Math.random() * eligibleFishes.length)];
-            const fishCaught = Math.floor(Math.random() * 25) + 1; // Change this to adjust the maximum number of fish that can be caught
+            let fish;
+            if (constore){
+              fish = eligibleFishes.find(fish => fish.alias.toLowerCase() === constore.toLowerCase());
+            } else {
+             fish = eligibleFishes[Math.floor(Math.random() * eligibleFishes.length)];
+            }
+            let fishCaught;
+            if (constore){
+                fishCaught = Math.floor(Math.random() * 75) + 1;
+            }
+            else{
+                fishCaught = Math.floor(Math.random() * 25) + 1;
+            }
             const playerFish = player.player.stuff.fish.find(f => f.name === fish.name);
             if (!playerFish) {
                 player.player.stuff.fish.push({
