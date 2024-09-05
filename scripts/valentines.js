@@ -6,8 +6,7 @@ const config = require('../App/config.json');
 const mongoose = require('mongoose');
 
 mongoose
-   .connect(config.mongodb, {})
-   .then(() => console.log(`Valentines Event Ready`));
+   .connect(config.mongodb, {});
 
    async function sendEmbed(channel, embed, row) {
     const message = await channel.send({embeds: [embed], components: [row]});

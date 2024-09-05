@@ -14,7 +14,7 @@ module.exports = { client, mongoose };
 
 client.commands = new Collection();
 client.events = new Collection();
-console.log(client.events)
+
 const { loadEvents } = require('./Handlers/Events');
 const { loadCommands } = require('./Handlers/Commands');
 
@@ -23,6 +23,9 @@ client.once('ready', async () => {
     console.log('Bot is ready');
     await loadCommands(client);
     await loadEvents(client);
+    console.log(`\n${dim('User:')} ${yellow(client.user.tag)}\n`)
+    console.log(`${dim('-----------------------------------------------------------')}`)
+    console.log(`\n${dim('Developed by:')} ${yellow('0xGingi | https://github.com/0xGingi ')}`)
     await client.user.setPresence({
         activities: [{name :'@Eternals help', type: ActivityType.Playing }],
         status: `online`,

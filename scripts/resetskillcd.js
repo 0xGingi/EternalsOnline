@@ -6,8 +6,8 @@ const AREA = require('../modules/area.js');
 const economie = require('../modules/economie.js');
 
 mongoose
-   .connect(config.mongodb, {})
-   .then(() => console.log(`Skill Reset Ready`));
+   .connect(config.mongodb, {});
+   
    async function run() {
 
     try {

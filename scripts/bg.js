@@ -12,8 +12,7 @@ const config = require('../App/config.json');
 const {client} = require('../App/index.js');
 
 mongoose
-   .connect(config.mongodb, {})
-   .then(() => console.log(`Battlegrounds Ready`));
+   .connect(config.mongodb, {});
 
     async function startBattleground() {    
                 try {
