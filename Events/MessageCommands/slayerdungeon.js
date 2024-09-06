@@ -15,7 +15,7 @@ const {client} = require('../../App/index.js');
 const monster = require('./monster.js');
 const Party = require('../../modules/party.js');
 const CRAFTS = require('../../config/craft.json');
-const shuffleTime = 3000;
+const shuffleTime = 300;
 
 module.exports = {
 

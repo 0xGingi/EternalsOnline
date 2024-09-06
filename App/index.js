@@ -18,9 +18,15 @@ client.events = new Collection();
 const { loadEvents } = require('./Handlers/Events');
 const { loadCommands } = require('./Handlers/Commands');
 
+client.on('disconnect', () => {
+    console.log('Bot is disconnected!');
+});
+
+client.on('reconnecting', () => {
+    console.log('Bot is reconnecting...');
+});
 
 client.once('ready', async () => {
-    console.log('Bot is ready');
     await loadCommands(client);
     await loadEvents(client);
     console.log(`\n${dim('User:')} ${yellow(client.user.tag)}\n`)
@@ -29,6 +35,11 @@ client.once('ready', async () => {
     await client.user.setPresence({
         activities: [{name :'@Eternals help', type: ActivityType.Playing }],
         status: `online`,
+    });
+
+    client.on('disconnect', () => {
+        console.log('Bot is disconnected! Trying to reconnect!');
+        setTimeout(() => client.login(config.token), 5000);
     });
 });
 client.login(config.token);
