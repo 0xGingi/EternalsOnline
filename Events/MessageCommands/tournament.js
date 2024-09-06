@@ -8,6 +8,8 @@ const create = require('./createguildtournament.js');
 const join = require('./joinguildTournament.js');
 const guild = require('./guildtournament.js');
 const {client} = require('../../App/index.js');
+const list = require('./listtournaments.js');
+
 module.exports = {
     name: Events.MessageCreate,
     /**
@@ -36,6 +38,9 @@ module.exports = {
                 case 'start':
                     await start.execute(message, args, 'starttournament');
                     break;
+                case 'list':
+                    await list.execute(message, args, 'listtournaments');
+                    break;
 
                 default:
                                        
@@ -46,6 +51,7 @@ module.exports = {
                     { name: '@Eternals tournament join <name>', value: 'join a tournament' },
                     { name: '@Eternals tournament view <name>', value: 'view tournament' },
                     { name: '@Eternals tournament start <name>', value: 'start tournament' },
+                    { name: '@Eternals tournament list', value: 'list tournaments'}
                 );
                 message.reply({ embeds: [embed] });
                     break;

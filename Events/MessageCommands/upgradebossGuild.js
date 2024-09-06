@@ -23,16 +23,34 @@ async execute(message, args, commandName) {
     if (message.content.toLowerCase() && this.info.names.some(name => commandName === name)) {
 
     let stats = await STATS.findOne({ botID: 899 });
-    var user = message.author;
-    var itemUpgrade = args[0]
-    var amoutUpgrade = parseInt(args[1])
-    if(isNaN(amoutUpgrade) || !Number.isInteger(amoutUpgrade))  return message.reply(`${EMOJICONFIG.no} Please only use whole numbers \n Command Structure: ${inlineCode("@Eternals guild upgrade <attack/health/defense> <stat amount>")}\n Pricing: \n Attack: ${inlineCode('112 coins')}\n Health: ${inlineCode('7 coins')}\n Defense: ${inlineCode('75 coins')}`);
-    if(itemUpgrade === '' || amoutUpgrade === '') return message.reply(`${EMOJICONFIG.no} Command Structure: ${inlineCode("@Eternals guild upgrade <attack/health/defense> <stat amount>")}\n Pricing: \n Attack: ${inlineCode('112 coins')}\n Health: ${inlineCode('7 coins')}\n Defense: ${inlineCode('75 coins')}`);
-    else if(itemUpgrade === ' ' || amoutUpgrade === ' ') return message.reply(`${EMOJICONFIG.no} Command Structure: ${inlineCode("@Eternals guild upgrade <attack/health/defense> <stat amount>")}\n Pricing: \n Attack: ${inlineCode('112 coins')}\n Health: ${inlineCode('7 coins')}\n Defense: ${inlineCode('75 coins')}`);
-    else if(itemUpgrade === undefined || amoutUpgrade === undefined) return message.reply(`${EMOJICONFIG.no} Command Structure: ${inlineCode("@Eternals guild upgrade <attack/health/defense> <stat amount>")}\n Pricing: \n Attack: ${inlineCode('112 coins')}\n Health: ${inlineCode('7 coins')}\n Defense: ${inlineCode('75 coins')}`);
-    else if(isNaN(amoutUpgrade))  return message.reply(`${EMOJICONFIG.no} Command Structure: ${inlineCode("@Eternals guild upgrade <attack/health/defense> <stat amount>")}\n Pricing: \n Attack: ${inlineCode('112 coins')}\n Health: ${inlineCode('7 coins')}\n Defense: ${inlineCode('75 coins')}`);
-    else if((itemUpgrade == 'attack' || itemUpgrade == 'atk' || itemUpgrade == 'a' || itemUpgrade == 'health' || itemUpgrade == 'hlh' || itemUpgrade == 'h' || itemUpgrade == 'defense' || itemUpgrade == 'def' || itemUpgrade == 'd') && isNaN(amoutUpgrade) == false) {
+    let user = message.author;
+    let itemUpgrade = args[0]
+    let amountUpgrade = parseInt(args[1])
+    let playerStats = await PLAYERDATA.findOne({ userId: user.id });
+    let squad = await SQUADDATA.findOne({ squadName: playerStats.player.other.squadName });
+    let guildbank = squad.squadbank;
+    
+    const prices = {
+        attack: 112,
+        health: 7,
+        defense: 75
+    };
+    
+    const maxUpgrades = {
+        attack: Math.floor(guildbank / prices.attack),
+        health: Math.floor(guildbank / prices.health),
+        defense: Math.floor(guildbank / prices.defense)
+    };
+    
 
+    if(isNaN(amountUpgrade) || !Number.isInteger(amountUpgrade)) {
+        return message.reply(`${EMOJICONFIG.no} Please only use whole numbers \n Command Structure: ${inlineCode("@Eternals guild upgrade <attack/health/defense> <stat amount>")}\n Pricing: \n Attack: ${inlineCode(`${prices.attack} coins (Max: ${maxUpgrades.attack})`)}\n Health: ${inlineCode(`${prices.health} coins (Max: ${maxUpgrades.health})`)}\n Defense: ${inlineCode(`${prices.defense} coins (Max: ${maxUpgrades.defense})`)}`);
+    }
+    
+    if(isNaN(amountUpgrade) || !Number.isInteger(amountUpgrade) || itemUpgrade === '' || amountUpgrade === '' || itemUpgrade === ' ' || amountUpgrade === ' ' || itemUpgrade === undefined || amountUpgrade === undefined) {
+        return message.reply(`${EMOJICONFIG.no} Please check your input. Command Structure: ${inlineCode("@Eternals guild upgrade <attack/health/defense> <stat amount>")}\n Pricing: \n Attack: ${inlineCode(`${prices.attack} coins (Max: ${maxUpgrades.attack})`)}\n Health: ${inlineCode(`${prices.health} coins (Max: ${maxUpgrades.health})`)}\n Defense: ${inlineCode(`${prices.defense} coins (Max: ${maxUpgrades.defense})`)}`);
+    } else if((itemUpgrade == 'attack' || itemUpgrade == 'atk' || itemUpgrade == 'a' || itemUpgrade == 'health' || itemUpgrade == 'hlh' || itemUpgrade == 'h' || itemUpgrade == 'defense' || itemUpgrade == 'def' || itemUpgrade == 'd') && !isNaN(amountUpgrade)) {
+        
         function playerInSquad(playerStats){
             if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
             else {
@@ -42,12 +60,10 @@ async execute(message, args, commandName) {
         };
 
         // == Player DB ==
-        let playerStats = await PLAYERDATA.findOne({ userId: user.id });
         if (!playerStats) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
         else {
 
             // == Squad DB ==
-            let squad = await SQUADDATA.findOne({ squadName: playerStats.player.other.squadName });
             if (!squad) return message.reply(`${EMOJICONFIG.no} Guild is not available...`)
             else {
 
@@ -56,14 +72,14 @@ async execute(message, args, commandName) {
 
                     let price;  
                     if(itemUpgrade == 'attack' || itemUpgrade == 'atk' || itemUpgrade == 'a'){
-                        price = amoutUpgrade * 112;
+                        price = amountUpgrade * 112;
                     } else if(itemUpgrade == 'health' || itemUpgrade == 'hlh' || itemUpgrade == 'h'){
-                        price = amoutUpgrade * 7;
+                        price = amountUpgrade * 7;
                     } else if(itemUpgrade == 'defense' || itemUpgrade == 'def' || itemUpgrade == 'd'){
-                        price = amoutUpgrade * 75;
+                        price = amountUpgrade * 75;
                     }
 
-                        // === Check amout balance eco Bank ===
+                        // === Check amount balance eco Bank ===
                     if(squad.squadbank >= price){
 
                         // === Initialize Player is the leader of the team ===
@@ -72,7 +88,7 @@ async execute(message, args, commandName) {
                             return message.reply(`${EMOJICONFIG.no} you are not the leader or an officer of the Guild: ${inlineCode(squad.squadName)}`);
                         } 
                         
-                            function upgradeBossMessage(done, emojiDone, price, amoutUpgrade){
+                            function upgradeBossMessage(done, emojiDone, price, amountUpgrade){
                                 // ===== Row Button =====
                                 const row = new ActionRowBuilder()
                                     .addComponents(
@@ -92,7 +108,7 @@ async execute(message, args, commandName) {
                                 const upgradeBoss = new EmbedBuilder()
                                     .setColor('#4dca4d')
                                     .setTitle(`${EMOJICONFIG.paper} Upgrade Guild Boss`)
-                                    .setDescription(`${EMOJICONFIG.paper} Guild : ${inlineCode(squad.squadName)} by ${inlineCode(squad.leader[1])}\n${EMOJICONFIG.scroll4} Improve ${done}: ${inlineCode('+' + amoutUpgrade)} ${emojiDone}\n${EMOJICONFIG.coinchest} Guild Upgrade Cost: ${inlineCode(price)}`)
+                                    .setDescription(`${EMOJICONFIG.paper} Guild : ${inlineCode(squad.squadName)} by ${inlineCode(squad.leader[1])}\n${EMOJICONFIG.scroll4} Improve ${done}: ${inlineCode('+' + amountUpgrade)} ${emojiDone}\n${EMOJICONFIG.coinchest} Guild Upgrade Cost: ${inlineCode(price)}`)
                                     .setTimestamp();
                                 message.reply({embeds: [upgradeBoss], components: [row]});
 
@@ -114,25 +130,25 @@ async execute(message, args, commandName) {
                                     if(id === 'yes'){
                                         // ========== YES: UPGRADE the SQUAD BOSS ==========
                                         if(done == 'attack'){
-                                            squad.squadboss.bossattack += amoutUpgrade
+                                            squad.squadboss.bossattack += amountUpgrade
                                             squad.squadbank -= price
-                                            stats.amoutCoin -= price
+                                            stats.amountCoin -= price
                                             stats.save()
                                             squad.save() 
                                         };
 
                                         if(done == 'health'){
-                                            squad.squadboss.bosshealth += amoutUpgrade
+                                            squad.squadboss.bosshealth += amountUpgrade
                                             squad.squadbank -= price
-                                            stats.amoutCoin -= price
+                                            stats.amountCoin -= price
                                             stats.save()
                                             squad.save() 
                                         };
 
                                         if(done == 'defense'){
-                                            squad.squadboss.bossdefense += amoutUpgrade
+                                            squad.squadboss.bossdefense += amountUpgrade
                                             squad.squadbank -= price
-                                            stats.amoutCoin -= price
+                                            stats.amountCoin -= price
                                             stats.save()
                                             squad.save() 
                                         };
@@ -141,7 +157,7 @@ async execute(message, args, commandName) {
                                         var upgradeDone = new EmbedBuilder()
                                             .setColor('#4dca4d')
                                             .setTitle(`🗿 Boss Upgrade`)
-                                            .setDescription(`${EMOJICONFIG.yes} Guild Boss Upgrading !\n${EMOJICONFIG.attack6} Improve ${done}: ${inlineCode('+' + amoutUpgrade)} ${emojiDone}\n${EMOJICONFIG.coinchest} Cost: ${inlineCode(price)}`)
+                                            .setDescription(`${EMOJICONFIG.yes} Guild Boss Upgrading !\n${EMOJICONFIG.attack6} Improve ${done}: ${inlineCode('+' + amountUpgrade)} ${emojiDone}\n${EMOJICONFIG.coinchest} Cost: ${inlineCode(price)}`)
                                             .setTimestamp();
                                         return message.reply({embeds: [upgradeDone]});
                                     }
@@ -151,13 +167,13 @@ async execute(message, args, commandName) {
                             // === End Function ===
 
                             if(itemUpgrade == 'attack' || itemUpgrade == 'atk' || itemUpgrade == 'a'){
-                                return upgradeBossMessage('attack', `${EMOJICONFIG.attack}`, Math.floor(amoutUpgrade * 112), amoutUpgrade);
+                                return upgradeBossMessage('attack', `${EMOJICONFIG.attack}`, Math.floor(amountUpgrade * 112), amountUpgrade);
 
                             } else if(itemUpgrade == 'health' || itemUpgrade == 'hlh' || itemUpgrade == 'h'){
-                                return upgradeBossMessage('health', `${EMOJICONFIG.heart}`, Math.floor(amoutUpgrade * 7), amoutUpgrade);
+                                return upgradeBossMessage('health', `${EMOJICONFIG.heart}`, Math.floor(amountUpgrade * 7), amountUpgrade);
 
                             } else if(itemUpgrade == 'defense' || itemUpgrade == 'def' || itemUpgrade == 'd'){
-                                return upgradeBossMessage('defense', `${EMOJICONFIG.shield2}`, Math.floor(amoutUpgrade * 75), amoutUpgrade);
+                                return upgradeBossMessage('defense', `${EMOJICONFIG.shield2}`, Math.floor(amountUpgrade * 75), amountUpgrade);
                             } else return message.reply(`${EMOJICONFIG.no} error command, type: ${inlineCode("@Eternals guild upgrade <attack/health/defense> <amount>")}`);
 
                     } else return message.reply(`${EMOJICONFIG.no}  You Don't Have Enough Coins in the Guild Bank...`);

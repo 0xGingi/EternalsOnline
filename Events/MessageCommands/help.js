@@ -84,7 +84,7 @@ module.exports = {
               categoryEmbed.addFields({name: `${EMOJICONFIG.shieldflame} Party`, value: `${inlineCode("@Eternals party")} - View your party\n${inlineCode("@Eternals party create")} - Create a party\n${inlineCode("@Eternals party join <partyname>")} - Join a party\n${inlineCode("@Eternals party leave")} - Leave your party\n${inlineCode("@Eternals party ban <@Player>")} - Ban a player from your party\n${inlineCode("@Eternals party unban <@Player>")} - Unban a player from your party\n${inlineCode("@Eternals party banned")} - View all banned players\n${inlineCode("@Eternals party kick <@Player>")} - Kick a player from your party\n${inlineCode("@Eternals party destroy <partyname>")} - Destroy your party\n${inlineCode("@Eternals party list")} - List Parties\n${inlineCode("@Eternals partydungeon")} - Dropdown menu to enter a party dungeon\n${inlineCode("@Eternals pdf <dungeon>")} - Enter a party dungeon`});
               break;
             case 'guildt':
-              categoryEmbed.addFields({ name:`${EMOJICONFIG.attack6} Guild Tournament`, value: `${inlineCode("@Eternals tournament create <name>")} - Create a guild tournament\n${inlineCode("@Eternals tournament join <name>")} - Enter your guild into a guild tournament\n${inlineCode("@Eternals tournament start <name>")} - Start the guild tournament\n${inlineCode("@Eternals tournament list <name>")} - view the guild tournament`});
+              categoryEmbed.addFields({ name:`${EMOJICONFIG.attack6} Guild Tournament`, value: `${inlineCode("@Eternals tournament create <name>")} - Create a guild tournament\n${inlineCode("@Eternals tournament join <name>")} - Enter your guild into a guild tournament\n${inlineCode("@Eternals tournament start <name>")} - Start the guild tournament\n${inlineCode("@Eternals tournament view <name>")} - view the guild tournament\n${inlineCode("@Eternals tournament list")} - list ongoing guild tournaments`});
               break;
             case 'lists':
               categoryEmbed.addFields({ name: `${EMOJICONFIG.scroll4} Lists`, value: `${inlineCode("@Eternals list fish")} - List all fish\n${inlineCode("@Eternals list food")} - List all food\n${inlineCode("@Eternals list logs")} - List all logs\n${inlineCode("@Eternals list ore")} - List all ore\n${inlineCode("@Eternals list bars")} - List all bars\n${inlineCode("@Eternals list smithing")} - List all smithable items\n${inlineCode("@Eternals list weapon")} - List all Weapons\n${inlineCode("@Eternals list armor")} - List all Armor\n${inlineCode("@Eternals list magic")} - List all magic items\n${inlineCode("@Eternals list areas")} - List all Areas\n${inlineCode("@Eternals list dungeons")} - List all Dungeons\n${inlineCode("@Eternals list partydungeons")} - List all party dungeons\n${inlineCode("@Eternals list raids")} - List all Raids\n${inlineCode("@Eternals list pets")} - List all pets\n${inlineCode("@Eternals list courses")} - List all agility courses\n${inlineCode("@Eternals list seeds")} - List all farming seeds\n${inlineCode("@Eternals list crops")} - List all farming crops\n${inlineCode("@Eternals list potions")} - List all potions`});
@@ -103,7 +103,6 @@ module.exports = {
               break;
         }
     
-        // Update the message with the new embed
         await interaction.update({ embeds: [categoryEmbed] });
     }); 
   
