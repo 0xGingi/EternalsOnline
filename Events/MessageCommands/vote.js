@@ -17,7 +17,7 @@ module.exports = {
             const voteEmbed = new EmbedBuilder()
             .setColor('#0099ff')
             .setTitle('Vote for Eternals!')
-            .setURL('https://top.gg/bot/1157454837861056552/vote')
+            .setURL('https://top.gg/bot/1234552588339511439/vote')
             .setDescription('Click the link above to vote for Eternals on top.gg and receive a special top.gg reward box!')
             .setThumbnail('https://images.discordapp.net/avatars/1157454837861056552/c8d66bd2b5f32dbf44e3bdd2d3f61489.png')
             .addFields(

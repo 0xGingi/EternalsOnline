@@ -34,7 +34,7 @@ module.exports = {
         let balance = await BALANCEDATA.findOne({ userId: user.id });
         if (!balance) return message.reply(`${EMOJICONFIG.no} you are not a player ! : ${inlineCode('@Eternals start')}`);
         else {
-            if (playerStats.player.other.orepack == 0) return message.reply(`${EMOJICONFIG.no} You don't have any ore packs to open! \n Vote At https://top.gg/bot/1157454837861056552/vote`);
+            if (playerStats.player.other.orepack == 0) return message.reply(`${EMOJICONFIG.no} You don't have any ore packs to open! \n Vote At https://top.gg/bot/1234552588339511439/vote`);
             else {
             
             async function randomitem(){
@@ -79,7 +79,7 @@ module.exports = {
                     .setTimestamp();
                     return message.reply({ embeds: [itemEmbed] });
                 } else {
-                    return message.reply(`${EMOJICONFIG.no} You don't have any ore packs to open!\n Vote At https://top.gg/bot/1157454837861056552/vote`);
+                    return message.reply(`${EMOJICONFIG.no} You don't have any ore packs to open!\n Vote At https://top.gg/bot/1234552588339511439/vote`);
                 }
             }
             
