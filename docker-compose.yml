@@ -1,0 +1,62 @@
+services:
+  mongodb:
+    profiles: ["db", "all"]
+    restart: unless-stopped
+    image: mongo:7
+    ports:
+      - "27017:27017"
+    volumes:
+      - ./mongodb/data:/data/db
+      - ./mongodb/init-mongo.js:/docker-entrypoint-initdb.d/init-mongo.js:ro
+    environment:
+      MONGO_INITDB_ROOT_USERNAME: user
+      MONGO_INITDB_ROOT_PASSWORD: password
+    command: mongod --auth
+
+  discord-bot:
+    profiles: ["all"]
+    restart: unless-stopped
+    build:
+      context: .
+      dockerfile: Dockerfile.bot
+    depends_on:
+      - mongodb
+    environment:
+      MONGODB_URI: mongodb://mongodb:27017/rpg
+
+  api:
+    profiles: ["all"]
+    restart: unless-stopped
+    build:
+      context: .
+      dockerfile: Dockerfile.api
+    ports:
+      - "3011:3011"
+    depends_on:
+      - mongodb
+    environment:
+      MONGODB_URI: mongodb://mongodb:27017/rpg
+
+  leaderboards:
+    profiles: ["all"]
+    restart: unless-stopped
+    build:
+      context: .
+      dockerfile: Dockerfile.leaderboards
+    ports:
+      - "3013:3013"
+    depends_on:
+      - api
+
+  topgg:
+    profiles: ["all"]
+    restart: unless-stopped
+    build:
+      context: .
+      dockerfile: Dockerfile.topgg
+    ports:
+      - "5050:5050"
+    depends_on:
+      - mongodb
+    environment:
+      MONGODB_URI: mongodb://mongodb:27017/rpg

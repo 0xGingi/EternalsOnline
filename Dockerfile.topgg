@@ -1,0 +1,10 @@
+FROM node:20-alpine
+
+WORKDIR /app
+
+COPY topgg ./
+COPY modules ./modules
+
+RUN npm install
+
+CMD ["node", "index.js"]

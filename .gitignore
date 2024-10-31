@@ -1,3 +1,8 @@
 node_modules
+config.json
 commands/*.bak
 App/config.json
+api/node_modules
+leaderboards/node_modules
+topgg/node_modules
+mongodb/*

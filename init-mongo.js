@@ -1,0 +1,12 @@
+db = db.getSiblingDB('eternals');
+
+db.createUser({
+    user: 'user',
+    pwd: 'password',
+    roles: [
+        {
+            role: 'readWrite',
+            db: 'eternals'
+        }
+    ]
+});

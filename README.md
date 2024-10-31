@@ -25,6 +25,11 @@
 * Note: There are many hardcoded Channel/Server/Admin IDs in various commands you might have to change
 * Interact with the bot by @Bot command
 
+### Docker
+* Edit docker-compose.yml and init-mongo.js with your own values
+* Ensure config.json in App/ is filled out with same values
+* Run `./start.sh` to build and run containers
+
 ### Directories
 * `api/` - Contains API for Eternals Database
 * `App/` - Contains the main bot files
