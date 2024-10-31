@@ -28,6 +28,7 @@
 ### Docker
 * Edit docker-compose.yml and init-mongo.js with your own values
 * Ensure config.json in App/ is filled out with same values
+* You need to modify the Dockerfile to run node serverinit.js on first run if you're starting from scratch
 * Run `./start.sh` to build and run containers
 
 ### Directories
