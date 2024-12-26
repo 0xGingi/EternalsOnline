@@ -16,6 +16,7 @@
 
   
 ### How To Use
+* install bun.sh
 * Rename App/config.json.example to App/config.json and fill in your discord bot token and mongodb uri
 * Run `bun install` to install the required packages
 * Run `bun serverinit.js` to initialize the database
@@ -28,7 +29,7 @@
 ### Docker
 * Edit docker-compose.yml and init-mongo.js with your own values
 * Ensure config.json in App/ is filled out with same values
-* You need to modify the Dockerfile to run node serverinit.js on first run if you're starting from scratch
+* You need to modify the Dockerfile to run node serverinit.js on first run
 * Run `./start.sh` to build and run containers
 
 ### Directories
