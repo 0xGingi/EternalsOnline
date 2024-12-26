@@ -1,8 +1,8 @@
 {
   "dependencies": {
     "@top-gg/sdk": "^3.1.6",
-    "axios": "^1.7.2",
-    "express": "^4.19.2",
-    "mongoose": "^8.4.0"
+    "axios": "^1.7.9",
+    "express": "^4.21.2",
+    "mongoose": "^8.9.2"
   }
 }

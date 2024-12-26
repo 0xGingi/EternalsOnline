@@ -1,13 +1,13 @@
-FROM node:20-alpine
+FROM oven/bun:1
 
 WORKDIR /app
 
 COPY package*.json ./
 
-RUN npm install
+RUN bun install
 
 COPY . .
 
 WORKDIR /app
 
-CMD ["node", "App/index.js"]
+CMD ["bun", "App/index.js"]

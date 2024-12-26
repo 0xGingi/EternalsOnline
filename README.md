@@ -17,11 +17,11 @@
   
 ### How To Use
 * Rename App/config.json.example to App/config.json and fill in your discord bot token and mongodb uri
-* Run `npm install` to install the required packages
-* Run `node serverinit.js` to initialize the database
-* Run `node deploy-commands.json` to initalize slash commands (Optional)
+* Run `bun install` to install the required packages
+* Run `bun serverinit.js` to initialize the database
+* Run `bun deploy-commands.json` to initalize slash commands (Optional)
 * Modify config/emoji.json with your emojis in your server (Optional)
-* Run `node App/` to start the bot
+* Run `bun App/index.js` to start the bot
 * Note: There are many hardcoded Channel/Server/Admin IDs in various commands you might have to change
 * Interact with the bot by @Bot command
 

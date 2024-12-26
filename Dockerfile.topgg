@@ -1,10 +1,10 @@
-FROM node:20-alpine
+FROM oven/bun:1
 
 WORKDIR /app
 
 COPY topgg ./
 COPY modules ./modules
 
-RUN npm install
+RUN bun install
 
-CMD ["node", "index.js"]
+CMD ["bun", "index.js"]
